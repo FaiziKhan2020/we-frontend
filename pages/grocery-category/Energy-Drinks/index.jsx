@@ -16,7 +16,7 @@ const index = () => {
         const fetchBags = async () => {
             try {
                 const data = await Axios.get(
-                    `https://dawoodddocker.herokuapp.com/api/v1/product/id/14`
+                    `https://dawoodddocker.herokuapp.com/api/v1/product/id/4`
                 );
                 setData(data.data.data);
                 setLoading(true);
@@ -37,7 +37,8 @@ const index = () => {
                                 {loading ? (
                                     data
                                         .filter(
-                                            (index) => index.Sub_Cat == 'CHIPS'
+                                            (index) =>
+                                                index.Sub_Cat == 'ENERGY DRINK'
                                         )
                                         .map((item) => (
                                             <Product

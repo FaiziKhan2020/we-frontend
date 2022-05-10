@@ -1,5 +1,4 @@
 import React from 'react';
-import WidgetShopCategories from '~/components/shared/widgets/WidgetShopCategories';
 import PageContainer from '~/components/layouts/PageContainer';
 import Newletters from '~/components/partials/commons/Newletters';
 import Product from '~/components/elements/products/DemoProduct';
@@ -7,9 +6,12 @@ import { CartProvider } from 'react-use-cart';
 import { useEffect } from 'react';
 import Axios from 'axios';
 import { useState } from 'react';
+import Spinner from '~/components/spinner/index';
 
 const index = () => {
     const [data, setData] = useState([]);
+    const [loading, setLoading] = useState(false);
+
     useEffect(() => {
         const fetchBags = async () => {
             try {
@@ -17,6 +19,7 @@ const index = () => {
                     `https://dawoodddocker.herokuapp.com/api/v1/product/id/54`
                 );
                 setData(data.data.data);
+                setLoading(true);
             } catch (error) {
                 console.log(error);
             }
@@ -30,38 +33,30 @@ const index = () => {
                 <div className="ps-page--shop">
                     <div className="ps-container">
                         <div className="ps-layout--shop">
-                            {/* <div className="ps-layout__left">
-                                <WidgetShopCategories />
-                                <WidgetShopBrands />
-                                <WidgetShopFilterByPriceRange />
-                            </div> */}
-                            {/* <div className="ps-layout__right "> */}
-                                {/* <div className="d-flex justify-content-center row"> */}
-                                <div className="d-flex  row">   
-                                     {data.filter((index)=>index.Sub_Cat=="POWDER MILK" || index.Sub_Cat=="CONDENDED MILK"
-                                     || index.Sub_Cat=="MILK POWDER")
-                                     .map(item=>(
-                                        <Product
-                                        key={item}
-                                        image={item?.imgUrl}
-                                         title={item.title}
-                                         price={item.price}
-                                         item={item}
-
-                                        />
-                                    ))
-                                }
-                                    {/* {data.map((item, index) => (
-                                        <Product
-                                            key={index}
-                                            image={item?.imgUrl}
-                                            title={item.title}
-                                            price={item.price}
-                                            item={item}
-                                        />
-                                    ))} */}
-                                </div>
-                            {/* </div> */}
+                            <div className="d-flex  row">
+                                {loading ? (
+                                    data
+                                        .filter(
+                                            (index) =>
+                                                index.Sub_Cat ==
+                                                    'POWDER MILK' ||
+                                                index.Sub_Cat ==
+                                                    'CONDENDED MILK' ||
+                                                index.Sub_Cat == 'MILK POWDER'
+                                        )
+                                        .map((item) => (
+                                            <Product
+                                                key={item}
+                                                image={item?.imgUrl}
+                                                title={item.title}
+                                                price={item.price}
+                                                item={item}
+                                            />
+                                        ))
+                                ) : (
+                                    <Spinner />
+                                )}
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -71,4 +66,4 @@ const index = () => {
     );
 };
 
-export default index
+export default index;

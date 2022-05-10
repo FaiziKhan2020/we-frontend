@@ -1,11 +1,7 @@
 import React from 'react';
-// import WidgetShopCategories from '~/components/shared/widgets/WidgetShopCategories';
 import PageContainer from '~/components/layouts/PageContainer';
 import Newletters from '~/components/partials/commons/Newletters';
 import Product from '~/components/elements/products/DemoProduct';
-// import data from '@@/public/static/data/bags';
-// import WidgetShopBrands from '~/components/shared/widgets/WidgetShopBrands';
-// import WidgetShopFilterByPriceRange from '~/components/shared/widgets/WidgetShopFilterByPriceRange';
 import { CartProvider } from 'react-use-cart';
 import { useEffect } from 'react';
 import Axios from 'axios';
@@ -36,13 +32,6 @@ const index = () => {
                 <div className="ps-page--shop">
                     <div className="ps-container">
                         <div className="ps-layout--shop">
-                            {/* <div className="ps-layout__left">
-                                <WidgetShopCategories />
-                                <WidgetShopBrands />
-                                <WidgetShopFilterByPriceRange />
-                            </div> */}
-                            {/* <div className="ps-layout__right "> */}
-                            {/* <div className="d-flex justify-content-center row"> */}
                             <div className="d-flex  row">
                                 {loading ? (
                                     data
@@ -62,17 +51,7 @@ const index = () => {
                                 ) : (
                                     <Spinner />
                                 )}
-                                {/* {data.map((item, index) => (
-                                        <Product
-                                            key={index}
-                                            image={item?.imgUrl}
-                                            title={item.title}
-                                            price={item.price}
-                                            item={item}
-                                        />
-                                    ))} */}
                             </div>
-                            {/* </div> */}
                         </div>
                     </div>
                 </div>
