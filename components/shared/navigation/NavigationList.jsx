@@ -155,14 +155,14 @@ class NavigationList extends Component {
                         <i className="icon-menu"></i>
                         <span> Menu</span>
                     </a>
-                    <a
+                    {/* <a
                         className={`navigation__item ${
                             categoriesDrawer === true ? 'active' : ''
                         }`}
                         onClick={this.handleShowCategoriesDrawer}>
                         <i className="icon-list4"></i>
                         <span> Categories</span>
-                    </a>
+                    </a> */}
                     <a
                         className={`navigation__item ${
                             searchDrawer === true ? 'active' : ''
