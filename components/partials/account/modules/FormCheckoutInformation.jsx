@@ -52,9 +52,9 @@ const FormCheckoutInformation = () => {
                 `https://dawoodddocker.herokuapp.com/api/v1/order/post/`,
                 body
             );
-            // setLoading(true);
 
             console.log(res);
+
             if (res.data.success) {
                 Router.push({
                     pathname: '/account/payment',
@@ -176,7 +176,7 @@ const FormCheckoutInformation = () => {
                 </Form.Item>
             </div>
             <div className="row">
-                <div className="col-sm-6">
+                <div className="col-sm-12">
                     <div className="form-group">
                         <Form.Item
                             name="city"
@@ -194,7 +194,7 @@ const FormCheckoutInformation = () => {
                         </Form.Item>
                     </div>
                 </div>
-                <div className="col-sm-6">
+                {/* <div className="col-sm-6">
                     <div className="form-group">
                         <Form.Item
                             name="postalCode"
@@ -211,7 +211,7 @@ const FormCheckoutInformation = () => {
                             />
                         </Form.Item>
                     </div>
-                </div>
+                </div> */}
             </div>
             <div className="row">
                 <div className="col-12 py-4">
@@ -251,15 +251,7 @@ const FormCheckoutInformation = () => {
                 <div className="ps-block__footer">
                     {/* <Link href="/account/payment"> */}
                     {/* <a> */}
-                    <button
-                        className="ps-btn"
-                        onClick={() =>
-                            alert(
-                                'Please review your from then press place order button'
-                            )
-                        }>
-                        Place Order
-                    </button>
+                    <button className="ps-btn">Place Order</button>
                 </div>
             </div>
         </Form>
