@@ -54,6 +54,7 @@ const FormCheckoutInformation = () => {
             );
 
             console.log(res);
+            // setLoading(true);
 
             if (res.data.success) {
                 Router.push({
