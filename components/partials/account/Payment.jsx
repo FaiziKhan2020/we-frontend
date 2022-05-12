@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
-import ModulePaymentOrderSummary from '~/components/partials/account/modules/ModulePaymentOrderSummary';
+// import ModulePaymentOrderSummary from '~/components/partials/account/modules/ModulePaymentOrderSummary';
 // import ModulePaymentShipping from '~/components/ecomerce/modules/ModulePaymentShipping';
 // import ModulePaymentMethods from '~/components/ecomerce/modules/ModulePaymentMethods';
 

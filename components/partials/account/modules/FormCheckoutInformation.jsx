@@ -59,7 +59,7 @@ const FormCheckoutInformation = () => {
             if (res.data.success) {
                 Router.push({
                     pathname: '/account/payment',
-                    query: { orderId: res.data.data.dataValues.id },
+                    query: { orderId: res.data.data.dataValues.orderId },
                 });
                 emptyCart();
             }
@@ -195,24 +195,6 @@ const FormCheckoutInformation = () => {
                         </Form.Item>
                     </div>
                 </div>
-                {/* <div className="col-sm-6">
-                    <div className="form-group">
-                        <Form.Item
-                            name="postalCode"
-                            rules={[
-                                {
-                                    required: false,
-                                    message: 'Enter a postal code!',
-                                },
-                            ]}>
-                            <Input
-                                className="form-control"
-                                type="postalCode"
-                                placeholder="Postal Code"
-                            />
-                        </Form.Item>
-                    </div>
-                </div> */}
             </div>
             <div className="row">
                 <div className="col-12 py-4">
