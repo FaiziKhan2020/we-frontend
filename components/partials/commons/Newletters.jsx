@@ -11,7 +11,8 @@ const Newsletters = (layout) => {
         try {
             const res = await axios.post(
                 // 'https://dawoodbackend.herokuapp.com/api/v1/order/',
-                'http://localhost:8080/api/v1/Email/',
+                // 'http://localhost:8080/api/v1/Email/',
+                `http://dawoodddocker.herokuapp.com/api/v1/Email/`,
                 body
             );
             console.log('CBM', { res });
