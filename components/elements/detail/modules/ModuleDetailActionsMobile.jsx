@@ -1,25 +1,30 @@
 import React, { useState } from 'react';
 import { connect, useDispatch } from 'react-redux';
-import useEcomerce from '~/hooks/useEcomerce';
+import { useCart } from 'react-use-cart';
+import { useRouter } from 'next/router';
 
-const ModuleDetailActionsMobile = ({ ecomerce, product }) => {
-    const { addItem } = useEcomerce();
-    const handleAddItemToCart = (e) => {
+const ModuleDetailActionsMobile = ({ product }) => {
+    const { addItem } = useCart();
+    const Router = useRouter();
+
+    function handleBuynow(e) {
         e.preventDefault();
-        addItem({ id: product.id, quantity: 1 }, ecomerce.cartItems, 'cart');
-    };
+
+        addItem({
+            id: product.id,
+            price: product.price,
+            title: product.title,
+            imgUrl: product.imgUrl,
+        });
+
+        setTimeout(function () {
+            Router.push('/shopCartItems/shopCart');
+        }, 1000);
+    }
+    console.log(addItem);
     return (
-        <div className="ps-product__actions-mobile">
-            <a
-                className="ps-btn ps-btn--black"
-                href="#"
-                onClick={(e) => handleAddItemToCart(e)}>
-                Add to cart
-            </a>
-            <a
-                className="ps-btn"
-                href="#"
-                onClick={(e) => handleAddItemToCart(e)}>
+        <div>
+            <a className="ps-btn" onClick={(e) => handleBuynow(e)}>
                 Buy Now
             </a>
         </div>

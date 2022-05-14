@@ -1,16 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
-// import ProductRepository from '~/repositories/ProductRepository';
 import SkeletonProductDetail from '~/components/elements/skeletons/SkeletonProductDetail';
 import BreadCrumb from '~/components/elements/BreadCrumb';
-// import ProductWidgets from '~/components/partials/product/ProductWidgets';
 import ProductDetailFullwidth from '~/components/elements/detail/ProductDetailFullwidth';
-// import CustomerBought from '~/components/partials/product/CustomerBought';
-// import RelatedProduct from '~/components/partials/product/RelatedProduct';
 import HeaderProduct from '~/components/shared/headers/HeaderProduct';
-// import HeaderDefault from '~/components/shared/headers/HeaderDefault';
 import PageContainer from '~/components/layouts/PageContainer';
-// import Newletters from '~/components/partials/commons/Newletters';
 import HeaderMobileProduct from '~/components/shared/header-mobile/HeaderMobileProduct';
 import Axios from 'axios';
 import { CartProvider } from 'react-use-cart';
@@ -20,28 +14,12 @@ const ProductDefaultPage = () => {
     const { pid } = router.query;
     const [product, setProduct] = useState(null);
     const [loading, setLoading] = useState(false);
-    // console.log('asdasdasdasd');
 
     async function getProduct(pid) {
-        // setLoading(true);
-        // const responseData = await ProductRepository.getProductsById(pid);
-        // if (responseData) {
-        //     setProduct(responseData);
-        //     setTimeout(
-        //         function () {
-        //             setLoading(false);
-        //         }.bind(this),
-        //         250
-        //     );
-        // }
         setLoading(true);
         const responseData = await Axios.get(
-            // `http://localhost:8082/api/v1/product/${pid}`
-            // `https://dawoodbackend.herokuapp.com/api/v1/product/${pid}`
-            // `http://localhost:8080/api/v1/product/${pid}`
             `https://dawoodddocker.herokuapp.com/api/v1/product/${pid}`
         );
-        // console.log({ responseData });
         if (responseData) {
             setProduct({
                 ...responseData.data.data,

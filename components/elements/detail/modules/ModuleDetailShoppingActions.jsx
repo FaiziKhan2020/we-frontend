@@ -3,7 +3,6 @@ import { connect, useDispatch } from 'react-redux';
 import { useRouter } from 'next/router';
 import { Modal } from 'antd';
 import { useCart } from 'react-use-cart';
-// import useEcomerce from '~/hooks/useEcomerce';
 
 const ModuleDetailShoppingActions = ({
     ecomerce,
@@ -11,28 +10,9 @@ const ModuleDetailShoppingActions = ({
     extended = false,
     item,
 }) => {
-    const {
-        isEmpty,
-        totalUniqueItems,
-        items,
-        totalItems,
-        cartTotal,
-        updateItemQuantity,
-        removeItem,
-        emptyCart,
-        addItem,
-    } = useCart();
+    const { addItem } = useCart();
     const [quantity, setQuantity] = useState(1);
     const Router = useRouter();
-    // const { addItem } = useEcomerce();
-    // function handleAddItemToCart(e) {
-    //     e.preventDefault();
-    //     addItem(
-    //         { id: product.id, quantity: quantity },
-    //         ecomerce.cartItems,
-    //         'cart'
-    //     );
-    // }
 
     function handleBuynow(e) {
         e.preventDefault();
@@ -130,17 +110,10 @@ const ModuleDetailShoppingActions = ({
                     }>
                     Add to cart
                 </a> */}
-                <a className="ps-btn" onClick={(e) => handleBuynow(e)}>
+                {/* <a className="ps-btn" onClick={(e) => handleBuynow(e)}>
                     Buy Now
                 </a>
-                <div className="ps-product__actions">
-                    {/* <a href="#" onClick={(e) => handleAddItemToWishlist(e)}> */}
-                    {/* <i className="icon-heart"></i> */}
-                    {/* </a> */}
-                    {/* <a href="#" onClick={(e) => handleAddItemToCompare(e)}> */}
-                    {/* <i className="icon-chart-bars"></i> */}
-                    {/* </a> */}
-                </div>
+                <div className="ps-product__actions"></div> */}
             </div>
         );
     } else {
