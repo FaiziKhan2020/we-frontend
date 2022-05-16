@@ -16,7 +16,7 @@ const index = () => {
         const fetchBags = async () => {
             try {
                 const data = await Axios.get(
-                    `https://dawoodddocker.herokuapp.com/api/v1/product/id/84`
+                    `https://dawoodddocker.herokuapp.com/api/v1/product`
                 );
                 setData(data.data.data);
                 setLoading(true);
