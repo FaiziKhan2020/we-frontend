@@ -10,12 +10,19 @@ const FormCheckoutInformation = () => {
     // const [loading, setLoading] = useState(false);
 
     const options = [
-        { value: 100, label: 'Latifabad' },
-        { value: 'City', label: 'City' },
-        { value: 'Qasimabad', label: 'Qasimabad' },
-        { value: 'Hirabad', label: 'Hirabad' },
-        { value: 'Jamshoro', label: 'Jamshoro' },
-        { value: 'Kohsar', label: 'Kohsar' },
+        { value: 'City (Rs.100)', label: 'City (Rs.100)' },
+        { value: 'Hirabad (Rs.100)', label: 'Hirabad (Rs.100)' },
+        { value: 'Latifabad (Rs.200)', label: 'Latifabad (Rs.200)' },
+        { value: 'Qasimabad (Rs.200)', label: 'Qasimabad (Rs.200)' },
+        { value: 'Jamshoro (Rs.200)', label: 'Jamshoro (Rs.200)' },
+        { value: 'Kohsar (Rs.200)', label: 'Kohsar (Rs.200)' },
+        { value: 'Isra (Rs.200)', label: 'Isra (Rs.200)' },
+        // { value: 100, label: 'Latifabad' },
+        // { value: 'City', label: 'City' },
+        // { value: 'Qasimabad', label: 'Qasimabad' },
+        // { value: 'Hirabad', label: 'Hirabad' },
+        // { value: 'Jamshoro', label: 'Jamshoro' },
+        // { value: 'Kohsar', label: 'Kohsar' },
     ];
     const [result, ddlValue] = useState(options.value);
     const ddlHandler = (e) => {
@@ -71,8 +78,6 @@ const FormCheckoutInformation = () => {
 
     return (
         <Form className="ps-form__billing-info" onFinish={handleLoginSubmit}>
-            {/* <h3 className="ps-form__heading">Contact information</h3> */}
-
             <h3 className="ps-form__heading">Shipping Address</h3>
             <div className="row">
                 <div className="col-sm-6">
@@ -218,11 +223,6 @@ const FormCheckoutInformation = () => {
                 </div>
             </div>
 
-            {/* <div className="form-group">
-                <div className="ps-checkbox">
-                    <h5>Press confirm button before placing the order </h5>
-                </div>
-            </div> */}
             <div className="ps-form__submit">
                 <Link href="/">
                     <a>
@@ -232,8 +232,6 @@ const FormCheckoutInformation = () => {
                 </Link>
 
                 <div className="ps-block__footer">
-                    {/* <Link href="/account/payment"> */}
-                    {/* <a> */}
                     <button className="ps-btn">Place Order</button>
                 </div>
             </div>

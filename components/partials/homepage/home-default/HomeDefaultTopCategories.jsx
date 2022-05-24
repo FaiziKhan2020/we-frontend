@@ -72,7 +72,7 @@ const HomeDefaultTopCategories = () => (
                         <a className="ps-block__overlay"></a>
                         {/* </Link> */}
                         <img
-                            src="/static/img/categories/6.jpg"
+                            src="https://res.cloudinary.com/xcltech/image/upload/v1653390181/100/images_ipzdpe.jpg"
                             alt="dawood-online"
                         />
                         <p>Health & Beauty</p>
@@ -84,7 +84,8 @@ const HomeDefaultTopCategories = () => (
                         <a className="ps-block__overlay"></a>
                         {/* </Link> */}
                         <img
-                            src="/static/img/categories/7.jpg"
+                            // src="/static/img/categories/7.jpg"
+                            src="/static/img/categories/6.jpg"
                             alt="dawood-online"
                         />
                         <p>Jewelry & Watch</p>
