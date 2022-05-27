@@ -9,8 +9,8 @@ const SiteFeatures = () => (
                         <i className="icon-rocket"></i>
                     </div>
                     <div className="ps-block__right">
-                        <h4>Free Delivery</h4>
-                        <p>For all oders over Rs.</p>
+                        <h4>Delivery Charger</h4>
+                        <p>Depend on location Rs.</p>
                     </div>
                 </div>
                 <div className="ps-block__item">
@@ -18,7 +18,7 @@ const SiteFeatures = () => (
                         <i className="icon-sync"></i>
                     </div>
                     <div className="ps-block__right">
-                        <h4>90 Days Return</h4>
+                        <h4>7 Days Return</h4>
                         <p>If goods have problems</p>
                     </div>
                 </div>
