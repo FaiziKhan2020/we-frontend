@@ -870,21 +870,14 @@
             "url": "/grocery/confectionery"
         },
         {
-            "text": "DSM GROCERY",
-            "url": "/grocery/dsmGrocery"
-        },
-        {
-            "text": "DSM IMPORTED",
-            "url": "/grocery/dsmImported"
-        },
-        {
-            "text": "DSM PACKING GROCERY",
-            "url": "/grocery/dsmPackingGrocery"
-        },
-        {
             "text": "GROCERY",
             "url": "/grocery/grocery"
         },
+        {
+            "text": "IMPORTED",
+            "url": "/grocery/dsmImported"
+        },
+
         {
             "text": "HOUSE HOLD",
             "url": "/grocery/household"

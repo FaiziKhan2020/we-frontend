@@ -31,6 +31,7 @@ const FormCheckoutInformation = () => {
     const Router = useRouter();
 
     const { items, cartTotal, emptyCart } = useCart();
+    console.log(items);
 
     const handleLoginSubmit = async (data) => {
         const body = {
