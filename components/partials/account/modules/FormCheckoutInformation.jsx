@@ -72,7 +72,7 @@ const FormCheckoutInformation = () => {
                 emptyCart();
             }
             console.log('CBM', { res });
-            console.log(items);
+            // console.log(items);
         } catch (error) {
             console.log('CBM', { error });
         }
