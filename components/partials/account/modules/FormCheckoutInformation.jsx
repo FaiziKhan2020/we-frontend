@@ -61,17 +61,18 @@ const FormCheckoutInformation = () => {
                 body
             );
 
-            console.log(res);
+            // console.log(res);
             // setLoading(true);
 
-            if (res.data.success) {
-                Router.push({
-                    pathname: '/account/payment',
-                    query: { orderId: res.data.data.dataValues.orderId },
-                });
-                emptyCart();
-            }
+            // if (res.data.success) {
+            //     Router.push({
+            //         pathname: '/account/payment',
+            //         query: { orderId: res.data.data.dataValues.orderId },
+            //     });
+            //     emptyCart();
+            // }
             console.log('CBM', { res });
+            console.log(items);
         } catch (error) {
             console.log('CBM', { error });
         }

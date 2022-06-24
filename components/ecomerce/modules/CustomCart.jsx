@@ -11,6 +11,7 @@ const CustomCart = () => {
         removeItem,
         emptyCart,
     } = useCart();
+    console.log(items);
     if (isEmpty) return <h3 className="text-center">Your Cart Is Empty</h3>;
     // const result = items.map((item, index) => {
     //     <tr key={index}>
