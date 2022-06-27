@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import Link from 'next/link';
-import AccountQuickLinksMobile from './AccountQuickLinksMobile';
+// import AccountQuickLinksMobile from './AccountQuickLinksMobile';
 import { useCart } from 'react-use-cart';
 
 const MobileHeaderActions = ({ auth, ecomerce }) => {

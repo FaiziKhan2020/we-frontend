@@ -78,7 +78,12 @@ class PanelMenu extends Component {
                                                     key={megaSubItem.text}>
                                                     <Link
                                                         href={megaSubItem.url}>
-                                                        <a>
+                                                        <a
+                                                            onClick={() =>
+                                                                window.location.reload(
+                                                                    true
+                                                                )
+                                                            }>
                                                             {megaSubItem.text}
                                                         </a>
                                                     </Link>
@@ -90,7 +95,7 @@ class PanelMenu extends Component {
                             </SubMenu>
                         );
                     } else {
-                        return <Menu.Item key={item.text}>asd</Menu.Item>;
+                        return <Menu.Item key={item.text}>menu</Menu.Item>;
                     }
                 })}
             </Menu>

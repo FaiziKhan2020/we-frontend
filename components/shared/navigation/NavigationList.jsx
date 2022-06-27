@@ -86,7 +86,7 @@ class NavigationList extends Component {
                         </div>
                     </div>
                 </Drawer>
-                <Drawer
+                {/* <Drawer
                     className="ps-panel--mobile"
                     placement="right"
                     closable={false}
@@ -105,7 +105,7 @@ class NavigationList extends Component {
                             <PanelCartMobile />
                         </div>
                     </div>
-                </Drawer>
+                </Drawer> */}
                 <Drawer
                     className="ps-panel--mobile"
                     placement="right"
@@ -126,7 +126,7 @@ class NavigationList extends Component {
                         </div>
                     </div>
                 </Drawer>
-                <Drawer
+                {/* <Drawer
                     className="ps-panel--mobile"
                     placement="right"
                     closable={false}
@@ -145,8 +145,15 @@ class NavigationList extends Component {
                             <PanelCategories />
                         </div>
                     </div>
-                </Drawer>
-                <div className="navigation__content">
+                </Drawer> */}
+                <div
+                    className="navigation__content"
+                    // style={{
+                    //     display: 'flex',
+                    //     justifyContent: 'center',
+                    //     alignItems: 'center',
+                    // }}
+                >
                     <a
                         className={`navigation__item ${
                             menuDrawer === true ? 'active' : ''
