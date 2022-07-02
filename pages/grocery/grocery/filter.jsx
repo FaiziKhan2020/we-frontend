@@ -7,11 +7,16 @@ import { useEffect } from 'react';
 import Axios from 'axios';
 import { useState } from 'react';
 import Spinner from '~/components/spinner/index';
-import Router from 'next/router';
-// import WidgetShopCategories from '~/components/shared/widgets/WidgetShopCategories';
+
+import { useRouter } from 'next/router';
 const index = () => {
     const [data, setData] = useState([]);
     const [loading, setLoading] = useState(false);
+    const router = useRouter();
+    const {
+        query: { e },
+    } = router;
+
     useEffect(() => {
         const fetchBags = async () => {
             try {
@@ -27,41 +32,27 @@ const index = () => {
         fetchBags();
     }, []);
 
-    const send = (e) => {
-        Router.push({
-            pathname: '/grocery/grocery/filter',
-            query: {
-                e,
-            },
-        });
-    };
-
     return (
         <CartProvider>
             <PageContainer title="Shop">
-                {/* <WidgetShopCategories /> */}
-                {/* 
-                <button onClick={() => send('HEAD & SHOULDERS')}>
-                    HEAD SHOULDERS
-                </button>
-                <button onClick={() => send('SAFEGUARD (PAKISTAN)')}>
-                    SAFEGUARD
-                </button>
-                <button onClick={() => send('HARPIC')}>HARPIC</button> */}
                 <div className="ps-page--shop">
                     <div className="ps-container">
                         <div className="ps-layout--shop">
-                            <div className=" row">
+                            <div className="d-flex  row">
                                 {loading ? (
-                                    data.map((item, index) => (
-                                        <Product
-                                            key={index}
-                                            image={item?.imgUrl}
-                                            title={item.title}
-                                            price={item.price}
-                                            item={item}
-                                        />
-                                    ))
+                                    data
+                                        .filter(
+                                            (index) => index.Brand_Name == e
+                                        )
+                                        .map((item) => (
+                                            <Product
+                                                key={item}
+                                                image={item?.imgUrl}
+                                                title={item.title}
+                                                price={item.price}
+                                                item={item}
+                                            />
+                                        ))
                                 ) : (
                                     <Spinner />
                                 )}

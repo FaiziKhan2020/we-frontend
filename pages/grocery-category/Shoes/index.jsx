@@ -1,4 +1,5 @@
 import React from 'react';
+// import WidgetShopCategories from '~/components/shared/widgets/WidgetShopCategories';
 import PageContainer from '~/components/layouts/PageContainer';
 import Newletters from '~/components/partials/commons/Newletters';
 import Product from '~/components/elements/products/DemoProduct';
@@ -7,16 +8,16 @@ import { useEffect } from 'react';
 import Axios from 'axios';
 import { useState } from 'react';
 import Spinner from '~/components/spinner/index';
-import Router from 'next/router';
-// import WidgetShopCategories from '~/components/shared/widgets/WidgetShopCategories';
+
 const index = () => {
-    const [data, setData] = useState([]);
     const [loading, setLoading] = useState(false);
+
+    const [data, setData] = useState([]);
     useEffect(() => {
         const fetchBags = async () => {
             try {
                 const data = await Axios.get(
-                    `https://dawoodddocker.herokuapp.com/api/v1/product/id/84`
+                    `https://dawoodddocker.herokuapp.com/api/v1/product/id/144`
                 );
                 setData(data.data.data);
                 setLoading(true);
@@ -27,35 +28,17 @@ const index = () => {
         fetchBags();
     }, []);
 
-    const send = (e) => {
-        Router.push({
-            pathname: '/grocery/grocery/filter',
-            query: {
-                e,
-            },
-        });
-    };
-
     return (
         <CartProvider>
             <PageContainer title="Shop">
-                {/* <WidgetShopCategories /> */}
-                {/* 
-                <button onClick={() => send('HEAD & SHOULDERS')}>
-                    HEAD SHOULDERS
-                </button>
-                <button onClick={() => send('SAFEGUARD (PAKISTAN)')}>
-                    SAFEGUARD
-                </button>
-                <button onClick={() => send('HARPIC')}>HARPIC</button> */}
                 <div className="ps-page--shop">
                     <div className="ps-container">
                         <div className="ps-layout--shop">
-                            <div className=" row">
+                            <div className="d-flex  row">
                                 {loading ? (
-                                    data.map((item, index) => (
+                                    data.map((item) => (
                                         <Product
-                                            key={index}
+                                            key={item}
                                             image={item?.imgUrl}
                                             title={item.title}
                                             price={item.price}
@@ -66,6 +49,7 @@ const index = () => {
                                     <Spinner />
                                 )}
                             </div>
+                            {/* </div> */}
                         </div>
                     </div>
                 </div>

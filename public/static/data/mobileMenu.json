@@ -1,65 +1,54 @@
 {
     "menuPrimary": {
-        "menu_1": [
-            {  "text": "Grocery",
+        "menu_1": [{
+                "text": "Grocery",
                 "url": "/",
                 "current": "shop",
                 "extraClass": "menu-item-has-children has-mega-menu",
                 "subClass": "sub-menu",
                 "mega": "true",
-                "megaContent": [
-                    {
-                        "heading": "Items",
-                        "megaItems": [
-                            {
-                                "text": "RICE FLOUR & OTHER",
-                                "url": "/grocery/riceFlour&other"
-                            },
-                            {
-                                "text": "SPICES & COOKING SUPPLEMENTS",
-                                "url": "/grocery/spices&cookingSupplements"
-                                
-                            },
-                            {
-                                "text": "OIL, GHEE & SUGAR",
-                                "url": "/grocery/oilGhee&sugar"
-                            },
-                            {
-                                "icon": "icon-lampshade",
-                                "text": "KETCHUP, SAUCES & CONDIMENTS",
-                                "url": "/grocery/ketchupSauces&condiments"
-                            },
-                            {
-                                "icon": "icon-heart-pulse",
-                                "text": "GRAMS & PULSES",
-                                "url": "/grocery/gram&pluses"
-                            },
-                            {
-                                "text": "PASTA NOODLE & SOUPS",
-                                "url": "/grocery/pastaNoodle&soups"
-                            },
-                            {
-                                "text": "JAMS JELLY & SPREADS",
-                                "url": "/grocery/jamsJelly"
-                               
-                            },
-                            {
-                                "text": "TEA & COFFEE",
-                                "url": "/grocery/tea&coffee"
-                            },
-                            {
-                                "text": "POWDERED DESSERTS",
-                                "url": "/grocery/powdered&desserts"
-                            }
-                          
-                            
-                            
-                        ]
-                    }
-                           
-            
-          
-                ]
+                "megaContent": [{
+                    "heading": "Items",
+                    "megaItems": [{
+                            "text": "RICE FLOUR & OTHER",
+                            "url": "/grocery/riceFlour&other"
+                        },
+                        {
+                            "text": "SPICES & COOKING SUPPLEMENTS",
+                            "url": "/grocery/spices&cookingSupplements"
+                        },
+                        {
+                            "text": "OIL, GHEE & SUGAR",
+                            "url": "/grocery/oilGhee&sugar"
+                        },
+                        {
+                            "icon": "icon-lampshade",
+                            "text": "KETCHUP, SAUCES & CONDIMENTS",
+                            "url": "/grocery/ketchupSauces&condiments"
+                        },
+                        {
+                            "icon": "icon-heart-pulse",
+                            "text": "GRAMS & PULSES",
+                            "url": "/grocery/gram&pluses"
+                        },
+                        {
+                            "text": "PASTA NOODLE & SOUPS",
+                            "url": "/grocery/pastaNoodle&soups"
+                        },
+                        {
+                            "text": "JAMS JELLY & SPREADS",
+                            "url": "/grocery/jamsJelly"
+                        },
+                        {
+                            "text": "TEA & COFFEE",
+                            "url": "/grocery/tea&coffee"
+                        },
+                        {
+                            "text": "POWDERED DESSERTS",
+                            "url": "/grocery/powdered&desserts"
+                        }
+                    ]
+                }]
             },
 
             {
@@ -69,11 +58,9 @@
                 "extraClass": "menu-item-has-children has-mega-menu",
                 "subClass": "sub-menu",
                 "mega": "true",
-                "megaContent": [
-                    {
+                "megaContent": [{
                         "heading": "Ladies Purse & Perfumes",
-                        "megaItems": [
-                            {
+                        "megaItems": [{
                                 "text": "Handbags",
                                 "url": "/ladies/perfume/bags"
                             },
@@ -86,48 +73,38 @@
                                 "url": "/ladies/perfume/gift-sets"
                             }
                         ]
-                        
-
-                        
                     },
-                    
+
                     {
                         "heading": "jewellery & Watches",
-                        "megaItems": [
-                            {
+                        "megaItems": [{
                                 "text": "Locket Set",
                                 "url": "/ladies/jewellery-&-Watches/locket-set"
                             },
                             {
                                 "text": "Bracelates ",
                                 "url": "/ladies/jewellery-&-Watches/Bracelates"
-                            }
-                            ,
+                            },
                             {
                                 "text": "Hair band ",
                                 "url": "/ladies/jewellery-&-Watches/hair-band"
-                            }   
-                            ,
+                            },
                             {
                                 "text": "Matha Patti",
                                 "url": "/ladies/jewellery-&-Watches/matha-patti"
-                            }
-                            ,
+                            },
                             {
                                 "text": "Finger ring ",
                                 "url": "/ladies/jewellery-&-Watches/finger-ring"
-                            }
-                            ,
+                            },
                             {
                                 "text": "Catcher ",
                                 "url": "/ladies/jewellery-&-Watches/catcher"
-                            }
-                            ,
+                            },
                             {
                                 "text": "Pony",
                                 "url": "/ladies/jewellery-&-Watches/pony"
-                            }
-                            ,
+                            },
                             {
                                 "text": "Ladies Watches",
                                 "url": "/ladies/jewellery-&-Watches/ladies-watches"
@@ -139,11 +116,9 @@
                         ]
                     },
 
-                   
                     {
                         "heading": "Beauty Makeup",
-                        "megaItems": [
-                            {
+                        "megaItems": [{
                                 "text": "International Brand",
                                 "url": "/ladies/Beauty-And-Makeup/InternationalBrand"
                             },
@@ -155,7 +130,7 @@
                                 "text": "Eyes & Brows ",
                                 "url": "/ladies/Beauty-And-Makeup/Eyes-Brows"
                             },
-                               {
+                            {
                                 "text": "Nails",
                                 "url": "/ladies/Beauty-And-Makeup/Nails"
                             },
@@ -170,20 +145,16 @@
                             {
                                 "text": "Serum & fluid",
                                 "url": "/ladies/Beauty-And-Makeup/Serum-fluid"
-                            }
-                            ,
+                            },
                             {
                                 "text": "Makeup Removers",
                                 "url": "/ladies/Beauty-And-Makeup/Makeup-Removers"
                             }
-                           
-                            
                         ]
                     },
                     {
                         "heading": "Skin care",
-                        "megaItems": [
-                            {
+                        "megaItems": [{
                                 "text": "Mask & Polisher",
                                 "url": "/ladies/Skin-care/Mask-Polisher"
                             },
@@ -194,39 +165,32 @@
                             {
                                 "text": "Moisturizer & creams",
                                 "url": "/ladies/Skin-care/Moisturizer-&-Creams"
-                            }
-                            ,
+                            },
                             {
                                 "text": "Hair Removal",
                                 "url": "/ladies/Skin-care/Hair-Removal"
-                            }
-                            ,
+                            },
                             {
                                 "text": "Eye Care",
                                 "url": "/ladies/Skin-care/Eye-Care"
-                            }
-                            ,
+                            },
                             {
                                 "text": "Facial Care",
                                 "url": "/ladies/Skin-care/Facial-Care"
-                            }
-                            ,
+                            },
                             {
                                 "text": "Personal Care",
                                 "url": "/ladies/Skin-care/Personal-Care"
-                            }
-                            ,
+                            },
                             {
                                 "text": "Gels & Oils",
                                 "url": "/ladies/Skin-care/Gels-Oils"
                             }
-
                         ]
-                    }  ,
+                    },
                     {
                         "heading": "Bath & Body",
-                        "megaItems": [
-                            {
+                        "megaItems": [{
                                 "text": "Hair mask ",
                                 "url": "/ladies/BathAndBody/Hair-mask"
                             },
@@ -243,12 +207,11 @@
                                 "url": "/ladies/BathAndBody/shampoo"
                             }
                         ]
-                    }  ,
-                  
+                    },
+
                     {
                         "heading": "Garments & UnderGarment",
-                        "megaItems": [
-                            {
+                        "megaItems": [{
                                 "text": "Stitched suits",
                                 "url": "/ladies/GarmentsAndUnderGarments/Stitched-suits"
                             },
@@ -260,7 +223,7 @@
                                 "text": "Frock ",
                                 "url": "/ladies/GarmentsAndUnderGarments/Frock"
                             },
-                               {
+                            {
                                 "text": "Kurti",
                                 "url": "/ladies/GarmentsAndUnderGarments/Kurti"
                             },
@@ -283,8 +246,7 @@
                             {
                                 "text": "Tights",
                                 "url": "/ladies/GarmentsAndUnderGarments/Tights"
-                            }
-                            ,
+                            },
                             {
                                 "text": "Trousers ",
                                 "url": "/ladies/GarmentsAndUnderGarments/Trousers"
@@ -307,11 +269,6 @@
                             }
                         ]
                     }
-                    
-                   
-                    
-                  
-                    
                 ]
             },
 
@@ -322,11 +279,9 @@
                 "extraClass": "menu-item-has-children has-mega-menu",
                 "subClass": "sub-menu",
                 "mega": "true",
-                "megaContent": [
-                    {
+                "megaContent": [{
                         "heading": "Shirts",
-                        "megaItems": [
-                            {
+                        "megaItems": [{
                                 "text": "T-Shirt",
                                 "url": "/Gents/shirts/T-Shirt"
                             },
@@ -338,7 +293,7 @@
                                 "text": "Jackets",
                                 "url": "/Gents/shirts/Jackets"
                             },
-                               {
+                            {
                                 "text": "Sweater",
                                 "url": "/Gents/shirts/Sweater"
                             },
@@ -358,14 +313,12 @@
                                 "text": "Shorts",
                                 "url": "/Gents/shirts/Shorts"
                             }
-                            
                         ]
                     },
-                   
+
                     {
                         "heading": "Accessories & Perfumes ",
-                        "megaItems": [
-                            {
+                        "megaItems": [{
                                 "text": "Caps",
                                 "url": "/Gents/Accesocries-&-perfumes/Caps"
                             },
@@ -382,12 +335,12 @@
                                 "url": "/Gents/Accesocries-&-perfumes/Underware"
                             },
                             {
-                                "text":"Men Glasses",
-                                "url":"/Gents/Accesocries-&-perfumes/MenGlasses"
-
-                            },{
-                                "text":"Men Watches",
-                                "url":"/Gents/Accesocries-&-perfumes/MenWatches"
+                                "text": "Men Glasses",
+                                "url": "/Gents/Accesocries-&-perfumes/MenGlasses"
+                            },
+                            {
+                                "text": "Men Watches",
+                                "url": "/Gents/Accesocries-&-perfumes/MenWatches"
                             },
                             {
                                 "text": "Leather Wallet",
@@ -399,8 +352,6 @@
                             }
                         ]
                     }
-                    
-                   
                 ]
             },
             {
@@ -410,11 +361,9 @@
                 "extraClass": "menu-item-has-children has-mega-menu",
                 "subClass": "sub-menu",
                 "mega": "true",
-                "megaContent": [
-                    {
+                "megaContent": [{
                         "heading": "Small Appliances",
-                        "megaItems": [
-                            {
+                        "megaItems": [{
                                 "text": "Kettles & Coffee Makers",
                                 "url": "/Electronics/SmallAppliances/Kettles"
                             },
@@ -446,9 +395,7 @@
                             {
                                 "text": "Choppers",
                                 "url": "/Electronics/SmallAppliances/Choppers"
-                            }
-                            ,
-                           
+                            },
                             {
                                 "text": "Charging Light",
                                 "url": "/Electronics/SmallAppliances/Charging"
@@ -461,32 +408,31 @@
                     },
                     {
                         "heading": "Home Appliances",
-                        "megaItems": [
-                            { 
+                        "megaItems": [{
                                 "text": "Heater ",
                                 "url": "/Electronics/HomeAppliances/Heater"
                             },
-                            { 
+                            {
                                 "text": "Toaster & Sandwich makers",
                                 "url": "/Electronics/HomeAppliances/Toaster"
                             },
-                            { 
+                            {
                                 "text": "Juicers, Blender, Grinders & Mixers",
                                 "url": "/Electronics/HomeAppliances/Juicers"
                             },
-                            { 
+                            {
                                 "text": "Fryers",
                                 "url": "/Electronics/HomeAppliances/Fryers"
                             },
-                            { 
+                            {
                                 "text": "BBQ grills",
                                 "url": "/Electronics/HomeAppliances/BBQ"
                             },
-                            { 
+                            {
                                 "text": "Microwave ovens",
                                 "url": "/Electronics/HomeAppliances/Microwave"
                             },
-                            { 
+                            {
                                 "text": "Iron & Garment steamers",
                                 "url": "/Electronics/HomeAppliances/Iron"
                             },
@@ -505,10 +451,9 @@
                             }
                         ]
                     }
-                    
                 ]
             },
-            
+
             {
                 "text": "Home",
                 "url": "/",
@@ -516,11 +461,9 @@
                 "extraClass": "menu-item-has-children has-mega-menu",
                 "subClass": "sub-menu",
                 "mega": "true",
-                "megaContent": [
-                    {
+                "megaContent": [{
                         "heading": "Home Decor",
-                        "megaItems": [
-                            {
+                        "megaItems": [{
                                 "text": "Candles & Candles holder",
                                 "url": "/home/HomeDecor/Candles"
                             },
@@ -532,7 +475,7 @@
                                 "text": "Tissue box",
                                 "url": "/home/HomeDecor/Tissue"
                             },
-                               {
+                            {
                                 "text": "Rugs & Carpet",
                                 "url": "/home/HomeDecor/Rugs"
                             },
@@ -555,18 +498,15 @@
                             {
                                 "text": "Bathroom Sets",
                                 "url": "/home/HomeDecor/Bathroom"
-                            }
-                            ,
+                            },
                             {
                                 "text": "Umbrellas ",
                                 "url": "/home/HomeDecor/Umbrellas"
-                            }
-                            ,
+                            },
                             {
                                 "text": "Father & Wall clocks",
                                 "url": "/home/HomeDecor/Father"
-                            }
-                            ,
+                            },
                             {
                                 "text": "Shoe rack, Cabinet & Coat hanger",
                                 "url": "/home/HomeDecor/Shoe"
@@ -575,8 +515,7 @@
                     },
                     {
                         "heading": "Dining",
-                        "megaItems": [
-                            {
+                        "megaItems": [{
                                 "text": "Serveware",
                                 "url": "/home/Dinning/Serveware"
                             },
@@ -606,322 +545,272 @@
                                 "url": "/home/Dinning/Kitchen"
                             }
                         ]
-                    }
-                    ,
+                    },
                     {
                         "heading": "Bedding & Bath",
-                        "megaItems": [
-                            {
+                        "megaItems": [{
                                 "text": "Blankets",
                                 "url": "/home/BeddingBath/Blankets"
                             },
                             {
                                 "text": "Cushions & Pillow ",
                                 "url": "/home/BeddingBath/Cushions"
-                            }
-                            ,
+                            },
                             {
                                 "text": "Fancy Stool",
                                 "url": "/home/BeddingBath/Fancy"
-                            }
-                            ,
+                            },
                             {
                                 "text": "Bed Sheets",
                                 "url": "/home/BeddingBath/Bed"
                             }
-                            
-                                         
-                            
-                            
                         ]
                     },
-                    
 
                     {
                         "heading": "Kitchen",
-                        "megaItems": [
-                            {
+                        "megaItems": [{
                                 "text": "Kitchenware",
                                 "url": "/home/Kitchen/Kitchenware"
                             },
                             {
                                 "text": "Bakeware",
                                 "url": "/home/Kitchen/Bakeware"
-                            }
-                            ,
+                            },
                             {
                                 "text": "Cookware",
                                 "url": "/home/Kitchen/Cookware"
-                            }
-                            ,
+                            },
                             {
                                 "text": "Kitchen tools",
                                 "url": "/home/Kitchen/Kitchentool"
-                            }
-                            
-                            ,
+                            },
+
                             {
                                 "text": "Knife sets",
                                 "url": "/home/Kitchen/Knife"
-                            
-                            }
-                            ,
+                            },
                             {
                                 "text": "Charcoal grill & Accessories",
                                 "url": "/home/Kitchen/Charcoal"
-                            
                             }
-                            
-                                         
-                            
-                            
                         ]
                     }
                 ]
             },
-            
-           {
-            "text": "Mobiles Accessories",
-            "url": "/",
-            "current": "shop",
-            "extraClass": "menu-item-has-children has-mega-menu",
-            "subClass": "sub-menu",
-            "mega": "true",
-            "megaContent": [
-                {
-                    "heading": "Accessories",
-                    "megaItems": [
-                        {
-                            "text": "Hands Free",
-                            "url": "/MobileAndAccessories/accessories/HandsFree"
-                        },
-                        {
-                            "text": "Bluetooth",
-                            "url": "/MobileAndAccessories/accessories/Bluetooth"
-                        },
-                        {
-                            "text": "Headphone",
-                            "url": "/MobileAndAccessories/accessories/Headphone"
-                        },
-                           {
-                            "text": "Charger",
-                            "url": "/MobileAndAccessories/accessories/Charger"
-                        },
-                        {
-                            "text": "Power bank",
-                            "url": "/MobileAndAccessories/accessories/Powerbank"
-                        },
-                        {
-                            "text": "keychain",
-                            "url": "/MobileAndAccessories/accessories/keychain"
-                        },
-                        {
-                            "text": "Lighter",
-                            "url": "/MobileAndAccessories/accessories/Lighter"
-                        }
-                    ]
-                },
-                {
-                    "heading": "Smart Watches",
-                    "megaItems": [
-                        {
-                            "text": "Apple",
-                            "url": "/MobileAndAccessories/accessories/apple-watches"
-                        },
-                        {
-                            "text": "Realme",
-                            "url": "/MobileAndAccessories/accessories/Realme"
-                        }
-                    ]
-                }  ,
-                {
-                    "heading": "Speakers",
-                    "megaItems": [
-                        {
-                            "text": "AppleJBL",
-                            "url": "/MobileAndAccessories/Speakers/JBL"
-                        },
-                        {
-                            "text": "Ronin",
-                            "url": "/MobileAndAccessories/Speakers/Ronin"
-                        },
-                        {
-                            "text": "Audionic",
-                            "url": "/MobileAndAccessories/Speakers/Audionic"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "text": "Childern",
-            "url": "/",
-            "current": "shop",
-            "extraClass": "menu-item-has-children has-mega-menu",
-            "subClass": "sub-menu",
-            "mega": "true",
-            "megaContent": [
-                {
-                    "heading": "Kids",
-                    "megaItems": [
-                        {
-                            "text": "Baba Shirts",
-                            "url": "/Childern/kids/BabaShirts"
-                        },
-                        {
-                            "text": "Baba T-Shirts ",
-                            "url": "/Childern/kids/BabaT-Shirts"
-                        }
-                        ,
-                        {
-                            "text": "Baby Shirts",
-                            "url": "/Childern/kids/BabyShirts"
-                        }
-                        ,
-                        {
-                            "text": "Baby T-Shirts",
-                            "url": "/Childern/kids/BabyT-Shirts"
-                        }
-                        
-                        ,
-                        {
-                            "text": "Baby Frock",
-                            "url": "/Childern/kids/BabyFrock"
-                        
-                        }
-                        ,
-                        {
-                            "text": "Fancy Suits",
-                            "url": "/Childern/kids/FancySuits"
-                        
-                        }
-                        ,
-                        {
-                            "text": "Pant",
-                            "url": "/Childern/kids/Pant"
-                        
-                        }
-                             ,
-                             {
+
+            {
+                "text": "Mobiles Accessories",
+                "url": "/",
+                "current": "shop",
+                "extraClass": "menu-item-has-children has-mega-menu",
+                "subClass": "sub-menu",
+                "mega": "true",
+                "megaContent": [{
+                        "heading": "Accessories",
+                        "megaItems": [{
+                                "text": "Hands Free",
+                                "url": "/MobileAndAccessories/accessories/HandsFree"
+                            },
+                            {
+                                "text": "Bluetooth",
+                                "url": "/MobileAndAccessories/accessories/Bluetooth"
+                            },
+                            {
+                                "text": "Headphone",
+                                "url": "/MobileAndAccessories/accessories/Headphone"
+                            },
+                            {
+                                "text": "Charger",
+                                "url": "/MobileAndAccessories/accessories/Charger"
+                            },
+                            {
+                                "text": "Power bank",
+                                "url": "/MobileAndAccessories/accessories/Powerbank"
+                            },
+                            {
+                                "text": "keychain",
+                                "url": "/MobileAndAccessories/accessories/keychain"
+                            },
+                            {
+                                "text": "Lighter",
+                                "url": "/MobileAndAccessories/accessories/Lighter"
+                            }
+                        ]
+                    },
+                    {
+                        "heading": "Smart Watches",
+                        "megaItems": [{
+                                "text": "Apple",
+                                "url": "/MobileAndAccessories/accessories/apple-watches"
+                            },
+                            {
+                                "text": "Realme",
+                                "url": "/MobileAndAccessories/accessories/Realme"
+                            }
+                        ]
+                    },
+                    {
+                        "heading": "Speakers",
+                        "megaItems": [{
+                                "text": "AppleJBL",
+                                "url": "/MobileAndAccessories/Speakers/JBL"
+                            },
+                            {
+                                "text": "Ronin",
+                                "url": "/MobileAndAccessories/Speakers/Ronin"
+                            },
+                            {
+                                "text": "Audionic",
+                                "url": "/MobileAndAccessories/Speakers/Audionic"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "text": "Childern",
+                "url": "/",
+                "current": "shop",
+                "extraClass": "menu-item-has-children has-mega-menu",
+                "subClass": "sub-menu",
+                "mega": "true",
+                "megaContent": [{
+                        "heading": "Kids",
+                        "megaItems": [{
+                                "text": "Baba Shirts",
+                                "url": "/Childern/kids/BabaShirts"
+                            },
+                            {
+                                "text": "Baba T-Shirts ",
+                                "url": "/Childern/kids/BabaT-Shirts"
+                            },
+                            {
+                                "text": "Baby Shirts",
+                                "url": "/Childern/kids/BabyShirts"
+                            },
+                            {
+                                "text": "Baby T-Shirts",
+                                "url": "/Childern/kids/BabyT-Shirts"
+                            },
+
+                            {
+                                "text": "Baby Frock",
+                                "url": "/Childern/kids/BabyFrock"
+                            },
+                            {
+                                "text": "Fancy Suits",
+                                "url": "/Childern/kids/FancySuits"
+                            },
+                            {
+                                "text": "Pant",
+                                "url": "/Childern/kids/Pant"
+                            },
+                            {
                                 "text": "Kids Glasses",
                                 "url": "/Childern/kids/KidsGlasses"
-                            } ,
+                            },
                             {
                                 "text": "Kids Shoes",
                                 "url": "/Childern/kids/KidsShoes"
-                            
-                            }, {
+                            },
+                            {
                                 "text": "Kids Watches",
                                 "url": "/Childern/kids/KidsWatches"
                             }
-                    ]
-                },
-                {
-                    "heading": "Born Baby",
-                    "megaItems": [
-                        {
-                            "text": "Feeders",
-                            "url": "/Childern/BornBaby/Feeders"
-                        },
-                        {
-                            "text": "Romper ",
-                            "url": "/Childern/BornBaby/Romper"
-                        }
-                        ,
-                        {
-                            "text": "Suits",
-                            "url": "/Childern/BornBaby/Suits"
-                        }
-                        ,
-                        {
-                            "text": "Jhola",
-                            "url": "/Childern/BornBaby/Jhola"
-                        }
-                        
-                        ,
-                        {
-                            "text": "Baby carrying bed",
-                            "url": "/Childern/BornBaby/Babycarryingbed"
-                        
-                        }
-                        ,
-                        {
-                            "text": "Carry coat",
-                            "url": "/Childern/BornBaby/Carrycoat"
-                        
-                        }
-                        ,
-                        {
-                            "text": "Walker ",
-                            "url": "/Childern/BornBaby/Walker"
-                        
-                        },
-                        {
-                            "text": "Baby bags",
-                            "url": "/Childern/BornBaby/Babybags"
-                        
-                        }
+                        ]
+                    },
+                    {
+                        "heading": "Born Baby",
+                        "megaItems": [{
+                                "text": "Feeders",
+                                "url": "/Childern/BornBaby/Feeders"
+                            },
+                            {
+                                "text": "Romper ",
+                                "url": "/Childern/BornBaby/Romper"
+                            },
+                            {
+                                "text": "Suits",
+                                "url": "/Childern/BornBaby/Suits"
+                            },
+                            {
+                                "text": "Jhola",
+                                "url": "/Childern/BornBaby/Jhola"
+                            },
 
-                    ]
-                }  
-                ,
-                {
-                    "heading": "Toys & Birthday items",
-                    "megaItems": [
-                        {
-                            "text": "Exclusive toys ",
-                            "url": "/Childern/ToysAndBirthday/Exclusivetoys"
-                        },
-                        {
-                            "text": "Cars & bikes",
-                            "url": "/Childern/ToysAndBirthday/Carsbikes"
-                        },
-                        {
-                            "text": "Activity toys ",
-                            "url": "/Childern/ToysAndBirthday/Activitytoys"
-                        },
-                           {
-                            "text": "Drones",
-                            "url": "/Childern/ToysAndBirthday/Drones"
-                        },
-                        {
-                            "text": "Playhouse & Slides",
-                            "url": "/Childern/ToysAndBirthday/PlayhouseSlides"
-                        },
-                        {
-                            "text": "Ball house & tents",
-                            "url": "/Childern/ToysAndBirthday/Ballhousetents"
-                        }
-                        ,
-                        {
-                            "text": "Halloween toys",
-                            "url": "/Childern/ToysAndBirthday/Halloweentoys"
-                        } ,
-                        {
-                            "text": "Dollhouse & Sets",
-                            "url": "/Childern/ToysAndBirthday/DollhouseSets"
-                        },
-                        {
-                            "text": "Swimming pool",
-                            "url": "/Childern/ToysAndBirthday/Swimmingpool"
-                        },
-                        {
-                            "text": "Catridge  & filters",
-                            "url": "/Childern/ToysAndBirthday/Catridgefilters"
-                        },
-                        {
-                            "text": "Accessories",
-                            "url": "/Childern/ToysAndBirthday/Accessories"
-                        },
-                        {
-                            "text": "Air sofa’s",
-                            "url": "/Childern/ToysAndBirthday/Airsofas"
-                        }
-                          
-                    ]
-                }
-            ]
-        },
+                            {
+                                "text": "Baby carrying bed",
+                                "url": "/Childern/BornBaby/Babycarryingbed"
+                            },
+                            {
+                                "text": "Carry coat",
+                                "url": "/Childern/BornBaby/Carrycoat"
+                            },
+                            {
+                                "text": "Walker ",
+                                "url": "/Childern/BornBaby/Walker"
+                            },
+                            {
+                                "text": "Baby bags",
+                                "url": "/Childern/BornBaby/Babybags"
+                            }
+                        ]
+                    },
+                    {
+                        "heading": "Toys & Birthday items",
+                        "megaItems": [{
+                                "text": "Exclusive toys ",
+                                "url": "/Childern/ToysAndBirthday/Exclusivetoys"
+                            },
+                            {
+                                "text": "Cars & bikes",
+                                "url": "/Childern/ToysAndBirthday/Carsbikes"
+                            },
+                            {
+                                "text": "Activity toys ",
+                                "url": "/Childern/ToysAndBirthday/Activitytoys"
+                            },
+                            {
+                                "text": "Drones",
+                                "url": "/Childern/ToysAndBirthday/Drones"
+                            },
+                            {
+                                "text": "Playhouse & Slides",
+                                "url": "/Childern/ToysAndBirthday/PlayhouseSlides"
+                            },
+                            {
+                                "text": "Ball house & tents",
+                                "url": "/Childern/ToysAndBirthday/Ballhousetents"
+                            },
+                            {
+                                "text": "Halloween toys",
+                                "url": "/Childern/ToysAndBirthday/Halloweentoys"
+                            },
+                            {
+                                "text": "Dollhouse & Sets",
+                                "url": "/Childern/ToysAndBirthday/DollhouseSets"
+                            },
+                            {
+                                "text": "Swimming pool",
+                                "url": "/Childern/ToysAndBirthday/Swimmingpool"
+                            },
+                            {
+                                "text": "Catridge  & filters",
+                                "url": "/Childern/ToysAndBirthday/Catridgefilters"
+                            },
+                            {
+                                "text": "Accessories",
+                                "url": "/Childern/ToysAndBirthday/Accessories"
+                            },
+                            {
+                                "text": "Air sofa’s",
+                                "url": "/Childern/ToysAndBirthday/Airsofas"
+                            }
+                        ]
+                    }
+                ]
+            },
 
             {
                 "text": "Bags & Luggage",
@@ -930,124 +819,93 @@
                 "extraClass": "menu-item-has-children has-mega-menu",
                 "subClass": "sub-menu",
                 "mega": "true",
-                "megaContent": [
-                    {
-                        "heading": "Luggage & Travel",
-                        "megaItems": [
-                            {
-                                "text": "Suitcases",
-                                "url": "/BagAndLuggage/LuggageAndTravel/Suitcases"
-                            },
-                            {
-                                "text": "Briefcases",
-                                "url": "/BagAndLuggage/LuggageAndTravel/Briefcases"
-                            },
-                            {
-                                "text": "Laptop Bags",
-                                "url": "/BagAndLuggage/LuggageAndTravel/LaptopBags"
-                            },
-                               {
-                                "text": "Rugs & Carpet Luggage Accessories",
-                                "url": "/BagAndLuggage/LuggageAndTravel/LuggageAccessories"
-                            }
-                            
-                        ]
-                    }
-                ]
+                "megaContent": [{
+                    "heading": "Luggage & Travel",
+                    "megaItems": [{
+                            "text": "Suitcases",
+                            "url": "/BagAndLuggage/LuggageAndTravel/Suitcases"
+                        },
+                        {
+                            "text": "Briefcases",
+                            "url": "/BagAndLuggage/LuggageAndTravel/Briefcases"
+                        },
+                        {
+                            "text": "Laptop Bags",
+                            "url": "/BagAndLuggage/LuggageAndTravel/LaptopBags"
+                        },
+                        {
+                            "text": "Rugs & Carpet Luggage Accessories",
+                            "url": "/BagAndLuggage/LuggageAndTravel/LuggageAccessories"
+                        }
+                    ]
+                }]
             },
-                
-           
-
-
 
             {
-
                 "text": "Stationary",
                 "url": "/",
                 "current": "shop",
                 "extraClass": "menu-item-has-children has-mega-menu",
                 "subClass": "sub-menu",
                 "mega": "true",
-                "megaContent": [
-                    {
-                        "heading": "School Essentials ",
-                        "megaItems": [
-                            {
-                                "text": "Boys School Bags",
-                                "url": "/Stationary/SchoolEssential/BoysSchoolBags"
-                            },
-                            {
-                                "text": "Girls School Bags",
-                                "url": "/Stationary/SchoolEssential/GirlsSchoolBags"
-                            },
-                            {
-                                "text": "Lunch Box",
-                                "url": "/Stationary/SchoolEssential/Lunchbox "
-                            },
-                               {
-                                "text": "Water Bottles",
-                                "url": "/Stationary/SchoolEssential/Waterbottles"
-                            }
-                            ,
-                               {
-                                "text": "Stationary & Accessories",
-                                "url": "/Stationary/SchoolEssential/StationaryAccessories"
-                            }
-                        ]
-                    }
-                ]
+                "megaContent": [{
+                    "heading": "School Essentials ",
+                    "megaItems": [{
+                            "text": "Boys School Bags",
+                            "url": "/Stationary/SchoolEssential/BoysSchoolBags"
+                        },
+                        {
+                            "text": "Girls School Bags",
+                            "url": "/Stationary/SchoolEssential/GirlsSchoolBags"
+                        },
+                        {
+                            "text": "Lunch Box",
+                            "url": "/Stationary/SchoolEssential/Lunchbox "
+                        },
+                        {
+                            "text": "Water Bottles",
+                            "url": "/Stationary/SchoolEssential/Waterbottles"
+                        },
+                        {
+                            "text": "Stationary & Accessories",
+                            "url": "/Stationary/SchoolEssential/StationaryAccessories"
+                        }
+                    ]
+                }]
             },
-            {  "text": "Footwear",
+            {
+                "text": "Footwear",
                 "url": "/",
                 "current": "shop",
                 "extraClass": "menu-item-has-children has-mega-menu",
                 "subClass": "sub-menu",
                 "mega": "true",
-                "megaContent": [
-                    {
-                        "heading": " Ladies & Gents",
-                        "megaItems": [
-                            {
-                                "text": "Slippers",
-                                "url": "/FootWare/LadiesAndGents/slippers"
-                            },
-                            {
-                                "text": "Gents Shoes ",
-                                "url": "/FootWare/LadiesAndGents/GentsShoes"
-                            }
-                            ,
-                            {
-                                "text": "Ladies Shoes",
-                                "url": "/FootWare/LadiesAndGents/Ladiesshoes"
-                            }
-                            ,
-                            {
-                                "text": "Ladies Sandal",
-                                "url": "/FootWare/LadiesAndGents/LadiesSandal"
-                            }
-                            
-                            ,
-                            {
-                                "text": "Kids Shoes",
-                                "url": "/FootWare/LadiesAndGents/KidsShoes"
-                            
-                            }
-                            
-                            
-                        ]
-                    }
-                           
-            
-          
-                ]
+                "megaContent": [{
+                    "heading": " Ladies & Gents",
+                    "megaItems": [{
+                            "text": "Slippers",
+                            "url": "/FootWare/LadiesAndGents/slippers"
+                        },
+                        {
+                            "text": "Gents Shoes ",
+                            "url": "/FootWare/LadiesAndGents/GentsShoes"
+                        },
+                        {
+                            "text": "Ladies Shoes",
+                            "url": "/FootWare/LadiesAndGents/Ladiesshoes"
+                        },
+                        {
+                            "text": "Ladies Sandal",
+                            "url": "/FootWare/LadiesAndGents/LadiesSandal"
+                        },
+
+                        {
+                            "text": "Kids Shoes",
+                            "url": "/FootWare/LadiesAndGents/KidsShoes"
+                        }
+                    ]
+                }]
             }
-            
-        
-          
-           
         ]
     }
-    
-    
-    
 }
