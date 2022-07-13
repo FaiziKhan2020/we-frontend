@@ -16,18 +16,18 @@ const HomeDefaultTopCategories = () => {
             <div className="ps-container">
                 <h3>Coming Soon...</h3>
                 <div className="row">
-                    <div className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 ">
+                    {/* <div className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 ">
                         <div className="ps-block--category">
-                            {/* <Link href="/shop"> */}
-                            <a className="ps-block__overlay"></a>
-                            {/* </Link> */}
+                            <Link href="/grocery-category/Home-Electronics">
+                                <a className="ps-block__overlay"></a>
+                            </Link>
                             <img
                                 src="/static/img/categories/1.jpg"
                                 alt="dawood-online"
                             />
                             <p>Electronics</p>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 ">
                         <div className="ps-block--category">
                             {/* <Link href="/shop"> */}
@@ -54,9 +54,9 @@ const HomeDefaultTopCategories = () => {
                     </div>
                     <div className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 ">
                         <div className="ps-block--category">
-                            {/* <Link href="/shop"> */}
-                            <a className="ps-block__overlay"></a>
-                            {/* </Link> */}
+                            <Link href="/grocery-category/Home-Electronics">
+                                <a className="ps-block__overlay"></a>
+                            </Link>
                             <img
                                 src="/static/img/categories/4.jpg"
                                 alt="dawood-online"
@@ -91,7 +91,7 @@ const HomeDefaultTopCategories = () => {
                         </div>
                     </div>
                     <div className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 ">
-                        <div className="ps-block--category">
+                        <div className="ps-block--category ">
                             <Link href="/grocery-category/Shoes">
                                 <a className="ps-block__overlay"></a>
                             </Link>
