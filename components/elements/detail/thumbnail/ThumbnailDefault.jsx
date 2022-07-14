@@ -4,6 +4,7 @@ import Lightbox from 'react-image-lightbox';
 // import { baseUrl } from '~/repositories/Repository';
 import NextArrow from '~/components/elements/carousel/NextArrow';
 import PrevArrow from '~/components/elements/carousel/PrevArrow';
+import ReactImageMagnify from 'react-image-magnify';
 
 const ThumbnailDefault = ({ product, vertical = true }) => {
     const galleryCarousel = useRef(null);
@@ -86,85 +87,104 @@ const ThumbnailDefault = ({ product, vertical = true }) => {
         ));
         galleryImagesView = productImages.map((item, index) => (
             <div className="item" key={item}>
-                <a href="#" onClick={(e) => handleOpenLightbox(e, index)}>
-                    <img src={item} alt={item} />
-                </a>
+                {/* <a href="#" onClick={(e) => handleOpenLightbox(e, index)}> */}
+                {/* <img src={item} alt={item} /> */}
+                <ReactImageMagnify
+                    key={index}
+                    {...{
+                        smallImage: {
+                            alt: 'Wristwatch by Ted Baker London',
+                            isFluidWidth: true,
+                            src: item,
+                            // srcSet: this.srcSet,
+                            sizes: '(max-width: 480px) 100vw, (max-width: 1200px) 30vw, 360px',
+                        },
+                        largeImage: {
+                            src: item,
+                            width: 1500,
+                            height: 1800,
+                        },
+                        enlargedImageContainerDimensions: {
+                            width: '250%',
+                            height: '120%',
+                        },
+                    }}
+                />
+                {/* </a> */}
             </div>
         ));
     }
-    if (vertical) {
-        variantCarouselView = (
-            <Slider
-                asNavFor={gallery}
-                ref={(slider) => (variantCarousel.current = slider)}
-                swipeToSlide={true}
-                arrows={false}
-                slidesToShow={3}
-                vertical={true}
-                infinite={true}
-                focusOnSelect={true}
-                {...variantSetting}
-                className="ps-product__variants">
-                {imagesView}
-            </Slider>
-        );
-    } else {
-        variantCarouselView = (
-            <Slider
-                asNavFor={gallery}
-                ref={(slider) => (variantCarousel.current = slider)}
-                swipeToSlide={true}
-                arrows={false}
-                slidesToShow={6}
-                vertical={false}
-                centered={true}
-                infinite={false}
-                focusOnSelect={true}
-                className="ps-product__variants">
-                {imagesView}
-            </Slider>
-        );
-    }
-    if (isOpen) {
-        lightboxView = (
-            <Lightbox
-                mainSrc={productImages[photoIndex]}
-                nextSrc={productImages[(photoIndex + 1) % productImages.length]}
-                prevSrc={
-                    productImages[
-                        (photoIndex + productImages.length - 1) %
-                            productImages.length
-                    ]
-                }
-                onCloseRequest={() => {
-                    setIsOpen(false);
-                }}
-                onMovePrevRequest={() => {
-                    setPhotoIndex(
-                        (photoIndex + productImages.length - 1) %
-                            productImages.length
-                    );
-                }}
-                onMoveNextRequest={() => {
-                    setPhotoIndex((photoIndex + 1) % productImages.length);
-                }}
-            />
-        );
-    }
+    // if (vertical) {
+    //     variantCarouselView = (
+    //         <Slider
+    //             asNavFor={gallery}
+    //             ref={(slider) => (variantCarousel.current = slider)}
+    //             swipeToSlide={true}
+    //             arrows={false}
+    //             slidesToShow={3}
+    //             vertical={true}
+    //             infinite={true}
+    //             focusOnSelect={true}
+    //             {...variantSetting}
+    //             className="ps-product__variants">
+    //             {imagesView}
+    //         </Slider>
+    //     );
+    // } else {
+    //     variantCarouselView = (
+    //         <Slider
+    //             asNavFor={gallery}
+    //             ref={(slider) => (variantCarousel.current = slider)}
+    //             swipeToSlide={true}
+    //             arrows={false}
+    //             slidesToShow={6}
+    //             vertical={false}
+    //             centered={true}
+    //             infinite={false}
+    //             focusOnSelect={true}
+    //             className="ps-product__variants">
+    //             {imagesView}
+    //         </Slider>
+    //     );
+    // }
+    // if (isOpen) {
+    //     lightboxView = (
+    //         <Lightbox
+    //             mainSrc={productImages[photoIndex]}
+    //             nextSrc={productImages[(photoIndex + 1) % productImages.length]}
+    //             prevSrc={
+    //                 productImages[
+    //                     (photoIndex + productImages.length - 1) %
+    //                         productImages.length
+    //                 ]
+    //             }
+    //             onCloseRequest={() => {
+    //                 setIsOpen(false);
+    //             }}
+    //             onMovePrevRequest={() => {
+    //                 setPhotoIndex(
+    //                     (photoIndex + productImages.length - 1) %
+    //                         productImages.length
+    //                 );
+    //             }}
+    //             onMoveNextRequest={() => {
+    //                 setPhotoIndex((photoIndex + 1) % productImages.length);
+    //             }}
+    //         />
+    //     );
+    // }
 
     return (
-        <div
-            className="ps-product__thumbnail"
-            data-vertical={vertical ? 'true' : 'false'}>
+        <div className="ps-product__thumbnail">
             <figure>
-                <div className="ps-wrapper">
-                    <Slider
+                <div className="ps-wrapper" style={{ zIndex: '999' }}>
+                    {galleryImagesView}
+                    {/* <Slider
                         {...gallerySetting}
                         ref={(slider) => (galleryCarousel.current = slider)}
                         asNavFor={variant}
                         className="ps-product__gallery ps-carousel inside">
-                        {galleryImagesView}
-                    </Slider>
+                    </Slider> */}
                 </div>
             </figure>
             {/* {variantCarouselView}
