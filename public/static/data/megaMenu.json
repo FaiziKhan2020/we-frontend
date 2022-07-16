@@ -1,14 +1,11 @@
 {
-    "megamenu": [
-        {
+    "megamenu": [{
             "text": "Laptop",
             "url": "/blog",
-            "subMenu": [
-                {
+            "subMenu": [{
                     "heading": "Gaming Laptop",
                     "url": "/shop",
-                    "subMenu": [
-                        {
+                    "subMenu": [{
                             "text": "Acer",
                             "url": "/shop"
                         },
@@ -33,8 +30,7 @@
                 {
                     "heading": "Office Laptop",
                     "url": "/shop",
-                    "subMenu": [
-                        {
+                    "subMenu": [{
                             "text": "Acer",
                             "url": "/shop"
                         },
@@ -59,8 +55,7 @@
                 {
                     "heading": "Business Laptop",
                     "url": "/shop",
-                    "subMenu": [
-                        {
+                    "subMenu": [{
                             "text": "Acer",
                             "url": "/shop"
                         },
@@ -85,8 +80,7 @@
                 {
                     "heading": "Dell laptop",
                     "url": "/shop",
-                    "subMenu": [
-                        {
+                    "subMenu": [{
                             "text": "Inspiron Series",
                             "url": "/shop"
                         },
@@ -111,8 +105,7 @@
                 {
                     "heading": "Asus laptop",
                     "url": "/shop",
-                    "subMenu": [
-                        {
+                    "subMenu": [{
                             "text": "Inspiron Series",
                             "url": "/shop"
                         },
@@ -137,8 +130,7 @@
                 {
                     "heading": "HP laptop",
                     "url": "/shop",
-                    "subMenu": [
-                        {
+                    "subMenu": [{
                             "text": "Inspiron Series",
                             "url": "/shop"
                         },
@@ -165,12 +157,10 @@
         {
             "text": "Gaming PC",
             "url": "/shop",
-            "subMenu": [
-                {
+            "subMenu": [{
                     "heading": "Gaming Laptop",
                     "url": "/shop",
-                    "subMenu": [
-                        {
+                    "subMenu": [{
                             "text": "Acer",
                             "url": "/shop"
                         },
@@ -195,8 +185,7 @@
                 {
                     "heading": "Office Laptop",
                     "url": "/shop",
-                    "subMenu": [
-                        {
+                    "subMenu": [{
                             "text": "Acer",
                             "url": "/shop"
                         },
@@ -221,8 +210,7 @@
                 {
                     "heading": "Business Laptop",
                     "url": "/shop",
-                    "subMenu": [
-                        {
+                    "subMenu": [{
                             "text": "Acer",
                             "url": "/shop"
                         },
@@ -247,8 +235,7 @@
                 {
                     "heading": "Dell laptop",
                     "url": "/shop",
-                    "subMenu": [
-                        {
+                    "subMenu": [{
                             "text": "Inspiron Series",
                             "url": "/shop"
                         },
@@ -273,8 +260,7 @@
                 {
                     "heading": "Asus laptop",
                     "url": "/shop",
-                    "subMenu": [
-                        {
+                    "subMenu": [{
                             "text": "Inspiron Series",
                             "url": "/shop"
                         },
@@ -299,8 +285,7 @@
                 {
                     "heading": "HP laptop",
                     "url": "/shop",
-                    "subMenu": [
-                        {
+                    "subMenu": [{
                             "text": "Inspiron Series",
                             "url": "/shop"
                         },
@@ -327,12 +312,10 @@
         {
             "text": "Workstation",
             "url": "/shop",
-            "subMenu": [
-                {
+            "subMenu": [{
                     "heading": "Gaming Laptop",
                     "url": "/shop",
-                    "subMenu": [
-                        {
+                    "subMenu": [{
                             "text": "Acer",
                             "url": "/shop"
                         },
@@ -357,8 +340,7 @@
                 {
                     "heading": "Office Laptop",
                     "url": "/shop",
-                    "subMenu": [
-                        {
+                    "subMenu": [{
                             "text": "Acer",
                             "url": "/shop"
                         },
@@ -383,8 +365,7 @@
                 {
                     "heading": "Business Laptop",
                     "url": "/shop",
-                    "subMenu": [
-                        {
+                    "subMenu": [{
                             "text": "Acer",
                             "url": "/shop"
                         },
@@ -409,8 +390,7 @@
                 {
                     "heading": "Dell laptop",
                     "url": "/shop",
-                    "subMenu": [
-                        {
+                    "subMenu": [{
                             "text": "Inspiron Series",
                             "url": "/shop"
                         },
@@ -435,8 +415,7 @@
                 {
                     "heading": "Asus laptop",
                     "url": "/shop",
-                    "subMenu": [
-                        {
+                    "subMenu": [{
                             "text": "Inspiron Series",
                             "url": "/shop"
                         },
@@ -461,8 +440,7 @@
                 {
                     "heading": "HP laptop",
                     "url": "/shop",
-                    "subMenu": [
-                        {
+                    "subMenu": [{
                             "text": "Inspiron Series",
                             "url": "/shop"
                         },
@@ -489,12 +467,10 @@
         {
             "text": "PC Components",
             "url": "/shop",
-            "subMenu": [
-                {
+            "subMenu": [{
                     "heading": "Gaming Laptop",
                     "url": "/shop",
-                    "subMenu": [
-                        {
+                    "subMenu": [{
                             "text": "Acer",
                             "url": "/shop"
                         },
@@ -519,8 +495,7 @@
                 {
                     "heading": "Office Laptop",
                     "url": "/shop",
-                    "subMenu": [
-                        {
+                    "subMenu": [{
                             "text": "Acer",
                             "url": "/shop"
                         },
@@ -545,8 +520,7 @@
                 {
                     "heading": "Business Laptop",
                     "url": "/shop",
-                    "subMenu": [
-                        {
+                    "subMenu": [{
                             "text": "Acer",
                             "url": "/shop"
                         },
@@ -571,8 +545,7 @@
                 {
                     "heading": "Dell laptop",
                     "url": "/shop",
-                    "subMenu": [
-                        {
+                    "subMenu": [{
                             "text": "Inspiron Series",
                             "url": "/shop"
                         },
@@ -597,8 +570,7 @@
                 {
                     "heading": "Asus laptop",
                     "url": "/shop",
-                    "subMenu": [
-                        {
+                    "subMenu": [{
                             "text": "Inspiron Series",
                             "url": "/shop"
                         },
@@ -623,8 +595,7 @@
                 {
                     "heading": "HP laptop",
                     "url": "/shop",
-                    "subMenu": [
-                        {
+                    "subMenu": [{
                             "text": "Inspiron Series",
                             "url": "/shop"
                         },
@@ -651,12 +622,10 @@
         {
             "text": "Monitor",
             "url": "/shop",
-            "subMenu": [
-                {
+            "subMenu": [{
                     "heading": "Gaming Laptop",
                     "url": "/shop",
-                    "subMenu": [
-                        {
+                    "subMenu": [{
                             "text": "Acer",
                             "url": "/shop"
                         },
@@ -681,8 +650,7 @@
                 {
                     "heading": "Office Laptop",
                     "url": "/shop",
-                    "subMenu": [
-                        {
+                    "subMenu": [{
                             "text": "Acer",
                             "url": "/shop"
                         },
@@ -707,8 +675,7 @@
                 {
                     "heading": "Business Laptop",
                     "url": "/shop",
-                    "subMenu": [
-                        {
+                    "subMenu": [{
                             "text": "Acer",
                             "url": "/shop"
                         },
@@ -733,8 +700,7 @@
                 {
                     "heading": "Dell laptop",
                     "url": "/shop",
-                    "subMenu": [
-                        {
+                    "subMenu": [{
                             "text": "Inspiron Series",
                             "url": "/shop"
                         },
@@ -759,8 +725,7 @@
                 {
                     "heading": "Asus laptop",
                     "url": "/shop",
-                    "subMenu": [
-                        {
+                    "subMenu": [{
                             "text": "Inspiron Series",
                             "url": "/shop"
                         },
@@ -785,8 +750,7 @@
                 {
                     "heading": "HP laptop",
                     "url": "/shop",
-                    "subMenu": [
-                        {
+                    "subMenu": [{
                             "text": "Inspiron Series",
                             "url": "/shop"
                         },

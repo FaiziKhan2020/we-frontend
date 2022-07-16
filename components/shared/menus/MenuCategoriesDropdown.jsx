@@ -13,10 +13,19 @@ const MenuCategoriesDropdown = () => {
                         fontSize: '20px',
                         fontWeight: 'bold',
                     }}>
-                    Grocery{' '}
+                    Departments
                 </span>{' '}
             </div>{' '}
-            <div className="menu__content" style={{ color: 'white' }}>
+            <div
+                className="menu__content"
+                style={{
+                    color: 'white',
+                    textTransform: 'uppercase',
+                    height: '400px',
+                    overflowX: 'auto',
+                    overflowY: 'auto',
+                    textAlign: 'justify',
+                }}>
                 <Menu
                     source={menuData.product_categories}
                     className="menu--dropdown"

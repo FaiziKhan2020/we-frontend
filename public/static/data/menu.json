@@ -866,7 +866,39 @@
             "url": "/grocery/beverages"
         },
         {
-            "text": "CONFECTIONERY",
+            "text": "Dairy",
+            "url": "/grocery/dairy"
+        },
+        {
+            "text": "Snacks & Sweets",
+            "url": "/grocery/confectionery"
+        },
+        {
+            "text": "Juices",
+            "url": "/grocery/confectionery"
+        },
+        {
+            "text": "Baking",
+            "url": "/grocery/confectionery"
+        },
+        {
+            "text": "Fresh",
+            "url": "/grocery/confectionery"
+        },
+        {
+            "text": "Frozen Foods",
+            "url": "/grocery/confectionery"
+        },
+        {
+            "text": "Health & Beauty",
+            "url": "/grocery/confectionery"
+        },
+        {
+            "text": "Pet Foods",
+            "url": "/grocery/confectionery"
+        },
+        {
+            "text": "Breakfast & Cereals",
             "url": "/grocery/confectionery"
         },
         {
