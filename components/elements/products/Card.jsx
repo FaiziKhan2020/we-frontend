@@ -3,7 +3,11 @@ import React from 'react';
 
 const Card = ({ img, title, onclick }) => {
     return (
-        <div className="text-center">
+        <div
+            className="text-center"
+            style={{
+                width: '200px',
+            }}>
             <div class="card ml-4">
                 <img
                     class="card-img-top"

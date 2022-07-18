@@ -54,7 +54,7 @@ const index = () => {
                     <div className="ps-container">
                         <div className="ps-layout--shop">
                             <div className="row">
-                                <div class="card-group pt-4 mx-auto">
+                                <div class="card-group pt-4 mb-4 mx-auto">
                                     <Card
                                         img="https://res.cloudinary.com/xcltech/image/upload/v1649843235/200/NATIONAL_MAYOCHUP_SAUCE_500GM_POUCH_oodozz.jpg"
                                         title="Milk"
