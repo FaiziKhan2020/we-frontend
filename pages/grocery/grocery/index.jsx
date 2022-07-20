@@ -45,11 +45,17 @@ const index = () => {
             <PageContainer title="Shop">
                 <div className="ps-page--shop ">
                     <div className="ps-container">
+                        <div>
+                            <h3
+                                className="text-center mx-auto mt-4"
+                                style={{
+                                    textDecoration: 'underline',
+                                }}>
+                                BRANDS
+                            </h3>
+                        </div>
                         <div className="ps-layout--shop">
                             <div className="row">
-                                <h2 className="text-center mx-auto mt-4">
-                                    BRANDS
-                                </h2>
                                 <div class="card-group mx-auto">
                                     {Bags.product.map((item, index) => (
                                         <div className="mb-4 mx-auto">

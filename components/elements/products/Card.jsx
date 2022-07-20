@@ -12,7 +12,7 @@ const Card = ({ img, title, onclick }) => {
                 <img
                     class="card-img-top"
                     src={img}
-                    alt="Card image cap"
+                    alt="Card image"
                     height={140}
                 />
                 <div class="card-body">

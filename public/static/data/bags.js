@@ -2,13 +2,13 @@ const data = {
     product: [{
 
             title: 'NATIONAL',
-            url: '/static/uploads/handpurse/product-1.jpg',
+            url: 'https://res.cloudinary.com/xcltech/image/upload/v1658222714/100/images_kc4ivq.jpg',
             send: "NATIONAL"
         },
 
         {
             title: ' GLAXOSE-D',
-            url: '/static/uploads/handpurse/product-2.jpg',
+            url: 'https://res.cloudinary.com/xcltech/image/upload/v1658222850/100/2b85de131275741.Y3JvcCwxMDEyLDc5MSwzNSwxNDU_i4d7vg.jpg',
             send: 'GLAXOSE-D'
         },
         {
