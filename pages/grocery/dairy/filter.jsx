@@ -7,6 +7,7 @@ import { useEffect } from 'react';
 import Axios from 'axios';
 import { useState } from 'react';
 import Spinner from '~/components/spinner/index';
+import List from "./list";
 
 import { useRouter } from 'next/router';
 const index = () => {
@@ -37,7 +38,14 @@ const index = () => {
             <PageContainer title="Shop">
                 <div className="ps-page--shop">
                     <div className="ps-container">
-                        <div className="ps-layout--shop">
+                        
+                       
+                                {/* <WidgetShopCategories /> */}
+                                
+                           
+                            {/* <List/> */}
+                         
+                                <List/>
                             <div className="d-flex  row">
                                 {loading ? (
                                     data
@@ -55,7 +63,7 @@ const index = () => {
                                     <Spinner />
                                 )}
                             </div>
-                        </div>
+                        
                     </div>
                 </div>
                 <Newletters />
