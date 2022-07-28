@@ -8,7 +8,7 @@
         {
             "title": " GLAXOSE-D",
             "url": "https://res.cloudinary.com/xcltech/image/upload/v1658222850/100/2b85de131275741.Y3JvcCwxMDEyLDc5MSwzNSwxNDU_i4d7vg.jpg",
-            "send": "DGLAXOSE-"
+            "send": "GLAXOSE-D"
         },
         {
             "title": "HERBAL ESSENCES",
@@ -16,43 +16,44 @@
             "send": "HERBAL ESSENCES"
         },
         {
-            "title": "LIPTON (PAKISTAN)            ",
-            "send": "BUTTER",
+            "title": "LIPTON (PAKISTAN)",
+            "send": "LIPTON (PAKISTAN)",
             "url": "/static/uploads/handpurse/product-4.jpg"
         },
         {
-            "title": "KNORR            ",
-            "send": "BUTTER",
+            "title": "KNORR",
+            "send": "KNORR",
             "url": "/static/uploads/handpurse/product-5.jpg"
         },
         {
-            "title": "RAFHAN            ",
+            "title": "RAFHAN",
+            "send": "RAFHAN",
             "url": "/static/uploads/handpurse/product-6.jpg"
         },
 
         {
             "title": "KRAFT",
-            "send": "BUTTER",
+            "send": "KRAFT",
             "url": "/static/uploads/handpurse/product-7.jpg"
         },
         {
             "title": "KOLSON",
-            "send": "BUTTER",
+            "send": "KOLSON",
             "url": "/static/uploads/handpurse/product-8.jpg"
         },
         {
             "title": "COLGATE PAKISTAN",
-            "send": "BUTTER",
+            "send": "COLGATE (PAKISTAN)",
             "url": "/static/uploads/handpurse/product-9.jpg"
         },
         {
             "title": "NESTLE            ",
-            "send": "BUTTER",
+            "send": "NESTLE",
             "url": "/static/uploads/handpurse/product-10.jpg"
         },
         {
             "title": "BROOKE BOND            ",
-            "send": "BUTTER",
+            "send": "BROOKE BOND",
             "url": "/static/uploads/handpurse/product-10.jpg"
         },
         {
