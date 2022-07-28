@@ -1,19 +1,14 @@
 import React from 'react';
 import PageContainer from '~/components/layouts/PageContainer';
 import Newletters from '~/components/partials/commons/Newletters';
-// import Product from '~/components/elements/products/DemoProduct';
 import Card from '~/components/elements/products/Card';
 import { CartProvider } from 'react-use-cart';
 import { useEffect } from 'react';
 import Axios from 'axios';
 import { useState } from 'react';
-// import Spinner from '~/components/spinner/index';
 import Router from 'next/router';
-// import Link from 'next/link';
-// import WidgetShopCategories from '~/components/shared/widgets/WidgetShopCategories';
-import Bags from '~/public/static/data/bags';
+import Data from '~/public/static/data/demo';
 const index = () => {
-    console.log(Bags.product);
     const [data, setData] = useState([]);
     const [loading, setLoading] = useState(false);
     useEffect(() => {
@@ -57,7 +52,7 @@ const index = () => {
                         <div className="ps-layout--shop">
                             <div className="row">
                                 <div class="card-group mx-auto">
-                                    {Bags.product.map((item, index) => (
+                                    {Data.Grocery.map((item, index) => (
                                         <div className="mb-4 mx-auto">
                                             <Card
                                                 key={index}
@@ -67,53 +62,8 @@ const index = () => {
                                             />
                                         </div>
                                     ))}
-                                    {/* <Card
-                                        img="https://res.cloudinary.com/xcltech/image/upload/v1649843235/200/NATIONAL_MAYOCHUP_SAUCE_500GM_POUCH_oodozz.jpg"
-                                        title="Cheese"
-                                        onclick={() => send('CHEESE')}
-                                    />
-                                    <Card
-                                        img="https://res.cloudinary.com/xcltech/image/upload/v1649843235/200/NATIONAL_MAYOCHUP_SAUCE_500GM_POUCH_oodozz.jpg"
-                                        title="Butter"
-                                        onclick={() => send('BUTTER')}
-                                    />
-                                    <Card
-                                        img="https://res.cloudinary.com/xcltech/image/upload/v1649843235/200/NATIONAL_MAYOCHUP_SAUCE_500GM_POUCH_oodozz.jpg"
-                                        title="Tea Whiteners"
-                                        onclick={() => send('TEA')}
-                                    />
-                                    <Card
-                                        img="https://res.cloudinary.com/xcltech/image/upload/v1649843235/200/NATIONAL_MAYOCHUP_SAUCE_500GM_POUCH_oodozz.jpg"
-                                        title="Milk Supliments"
-                                        onclick={() => send('POWDER MILK')}
-                                    />
-                                    <Card
-                                        img="https://res.cloudinary.com/xcltech/image/upload/v1649843235/200/NATIONAL_MAYOCHUP_SAUCE_500GM_POUCH_oodozz.jpg"
-                                        title="Bread"
-                                        onclick={() => send('BREAD CRUMB')}
-                                    />{' '}
-                                    <Card
-                                        img="https://res.cloudinary.com/xcltech/image/upload/v1649843235/200/NATIONAL_MAYOCHUP_SAUCE_500GM_POUCH_oodozz.jpg"
-                                        title="Yogurt/Raita"
-                                        onclick={() => send('YOGURT')}
-                                    /> */}
                                 </div>
                             </div>
-                            {/* <div className=" row">
-                                {loading ? (
-                                    data.map((item, index) => (
-                                        <Product
-                                            key={index}
-                                            image={item?.imgUrl}
-                                            title={item.title}
-                                            price={item.price}
-                                            item={item}
-                                        />
-                                    ))
-                                ) : (
-                                    <Spinner />
-                                )}
-                            </div> */}
                         </div>
                     </div>
                 </div>

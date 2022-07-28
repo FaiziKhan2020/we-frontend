@@ -1,736 +1,1026 @@
 {
-  "handpurse":[
-    {
-      "id": 1,
-      "title": "Hand Purse",
-      "url": "/static/uploads/handpurse/product-1.jpg",
-      "price": 1999
-    },
-    
-    {
-      "id": 2,
-      "title": "Hand Purse",
-      "url": "/static/uploads/handpurse/product-2.jpg",
-      "price": 1999
-
-    },
-    {
-      "id": 3,
-      "title": "Hand Purse",
-      "url":"/static/uploads/handpurse/product-3.jpg" ,
-      "price" :1999      
-    },
-    {
-      "id": 4,
-      "title": "Hand Purse",
-       "url":"/static/uploads/handpurse/product-4.jpg"  ,
-       "price":1999
-
-    },
-    {
-      "id": 5,
-      "title": "Hand Purse",
-      "url":"/static/uploads/handpurse/product-5.jpg",
-      "price": 2499
-    },
-    {
-        "id": 6,
-        "title": "Hand Purse",
-        "url": "/static/uploads/handpurse/product-6.jpg",
-        "price": 1999
-      },
-      
-      {
-        "id": 7,
-        "title": "Hand Purse",
-        "url": "/static/uploads/handpurse/product-7.jpg",
-        "price": 2999
-
-      },
-      {
-        "id": 8,
-        "title": "Hand Purse",
-        "url":"/static/uploads/handpurse/product-8.jpg" ,
-        "price" :1999      
-      }
-      ,{
-        "id": 9,
-        "title": "Hand Purse",
-        "url":"/static/uploads/handpurse/product-9.jpg" ,
-        "price" :1999      
-      },
-      {
-        "id": 10,
-        "title": "Hand Purse",
-        "url":"/static/uploads/handpurse/product-10.jpg" ,
-        "price" :2499 
-
-      },
-      {
-        "id": 11,
-        "title": "Hand Purse",
-        "url":"/static/uploads/handpurse/product-11.jpg" ,
-        "price" :1999      
-      },
-      {
-        "id": 12,
-        "title": "Hand Purse",
-        "url":"/static/uploads/handpurse/product-12.jpg" ,
-        "price" :3499      
-      },
-      {
-        "id": 13,
-        "title": "Hand Purse",
-        "url":"/static/uploads/handpurse/product-13.jpg" ,
-        "price" :1999      
-      },
-      {
-        "id": 14,
-        "title": "Hand Purse",
-        "url":"/static/uploads/handpurse/product-14.jpg" ,
-        "price" :1249      
-      },
-      {
-        "id": 15,
-        "title": "Hand Purse",
-        "url":"/static/uploads/handpurse/product-15.jpg" ,
-        "price" :1999      
-      },
-      {
-        "id": 16,
-        "title": "Hand Purse",
-        "url":"/static/uploads/handpurse/product-16.jpg" ,
-        "price" :1999      
-      },
-      {
-        "id": 17,
-        "title": "Hand Purse",
-        "url":"/static/uploads/handpurse/product-17.jpg" ,
-        "price" :1699      
-      },
-      {
-        "id": 18,
-        "title": "Hand Purse",
-        "url":"/static/uploads/handpurse/product-18.jpg" ,
-        "price" :1849      
-      },
-      {
-        "id": 19,
-        "title": "Hand Purse",
-        "url":"/static/uploads/handpurse/product-19.jpg" ,
-        "price" :1699      
-      },
-      {
-        "id": 20,
-        "title": "Hand Purse",
-        "url":"/static/uploads/handpurse/product-20.jpg" ,
-        "price" :1699      
-      },
-      {
-        "id": 21,
-        "title": "Hand Purse",
-        "url":"/static/uploads/handpurse/product-21.jpg" ,
-        "price" :1699      
-      },
-      {
-        "id": 22,
-        "title": "Hand Purse",
-        "url":"/static/uploads/handpurse/product-22.jpg" ,
-        "price" :1699      
-      },
-      {
-        "id": 23,
-        "title": "Hand Purse",
-        "url":"/static/uploads/handpurse/product-23.jpg" ,
-        "price" :1699      
-      },
-      {
-        "id": 24,
-        "title": "Hand Purse",
-        "url":"/static/uploads/handpurse/product-24.jpg" ,
-        "price" :1699      
-      },
-      {
-        "id": 25,
-        "title": "Hand Purse",
-        "url":"/static/uploads/handpurse/product-25.jpg" ,
-        "price" :1699      
-      },
-      {
-        "id": 26,
-        "title": "Hand Purse",
-        "url":"/static/uploads/handpurse/product-26.jpg" ,
-        "price" :1699      
-      },
-      {
-        "id": 27,
-        "title": "Hand Purse",
-        "url":"/static/uploads/handpurse/product-27.jpg" ,
-        "price" :1699      
-      },
-      {
-        "id": 28,
-        "title": "Hand Purse",
-        "url":"/static/uploads/handpurse/product-28.jpg" ,
-        "price" :1699      
-      },
-      {
-        "id": 29,
-        "title": "Hand Purse",
-        "url":"/static/uploads/handpurse/product-29.jpg" ,
-        "price" :1699      
-      },
-      {
-        "id": 30,
-        "title": "Hand Purse",
-        "url":"/static/uploads/handpurse/product-30.jpg" ,
-        "price" :1699      
-      },
-      {
-        "id": 31,
-        "title": "Hand Purse",
-        "url":"/static/uploads/handpurse/product-31.jpg" ,
-        "price" :1699      
-      },
-      {
-        "id": 32,
-        "title": "Hand Purse",
-        "url":"/static/uploads/handpurse/product-32.jpg" ,
-        "price" :1699      
-      },
-      {
-        "id": 33,
-        "title": "Hand Purse",
-        "url":"/static/uploads/handpurse/product-33.jpg" ,
-        "price" :1699      
-      },
-      {
-        "id": 34,
-        "title": "Hand Purse",
-        "url":"/static/uploads/handpurse/product-34.jpg" ,
-        "price" :1549      
-      },
-      {
-        "id": 35,
-        "title": "Hand Purse",
-        "url":"/static/uploads/handpurse/product-35.jpg" ,
-        "price" :1699      
-      },
-      {
-        "id": 36,
-        "title": "Hand Purse",
-        "url":"/static/uploads/handpurse/product-36.jpg" ,
-        "price" :1699      
-      },
-      {
-        "id": 37,
-        "title": "Hand Purse",
-        "url":"/static/uploads/handpurse/product-37.jpg" ,
-        "price" :3749      
-      },
-      {
-        "id": 38,
-        "title": "Hand Purse",
-        "url":"/static/uploads/handpurse/product-38.jpg" ,
-        "price" :3749      
-      },
-      {
-        "id": 39,
-        "title": "Hand Purse",
-        "url":"/static/uploads/handpurse/product-39.jpg" ,
-        "price" :1999      
-      },
-      {
-        "id": 40,
-        "title": "Hand Purse",
-        "url":"/static/uploads/handpurse/product-40.jpg" ,
-        "price" :1999      
-      }
-],
-    "spices":[
-        {
-          "id": 1,
-          "title": "NATIONAL BANANA CUSTARD",
-          "url": "https://www.dawoodonline.pk/product/listing/Img-86ie.jpg",
-          "price": 10
+    "Grocery": [{
+            "title": "NATIONAL",
+            "url": "https://res.cloudinary.com/xcltech/image/upload/v1658222714/100/images_kc4ivq.jpg",
+            "send": "NATIONAL"
         },
-        
-        {
-          "id": 2,
-          "title": "TEZ PATTA 15GM PKT",
-          "url": "https://www.dawoodonline.pk/product/listing/Img-4765.jpg",
-          "price": 10
 
+        {
+            "title": " GLAXOSE-D",
+            "url": "https://res.cloudinary.com/xcltech/image/upload/v1658222850/100/2b85de131275741.Y3JvcCwxMDEyLDc5MSwzNSwxNDU_i4d7vg.jpg",
+            "send": "GLAXOSE-D"
         },
         {
-          "id": 3,
-          "title": "SHAN MAA LAHORI NAMAK",
-          "url":"https://www.dawoodonline.pk/product/listing/Img-4811.jpg" ,
-          "price" :15        
+            "title": "HERBAL ESSENCES",
+            "url": "/static/uploads/handpurse/product-3.jpg",
+            "send": "HERBAL ESSENCES"
         },
         {
-          "id": 4,
-          "title": "AJWAIN 50GM PKT",
-           "url":"https://www.dawoodonline.pk/product/listing/Img-3358.jpg"  ,
-           "price":15
+            "title": "LIPTON (PAKISTAN)            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-4.jpg"
+        },
+        {
+            "title": "KNORR            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-5.jpg"
+        },
+        {
+            "title": "RAFHAN            ",
+            "url": "/static/uploads/handpurse/product-6.jpg"
+        },
 
+        {
+            "title": "KRAFT",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-7.jpg"
         },
         {
-          "id": 5,
-          "title": "Phitkari",
-          "url":"https://www.dawoodonline.pk/product/listing/Img-32ie.jpg",
-          "price": 20
+            "title": "KOLSON",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-8.jpg"
         },
         {
-            "id": 1,
-            "title": "NATIONAL BANANA CUSTARD",
-            "url": "https://www.dawoodonline.pk/product/listing/Img-86ie.jpg",
-            "price": 10
-          },
-          
-          {
-            "id": 2,
-            "title": "TEZ PATTA 15GM PKT",
-            "url": "https://www.dawoodonline.pk/product/listing/Img-4765.jpg",
-            "price": 10
-  
-          },
-          {
-            "id": 3,
-            "title": "SHAN MAA LAHORI NAMAK",
-            "url":"https://www.dawoodonline.pk/product/listing/Img-4811.jpg" ,
-            "price" :15        
-          }
-          
+            "title": "COLGATE PAKISTAN",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-9.jpg"
+        },
+        {
+            "title": "NESTLE            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "BROOKE BOND            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "DELITE            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "TAPAL            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "NESCAFE            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "SHANGRILA            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "ENERGILE            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "YOUNG      ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "DSM            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "OLPERS            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "APPLE SIDRA            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "O-FOOD            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "NURPUR",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "OVALTINE            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "NUTRAFIL            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "OPA !            ",
+            "send": "BUTTER",
+
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "SUFI FROZEN            ",
+            "send": "BUTTER",
+            "url": "/static/ploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "SUNDIP            ",
+            "send": "BUTTER",
+            "url": "/static/ploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "SUNRIDGE            ",
+            "send": "BUTTER",
+            "url": "/static/ploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "STAR FROZEN            ",
+            "send": "BUTTER",
+            "url": "/static/ploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "SUCRAL            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "TANG            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "SWISS CHEESE            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "SYMAS            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "SIMILAC            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "WHIPY WHIP            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "GOOD MILK            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "UNITED KING            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "TARANG            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "TORTO            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "WAGGLES            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "ROSSMOOR            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "QARSHI            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "QUAKER            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "QUICE            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "SLAMANS            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "PK            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "PEDIASURE            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "PUCK            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "PRIME FOODS            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "SEARLE            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "SHAN            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "SHAHENSHAH            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "FRESHMATE            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "FRIZZLE            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "FRENCHS            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "HALEEB            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "HALWANI            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "GLUCERNA            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "GHORI            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "EQUAL            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "ENFAMIL            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "FILIPPO BERIO            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "FALAK            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "ENFAMIL            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "ENFAMAMA            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "FIGARO            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "FAUJI            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "K&NS            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "ITALIA            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "KERNEL POP            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "KERNEL POP            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "KHATIR TAWAZA            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "KANAS GROCERY            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "KERNEL POP            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "KELLOGGS            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "ADAMS            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "ROOH AFZA            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "HAPPY COW            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "HASHMI            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "BLUE BAND            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "BAKE PARLOR            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "CHEESE HOUSE            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "CHEF ONE (GRO)            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "BORGES            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "CANDEREL            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "RANI            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "AMERICAN GARDEN            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "ARIZONA FIELDS            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "DAYFRESH            ",
+            "send": "BUTTER",
+
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "DEL MONTE            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "DAYFRESH            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "DAWN FOOD            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "DAWN FOOD            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "DIPITT            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "DIET TEA            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "CRESCO            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "COMELLE            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "DASHI            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "COOKING CLUB            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "DAILY            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "DADI JAN            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "DAIRY OMUNG            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "DAIRY PURE            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "DAIRY LIFE            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "LANGNESE            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "LAZIZA            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "LA ESPANOLA            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "MONSALWA            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "MARHABA            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "MORINAGA            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "MUMTAZ            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "LEO            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "MILLAC            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "MEIJI            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "MIGLIOR GATTO            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "MILK FIELDS            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "DAILY            ",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        }
+    ],
+    "Dairy": [{
+            "title": "Milk            ",
+            "send": "LIQUID MILK",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "CHEESE",
+            "send": "CHEESE",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "BUTTER",
+            "send": "BUTTER",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "Tea Whiteners",
+            "send": "TEA",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "Milk Supliments",
+            "send": "POWDER MILK",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "Bread",
+            "send": "BREAD CRUMB",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        },
+        {
+            "title": "Yogurt/Raita",
+            "send": "YOGURT",
+            "url": "/static/uploads/handpurse/product-10.jpg"
+        }
     ],
 
-    "oilGhee":[
-        {
+    "oilGhee": [{
             "id": 1,
             "title": "MARHABA OLIVE OILL",
             "price": 23,
-            "url":"https://www.dawoodonline.pk/product/listing/Img-779i.jpg"
-          },
+            "url": "https://www.dawoodonline.pk/product/listing/Img-779i.jpg"
+        },
         {
             "id": 2,
             "title": "SUCRAL SUGAR ZERO",
             "price": 22,
-            "url":"https://www.dawoodonline.pk/product/listing/Img-914u.jpg"
-          },
+            "url": "https://www.dawoodonline.pk/product/listing/Img-914u.jpg"
+        },
         {
             "id": 3,
             "title": "MEDICAM SWEETENER SUGAR",
             "price": 23,
-            "url":"https://www.dawoodonline.pk/product/listing/Img-5853.jpg"
-          },
+            "url": "https://www.dawoodonline.pk/product/listing/Img-5853.jpg"
+        },
         {
             "id": 4,
             "title": "SUGAR 1KG PKT ...",
             "price": 23,
-            "url":"https://www.dawoodonline.pk/product/listing/Img-a55i.jpeg"
-          },
-          {
-              "id": 5,
-              "title": "MEDICAM SWEETENER ",
-              "price": 34,
-              "url":"https://www.dawoodonline.pk/product/listing/Img-oaie.jpg"
-            },
-            {
-                "id": 4,
-                "title": "SUGAR 1KG PKT ...",
-                "price": 23,
-                "url":"https://www.dawoodonline.pk/product/listing/Img-a55i.jpeg"
-              },{
-                "id": 1,
-                "title": "MARHABA OLIVE OIL ",
-                "price": 23,
-                "url":"https://www.dawoodonline.pk/product/listing/Img-779i.jpg"
-              },
-            {
-                "id": 2,
-                "title": "SUCRAL SUGAR ZERO",
-                "price": 22,
-                "url":"https://www.dawoodonline.pk/product/listing/Img-914u.jpg"
-              }
-    ],
-    "gramPluses":[
+            "url": "https://www.dawoodonline.pk/product/listing/Img-a55i.jpeg"
+        },
         {
+            "id": 5,
+            "title": "MEDICAM SWEETENER ",
+            "price": 34,
+            "url": "https://www.dawoodonline.pk/product/listing/Img-oaie.jpg"
+        },
+        {
+            "id": 4,
+            "title": "SUGAR 1KG PKT ...",
+            "price": 23,
+            "url": "https://www.dawoodonline.pk/product/listing/Img-a55i.jpeg"
+        },
+        {
+            "id": 1,
+            "title": "MARHABA OLIVE OIL ",
+            "price": 23,
+            "url": "https://www.dawoodonline.pk/product/listing/Img-779i.jpg"
+        },
+        {
+            "id": 2,
+            "title": "SUCRAL SUGAR ZERO",
+            "price": 22,
+            "url": "https://www.dawoodonline.pk/product/listing/Img-914u.jpg"
+        }
+    ],
+    "gramPluses": [{
             "id": 1,
             "title": "JOO DALYA",
             "price": 23,
-            "url":"https://www.dawoodonline.pk/product/listing/Img-io64.jpg"
-          },
+            "url": "https://www.dawoodonline.pk/product/listing/Img-io64.jpg"
+        },
         {
             "id": 2,
             "title": "BAJRA 500GM",
             "price": 22,
-            "url":"https://www.dawoodonline.pk/product/listing/Img-a7uu.jpg"
-          },
+            "url": "https://www.dawoodonline.pk/product/listing/Img-a7uu.jpg"
+        },
         {
             "id": 3,
             "title": "DALYA 500GM",
             "price": 23,
-            "url":"https://www.dawoodonline.pk/product/listing/Img-9eee.jpg"
-          },
+            "url": "https://www.dawoodonline.pk/product/listing/Img-9eee.jpg"
+        },
         {
             "id": 4,
             "title": "KALA CHANA.",
             "price": 23,
-            "url":"https://www.dawoodonline.pk/product/listing/Img-o36u.jpg"
-          },
+            "url": "https://www.dawoodonline.pk/product/listing/Img-o36u.jpg"
+        },
         {
             "id": 3,
             "title": "DALYA 500GM",
             "price": 23,
-            "url":"https://www.dawoodonline.pk/product/listing/Img-9eee.jpg"
-          },
+            "url": "https://www.dawoodonline.pk/product/listing/Img-9eee.jpg"
+        },
         {
             "id": 4,
             "title": "KALA CHANA.",
             "price": 23,
-            "url":"https://www.dawoodonline.pk/product/listing/Img-o36u.jpg"
-          },
-          {
+            "url": "https://www.dawoodonline.pk/product/listing/Img-o36u.jpg"
+        },
+        {
             "id": 1,
             "title": "JOO DALYA",
             "price": 23,
-            "url":"https://www.dawoodonline.pk/product/listing/Img-io64.jpg"
-          },
+            "url": "https://www.dawoodonline.pk/product/listing/Img-io64.jpg"
+        },
         {
             "id": 2,
             "title": "BAJRA 500GM",
             "price": 22,
-            "url":"https://www.dawoodonline.pk/product/listing/Img-a7uu.jpg"
-          }
-          
+            "url": "https://www.dawoodonline.pk/product/listing/Img-a7uu.jpg"
+        }
     ],
-    "Jams":[
-        {
+    "Jams": [{
             "id": 1,
             "title": "CANDYLAND AMROOD",
             "price": 23,
-            "url":"https://www.dawoodonline.pk/product/listing/Img-e293.jpg"
-          },
+            "url": "https://www.dawoodonline.pk/product/listing/Img-e293.jpg"
+        },
         {
             "id": 2,
             "title": "CANDYLAND BOTTLE JELLY",
             "price": 22,
-            "url":"https://www.dawoodonline.pk/product/listing/Img-e3ei.jpg"
-          },
+            "url": "https://www.dawoodonline.pk/product/listing/Img-e3ei.jpg"
+        },
         {
             "id": 3,
             "title": "HILAL EGG JELLY 15.4GM",
             "price": 23,
-            "url":"https://www.dawoodonline.pk/product/listing/Img-i4ea.jpg"
-          },
+            "url": "https://www.dawoodonline.pk/product/listing/Img-i4ea.jpg"
+        },
         {
             "id": 4,
             "title": "HILAL JIGGLES",
             "price": 23,
-            "url":"https://www.dawoodonline.pk/product/listing/Img-3796.jpg"
-          },
-          {
+            "url": "https://www.dawoodonline.pk/product/listing/Img-3796.jpg"
+        },
+        {
             "id": 3,
             "title": "HILAL EGG JELLY",
             "price": 23,
-            "url":"https://www.dawoodonline.pk/product/listing/Img-i4ea.jpg"
-          },
+            "url": "https://www.dawoodonline.pk/product/listing/Img-i4ea.jpg"
+        },
         {
             "id": 4,
             "title": "HILAL JIGGLES",
             "price": 23,
-            "url":"https://www.dawoodonline.pk/product/listing/Img-3796.jpg"
-          },
-          {
+            "url": "https://www.dawoodonline.pk/product/listing/Img-3796.jpg"
+        },
+        {
             "id": 1,
             "title": "CANDYLAND AMROOD",
             "price": 23,
-            "url":"https://www.dawoodonline.pk/product/listing/Img-e293.jpg"
-          },
+            "url": "https://www.dawoodonline.pk/product/listing/Img-e293.jpg"
+        },
         {
             "id": 2,
             "title": "CANDYLAND BOTTLE JELLY",
             "price": 22,
-            "url":"https://www.dawoodonline.pk/product/listing/Img-e3ei.jpg"
-          }
-          
+            "url": "https://www.dawoodonline.pk/product/listing/Img-e3ei.jpg"
+        }
     ],
-    "riceFlour":[
-        {
-          "id": 1,
-          "title": "POP CORN 200GM PKT",
-          "url": "https://www.dawoodonline.pk/product/listing/Img-95u3.jpg",
-          "price": 51
+    "riceFlour": [{
+            "id": 1,
+            "title": "POP CORN 200GM PKT",
+            "url": "https://www.dawoodonline.pk/product/listing/Img-95u3.jpg",
+            "price": 51
         },
-        
-        {
-          "id": 2,
-          "title": "SOOJI 500GM PKT",
-          "url": "https://www.dawoodonline.pk/product/listing/Img-o3a4.jpg",
-          "price": 56
-        },
-        {
-          "id": 3,
-          "title": "BAJRA ATTA 500GM PKT ",
-          "url": "https://www.dawoodonline.pk/product/listing/Img-6ioi.jpg" ,
-          "price" :65        
-        },
-        {
-          "id": 4,
-          "title": "Rice Ponia 1KG Pkt",
-          "url": "https://www.dawoodonline.pk/product/listing/Img-8122.jpg" ,
-           "price":127
 
+        {
+            "id": 2,
+            "title": "SOOJI 500GM PKT",
+            "url": "https://www.dawoodonline.pk/product/listing/Img-o3a4.jpg",
+            "price": 56
         },
         {
-          "id": 5,
-          "title": "NATIONAL CORNFLOUR",
-          "url": "https://www.dawoodonline.pk/product/listing/Img-a1u9.jpg",
-          "price": 75
+            "id": 3,
+            "title": "BAJRA ATTA 500GM PKT ",
+            "url": "https://www.dawoodonline.pk/product/listing/Img-6ioi.jpg",
+            "price": 65
+        },
+        {
+            "id": 4,
+            "title": "Rice Ponia 1KG Pkt",
+            "url": "https://www.dawoodonline.pk/product/listing/Img-8122.jpg",
+            "price": 127
+        },
+        {
+            "id": 5,
+            "title": "NATIONAL CORNFLOUR",
+            "url": "https://www.dawoodonline.pk/product/listing/Img-a1u9.jpg",
+            "price": 75
         },
         {
             "id": 6,
             "title": "POP CORN 200GM PKT",
             "url": "https://www.dawoodonline.pk/product/listing/Img-95u3.jpg",
             "price": 51
-          },
-          
-          {
+        },
+
+        {
             "id": 7,
             "title": "SOOJI 500GM PKT",
             "url": "https://www.dawoodonline.pk/product/listing/Img-o3a4.jpg",
             "price": 56
-          },
-          {
+        },
+        {
             "id": 8,
             "title": "BAJRA ATTA 500GM PKT ",
-            "url": "https://www.dawoodonline.pk/product/listing/Img-6ioi.jpg" ,
-            "price" :65        
-          },
-          {
+            "url": "https://www.dawoodonline.pk/product/listing/Img-6ioi.jpg",
+            "price": 65
+        },
+        {
             "id": 9,
             "title": "TEZ PATTA 15GM PKT",
             "url": "https://www.dawoodonline.pk/product/listing/Img-4765.jpg",
             "price": 10
-  
-          },
-          {
+        },
+        {
             "id": 10,
             "title": "POP CORN 200GM PKT",
             "url": "https://www.dawoodonline.pk/product/listing/Img-95u3.jpg",
             "price": 51
-          }
+        }
     ],
-    "ketcupSauce":[
-        {
+    "ketcupSauce": [{
             "id": 1,
             "title": "SHANGRILA VINEGAR WHITE",
             "url": "https://www.dawoodonline.pk/product/listing/Img-8637.jpg",
             "price": 36
-          },
-          
-          {
+        },
+
+        {
             "id": 2,
             "title": "SHANGRILA SOYA SAUCE",
             "url": "https://www.dawoodonline.pk/product/listing/Img-u15a.jpg",
             "price": 43
-  
-          },
-          {
-            "id": 3,
-            "title": "SHANGRILA HOT SAUCE",
-            "url":"https://www.dawoodonline.pk/product/listing/Img-863o.jpg" ,
-            "price" :15        
-          },
-          {
-            "id": 4,
-            "title": "NATIONAL VINEGAR WHITE",
-             "url":"https://www.dawoodonline.pk/product/listing/Img-3258.jpg"  ,
-             "price":15
-  
-          },
-          {
-            "id": 5,
-            "title": "KEY BRAND WHITE VINEGAR",
-            "url":"https://www.dawoodonline.pk/product/listing/Img-4372.jpg",
-            "price": 20
-          }
-          ,
-          {
-            "id": 5,
-            "title": "KEY BRAND WHITE VINEGAR",
-            "url":"https://www.dawoodonline.pk/product/listing/Img-4372.jpg",
-            "price": 20
-          }
-          ,
-          {
-            "id": 4,
-            "title": "NATIONAL VINEGAR WHITE",
-             "url":"https://www.dawoodonline.pk/product/listing/Img-3258.jpg"  ,
-             "price":15
-  
-          },
-          {
-            "id": 3,
-            "title": "SHANGRILA HOT SAUCE",
-            "url":"https://www.dawoodonline.pk/product/listing/Img-863o.jpg" ,
-            "price" :15        
         },
         {
-          "id": 2,
-          "title": "SHANGRILA SOYA SAUCE",
-          "url": "https://www.dawoodonline.pk/product/listing/Img-u15a.jpg",
-          "price": 43
-
+            "id": 3,
+            "title": "SHANGRILA HOT SAUCE",
+            "url": "https://www.dawoodonline.pk/product/listing/Img-863o.jpg",
+            "price": 15
         },
-          {
+        {
+            "id": 4,
+            "title": "NATIONAL VINEGAR WHITE",
+            "url": "https://www.dawoodonline.pk/product/listing/Img-3258.jpg",
+            "price": 15
+        },
+        {
+            "id": 5,
+            "title": "KEY BRAND WHITE VINEGAR",
+            "url": "https://www.dawoodonline.pk/product/listing/Img-4372.jpg",
+            "price": 20
+        },
+        {
+            "id": 5,
+            "title": "KEY BRAND WHITE VINEGAR",
+            "url": "https://www.dawoodonline.pk/product/listing/Img-4372.jpg",
+            "price": 20
+        },
+        {
+            "id": 4,
+            "title": "NATIONAL VINEGAR WHITE",
+            "url": "https://www.dawoodonline.pk/product/listing/Img-3258.jpg",
+            "price": 15
+        },
+        {
+            "id": 3,
+            "title": "SHANGRILA HOT SAUCE",
+            "url": "https://www.dawoodonline.pk/product/listing/Img-863o.jpg",
+            "price": 15
+        },
+        {
+            "id": 2,
+            "title": "SHANGRILA SOYA SAUCE",
+            "url": "https://www.dawoodonline.pk/product/listing/Img-u15a.jpg",
+            "price": 43
+        },
+        {
             "id": 1,
             "title": "SHANGRILA VINEGAR",
             "url": "https://www.dawoodonline.pk/product/listing/Img-8637.jpg",
             "price": 36
-          }
-          
+        }
     ],
-    "pastaNoodels":[
-        {
+    "pastaNoodels": [{
             "id": 1,
             "title": "SHAN SHOOP NOODLES ",
             "url": "https://www.dawoodonline.pk/product/listing/Img-9237.jpg",
             "price": 20
-          },
-          
-          {
+        },
+
+        {
             "id": 2,
             "title": "SHAN SHOOP MASALA",
             "url": "https://www.dawoodonline.pk/product/listing/Img-ie56.jpg",
             "price": 43
-  
-          },
-          {
+        },
+        {
             "id": 3,
             "title": "HALWANI VERMECELLI ",
-            "url":"https://www.dawoodonline.pk/product/listing/Img-91a4.jpg" ,
-            "price" :15        
-          },
-          {
+            "url": "https://www.dawoodonline.pk/product/listing/Img-91a4.jpg",
+            "price": 15
+        },
+        {
             "id": 4,
             "title": "KOLSON CHICKEN NOODLES",
-             "url":"https://www.dawoodonline.pk/product/listing/Img-a238.jpg"  ,
-             "price":15
-  
-          },
-          {
+            "url": "https://www.dawoodonline.pk/product/listing/Img-a238.jpg",
+            "price": 15
+        },
+        {
             "id": 5,
             "title": "SHAN SHOOP ",
-            "url":"https://www.dawoodonline.pk/product/listing/Img-2au6.jpg",
+            "url": "https://www.dawoodonline.pk/product/listing/Img-2au6.jpg",
             "price": 20
-          }
-          ,
-          {
+        },
+        {
             "id": 5,
             "title": "SHAN SHOOP HOT ",
-            "url":"https://www.dawoodonline.pk/product/listing/Img-2au6.jpg",
+            "url": "https://www.dawoodonline.pk/product/listing/Img-2au6.jpg",
             "price": 20
-          }
-          
-          ,
-          {
+        },
+
+        {
             "id": 4,
             "title": "KOLSON CHICKEN ",
-             "url":"https://www.dawoodonline.pk/product/listing/Img-a238.jpg"  ,
-             "price":15
-  
-          },
-          {
+            "url": "https://www.dawoodonline.pk/product/listing/Img-a238.jpg",
+            "price": 15
+        },
+        {
             "id": 3,
             "title": "HALWANI VERMECELLI ",
-            "url":"https://www.dawoodonline.pk/product/listing/Img-91a4.jpg" ,
-            "price" :15        
-          },
-          {
+            "url": "https://www.dawoodonline.pk/product/listing/Img-91a4.jpg",
+            "price": 15
+        },
+        {
             "id": 2,
             "title": "SHAN SHOOP MASALA ",
             "url": "https://www.dawoodonline.pk/product/listing/Img-ie56.jpg",
             "price": 43
-  
-          },
-          {
+        },
+        {
             "id": 1,
             "title": "SHAN SHOOP NOODLES  ",
             "url": "https://www.dawoodonline.pk/product/listing/Img-9237.jpg",
             "price": 20
-          }
+        }
     ],
-    "teaCoffe":[
-        {
+    "teaCoffe": [{
             "id": 1,
             "title": "TAPAL GUL ",
-            "url":"https://www.dawoodonline.pk/product/listing/Img-oe88.jpg",
+            "url": "https://www.dawoodonline.pk/product/listing/Img-oe88.jpg",
             "price": 50
-          },
-          
-          {
+        },
+
+        {
             "id": 2,
             "title": "DANEDAR",
             "url": "https://www.dawoodonline.pk/product/listing/Img-41oo.jpg",
             "price": 43
-  
-          },
-          {
+        },
+        {
             "id": 3,
             "title": "BROOKE BOND PEARl",
-            "url":"https://www.dawoodonline.pk/product/listing/Img-54e7.jpeg" ,
-            "price" :15        
-          },
-          {
+            "url": "https://www.dawoodonline.pk/product/listing/Img-54e7.jpeg",
+            "price": 15
+        },
+        {
             "id": 4,
             "title": "LIPTON LEMON ZEST X",
-             "url":"https://www.dawoodonline.pk/product/listing/Img-41oo.jpg"  ,
-             "price":15
-  
-          },
-          {
+            "url": "https://www.dawoodonline.pk/product/listing/Img-41oo.jpg",
+            "price": 15
+        },
+        {
             "id": 5,
             "title": "TAPAL GREEN TEABAGS",
-            "url":"https://www.dawoodonline.pk/product/listing/Img-u1a3.jpg",
+            "url": "https://www.dawoodonline.pk/product/listing/Img-u1a3.jpg",
             "price": 20
-          }
-          ,
-          {
+        },
+        {
             "id": 5,
             "title": "TAPAL GREEN TEABAGS ",
-            "url":"https://www.dawoodonline.pk/product/listing/Img-u1a3.jpg",
+            "url": "https://www.dawoodonline.pk/product/listing/Img-u1a3.jpg",
             "price": 20
-          }
-          
-          ,
-          {
+        },
+
+        {
             "id": 4,
             "title": "LIPTON LEMON ZEST TEABAGS",
-             "url":"https://www.dawoodonline.pk/product/listing/Img-41oo.jpg"  ,
-             "price":15
-  
-          },
-          {
+            "url": "https://www.dawoodonline.pk/product/listing/Img-41oo.jpg",
+            "price": 15
+        },
+        {
             "id": 3,
             "title": "BROOKE BOND PEARL",
-            "url":"https://www.dawoodonline.pk/product/listing/Img-54e7.jpeg" ,
-            "price" :15        
-          },
-          {
+            "url": "https://www.dawoodonline.pk/product/listing/Img-54e7.jpeg",
+            "price": 15
+        },
+        {
             "id": 2,
             "title": "SHAN SHOOP MASALA ",
             "url": "https://www.dawoodonline.pk/product/listing/Img-ie56.jpg",
             "price": 43
-  
-          },
-          {
+        },
+        {
             "id": 1,
             "title": "TAPAL GUL BAHAR GREEN ",
-            "url":"https://www.dawoodonline.pk/product/listing/Img-oe88.jpg",
+            "url": "https://www.dawoodonline.pk/product/listing/Img-oe88.jpg",
             "price": 50
-          }
-          
-          
+        }
     ]
 }
