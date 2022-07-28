@@ -625,53 +625,35 @@
         }
     ],
 
-    "oilGhee": [{
-            "id": 1,
-            "title": "MARHABA OLIVE OILL",
-            "price": 23,
-            "url": "https://www.dawoodonline.pk/product/listing/Img-779i.jpg"
+    "confectionery": [{
+            "title": "LAYAS",
+            "send": "LAYS",
+            "url": "/static/uploads/handpurse/product-10.jpg"
         },
         {
-            "id": 2,
-            "title": "SUCRAL SUGAR ZERO",
-            "price": 22,
-            "url": "https://www.dawoodonline.pk/product/listing/Img-914u.jpg"
+            "title": "PEEK FREANS        ",
+            "send": "PEEK FREANS",
+            "url": "/static/uploads/handpurse/product-10.jpg"
         },
         {
-            "id": 3,
-            "title": "MEDICAM SWEETENER SUGAR",
-            "price": 23,
-            "url": "https://www.dawoodonline.pk/product/listing/Img-5853.jpg"
+            "title": "LU        ",
+            "send": "LU",
+            "url": "/static/uploads/handpurse/product-10.jpg"
         },
         {
-            "id": 4,
-            "title": "SUGAR 1KG PKT ...",
-            "price": 23,
-            "url": "https://www.dawoodonline.pk/product/listing/Img-a55i.jpeg"
+            "title": "PEHALWAAN        ",
+            "send": "PEHALWAAN",
+            "url": "/static/uploads/handpurse/product-10.jpg"
         },
         {
-            "id": 5,
-            "title": "MEDICAM SWEETENER ",
-            "price": 34,
-            "url": "https://www.dawoodonline.pk/product/listing/Img-oaie.jpg"
+            "title": "HASSAAN        ",
+            "send": "HASSAAN",
+            "url": "/static/uploads/handpurse/product-10.jpg"
         },
         {
-            "id": 4,
-            "title": "SUGAR 1KG PKT ...",
-            "price": 23,
-            "url": "https://www.dawoodonline.pk/product/listing/Img-a55i.jpeg"
-        },
-        {
-            "id": 1,
-            "title": "MARHABA OLIVE OIL ",
-            "price": 23,
-            "url": "https://www.dawoodonline.pk/product/listing/Img-779i.jpg"
-        },
-        {
-            "id": 2,
-            "title": "SUCRAL SUGAR ZERO",
-            "price": 22,
-            "url": "https://www.dawoodonline.pk/product/listing/Img-914u.jpg"
+            "title": "TAYAS        ",
+            "send": "TAYAS ",
+            "url": "/static/uploads/handpurse/product-10.jpg"
         }
     ],
     "gramPluses": [{

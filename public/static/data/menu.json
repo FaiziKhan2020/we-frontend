@@ -866,9 +866,14 @@
             "url": "/grocery/beverages"
         },
         {
+            "text": "Confectionery",
+            "url": "/grocery/confectionery"
+        },
+        {
             "text": "Dairy",
             "url": "/grocery/dairy"
         },
+
         {
             "text": "Snacks & Sweets",
             "url": "/grocery/confectionery"
