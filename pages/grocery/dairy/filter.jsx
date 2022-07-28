@@ -44,58 +44,67 @@ const index = () => {
     };
     return (
         <CartProvider>
+         
             <PageContainer title="Shop">
                 <div className="ps-page--shop">
                     <div className="ps-container">
-                        {/* <WidgetShopCategories /> */}
+                        
+                       
+                                {/* <WidgetShopCategories /> */}
+                                
+                           
+                            {/* <List/> */}
+                         
+                            <div class="card-group mx-auto ">
+                    <div class="dropdown show">
+                        <a
+                            class="btn btn-secondary dropdown-toggle"
+                            href="#"
+                            role="button"
+                            id="dropdownMenuLink"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false">
+                            Filters
+                        </a>
+                <div className="mb-4 ">
+                        
+                   <div
+                            class="dropdown-menu"
+                            // key={index}
+                            aria-labelledby="dropdownMenuLink">
 
-                        {/* <List/> */}
-
-                        <div class="card-group mx-auto ">
-                            <div class="dropdown show">
-                                <a
-                                    class="btn btn-secondary dropdown-toggle"
-                                    href="#"
-                                    role="button"
-                                    id="dropdownMenuLink"
-                                    data-toggle="dropdown"
-                                    aria-haspopup="true"
-                                    aria-expanded="false">
-                                    Filters
-                                </a>
-                                <div className="mb-4 ">
-                                    <div
-                                        class="dropdown-menu"
-                                        // key={index}
-                                        aria-labelledby="dropdownMenuLink">
-                                        {Data.Dairy.map((item, index) => (
-                                            <a
-                                                class="dropdown-item"
-                                                onClick={() => send(item.send)}>
-                                                {item.title}
-                                            </a>
-                                        ))}
-                                    </div>
-                                </div>
+                            {Data.Dairy.map((item, index) => (
+                            <a class="dropdown-item" onClick={() => send(item.send)} >
+                              {item.title}
+                            </a>
+                            
+                            ))}
                             </div>
                         </div>
-                        <div className="d-flex  row">
-                            {loading ? (
-                                data
-                                    .filter((index) => index.Sub_Cat == e)
-                                    .map((item) => (
-                                        <Product
-                                            key={item}
-                                            image={item?.imgUrl}
-                                            title={item.title}
-                                            price={item.price}
-                                            item={item}
-                                        />
-                                    ))
-                            ) : (
-                                <Spinner />
-                            )}
-                        </div>
+                      
+                    </div>
+                    
+           
+        </div>
+                            <div className="d-flex  row">
+                                {loading ? (
+                                    data
+                                        .filter((index) => index.Sub_Cat == e)
+                                        .map((item) => (
+                                            <Product
+                                                key={item}
+                                                image={item?.imgUrl}
+                                                title={item.title}
+                                                price={item.price}
+                                                item={item}
+                                            />
+                                        ))
+                                ) : (
+                                    <Spinner />
+                                )}
+                            </div>
+                        
                     </div>
                 </div>
                 <Newletters />
