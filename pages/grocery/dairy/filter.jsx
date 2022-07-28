@@ -7,7 +7,7 @@ import { useEffect } from 'react';
 import Axios from 'axios';
 import { useState } from 'react';
 import Spinner from '~/components/spinner/index';
-import List from "./list";
+import List from './list';
 
 import { useRouter } from 'next/router';
 const index = () => {
@@ -38,32 +38,33 @@ const index = () => {
             <PageContainer title="Shop">
                 <div className="ps-page--shop">
                     <div className="ps-container">
-                        
-                       
-                                {/* <WidgetShopCategories /> */}
-                                
-                           
-                            {/* <List/> */}
-                         
-                                <List/>
-                            <div className="d-flex  row">
-                                {loading ? (
-                                    data
-                                        .filter((index) => index.Sub_Cat == e)
-                                        .map((item) => (
-                                            <Product
-                                                key={item}
-                                                image={item?.imgUrl}
-                                                title={item.title}
-                                                price={item.price}
-                                                item={item}
-                                            />
-                                        ))
-                                ) : (
-                                    <Spinner />
-                                )}
-                            </div>
-                        
+                        <div
+                            className="mx-auto"
+                            style={{
+                                display: 'flex',
+                                justifyContent: 'center',
+                                alignContent: 'center',
+                                padding: '20px',
+                            }}>
+                            <List />
+                        </div>
+                        <div className="d-flex  row">
+                            {loading ? (
+                                data
+                                    .filter((index) => index.Sub_Cat == e)
+                                    .map((item) => (
+                                        <Product
+                                            key={item}
+                                            image={item?.imgUrl}
+                                            title={item.title}
+                                            price={item.price}
+                                            item={item}
+                                        />
+                                    ))
+                            ) : (
+                                <Spinner />
+                            )}
+                        </div>
                     </div>
                 </div>
                 <Newletters />

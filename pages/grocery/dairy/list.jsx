@@ -31,37 +31,36 @@ function list() {
         });
     };
     return (
-        <div class="card-group mx-auto ">
-                    <div class="dropdown show">
+        // <div class="card-group mx-auto ">
+        <div class="dropdown show">
+            <a
+                style={{ fontSize: '20px', backgroundColor: '#de0000' }}
+                class="btn btn-secondary dropdown-toggle"
+                href="#"
+                role="button"
+                id="dropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false">
+                Filters
+            </a>
+            <div className="mb-4 ">
+                <div
+                    class="dropdown-menu"
+                    // key={index}
+                    aria-labelledby="dropdownMenuLink">
+                    {Data.Dairy.map((item, index) => (
                         <a
-                            class="btn btn-secondary dropdown-toggle"
-                            href="#"
-                            role="button"
-                            id="dropdownMenuLink"
-                            data-toggle="dropdown"
-                            aria-haspopup="true"
-                            aria-expanded="false">
-                            Filters
+                            style={{ fontSize: '15px' }}
+                            class="dropdown-item"
+                            onClick={() => send(item.send)}>
+                            {item.title}
                         </a>
-                <div className="mb-4 ">
-                        
-                   <div
-                            class="dropdown-menu"
-                            // key={index}
-                            aria-labelledby="dropdownMenuLink">
-
-                            {Data.Dairy.map((item, index) => (
-                            <a class="dropdown-item" onClick={() => send(item.send)} >
-                              {item.title}
-                            </a>
-                            
-                            ))}
-                            </div>
-                        </div>
-                      
-                    </div>
-           
+                    ))}
+                </div>
+            </div>
         </div>
+        // </div>
     );
 }
 

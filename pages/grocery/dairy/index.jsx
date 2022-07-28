@@ -8,7 +8,7 @@ import Axios from 'axios';
 import { useState } from 'react';
 import Spinner from '~/components/spinner/index';
 import Router from 'next/router';
-import List from "./list"
+import List from './list';
 
 const index = () => {
     const [data, setData] = useState([]);
@@ -42,34 +42,36 @@ const index = () => {
             <PageContainer title="Shop">
                 <div className="ps-page--shop">
                     <div className="ps-container">
-                     
-                          
-                                {/* <WidgetShopCategories /> */}
-   
-                            
-                           
-                                <List/>
-                                <div class="d-flex  row">
-                                {loading ? (
-                                    data
-                                        .map((item,index) => (
-                                            <Product
-                                                key={item}
-                                                image={item?.imgUrl}
-                                                title={item.title}
-                                                price={item.price}
-                                                item={item}
-                                            />
-                                        ))
-                                ) : (
-                                    <Spinner />
-                                )}
-                               
-                            </div>
-                       
+                        {/* <WidgetShopCategories /> */}
+
+                        <div
+                            className="mx-auto"
+                            style={{
+                                display: 'flex',
+                                justifyContent: 'center',
+                                alignContent: 'center',
+                                padding: '20px',
+                            }}>
+                            <List />
+                        </div>
+                        <div class="d-flex  row">
+                            {loading ? (
+                                data.map((item, index) => (
+                                    <Product
+                                        key={item}
+                                        image={item?.imgUrl}
+                                        title={item.title}
+                                        price={item.price}
+                                        item={item}
+                                    />
+                                ))
+                            ) : (
+                                <Spinner />
+                            )}
+                        </div>
                     </div>
                 </div>
-                
+
                 <Newletters />
             </PageContainer>
         </CartProvider>
@@ -87,7 +89,7 @@ export default index;
 // import { useEffect } from 'react';
 // import Axios from 'axios';
 // import { useState } from 'react';
-// import Router from 'next/router'; 
+// import Router from 'next/router';
 // import Data from '~/public/static/data/demo';
 // import List from "./list"
 // import WidgetShopCategories from '~/components/shared/widgets/WidgetShopCategories';
@@ -133,10 +135,10 @@ export default index;
 //                                     <List/>
 //                                     {Data.Dairy.map((item, index) => (
 //                                         <div className="mb-4  ">
-                                            
+
 //                                             {/* <ul classname="list-group">
 //                                                 <a onClick={() => send(item.send)} ><li classname="list-group-item">{item.title}</li></a>
-                                            
+
 //                                             </ul> */}
 //                                             {/* <Card
 //                                                 key={index}
