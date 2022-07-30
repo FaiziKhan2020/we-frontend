@@ -1,821 +1,724 @@
 {
     "Grocery": [{
             "title": "NATIONAL",
-            "url": "https://res.cloudinary.com/xcltech/image/upload/v1658222714/100/images_kc4ivq.jpg",
             "send": "NATIONAL"
         },
 
         {
             "title": " GLAXOSE-D",
-            "url": "https://res.cloudinary.com/xcltech/image/upload/v1658222850/100/2b85de131275741.Y3JvcCwxMDEyLDc5MSwzNSwxNDU_i4d7vg.jpg",
             "send": "GLAXOSE-D"
         },
         {
             "title": "HERBAL ESSENCES",
-            "url": "/static/uploads/handpurse/product-3.jpg",
             "send": "HERBAL ESSENCES"
         },
         {
             "title": "LIPTON (PAKISTAN)",
-            "send": "LIPTON (PAKISTAN)",
-            "url": "/static/uploads/handpurse/product-4.jpg"
+            "send": "LIPTON (PAKISTAN)"
         },
         {
             "title": "KNORR",
-            "send": "KNORR",
-            "url": "/static/uploads/handpurse/product-5.jpg"
+            "send": "KNORR"
         },
         {
             "title": "RAFHAN",
-            "send": "RAFHAN",
-            "url": "/static/uploads/handpurse/product-6.jpg"
+            "send": "RAFHAN"
         },
 
         {
             "title": "KRAFT",
-            "send": "KRAFT",
-            "url": "/static/uploads/handpurse/product-7.jpg"
+            "send": "KRAFT"
         },
         {
             "title": "KOLSON",
-            "send": "KOLSON",
-            "url": "/static/uploads/handpurse/product-8.jpg"
+            "send": "KOLSON"
         },
         {
             "title": "COLGATE PAKISTAN",
-            "send": "COLGATE (PAKISTAN)",
-            "url": "/static/uploads/handpurse/product-9.jpg"
+            "send": "COLGATE (PAKISTAN)"
         },
         {
-            "title": "NESTLE            ",
-            "send": "NESTLE",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "NESTLE",
+            "send": "NESTLE"
         },
         {
-            "title": "BROOKE BOND            ",
-            "send": "BROOKE BOND",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "BROOKE BOND",
+            "send": "BROOKE BOND"
         },
         {
-            "title": "DELITE            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "DELITE",
+            "send": "BUTTER"
         },
         {
-            "title": "TAPAL            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "TAPAL",
+            "send": "TAPAL"
         },
         {
-            "title": "NESCAFE            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "NESCAFE",
+            "send": "NESCAFE"
         },
         {
-            "title": "SHANGRILA            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "SHANGRILA",
+            "send": "SHANGRILA"
         },
         {
-            "title": "ENERGILE            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "ENERGILE",
+            "send": "ENERGILE"
         },
         {
-            "title": "YOUNG      ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "YOUNG",
+            "send": "YOUNG"
         },
         {
-            "title": "DSM            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "DSM",
+            "send": "DSM"
         },
         {
-            "title": "OLPERS            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "OLPERS",
+            "send": "OLPERS"
         },
         {
-            "title": "APPLE SIDRA            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "APPLE SIDRA",
+            "send": "APPLE SIDRA"
         },
         {
-            "title": "O-FOOD            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "O-FOOD",
+            "send": "O-FOOD"
         },
         {
             "title": "NURPUR",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "send": "NURPUR"
         },
         {
-            "title": "OVALTINE            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "OVALTINE",
+            "send": "OVALTINE"
         },
         {
-            "title": "NUTRAFIL            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "NUTRAFIL",
+            "send": "NUTRAFIL"
         },
         {
-            "title": "OPA !            ",
-            "send": "BUTTER",
-
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "OPA !",
+            "send": "OPA !"
         },
         {
-            "title": "SUFI FROZEN            ",
-            "send": "BUTTER",
-            "url": "/static/ploads/handpurse/product-10.jpg"
+            "title": "SUFI FROZEN",
+            "send": "SUFI FROZEN"
         },
         {
-            "title": "SUNDIP            ",
-            "send": "BUTTER",
-            "url": "/static/ploads/handpurse/product-10.jpg"
+            "title": "SUNDIP",
+            "send": "SUNDIP"
         },
         {
-            "title": "SUNRIDGE            ",
-            "send": "BUTTER",
-            "url": "/static/ploads/handpurse/product-10.jpg"
+            "title": "SUNRIDGE",
+            "send": "SUNRIDGE"
         },
         {
-            "title": "STAR FROZEN            ",
-            "send": "BUTTER",
-            "url": "/static/ploads/handpurse/product-10.jpg"
+            "title": "STAR FROZEN",
+            "send": "STAR FROZEN"
         },
         {
-            "title": "SUCRAL            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "SUCRAL",
+            "send": "SUCRAL"
         },
         {
-            "title": "TANG            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "TANG",
+            "send": "TANG"
         },
         {
-            "title": "SWISS CHEESE            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "SWISS CHEESE",
+            "send": "SWISS CHEESE"
         },
         {
-            "title": "SYMAS            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "SYMAS",
+            "send": "SYMAS"
         },
         {
-            "title": "SIMILAC            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "SIMILAC",
+            "send": "SIMILAC"
         },
         {
-            "title": "WHIPY WHIP            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "WHIPY WHIP",
+            "send": "WHIPY WHIP "
         },
         {
-            "title": "GOOD MILK            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "GOOD MILK",
+            "send": "GOOD MILK "
         },
         {
-            "title": "UNITED KING            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "UNITED KING",
+            "send": "UNITED KING"
         },
         {
-            "title": "TARANG            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "TARANG",
+            "send": "TARANG"
         },
         {
-            "title": "TORTO            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "TORTO",
+            "send": "TORTO"
         },
         {
-            "title": "WAGGLES            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "WAGGLES",
+            "send": "WAGGLES"
         },
         {
-            "title": "ROSSMOOR            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "ROSSMOOR",
+            "send": "ROSSMOOR"
         },
         {
-            "title": "QARSHI            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "QARSHI",
+            "send": "QARSHI"
         },
         {
-            "title": "QUAKER            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "QUAKER",
+            "send": "QUAKER"
         },
         {
-            "title": "QUICE            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "QUICE",
+            "send": "QUICE"
         },
         {
-            "title": "SLAMANS            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "SLAMANS",
+            "send": "SLAMANS"
         },
         {
-            "title": "PK            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "PK",
+            "send": "PK"
         },
         {
-            "title": "PEDIASURE            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "PEDIASURE",
+            "send": "PEDIASURE"
         },
         {
-            "title": "PUCK            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "PUCK",
+            "send": "PUCK"
         },
         {
-            "title": "PRIME FOODS            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "PRIME FOODS",
+            "send": "PRIME FOODS "
         },
         {
-            "title": "SEARLE            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "SEARLE",
+            "send": "SEARLE"
         },
         {
-            "title": "SHAN            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "SHAN",
+            "send": "SHAN"
         },
         {
-            "title": "SHAHENSHAH            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "SHAHENSHAH",
+            "send": "SHAHENSHAH"
         },
         {
-            "title": "FRESHMATE            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "FRESHMATE",
+            "send": "FRESHMATE"
         },
         {
-            "title": "FRIZZLE            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "FRIZZLE",
+            "send": "FRIZZLE"
         },
         {
-            "title": "FRENCHS            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "FRENCHS",
+            "send": "FRENCHS"
         },
         {
-            "title": "HALEEB            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "HALEEB",
+            "send": "HALEEB"
         },
         {
-            "title": "HALWANI            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "HALWANI",
+            "send": "HALWANI"
         },
         {
-            "title": "GLUCERNA            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "GLUCERNA",
+            "send": "GLUCERNA"
         },
         {
-            "title": "GHORI            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "GHORI",
+            "send": "GHORI"
         },
         {
-            "title": "EQUAL            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "EQUAL",
+            "send": "EQUAL"
         },
         {
-            "title": "ENFAMIL            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "ENFAMIL",
+            "send": "ENFAMIL"
         },
         {
-            "title": "FILIPPO BERIO            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "FILIPPO BERIO",
+            "send": "FILIPPO BERIO"
         },
         {
-            "title": "FALAK            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "FALAK",
+            "send": "FALAK"
         },
         {
-            "title": "ENFAMIL            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "ENFAMIL",
+            "send": "ENFAMIL"
         },
         {
-            "title": "ENFAMAMA            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "ENFAMAMA",
+            "send": "ENFAMAMA"
         },
         {
-            "title": "FIGARO            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "FIGARO",
+            "send": "FIGARO"
         },
         {
-            "title": "FAUJI            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "FAUJI",
+            "send": "FAUJI"
         },
         {
-            "title": "K&NS            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "K&NS",
+            "send": "K&NS "
         },
         {
-            "title": "ITALIA            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "ITALIA",
+            "send": "ITALIA"
         },
         {
-            "title": "KERNEL POP            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "KERNEL POP",
+            "send": "KERNEL POP"
         },
         {
-            "title": "KERNEL POP            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "KHATIR TAWAZA",
+            "send": "KHATIR TAWAZA"
         },
         {
-            "title": "KHATIR TAWAZA            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "KANAS GROCERY",
+            "send": "KANAS GROCERY"
         },
         {
-            "title": "KANAS GROCERY            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "KERNEL POP",
+            "send": "KERNEL POP"
         },
         {
-            "title": "KERNEL POP            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "KELLOGGS",
+            "send": "KELLOGGS"
         },
         {
-            "title": "KELLOGGS            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "ADAMS",
+            "send": "ADAMS"
         },
         {
-            "title": "ADAMS            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "ROOH AFZA",
+            "send": "ROOH AFZA"
         },
         {
-            "title": "ROOH AFZA            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "HAPPY COW",
+            "send": "HAPPY COW"
         },
         {
-            "title": "HAPPY COW            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "HASHMI",
+            "send": "HASHMI"
         },
         {
-            "title": "HASHMI            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "BLUE BAND",
+            "send": "BLUE BAND"
         },
         {
-            "title": "BLUE BAND            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "BAKE PARLOR",
+            "send": "BAKE PARLOR"
         },
         {
-            "title": "BAKE PARLOR            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "CHEESE HOUSE",
+            "send": "CHEESE HOUSE"
         },
         {
-            "title": "CHEESE HOUSE            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "CHEF ONE (GRO)",
+            "send": "CHEF ONE (GRO)"
         },
         {
-            "title": "CHEF ONE (GRO)            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "BORGES",
+            "send": "BORGES"
         },
         {
-            "title": "BORGES            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "CANDEREL",
+            "send": "CANDEREL"
         },
         {
-            "title": "CANDEREL            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "RANI",
+            "send": "RANI"
         },
         {
-            "title": "RANI            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "AMERICAN GARDEN",
+            "send": "AMERICAN GARDEN "
         },
         {
-            "title": "AMERICAN GARDEN            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "ARIZONA FIELDS",
+            "send": "ARIZONA FIELDS"
         },
         {
-            "title": "ARIZONA FIELDS            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "DEL MONTE",
+            "send": "DEL MONTE"
         },
         {
-            "title": "DAYFRESH            ",
-            "send": "BUTTER",
-
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "DAYFRESH",
+            "send": "DAYFRESH"
         },
         {
-            "title": "DEL MONTE            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "DAWN FOOD",
+            "send": "DAWN FOOD"
         },
         {
-            "title": "DAYFRESH            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "DIPITT",
+            "send": "DIPITT"
         },
         {
-            "title": "DAWN FOOD            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "DIET TEA",
+            "send": "DIET TEA"
         },
         {
-            "title": "DAWN FOOD            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "CRESCO",
+            "send": "CRESCO"
         },
         {
-            "title": "DIPITT            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "COMELLE",
+            "send": "COMELLE"
         },
         {
-            "title": "DIET TEA            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "DASHI",
+            "send": "DASHI"
         },
         {
-            "title": "CRESCO            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "COOKING CLUB",
+            "send": "COOKING CLUB"
         },
         {
-            "title": "COMELLE            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "DADI JAN",
+            "send": "DADI JAN"
         },
         {
-            "title": "DASHI            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "DAIRY OMUNG",
+            "send": "DAIRY OMUNG"
         },
         {
-            "title": "COOKING CLUB            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "DAIRY PURE",
+            "send": "DAIRY PURE"
         },
         {
-            "title": "DAILY            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "DAIRY LIFE",
+            "send": "DAIRY LIFE"
         },
         {
-            "title": "DADI JAN            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "LANGNESE",
+            "send": "LANGNESE"
         },
         {
-            "title": "DAIRY OMUNG            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "LAZIZA",
+            "send": "LAZIZA"
         },
         {
-            "title": "DAIRY PURE            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "LA ESPANOLA",
+            "send": "LA ESPANOLA"
         },
         {
-            "title": "DAIRY LIFE            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "MONSALWA",
+            "send": "MONSALWA"
         },
         {
-            "title": "LANGNESE            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "MARHABA",
+            "send": "MARHABA"
         },
         {
-            "title": "LAZIZA            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "MORINAGA",
+            "send": "MORINAGA"
         },
         {
-            "title": "LA ESPANOLA            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "MUMTAZ",
+            "send": "MUMTAZ"
         },
         {
-            "title": "MONSALWA            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "LEO",
+            "send": "LEO"
         },
         {
-            "title": "MARHABA            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "MILLAC",
+            "send": "MILLAC"
         },
         {
-            "title": "MORINAGA            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "MEIJI",
+            "send": "MEIJI"
         },
         {
-            "title": "MUMTAZ            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "MIGLIOR GATTO",
+            "send": "MIGLIOR GATTO"
         },
         {
-            "title": "LEO            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "MILK FIELDS",
+            "send": "MILK FIELDS"
         },
         {
-            "title": "MILLAC            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
-        },
-        {
-            "title": "MEIJI            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
-        },
-        {
-            "title": "MIGLIOR GATTO            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
-        },
-        {
-            "title": "MILK FIELDS            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
-        },
-        {
-            "title": "DAILY            ",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "DAILY",
+            "send": "DAILY"
         }
     ],
     "Dairy": [{
-            "title": "Milk            ",
-            "send": "LIQUID MILK",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "Milk",
+            "send": "LIQUID MILK"
         },
         {
             "title": "CHEESE",
-            "send": "CHEESE",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "send": "CHEESE"
         },
         {
             "title": "BUTTER",
-            "send": "BUTTER",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "send": "BUTTER"
         },
         {
             "title": "Tea Whiteners",
-            "send": "TEA",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "send": "TEA"
         },
         {
             "title": "Milk Supliments",
-            "send": "POWDER MILK",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "send": "POWDER MILK"
         },
         {
             "title": "Bread",
-            "send": "BREAD CRUMB",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "send": "BREAD CRUMB"
         },
         {
             "title": "Yogurt/Raita",
-            "send": "YOGURT",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "send": "YOGURT"
         }
     ],
 
     "confectionery": [{
             "title": "LAYAS",
-            "send": "LAYS",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "send": "LAYS"
         },
         {
-            "title": "PEEK FREANS        ",
-            "send": "PEEK FREANS",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "PEEK FREANS",
+            "send": "PEEK FREANS"
         },
         {
-            "title": "LU        ",
-            "send": "LU",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "LU",
+            "send": "LU"
         },
         {
-            "title": "PEHALWAAN        ",
-            "send": "PEHALWAAN",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "PEHALWAAN",
+            "send": "PEHALWAAN"
         },
         {
-            "title": "HASSAAN        ",
-            "send": "HASSAAN",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "HASSAAN",
+            "send": "HASSAAN"
         },
         {
-            "title": "TAYAS        ",
-            "send": "TAYAS ",
-            "url": "/static/uploads/handpurse/product-10.jpg"
+            "title": "TAYAS",
+            "send": "TAYAS"
+        },
+        {
+            "title": "UNITED KING",
+            "send": "UNITED KING"
+        },
+        {
+            "title": "CANDYLAND",
+            "send": "CANDYLAND"
+        },
+        {
+            "title": "TASTE FACTORY",
+            "send": "TASTE FACTORY"
+        },
+        {
+            "title": "TORTO",
+            "send": "TORTO"
+        },
+        {
+            "title": "SANA",
+            "send": "SANA"
+        },
+        {
+            "title": "TIFFANY",
+            "send": "TIFFANY"
+        },
+        {
+            "title": "LOCAL",
+            "send": "LOCAL"
+        },
+        {
+            "title": "TULSI",
+            "send": "TULSI"
+        },
+        {
+            "title": "HILAL",
+            "send": "HILAL"
+        },
+        {
+            "title": "SHALIMAR",
+            "send": "SHALIMAR"
+        },
+        {
+            "title": "HILAL",
+            "send": "HILAL"
+        },
+        {
+            "title": "KOLSON",
+            "send": "KOLSON"
+        },
+        {
+            "title": "REHMAT-E-SHEREEN",
+            "send": "REHMAT-E-SHEREEN"
+        },
+        {
+            "title": "AMERICAN KUISINE",
+            "send": "AMERICAN KUISINE"
+        },
+        {
+            "title": "SUPER CRISP",
+            "send": "SUPER CRISP"
+        },
+        {
+            "title": "INOVATIVE",
+            "send": "INOVATIVE"
+        },
+        {
+            "title": "DANPAK",
+            "send": "DANPAK"
+        },
+        {
+            "title": "EURO CAKE",
+            "send": "EURO CAKE"
+        },
+        {
+            "title": "PRINGLES",
+            "send": "PRINGLES"
+        },
+        {
+            "title": "NESTLE",
+            "send": "NESTLE"
+        },
+        {
+            "title": "SHAHI",
+            "send": "SHAHI"
+        },
+        {
+            "title": "WHISTLEZ",
+            "send": "WHISTLEZ"
+        },
+        {
+            "title": "B&B",
+            "send": "B&B"
+        },
+        {
+            "title": "BISCONNI",
+            "send": "BISCONNI"
+        },
+        {
+            "title": "FRUIT-TELLA",
+            "send": "FRUIT-TELLA"
+        },
+        {
+            "title": "MENTOS",
+            "send": "MENTOS"
+        },
+        {
+            "title": "MITCHELLS",
+            "send": "MITCHELLS"
+        },
+        {
+            "title": "AMBALA",
+            "send": "AMBALA"
+        },
+        {
+            "title": "PAXYS",
+            "send": "PAXYS"
+        },
+        {
+            "title": "UNITED KING",
+            "send": "UNITED KING"
+        },
+        {
+            "title": "CADBURY",
+            "send": "CADBURY"
+        },
+        {
+            "title": "CANDYLAND",
+            "send": "CANDYLAND"
         }
     ],
-    "gramPluses": [{
-            "id": 1,
-            "title": "JOO DALYA",
-            "price": 23,
-            "url": "https://www.dawoodonline.pk/product/listing/Img-io64.jpg"
+    "juices": [{
+            "title": "BOTTLED WATER",
+            "send": "MINERAL"
         },
         {
-            "id": 2,
-            "title": "BAJRA 500GM",
-            "price": 22,
-            "url": "https://www.dawoodonline.pk/product/listing/Img-a7uu.jpg"
+            "title": "HOT & COLD",
+            "send": "SOFT DRINKS"
         },
         {
-            "id": 3,
-            "title": "DALYA 500GM",
-            "price": 23,
-            "url": "https://www.dawoodonline.pk/product/listing/Img-9eee.jpg"
+            "title": "SHARBAT",
+            "send": "NATURAL DRINK"
         },
         {
-            "id": 4,
-            "title": "KALA CHANA.",
-            "price": 23,
-            "url": "https://www.dawoodonline.pk/product/listing/Img-o36u.jpg"
+            "title": "INSTANT DRINK",
+            "send": "INSTANT DRINK"
         },
         {
-            "id": 3,
-            "title": "DALYA 500GM",
-            "price": 23,
-            "url": "https://www.dawoodonline.pk/product/listing/Img-9eee.jpg"
+            "title": "JUICES",
+            "send": "JUICE"
         },
         {
-            "id": 4,
-            "title": "KALA CHANA.",
-            "price": 23,
-            "url": "https://www.dawoodonline.pk/product/listing/Img-o36u.jpg"
-        },
-        {
-            "id": 1,
-            "title": "JOO DALYA",
-            "price": 23,
-            "url": "https://www.dawoodonline.pk/product/listing/Img-io64.jpg"
-        },
-        {
-            "id": 2,
-            "title": "BAJRA 500GM",
-            "price": 22,
-            "url": "https://www.dawoodonline.pk/product/listing/Img-a7uu.jpg"
+            "title": "ENERGY DRINK",
+            "send": "ENERGY DRINK"
         }
     ],
-    "Jams": [{
-            "id": 1,
-            "title": "CANDYLAND AMROOD",
-            "price": 23,
-            "url": "https://www.dawoodonline.pk/product/listing/Img-e293.jpg"
+    "fresh": [{
+            "title": "FRUITS",
+            "send": "FRUITS"
         },
         {
-            "id": 2,
-            "title": "CANDYLAND BOTTLE JELLY",
-            "price": 22,
-            "url": "https://www.dawoodonline.pk/product/listing/Img-e3ei.jpg"
-        },
-        {
-            "id": 3,
-            "title": "HILAL EGG JELLY 15.4GM",
-            "price": 23,
-            "url": "https://www.dawoodonline.pk/product/listing/Img-i4ea.jpg"
-        },
-        {
-            "id": 4,
-            "title": "HILAL JIGGLES",
-            "price": 23,
-            "url": "https://www.dawoodonline.pk/product/listing/Img-3796.jpg"
-        },
-        {
-            "id": 3,
-            "title": "HILAL EGG JELLY",
-            "price": 23,
-            "url": "https://www.dawoodonline.pk/product/listing/Img-i4ea.jpg"
-        },
-        {
-            "id": 4,
-            "title": "HILAL JIGGLES",
-            "price": 23,
-            "url": "https://www.dawoodonline.pk/product/listing/Img-3796.jpg"
-        },
-        {
-            "id": 1,
-            "title": "CANDYLAND AMROOD",
-            "price": 23,
-            "url": "https://www.dawoodonline.pk/product/listing/Img-e293.jpg"
-        },
-        {
-            "id": 2,
-            "title": "CANDYLAND BOTTLE JELLY",
-            "price": 22,
-            "url": "https://www.dawoodonline.pk/product/listing/Img-e3ei.jpg"
+            "title": "VEGETABLES",
+            "send": "VEGETABLES"
         }
     ],
-    "riceFlour": [{
-            "id": 1,
-            "title": "POP CORN 200GM PKT",
-            "url": "https://www.dawoodonline.pk/product/listing/Img-95u3.jpg",
-            "price": 51
-        },
-
-        {
-            "id": 2,
-            "title": "SOOJI 500GM PKT",
-            "url": "https://www.dawoodonline.pk/product/listing/Img-o3a4.jpg",
-            "price": 56
+    "healthbeauty": [{
+            "title": "BABY CARE",
+            "send": "BABY CARE"
         },
         {
-            "id": 3,
-            "title": "BAJRA ATTA 500GM PKT ",
-            "url": "https://www.dawoodonline.pk/product/listing/Img-6ioi.jpg",
-            "price": 65
+            "title": "SHAMPOO & CONDITIONERS",
+            "send": "HAIR SHAMPOO"
         },
         {
-            "id": 4,
-            "title": "Rice Ponia 1KG Pkt",
-            "url": "https://www.dawoodonline.pk/product/listing/Img-8122.jpg",
-            "price": 127
+            "title": "BEAUTY SOAP",
+            "send": "BEAUTY SOAP"
         },
         {
-            "id": 5,
-            "title": "NATIONAL CORNFLOUR",
-            "url": "https://www.dawoodonline.pk/product/listing/Img-a1u9.jpg",
-            "price": 75
+            "title": "HAND SOAP",
+            "send": "HAND SOAP"
         },
         {
-            "id": 6,
-            "title": "POP CORN 200GM PKT",
-            "url": "https://www.dawoodonline.pk/product/listing/Img-95u3.jpg",
-            "price": 51
-        },
-
-        {
-            "id": 7,
-            "title": "SOOJI 500GM PKT",
-            "url": "https://www.dawoodonline.pk/product/listing/Img-o3a4.jpg",
-            "price": 56
+            "title": "HAND/WASH",
+            "send": "HAND/WASH"
         },
         {
-            "id": 8,
-            "title": "BAJRA ATTA 500GM PKT ",
-            "url": "https://www.dawoodonline.pk/product/listing/Img-6ioi.jpg",
-            "price": 65
+            "title": "TOOTHBRUSH",
+            "send": "TOOTHBRUSH"
         },
         {
-            "id": 9,
-            "title": "TEZ PATTA 15GM PKT",
-            "url": "https://www.dawoodonline.pk/product/listing/Img-4765.jpg",
-            "price": 10
+            "title": "TOOTHPASTE",
+            "send": "TOOTHPASTE"
         },
         {
-            "id": 10,
-            "title": "POP CORN 200GM PKT",
-            "url": "https://www.dawoodonline.pk/product/listing/Img-95u3.jpg",
-            "price": 51
+            "title": "FACE WASHES",
+            "send": "FACE WASH"
+        },
+        {
+            "title": "HAIR OIL",
+            "send": "HAIR OIL"
+        },
+        {
+            "title": "BODY WASH",
+            "send": "BODY WASH"
+        }
+    ],
+    "petFoods": [{
+            "title": "CAT FOODS",
+            "send": "CAT FOOD"
+        },
+        {
+            "title": "FISH FOODS",
+            "send": "FISH"
         }
     ],
     "ketcupSauce": [{

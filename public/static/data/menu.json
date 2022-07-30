@@ -873,38 +873,33 @@
             "text": "Dairy",
             "url": "/grocery/dairy"
         },
-
-        {
-            "text": "Snacks & Sweets",
-            "url": "/grocery/confectionery"
-        },
         {
             "text": "Juices",
-            "url": "/grocery/confectionery"
+            "url": "/grocery/juices"
         },
         {
             "text": "Baking",
-            "url": "/grocery/confectionery"
+            "url": "/grocery/baking"
         },
         {
             "text": "Fresh",
-            "url": "/grocery/confectionery"
+            "url": "/grocery/fresh"
         },
         {
             "text": "Frozen Foods",
-            "url": "/grocery/confectionery"
+            "url": "/grocery/frozen-foods"
         },
         {
             "text": "Health & Beauty",
-            "url": "/grocery/confectionery"
+            "url": "/grocery/Health-&-Beauty"
         },
         {
             "text": "Pet Foods",
-            "url": "/grocery/confectionery"
+            "url": "/grocery/pet-foods"
         },
         {
             "text": "Breakfast & Cereals",
-            "url": "/grocery/confectionery"
+            "url": "/grocery/cereals-corn-flakes"
         },
         {
             "text": "GROCERY",

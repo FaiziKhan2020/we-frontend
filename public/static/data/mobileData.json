@@ -14,8 +14,40 @@
                             "url": "/grocery/beverages"
                         },
                         {
-                            "text": "CONFECTIONERY",
+                            "text": "Confectionery",
                             "url": "/grocery/confectionery"
+                        },
+                        {
+                            "text": "Dairy",
+                            "url": "/grocery/dairy"
+                        },
+                        {
+                            "text": "Juices",
+                            "url": "/grocery/juices"
+                        },
+                        {
+                            "text": "Baking",
+                            "url": "/grocery/baking"
+                        },
+                        {
+                            "text": "Fresh",
+                            "url": "/grocery/fresh"
+                        },
+                        {
+                            "text": "Frozen Foods",
+                            "url": "/grocery/frozen-foods"
+                        },
+                        {
+                            "text": "Health & Beauty",
+                            "url": "/grocery/Health-&-Beauty"
+                        },
+                        {
+                            "text": "Pet Foods",
+                            "url": "/grocery/pet-foods"
+                        },
+                        {
+                            "text": "Breakfast & Cereals",
+                            "url": "/grocery/cereals-corn-flakes"
                         },
                         {
                             "text": "GROCERY",
@@ -25,6 +57,7 @@
                             "text": "IMPORTED",
                             "url": "/grocery/dsmImported"
                         },
+
                         {
                             "text": "HOUSE HOLD",
                             "url": "/grocery/household"
