@@ -34,6 +34,7 @@
         "react-select": "^5.2.2",
         "react-select-fix": "^1.0.0",
         "react-slick": "^0.25.2",
+        "react-spinners": "^0.13.4",
         "react-sticky": "^6.0.3",
         "react-use-cart": "^1.13.0",
         "redux": "^4.0.4",
