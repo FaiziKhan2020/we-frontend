@@ -20,6 +20,16 @@ const HeaderDefault = () => {
             data-sticky="true"
             id="headerSticky">
             <div className="header__top">
+                <div>
+                    <marquee
+                        style={{
+                            fontSize: '20px',
+                            color: 'white',
+                            fontWeight: 'bold',
+                        }}>
+                        Online grocery shopping here only for Hyderabad.
+                    </marquee>
+                </div>
                 <div className="ps-container">
                     <div className="header__left">
                         <Logo />

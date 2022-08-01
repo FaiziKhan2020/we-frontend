@@ -92,6 +92,17 @@ const HeaderMobile = () => {
                     <p>Welcome to Dawood Online Shopping Store !</p>
                 </div>
             </div>
+            <div>
+                <marquee
+                    style={{
+                        marginTop: '10px',
+                        fontSize: '16px',
+                        color: 'white',
+                        fontWeight: 'bold',
+                    }}>
+                    Online grocery shopping here only for Hyderabad.
+                </marquee>
+            </div>
             <div className="navigation--mobile">
                 <div className="navigation__left">
                     <Link href="/">
