@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { notification } from 'antd';
 import Menu from '../../elements/menu/Menu';
-import menuData from '../../../public/static/data/category';
+import menuData from '../../../public/static/data/menu';
 import MenuCategoriesDropdown from '~/components/shared/menus/MenuCategoriesDropdown';
 
 class NavigationDefault extends Component {
