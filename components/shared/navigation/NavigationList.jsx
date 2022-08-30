@@ -65,7 +65,7 @@ class NavigationList extends Component {
             this.state;
 
         return (
-            <div className="navigation--list">
+            <div className="container navigation--list">
                 <Drawer
                     className="ps-panel--mobile"
                     placement="right"

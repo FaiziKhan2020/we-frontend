@@ -39,7 +39,7 @@ const PageContainer = ({
             {footer}
             <a
                 className="whatsapp"
-                href="https://wa.me/+923188409160"
+                // href="https://wa.me/+923188409160"
                 target={'_blank'}>
                 <img
                     src="https://cdn-icons-png.flaticon.com/512/220/220236.png"
