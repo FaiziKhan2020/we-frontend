@@ -10,7 +10,7 @@ const MartketPlace4Promotions = () => (
                         <a className="ps-collection">
                             <img
                                 src="/static/img/promotions/home-6/1.jpg"
-                                alt="dawood-online"
+                                alt="qa-fashion"
                             />
                         </a>
                     </Link>
@@ -20,7 +20,7 @@ const MartketPlace4Promotions = () => (
                         <a className="ps-collection">
                             <img
                                 src="/static/img/promotions/home-6/2.jpg"
-                                alt="dawood-online"
+                                alt="qa-fashion"
                             />
                         </a>
                     </Link>

@@ -26,7 +26,7 @@ class OrganicBanner extends Component {
                         }}>
                         <img
                             src="/static/img/slider/home-9/1.jpg"
-                            alt="dawood-online"
+                            alt="qa-fashion"
                         />
                         <div className="ps-banner__content">
                             <h4>Weekend Promotions</h4>
@@ -47,7 +47,7 @@ class OrganicBanner extends Component {
                         }}>
                         <img
                             src="/static/img/slider/home-9/2.jpg"
-                            alt="dawood-online"
+                            alt="qa-fashion"
                         />
                         <div className="ps-banner__content">
                             <h4>Weekend Promotions</h4>

@@ -97,7 +97,7 @@ const HeaderTechnology = () => {
                             <a className="ps-logo">
                                 <img
                                     src="/static/img/logo-technology.png"
-                                    alt="dawood-online"
+                                    alt="qa-fashion"
                                 />
                             </a>
                         </Link>

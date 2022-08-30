@@ -35,7 +35,7 @@ const HeaderOrganic = () => {
                             <a className="ps-logo">
                                 <img
                                     src="/static/img/logo-organic.png"
-                                    alt="dawood-online"
+                                    alt="qa-fashion"
                                 />
                             </a>
                         </Link>

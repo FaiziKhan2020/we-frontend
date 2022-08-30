@@ -3,7 +3,7 @@ import PartialReview from '~/components/elements/detail/description/PartialRevie
 
 const DescriptionFullContent = () => (
     <>
-    {/* <div className="ps-product__content">
+        {/* <div className="ps-product__content">
         <h3 className="ps-product__heading">Description</h3>
         <div className="ps-document">
             <h5>Embodying the Raw, Wayward Spirit of Rock 'N' Roll</h5>
@@ -26,7 +26,7 @@ const DescriptionFullContent = () => (
             <img
                 className="mb-30"
                 src="/static/img/products/description.jpg"
-                alt="dawood-online"
+                alt="qa-fashion"
             />
             <h5>What do you get</h5>
             <p>

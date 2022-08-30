@@ -6,7 +6,7 @@ const MarketPlace2Promotions = () => (
             <a className="ps-collection" href="shop-default.html">
                 <img
                     src="/static/img/promotions/home-4-1.jpg"
-                    alt="dawood-online"
+                    alt="qa-fashion"
                 />
             </a>
         </div>

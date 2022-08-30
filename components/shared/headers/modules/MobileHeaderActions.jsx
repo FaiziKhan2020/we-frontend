@@ -12,23 +12,13 @@ const MobileHeaderActions = ({ auth, ecomerce }) => {
         <div className="navigation__right">
             <Link href="/shopCartItems/shopCart">
                 <a className="header__extra" href="#">
-                    <i className="icon-bag2"></i>
+                    <i className="icon-bag2" style={{ color: 'white' }}></i>
                     <span>
                         {/* <i>{cartItems ? cartItems.length : 0}</i> */}
                         <i>{totalUniqueItems}</i>
                     </span>
                 </a>
             </Link>
-
-            {/* {auth.isLoggedIn && Boolean(auth.isLoggedIn) === true ? (
-                <AccountQuickLinksMobile />
-            ) : (
-                <div className="header__extra">
-                    <Link href="/account/login">
-                        <i className="icon-user"></i>
-                    </Link>
-                </div>
-            )} */}
         </div>
     );
 };

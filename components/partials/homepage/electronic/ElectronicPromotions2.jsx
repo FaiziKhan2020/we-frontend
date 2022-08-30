@@ -8,7 +8,7 @@ const ElectronicPromotions2 = () => (
                 <a className="ps-collection">
                     <img
                         src="/static/img/promotions/home-7/3.jpg"
-                        alt="dawood-online"
+                        alt="qa-fashion"
                     />
                 </a>
             </Link>

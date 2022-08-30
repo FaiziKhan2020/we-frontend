@@ -4,7 +4,7 @@ const VendorAbout = () => (
     <div className="ps-section--vendor ps-vendor-about">
         <div className="container">
             <div className="ps-section__header">
-                <p>WHY SELL ON dawood-online</p>
+                <p>WHY SELL ON qa-fashion</p>
                 <h4>
                     Join a marketplace where nearly 50 million buyers around{' '}
                     <br /> the world shop for unique items
@@ -17,7 +17,7 @@ const VendorAbout = () => (
                             <div className="ps-block__thumbnail">
                                 <img
                                     src="/static/img/icons/vendor-1.png"
-                                    alt="dawood-online"
+                                    alt="qa-fashion"
                                 />
                             </div>
                             <div className="ps-block__content">
@@ -40,7 +40,7 @@ const VendorAbout = () => (
                             <div className="ps-block__thumbnail">
                                 <img
                                     src="/static/img/icons/vendor-2.png"
-                                    alt="dawood-online"
+                                    alt="qa-fashion"
                                 />
                             </div>
                             <div className="ps-block__content">
@@ -62,7 +62,7 @@ const VendorAbout = () => (
                             <div className="ps-block__thumbnail">
                                 <img
                                     src="/static/img/icons/vendor-3.png"
-                                    alt="dawood-online"
+                                    alt="qa-fashion"
                                 />
                             </div>
                             <div className="ps-block__content">

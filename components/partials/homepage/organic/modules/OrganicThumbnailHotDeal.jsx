@@ -43,7 +43,7 @@ class OrganicThumbnailDealHot extends Component {
                                 <a href="/static/img/products/home-9/a-1.jpg">
                                     <img
                                         src="/static/img/products/home-9/a-1.jpg"
-                                        alt="dawood-online"
+                                        alt="qa-fashion"
                                     />
                                 </a>
                             </div>
@@ -51,7 +51,7 @@ class OrganicThumbnailDealHot extends Component {
                                 <a href="/static/img/products/home-9/a-2.jpg">
                                     <img
                                         src="/static/img/products/home-9/a-2.jpg"
-                                        alt="dawood-online"
+                                        alt="qa-fashion"
                                     />
                                 </a>
                             </div>
@@ -59,7 +59,7 @@ class OrganicThumbnailDealHot extends Component {
                                 <a href="/static/img/products/home-9/a-3.jpg">
                                     <img
                                         src="/static/img/products/home-9/a-3.jpg"
-                                        alt="dawood-online"
+                                        alt="qa-fashion"
                                     />
                                 </a>
                             </div>
@@ -77,19 +77,19 @@ class OrganicThumbnailDealHot extends Component {
                     <div className="item">
                         <img
                             src="/static/img/products/home-9/a-1.jpg"
-                            alt="dawood-online"
+                            alt="qa-fashion"
                         />
                     </div>
                     <div className="item">
                         <img
                             src="/static/img/products/home-9/a-2.jpg"
-                            alt="dawood-online"
+                            alt="qa-fashion"
                         />
                     </div>
                     <div className="item">
                         <img
                             src="/static/img/products/home-9/a-3.jpg"
-                            alt="dawood-online"
+                            alt="qa-fashion"
                         />
                     </div>
                 </Slider>

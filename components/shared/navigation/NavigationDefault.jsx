@@ -33,7 +33,7 @@ class NavigationDefault extends Component {
                         {/* <ul className="navigation__extra">
                             <li>
                                 <Link href="/vendor/become-a-vendor">
-                                    <a>Sell on dawood-online</a>
+                                    <a>Sell on qa-fashion</a>
                                 </Link>
                             </li>
                             <li>

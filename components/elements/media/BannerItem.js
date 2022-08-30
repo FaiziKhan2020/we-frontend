@@ -4,28 +4,32 @@ import { baseUrl } from '~/repositories/Repository';
 
 const BannerItem = ({ source }) => {
     if (source) {
-        return (
-            <Link href="/shop">
-                <a>
-                    <img
-                        src={`${baseUrl}${source.image.url}`}
-                        alt="dawood-online"
-                    />
-                </a>
-            </Link>
+        return ( <
+            Link href = "/shop" >
+            <
+            a >
+            <
+            img src = { `${baseUrl}${source.image.url}` }
+            alt = "qa-fashion" /
+            >
+            <
+            /a> <
+            /Link>
         );
     } else {
-        return (
-            <Link href="/shop">
-                <a>
-                    <a className="ps-collection">
-                        <img
-                            src="/static/img/not-found.jpg"
-                            alt="dawood-online"
-                        />
-                    </a>
-                </a>
-            </Link>
+        return ( <
+            Link href = "/shop" >
+            <
+            a >
+            <
+            a className = "ps-collection" >
+            <
+            img src = "/static/img/not-found.jpg"
+            alt = "qa-fashion" / >
+            <
+            /a> <
+            /a> <
+            /Link>
         );
     }
 };

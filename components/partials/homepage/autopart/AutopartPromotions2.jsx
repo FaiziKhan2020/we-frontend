@@ -8,7 +8,7 @@ const AutopartPromotions2 = () => (
                     <a className="ps-collection mb-30" href="#">
                         <img
                             src="/static/img/promotions/home-2-1.jpg"
-                            alt="dawood-online"
+                            alt="qa-fashion"
                         />
                     </a>
                 </div>
@@ -16,7 +16,7 @@ const AutopartPromotions2 = () => (
                     <a className="ps-collection mb-30" href="#">
                         <img
                             src="/static/img/promotions/home-2-2.jpg"
-                            alt="dawood-online"
+                            alt="qa-fashion"
                         />
                     </a>
                 </div>

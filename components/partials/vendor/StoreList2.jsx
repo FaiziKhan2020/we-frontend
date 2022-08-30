@@ -53,7 +53,7 @@ const StoreList2 = () => (
                                 <a className="ps-block__user" href="#">
                                     <img
                                         src="/static/img/vendor/store/vendor-150x150.jpg"
-                                        alt="dawood-online"
+                                        alt="qa-fashion"
                                     />
                                 </a>
                                 <a className="ps-btn" href="store-detail.html">
@@ -88,7 +88,7 @@ const StoreList2 = () => (
                                 <a className="ps-block__user" href="#">
                                     <img
                                         src="/static/img/vendor/store/vendor-150x150.jpg"
-                                        alt="dawood-online"
+                                        alt="qa-fashion"
                                     />
                                 </a>
                                 <a className="ps-btn" href="store-detail.html">
@@ -123,7 +123,7 @@ const StoreList2 = () => (
                                 <a className="ps-block__user" href="#">
                                     <img
                                         src="/static/img/vendor/store/vendor-150x150.jpg"
-                                        alt="dawood-online"
+                                        alt="qa-fashion"
                                     />
                                 </a>
                                 <a className="ps-btn" href="store-detail.html">
@@ -158,7 +158,7 @@ const StoreList2 = () => (
                                 <a className="ps-block__user" href="#">
                                     <img
                                         src="/static/img/vendor/store/vendor-150x150.jpg"
-                                        alt="dawood-online"
+                                        alt="qa-fashion"
                                     />
                                 </a>
                                 <a className="ps-btn" href="store-detail.html">

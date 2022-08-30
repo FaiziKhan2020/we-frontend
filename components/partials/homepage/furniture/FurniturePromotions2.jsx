@@ -8,7 +8,7 @@ const FurniturePromotions2 = () => (
                 <a className="ps-collection">
                     <img
                         src="/static/img/promotions/home-8/1.jpg"
-                        alt="dawood-online"
+                        alt="qa-fashion"
                     />
                 </a>
             </Link>

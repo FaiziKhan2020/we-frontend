@@ -49,7 +49,7 @@ const OrganicBlog = () => (
                                     href="blog-detail.html"></a>
                                 <img
                                     src="/static/img/blog/organic/1.jpg"
-                                    alt="dawood-online"
+                                    alt="qa-fashion"
                                 />
                             </div>
                             <div className="ps-post__content">
@@ -78,7 +78,7 @@ const OrganicBlog = () => (
                                     href="blog-detail.html"></a>
                                 <img
                                     src="/static/img/blog/organic/2.jpg"
-                                    alt="dawood-online"
+                                    alt="qa-fashion"
                                 />
                             </div>
                             <div className="ps-post__content">
@@ -109,7 +109,7 @@ const OrganicBlog = () => (
                                     href="blog-detail.html"></a>
                                 <img
                                     src="/static/img/blog/organic/3.jpg"
-                                    alt="dawood-online"
+                                    alt="qa-fashion"
                                 />
                             </div>
                             <div className="ps-post__content">

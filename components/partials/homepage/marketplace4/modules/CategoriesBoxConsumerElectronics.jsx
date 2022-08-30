@@ -22,14 +22,14 @@ const CategoriesBoxConsumerElectronics = () => (
             <div className="ps-block__banner">
                 <img
                     src="/static/img/categories/electronic/large.jpg"
-                    alt="dawood-online"
+                    alt="qa-fashion"
                 />
             </div>
             <div className="ps-block__item">
                 <a className="ps-block__overlay"></a>
                 <img
                     src="/static/img/categories/electronic/1.jpg"
-                    alt="dawood-online"
+                    alt="qa-fashion"
                 />
                 <p>Audios &amp; Theaters </p>
                 <span>2 Items</span>
@@ -38,7 +38,7 @@ const CategoriesBoxConsumerElectronics = () => (
                 <a className="ps-block__overlay"></a>
                 <img
                     src="/static/img/categories/electronic/2.jpg"
-                    alt="dawood-online"
+                    alt="qa-fashion"
                 />
                 <p>TV Televisions</p>
                 <span>2 Items</span>
@@ -47,7 +47,7 @@ const CategoriesBoxConsumerElectronics = () => (
                 <a className="ps-block__overlay"></a>
                 <img
                     src="/static/img/categories/electronic/3.jpg"
-                    alt="dawood-online"
+                    alt="qa-fashion"
                 />
                 <p>Washing Machines</p>
                 <span>4 Items</span>
@@ -56,7 +56,7 @@ const CategoriesBoxConsumerElectronics = () => (
                 <a className="ps-block__overlay"></a>
                 <img
                     src="/static/img/categories/electronic/4.jpg"
-                    alt="dawood-online"
+                    alt="qa-fashion"
                 />
                 <p>Air Conditioners</p>
                 <span>5 Items</span>
@@ -65,7 +65,7 @@ const CategoriesBoxConsumerElectronics = () => (
                 <a className="ps-block__overlay"></a>
                 <img
                     src="/static/img/categories/electronic/5.jpg"
-                    alt="dawood-online"
+                    alt="qa-fashion"
                 />
                 <p>Refrigerators</p>
                 <span>10 Items</span>
@@ -74,7 +74,7 @@ const CategoriesBoxConsumerElectronics = () => (
                 <a className="ps-block__overlay"></a>
                 <img
                     src="/static/img/categories/electronic/6.jpg"
-                    alt="dawood-online"
+                    alt="qa-fashion"
                 />
                 <p>Office Electronics</p>
                 <span>2 Items</span>
@@ -83,7 +83,7 @@ const CategoriesBoxConsumerElectronics = () => (
                 <a className="ps-block__overlay"></a>
                 <img
                     src="/static/img/categories/electronic/7.jpg"
-                    alt="dawood-online"
+                    alt="qa-fashion"
                 />
                 <p>Car Electronics</p>
                 <span>3 Items</span>

@@ -22,7 +22,7 @@ const HeaderMarketPlace = () => {
             <div className="header__top">
                 <div className="container">
                     <div className="header__left">
-                        <p>Welcome to dawood-online Online Shopping Store !</p>
+                        <p>Welcome to qa-fashion Online Shopping Store !</p>
                     </div>
                     <div className="header__right">
                         <ul className="header__top-links">
@@ -53,7 +53,7 @@ const HeaderMarketPlace = () => {
                             <a className="ps-logo">
                                 <img
                                     src="/static/img/logo.png"
-                                    alt="dawood-online"
+                                    alt="qa-fashion"
                                 />
                             </a>
                         </Link>

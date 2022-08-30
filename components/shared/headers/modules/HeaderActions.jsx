@@ -1,53 +1,29 @@
 import React from 'react';
 import { connect } from 'react-redux';
-// import Link from 'next/link';
 import MiniCart from '~/components/shared/headers/modules/MiniCart';
-// import AccountQuickLinks from '~/components/shared/headers/modules/AccountQuickLinks';
 import Logo from '~/components/elements/common/SuperMart';
 import Link from 'next/link';
 
 const HeaderActions = ({ ecomerce, auth }) => {
-    // const { compareItems, wishlistItems } = ecomerce;
-    // views
-    // let headerAuthView;
-    // if (auth.isLoggedIn && Boolean(auth.isLoggedIn) === true) {
-    //     headerAuthView = <AccountQuickLinks isLoggedIn={true} />;
-    // } else {
-    //     headerAuthView = <AccountQuickLinks isLoggedIn={false} />;
-    // }
     return (
         <div className="header__actions">
-            {/* <Link href="/account/compare">
-                <a className="header__extra">
-                    <i className="icon-chart-bars"></i>
-                    <span>
-                        <i>{compareItems ? compareItems.length : 0}</i>
-                    </span>
-                </a>
-            </Link> */}
-            {/* <Link href="/account/wishlist">
-                <a className="header__extra">
-                    <i className="icon-heart"></i>
-                    <span>
-                        <i>{wishlistItems ? wishlistItems.length : 0}</i>
-                        <i>0</i>
-                    </span>
-                </a>
-            </Link> */}
-            <div style={{ marginRight: '100px' }}>
-                <Logo />
-            </div>
-            <MiniCart />
-            {/* {headerAuthView} */}
-            <Link href="/shopCartItems/shopCart">
-                <p
+            <div>
+                <ul
+                    className=""
                     style={{
-                        color: 'white',
+                        color: 'black',
                         fontSize: '20px',
+                        display: 'flex',
                         cursor: 'pointer',
                     }}>
-                    Cart
-                </p>
+                    <li className="mr-5">Shop</li>
+                    <li className="mr-5">Offers</li>
+                    <li className="mr-5">FAQ</li>
+                    <li className="mr-5">Contact</li>
+                </ul>
+            </div>
+            <Link href="/shopCartItems/shopCart">
+                <MiniCart />
             </Link>
         </div>
     );

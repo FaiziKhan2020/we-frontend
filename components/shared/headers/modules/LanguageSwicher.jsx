@@ -18,7 +18,7 @@ class LanguageSwicher extends Component {
         return (
             <div className="ps-dropdown language">
                 <a href="#" onClick={this.handleFeatureWillUpdate.bind(this)}>
-                    <img src="/static/img/flag/en.png" alt="dawood-online" />
+                    <img src="/static/img/flag/en.png" alt="qa-fashion" />
                     English
                 </a>
                 <ul className="ps-dropdown-menu">
@@ -28,7 +28,7 @@ class LanguageSwicher extends Component {
                             onClick={this.handleFeatureWillUpdate.bind(this)}>
                             <img
                                 src="/static/img/flag/germany.png"
-                                alt="dawood-online"
+                                alt="qa-fashion"
                             />
                             Germany
                         </a>
@@ -39,7 +39,7 @@ class LanguageSwicher extends Component {
                             onClick={this.handleFeatureWillUpdate.bind(this)}>
                             <img
                                 src="/static/img/flag/fr.png"
-                                alt="dawood-online"
+                                alt="qa-fashion"
                             />
                             France
                         </a>

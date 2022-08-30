@@ -1,8 +1,7 @@
 import React, { useEffect } from 'react';
 import Logo from '~/components/elements/common/Logo';
-import SearchHeader from '~/components/shared/headers/modules/SearchHeader';
-// import Searchbar222 from '~/components/shared/headers/modules/Searchbar222';
-import NavigationDefault from '~/components/shared/navigation/NavigationDefault';
+// import SearchHeader from '~/components/shared/headers/modules/SearchHeader';
+// import NavigationDefault from '~/components/shared/navigation/NavigationDefault';
 import HeaderActions from '~/components/shared/headers/modules/HeaderActions';
 import { stickyHeader } from '~/utilities/common-helpers';
 import MenuCategoriesDropdown from '~/components/shared/menus/MenuCategoriesDropdown';
@@ -20,34 +19,54 @@ const HeaderDefault = () => {
             data-sticky="true"
             id="headerSticky">
             <div className="header__top">
-                <div>
-                    <marquee
-                        style={{
-                            fontSize: '20px',
-                            color: 'white',
-                            fontWeight: 'bold',
-                        }}>
-                        Online grocery shopping here only for Hyderabad.
-                    </marquee>
-                </div>
                 <div className="ps-container">
                     <div className="header__left">
                         <Logo />
                         <MenuCategoriesDropdown />
                     </div>
                     <div
-                        className="header__center"
-                        style={{ marginTop: '30px' }}>
-                        <SearchHeader />
+                        class="dropdown"
+                        style={{ margin: '20px 100px 0px 0px' }}>
+                        <button
+                            class="btn btn-secondary dropdown-toggle"
+                            type="button"
+                            id="dropdownMenuButton"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                            style={{
+                                backgroundColor: 'purple',
+                                color: 'white',
+                                fontSize: '20px',
+                                borderRadius: '5px',
+                                border: 'none',
+                            }}>
+                            <span class="fa-solid fa-shirt mr-4"></span>
+                            Clothing
+                        </button>
+                        <div
+                            class="dropdown-menu"
+                            aria-labelledby="dropdownMenuButton"
+                            style={{ fontSize: '12px' }}>
+                            <a class="dropdown-item" href="#">
+                                Action
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                Another action
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                Something else here
+                            </a>
+                        </div>
                     </div>
+                    <div className="header__center"></div>
                     <div
                         className="header__right"
-                        style={{ marginTop: '10px' }}>
+                        style={{ marginTop: '15px' }}>
                         <HeaderActions />
                     </div>
                 </div>
             </div>
-            <NavigationDefault />
         </header>
     );
 };

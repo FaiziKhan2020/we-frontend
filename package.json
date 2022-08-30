@@ -1,5 +1,5 @@
 {
-    "name": "dawood-online_react",
+    "name": "qa-fashion_react",
     "version": "2.1.1",
     "private": true,
     "scripts": {
@@ -30,6 +30,7 @@
         "react-lazyload": "^2.6.5",
         "react-loader-spinner": "^6.0.0-0",
         "react-redux": "^7.1.3",
+        "react-responsive-carousel": "^3.2.23",
         "react-router-dom": "^6.1.1",
         "react-select": "^5.2.2",
         "react-select-fix": "^1.0.0",

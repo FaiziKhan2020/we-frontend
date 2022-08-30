@@ -89,28 +89,18 @@ const HeaderMobile = () => {
         <header className="header header--mobile">
             <div className="header__top">
                 <div className="header__right">
-                    <p>Welcome to Dawood Online Shopping Store !</p>
+                    <p>Welcome to QA Shopping Store !</p>
                 </div>
             </div>
-            <div>
-                <marquee
-                    style={{
-                        marginTop: '10px',
-                        fontSize: '16px',
-                        color: 'white',
-                        fontWeight: 'bold',
-                    }}>
-                    Online grocery shopping here only for Hyderabad.
-                </marquee>
-            </div>
+
             <div className="navigation--mobile">
                 <div className="navigation__left">
                     <Link href="/">
                         <a className="ps-logo">
                             <img
-                                src="/static/img/dawood-logo.png"
-                                alt="dawood-online"
-                                width={100}
+                                src="/static/img/logo.png"
+                                alt="qa-fashion"
+                                width={50}
                             />
                         </a>
                     </Link>

@@ -131,9 +131,9 @@ class MyAccount extends Component {
                                     Sign up today and you will be able to:
                                 </figcaption>
                                 <p>
-                                    dawood-online Buyer Protection has you
-                                    covered from click to delivery. Sign up or
-                                    sign in and you will be able to:
+                                    qa-fashion Buyer Protection has you covered
+                                    from click to delivery. Sign up or sign in
+                                    and you will be able to:
                                 </p>
                                 <ul className="ps-list">
                                     <li>
@@ -161,9 +161,9 @@ class MyAccount extends Component {
                                         A small gift for your first purchase
                                     </h5>
                                     <p>
-                                        dawood-online give $25 as a small gift
-                                        for your first purchase. Welcome to
-                                        dawood-online!
+                                        qa-fashion give $25 as a small gift for
+                                        your first purchase. Welcome to
+                                        qa-fashion!
                                     </p>
                                 </aside>
                             </div>

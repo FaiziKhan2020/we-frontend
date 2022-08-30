@@ -22,14 +22,14 @@ const CategoriesBoxClothings = () => (
             <div className="ps-block__banner">
                 <img
                     src="/static/img/categories/clothing/large.jpg"
-                    alt="dawood-online"
+                    alt="qa-fashion"
                 />
             </div>
             <div className="ps-block__item">
                 <a className="ps-block__overlay"></a>
                 <img
                     src="/static/img/categories/clothing/1.jpg"
-                    alt="dawood-online"
+                    alt="qa-fashion"
                 />
                 <p>Womens</p>
                 <span>2 Items</span>
@@ -38,7 +38,7 @@ const CategoriesBoxClothings = () => (
                 <a className="ps-block__overlay"></a>
                 <img
                     src="/static/img/categories/clothing/2.jpg"
-                    alt="dawood-online"
+                    alt="qa-fashion"
                 />
                 <p>Mens</p>
                 <span>2 Items</span>
@@ -47,7 +47,7 @@ const CategoriesBoxClothings = () => (
                 <a className="ps-block__overlay"></a>
                 <img
                     src="/static/img/categories/clothing/3.jpg"
-                    alt="dawood-online"
+                    alt="qa-fashion"
                 />
                 <p>Shoes</p>
                 <span>4 Items</span>
@@ -56,7 +56,7 @@ const CategoriesBoxClothings = () => (
                 <a className="ps-block__overlay"></a>
                 <img
                     src="/static/img/categories/clothing/4.jpg"
-                    alt="dawood-online"
+                    alt="qa-fashion"
                 />
                 <p>Bags</p>
                 <span>5 Items</span>
@@ -65,7 +65,7 @@ const CategoriesBoxClothings = () => (
                 <a className="ps-block__overlay"></a>
                 <img
                     src="/static/img/categories/clothing/5.jpg"
-                    alt="dawood-online"
+                    alt="qa-fashion"
                 />
                 <p>Sunglasses</p>
                 <span>10 Items</span>
@@ -74,7 +74,7 @@ const CategoriesBoxClothings = () => (
                 <a className="ps-block__overlay"></a>
                 <img
                     src="/static/img/categories/clothing/6.jpg"
-                    alt="dawood-online"
+                    alt="qa-fashion"
                 />
                 <p>Accessories</p>
                 <span>2 Items</span>
@@ -83,7 +83,7 @@ const CategoriesBoxClothings = () => (
                 <a className="ps-block__overlay"></a>
                 <img
                     src="/static/img/categories/clothing/7.jpg"
-                    alt="dawood-online"
+                    alt="qa-fashion"
                 />
                 <p>Kid's Fashion</p>
                 <span>3 Items</span>

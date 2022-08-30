@@ -7,22 +7,17 @@ const MarketPlace2Download = () => (
                 <div className="row">
                     <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 ">
                         <div className="ps-block__thumbnail">
-                            <img
-                                src="/static/img/app.png"
-                                alt="dawood-online"
-                            />
+                            <img src="/static/img/app.png" alt="qa-fashion" />
                         </div>
                     </div>
                     <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 ">
                         <div className="ps-block__content">
-                            <h3>Download dawood-online App Now!</h3>
+                            <h3>Download qa-fashion App Now!</h3>
                             <p>
                                 Shopping fastly and easily more with our app.
                                 Get a link to download the app on your phone
                             </p>
-                            <form
-                                className="ps-form--download-app"
-                                >
+                            <form className="ps-form--download-app">
                                 <div className="form-group--nest">
                                     <input
                                         className="form-control"
@@ -38,13 +33,13 @@ const MarketPlace2Download = () => (
                                 <a href="#">
                                     <img
                                         src="/static/img/google-play.png"
-                                        alt="dawood-online"
+                                        alt="qa-fashion"
                                     />
                                 </a>
                                 <a href="#">
                                     <img
                                         src="/static/img/app-store.png"
-                                        alt="dawood-online"
+                                        alt="qa-fashion"
                                     />
                                 </a>
                             </p>

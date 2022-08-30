@@ -24,7 +24,7 @@ const HeaderFurniture = () => {
                             <a className="ps-logo">
                                 <img
                                     src="/static/img/logo-furniture.png"
-                                    alt="dawood-online"
+                                    alt="qa-fashion"
                                 />
                             </a>
                         </Link>
@@ -61,7 +61,7 @@ const HeaderFurniture = () => {
                         <ul className="navigation__extra">
                             <li>
                                 <Link href="/page/blank">
-                                    <a>Sell on dawood-online</a>
+                                    <a>Sell on qa-fashion</a>
                                 </Link>
                             </li>
                             <li>

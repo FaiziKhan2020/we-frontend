@@ -36,23 +36,23 @@ const Logo = ({ type }) => {
     } else {
         data = {
             url: '/',
-            img: '/static/img/dawood-logo.png',
+            img: '/static/img/logo.png',
         };
     }
     return (
-        <Link href={data.url}>
-            <a className="ps-logo">
+        <a className="ps-logo">
+            <Link href={'/'}>
                 <img
                     src={data.img}
                     alt="logo"
                     style={{
                         width: '100px',
-                        marginTop: '10px',
+                        // marginTop: '10px',
                         marginLeft: '85px',
                     }}
                 />
-            </a>
-        </Link>
+            </Link>
+        </a>
     );
 };
 

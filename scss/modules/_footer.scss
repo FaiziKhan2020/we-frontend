@@ -1,36 +1,30 @@
 .ps-footer {
     padding-top: 70px;
-
     &__widgets {
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-between;
         padding-bottom: 35px;
     }
-
     &__links {
         padding: 60px 0;
         border-top: 1px solid #e1e1e1;
-
         p {
             strong {
                 color: $color-heading;
                 margin-right: 20px;
                 font-weight: 600;
             }
-
             a {
                 display: inline-block;
                 color: $color-text;
                 line-height: 20px;
                 margin-right: 10px;
                 position: relative;
-
                 &:after {
                     content: '|';
                     margin-left: 5px;
                 }
-
                 &:before {
                     content: '';
                     position: absolute;
@@ -43,14 +37,12 @@
                     transition: transform 0.4s $timing-1;
                     @include transform-origin(100% 50%);
                 }
-
                 &:hover {
                     &:before {
                         @include transform(scale3d(1, 1, 1));
                         @include transform-origin(0 50%);
                     }
                 }
-
                 &:last-child {
                     &:after {
                         display: none;
@@ -59,26 +51,22 @@
             }
         }
     }
-
     &__copyright {
         padding: 35px 0;
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-between;
-        border-top: 1px solid #de0000;
-
+        border-top: 1px solid purple;
         p {
             margin-bottom: 0;
             line-height: 30px;
             color: $color-heading;
-
             &:last-child {
                 span {
                     display: inline-block;
                     line-height: inherit;
                     vertical-align: middle;
                 }
-
                 a {
                     display: inline-block;
                     margin-left: 20px;
@@ -87,16 +75,13 @@
             }
         }
     }
-
     @include media('<sm') {
         &__widgets {
             flex-flow: row wrap;
-
-            > * {
+            >* {
                 width: 100%;
                 max-width: 25%;
             }
-
             .widget_contact-us {
                 max-width: 100%;
                 width: 100%;
@@ -108,10 +93,9 @@
             padding: 35px 0px 100px 0px;
         }
     }
-
     @include media('<xs') {
         &__widgets {
-            > * {
+            >* {
                 max-width: 50%;
                 flex-basis: 50%;
             }
@@ -120,11 +104,9 @@
             flex-flow: row wrap;
             text-align: center;
             line-height: 10px;
-
             p {
                 display: block;
                 width: 100%;
-
                 span {
                     display: block;
                     padding-bottom: 10px;
@@ -140,16 +122,13 @@
             margin-bottom: 30px;
         }
     }
-
     &.autopart {
         .widget_newletters {
             .form-group--nest {
                 margin-bottom: 30px;
-
                 button {
                     background-color: $color-autopart;
                     color: #fff;
-
                     &:hover {
                         background-color: darken($color-autopart, 10%);
                     }
@@ -163,13 +142,11 @@
     padding: 0;
     border-top: 1px solid #e1e1e1;
     background-color: #f8f8f8;
-
     .ps-block--site-features {
         padding: 40px 0;
         margin-bottom: 70px;
         border-bottom: 1px solid #e1e1e1;
     }
-
     @include media('<sm') {
         .ps-block--site-features {
             margin-bottom: 40px;
@@ -182,7 +159,6 @@
         .ps-btn {
             color: #fff;
             background-color: $color-technology;
-
             &:hover {
                 background-color: darken($color-technology, 10%);
             }
@@ -193,7 +169,6 @@
 .ps-footer--organic {
     border-top: 1px solid #e1e1e1;
     background-color: #f8f8f8;
-
     .ps-form--newletter {
         .form-group--nest {
             button {
@@ -209,7 +184,6 @@
         .ps-btn {
             color: #fff;
             background-color: $color-electronic;
-
             &:hover {
                 background-color: darken($color-electronic, 10%);
             }
@@ -222,7 +196,6 @@
         .ps-btn {
             color: #fff;
             background-color: $color-furniture;
-
             &:hover {
                 background-color: darken($color-furniture, 10%);
             }

@@ -12,7 +12,7 @@ class ShopSidebarBanner extends Component {
                         <Link href="/shop">
                             <img
                                 src="/static/img/slider/shop-sidebar/1.jpg"
-                                alt="dawood-online"
+                                alt="qa-fashion"
                             />
                         </Link>
                     </div>
@@ -20,7 +20,7 @@ class ShopSidebarBanner extends Component {
                         <Link href="/shop">
                             <img
                                 src="/static/img/slider/shop-sidebar/2.jpg"
-                                alt="dawood-online"
+                                alt="qa-fashion"
                             />
                         </Link>
                     </div>

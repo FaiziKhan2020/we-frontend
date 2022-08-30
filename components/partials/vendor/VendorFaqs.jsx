@@ -15,10 +15,10 @@ const VendorFaqs = () => (
                     <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 ">
                         <figure>
                             <figcaption>
-                                How do fees work on dawood-online?
+                                How do fees work on qa-fashion?
                             </figcaption>
                             <p>
-                                Joining and starting a shop on dawood-online is
+                                Joining and starting a shop on qa-fashion is
                                 free. There are three basic selling fees: a
                                 listing fee, a transaction fee, and a payment
                                 processing fee.
@@ -44,13 +44,13 @@ const VendorFaqs = () => (
                                 What do I need to do to create a shop?
                             </figcaption>
                             <p>
-                                It’s easy to set up a shop on dawood-online.
-                                Create an dawood-online account (if you don’t
-                                already have one), set your shop location and
-                                currency, choose a shop name, create a listing,
-                                set a payment method (how you want to be paid),
-                                and finally set a billing method (how you want
-                                to pay your dawood-onlinefees).
+                                It’s easy to set up a shop on qa-fashion. Create
+                                an qa-fashion account (if you don’t already have
+                                one), set your shop location and currency,
+                                choose a shop name, create a listing, set a
+                                payment method (how you want to be paid), and
+                                finally set a billing method (how you want to
+                                pay your qa-fashionfees).
                             </p>
                         </figure>
                     </div>
@@ -59,7 +59,7 @@ const VendorFaqs = () => (
                             <figcaption>How do I get paid?</figcaption>
                             <p>
                                 If you accept payments with PayPal, funds from
-                                PayPal sales on dawood-online will be deposited
+                                PayPal sales on qa-fashion will be deposited
                                 into your PayPal account. We encourage sellers
                                 to use a PayPal Business account and not a
                                 Personal account, as personal accounts are
@@ -99,11 +99,11 @@ const VendorFaqs = () => (
                         </figure>
                         <figure>
                             <figcaption>
-                                What can I sell on dawood-online?
+                                What can I sell on qa-fashion?
                             </figcaption>
                         </figure>
                         <p>
-                            dawood-online provides a marketplace for crafters,
+                            qa-fashion provides a marketplace for crafters,
                             artists and collectors to sell their handmade
                             creations, vintage goods (at least 20 years old),
                             and both handmade and non-handmade crafting

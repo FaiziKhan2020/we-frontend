@@ -16,7 +16,7 @@ const MarketPlace2Categories = () => (
                             <div className="ps-block__thumbnail">
                                 <img
                                     src="/static/img/categories/shop/5.jpg"
-                                    alt="dawood-online"
+                                    alt="qa-fashion"
                                 />
                             </div>
                             <div className="ps-block__content">
@@ -63,7 +63,7 @@ const MarketPlace2Categories = () => (
                             <div className="ps-block__thumbnail">
                                 <img
                                     src="/static/img/categories/shop/1.jpg"
-                                    alt="dawood-online"
+                                    alt="qa-fashion"
                                 />
                             </div>
                             <div className="ps-block__content">
@@ -105,7 +105,7 @@ const MarketPlace2Categories = () => (
                             <div className="ps-block__thumbnail">
                                 <img
                                     src="/static/img/categories/shop/9.jpg"
-                                    alt="dawood-online"
+                                    alt="qa-fashion"
                                 />
                             </div>
                             <div className="ps-block__content">
@@ -147,7 +147,7 @@ const MarketPlace2Categories = () => (
                             <div className="ps-block__thumbnail">
                                 <img
                                     src="/static/img/categories/shop/2.jpg"
-                                    alt="dawood-online"
+                                    alt="qa-fashion"
                                 />
                             </div>
                             <div className="ps-block__content">
@@ -189,7 +189,7 @@ const MarketPlace2Categories = () => (
                             <div className="ps-block__thumbnail">
                                 <img
                                     src="/static/img/categories/shop/10.jpg"
-                                    alt="dawood-online"
+                                    alt="qa-fashion"
                                 />
                             </div>
                             <div className="ps-block__content">
@@ -231,7 +231,7 @@ const MarketPlace2Categories = () => (
                             <div className="ps-block__thumbnail">
                                 <img
                                     src="/static/img/categories/shop/6.jpg"
-                                    alt="dawood-online"
+                                    alt="qa-fashion"
                                 />
                             </div>
                             <div className="ps-block__content">

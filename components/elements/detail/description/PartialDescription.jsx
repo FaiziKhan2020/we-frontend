@@ -2,7 +2,7 @@ import React from 'react';
 
 const PartialDescription = () => (
     <>
-    {/* <div className="ps-document">
+        {/* <div className="ps-document">
         <h5>Embodying the Raw, Wayward Spirit of Rock 'N' Roll</h5>
         <p>
             Embodying the raw, wayward spirit of rock ‘n’ roll, the Kilburn
@@ -22,7 +22,7 @@ const PartialDescription = () => (
         <img
             className="mb-30"
             src="/static/img/products/description.jpg"
-            alt="dawood-online"
+            alt="qa-fashion"
         />
         <h5>What do you get</h5>
         <p>

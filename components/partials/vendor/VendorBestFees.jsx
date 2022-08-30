@@ -47,14 +47,14 @@ const VendorBestFrees = () => (
                 <div className="ps-section__highlight">
                     <img
                         src="/static/img/icons/vendor-4.png"
-                        alt="dawood-online"
+                        alt="qa-fashion"
                     />
                     <figure>
                         <p>
                             We process payments with PayPal, an external
                             payments platform that allows you to process
                             transactions with a variety of payment methods.
-                            Funds from PayPal sales on dawood-online will be
+                            Funds from PayPal sales on qa-fashion will be
                             deposited into your PayPal account.
                         </p>
                     </figure>

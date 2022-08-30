@@ -10,7 +10,7 @@ const ElectronicPromotions = () => (
                         <a className="ps-collection">
                             <img
                                 src="/static/img/promotions/home-7/1.jpg"
-                                alt="dawood-online"
+                                alt="qa-fashion"
                             />
                         </a>
                     </Link>
@@ -20,7 +20,7 @@ const ElectronicPromotions = () => (
                         <a className="ps-collection">
                             <img
                                 src="/static/img/promotions/home-7/2.jpg"
-                                alt="dawood-online"
+                                alt="qa-fashion"
                             />
                         </a>
                     </Link>

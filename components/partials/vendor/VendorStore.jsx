@@ -25,7 +25,7 @@ export default VendorStore;
 //                                 <div className="ps-block__thumbnail">
 //                                     <img
 //                                         src="/static/img/vendor/vendor-store.jpg"
-//                                         alt="dawood-online"
+//                                         alt="qa-fashion"
 //                                     />
 //                                 </div>
 //                                 <div className="ps-block__container">

@@ -27,7 +27,7 @@ class ElectronicBanner extends Component {
                                     <a>
                                         <img
                                             src="/static/img/slider/home-7/1.jpg"
-                                            alt="dawood-online"
+                                            alt="qa-fashion"
                                         />
                                     </a>
                                 </Link>
@@ -37,7 +37,7 @@ class ElectronicBanner extends Component {
                                     <a>
                                         <img
                                             src="/static/img/slider/home-7/2.jpg"
-                                            alt="dawood-online"
+                                            alt="qa-fashion"
                                         />
                                     </a>
                                 </Link>
@@ -47,7 +47,7 @@ class ElectronicBanner extends Component {
                                     <a>
                                         <img
                                             src="/static/img/slider/home-7/3.jpg"
-                                            alt="dawood-online"
+                                            alt="qa-fashion"
                                         />
                                     </a>
                                 </Link>
@@ -59,7 +59,7 @@ class ElectronicBanner extends Component {
                             <a className="ps-collection">
                                 <img
                                     src="/static/img/slider/home-7/promotion-1.jpg"
-                                    alt="dawood-online"
+                                    alt="qa-fashion"
                                 />
                             </a>
                         </Link>
@@ -67,7 +67,7 @@ class ElectronicBanner extends Component {
                             <a className="ps-collection">
                                 <img
                                     src="/static/img/slider/home-7/promotion-2.jpg"
-                                    alt="dawood-online"
+                                    alt="qa-fashion"
                                 />
                             </a>
                         </Link>
