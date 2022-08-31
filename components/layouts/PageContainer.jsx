@@ -37,7 +37,7 @@ const PageContainer = ({
             {header}
             {children}
             {footer}
-            <a
+            {/* <a
                 className="whatsapp"
                 // href="https://wa.me/+923188409160"
                 target={'_blank'}>
@@ -54,7 +54,7 @@ const PageContainer = ({
                         cursor: 'pointer',
                     }}
                 />
-            </a>
+            </a> */}
         </>
     );
 };

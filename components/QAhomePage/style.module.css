@@ -7,9 +7,51 @@
     background-size: cover;
 }
 
-.headingH1 {
+.searchBar {
+    width: 500px;
+    border: 1px solid purple;
+    border-radius: 5px;
+    z-index: 999;
+    margin-top: -200px;
+}
+
+.mainBox {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
     margin-top: 20px;
+}
+
+.box1 {
+    background-color: purple;
+    color: white;
+    width: 380px;
+    height: 200px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 5px 0px 5px;
+    margin-top: 10px;
+}
+
+.box1 h4,
+.box1 p {
+    color: white;
+}
+
+.box1 h4 {
+    font-size: 20px;
+}
+
+.box1 button {
+    background-color: white;
+    color: purple;
+    font-size: 15px;
+    border: none;
+}
+
+.box1 img {
+    width: 180px;
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 
 const FooterWidgets = () => (
-    <div className="ps-footer__widgets">
+    <div className="container ps-footer__widgets">
         <aside className="widget widget_footer widget_contact-us">
             <h4 className="widget-title">CONTACT US</h4>
             <div className="widget_content">

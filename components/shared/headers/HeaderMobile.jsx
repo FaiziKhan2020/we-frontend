@@ -98,7 +98,7 @@ const HeaderMobile = () => {
                     <Link href="/">
                         <a className="ps-logo">
                             <img
-                                src="/static/img/logo.png"
+                                src="/static/img/white-logo.png"
                                 alt="qa-fashion"
                                 width={50}
                             />
