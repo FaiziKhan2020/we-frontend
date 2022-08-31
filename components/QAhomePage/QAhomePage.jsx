@@ -7,14 +7,7 @@ import MiniBanners from './MiniBanners';
 const QAhomePage = () => {
     return (
         <PageContainer>
-            {/* <ReactSlider /> */}
-            {/* <div className="container-fluid cnn"> */}
-            <div className="row">
-                <div className="col-12">
-                    <div className={style.bgImg}></div>
-                </div>
-                {/* </div> */}
-            </div>
+            <div className={style.bgImg}></div>
             <div className="container">
                 <div className="row">
                     <div className="col-12">
@@ -26,7 +19,11 @@ const QAhomePage = () => {
             </div>
             <div className="container">
                 {/* <h1 className={style.headingH1}>product</h1> */}
-                <MiniBanners />
+                <div className="row">
+                    <div className="col-md-12">
+                        <MiniBanners />
+                    </div>
+                </div>
                 <h2>asd</h2>
             </div>
         </PageContainer>
