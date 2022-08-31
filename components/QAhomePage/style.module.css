@@ -80,6 +80,27 @@
     }
 }
 
+@media only screen and (max-width: 360px) {
+    .bgImg {
+        width: auto;
+        height: 25vh !important;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .bgImg {
+        width: auto;
+        height: 28vh !important;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .bgImg {
+        width: auto;
+        height: 28vh !important;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .bgImg {
         width: auto;
