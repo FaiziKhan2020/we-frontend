@@ -29,13 +29,14 @@ const QAhomePage = () => {
                     <div className="row mt-4">
                         <div className="col-md-4">Category</div>
                         <div
-                            className="col-md-8"
-                            style={{
-                                display: 'flex',
-                                flexWrap: 'wrap',
-                                justifyContent: 'space-around',
-                                alignItems: 'center',
-                            }}>
+                            className={`col-md-8 ${style.mainCard}`}
+                            // style={{
+                            //     display: 'flex',
+                            //     flexWrap: 'wrap',
+                            //     justifyContent: 'space-around',
+                            //     alignItems: 'center',
+                            // }}
+                        >
                             {FakeData.map((item) => (
                                 <ProductCard
                                     key={item}

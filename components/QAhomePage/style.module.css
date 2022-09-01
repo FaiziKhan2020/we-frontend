@@ -56,13 +56,12 @@
     width: 180px;
 }
 
-
-/* .mainCard {
+.mainCard {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-} */
+}
 
 .productcard {
     background-color: whitesmoke;
