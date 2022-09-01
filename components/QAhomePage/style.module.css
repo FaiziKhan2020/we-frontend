@@ -98,12 +98,13 @@
 }
 
 .SideBarBtn {
-    width: 50%;
+    /* width: 50%; */
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 
 .SideBarBtn button {
@@ -117,6 +118,11 @@
 
 .SideBarBtn button:hover {
     background-color: purple;
+    color: white;
+}
+
+.SideBarBtn button:focus {
+    background-color: purple !important;
     color: white;
 }
 

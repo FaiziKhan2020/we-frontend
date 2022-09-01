@@ -28,7 +28,7 @@ const QAhomePage = () => {
                         </div>
                     </div>
                     <div className="row mt-4">
-                        <div className="col-md-4">
+                        <div className={`col-md-4 ${style.exm}`}>
                             <ProductSideBar />
                         </div>
                         <div className={`col-md-8 ${style.mainCard}`}>
