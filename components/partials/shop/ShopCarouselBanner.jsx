@@ -5,7 +5,7 @@ import { carouselSingle } from '~/utilities/carousel-helpers';
 
 const ShopCarouselBanner = () => {
     return (
-        <div className="ps-shop-banner">
+        <div className="container-fluid mt-4 ps-shop-banner">
             <Slider {...carouselSingle} className="ps-carousel inside">
                 <div className="item">
                     <Link href="/">

@@ -59,14 +59,14 @@
 
 /* ?  using media query */
 
-
-/* 
 @media only screen and (max-width: 800px) {
     .searchBar {
         display: none;
     }
 }
 
+
+/* 
 @media only screen and (max-width: 425px) {
     .bgImg {
         margin-top: 10px;
