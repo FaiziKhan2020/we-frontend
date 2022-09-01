@@ -10,7 +10,7 @@ const MenuCategoriesDropdown = () => {
                 {/* <i className="icon-menu"> </i>{' '} */}
                 <span
                     style={{
-                        color: 'purple',
+                        color: '#5b0833',
                         fontSize: '30px',
                         fontWeight: 'bold',
                         marginTop: '15px',

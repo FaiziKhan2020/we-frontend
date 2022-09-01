@@ -9,17 +9,25 @@ const HeaderActions = ({ ecomerce, auth }) => {
         <div className="header__actions">
             <div>
                 <ul
-                    className=""
+                    className="ps-list--link"
                     style={{
                         color: 'black',
                         fontSize: '20px',
                         display: 'flex',
                         cursor: 'pointer',
                     }}>
-                    <li className="mr-5">Shop</li>
-                    <li className="mr-5">Offers</li>
-                    <li className="mr-5">FAQ</li>
-                    <li className="mr-5">Contact</li>
+                    <li className="mr-5">
+                        <a> Shop</a>
+                    </li>
+                    <li className="mr-5">
+                        <a> Offers</a>
+                    </li>
+                    <li className="mr-5">
+                        <a> FAQ</a>
+                    </li>
+                    <li className="mr-5">
+                        <a> Contact</a>
+                    </li>
                 </ul>
             </div>
             <Link href="/shopCartItems/shopCart">

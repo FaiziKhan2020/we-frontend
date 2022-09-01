@@ -35,7 +35,7 @@ const HeaderDefault = () => {
                             aria-haspopup="true"
                             aria-expanded="false"
                             style={{
-                                backgroundColor: 'purple',
+                                backgroundColor: '#5b0833',
                                 color: 'white',
                                 fontSize: '20px',
                                 borderRadius: '5px',
