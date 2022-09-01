@@ -9,10 +9,9 @@ export const carouselStandard = {
     speed: 750,
     slidesToShow: 5,
     slidesToScroll: 2,
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />,
-    responsive: [
-        {
+    // nextArrow: <NextArrow />,
+    // prevArrow: <PrevArrow />,
+    responsive: [{
             breakpoint: 1024,
             settings: {
                 slidesToShow: 3,
@@ -46,10 +45,9 @@ export const carouselInSidebar = {
     speed: 1000,
     slidesToShow: 4,
     slidesToScroll: 2,
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />,
-    responsive: [
-        {
+    // nextArrow: < NextArrow / > ,
+    // prevArrow: < PrevArrow / > ,
+    responsive: [{
             breakpoint: 1024,
             settings: {
                 slidesToShow: 3,
@@ -83,11 +81,10 @@ export const carouselFullwidth = {
     slidesToShow: 6,
     slidesToScroll: 3,
     arrows: true,
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />,
+    // nextArrow: < NextArrow / > ,
+    // prevArrow: < PrevArrow / > ,
     lazyload: true,
-    responsive: [
-        {
+    responsive: [{
             breakpoint: 1750,
             settings: {
                 slidesToShow: 6,
@@ -114,7 +111,6 @@ export const carouselFullwidth = {
                 slidesToScroll: 1,
                 infinite: true,
                 dots: true,
-
             },
         },
         {
@@ -124,7 +120,6 @@ export const carouselFullwidth = {
                 slidesToScroll: 1,
                 infinite: true,
                 dots: true,
-
             },
         },
         {
@@ -154,6 +149,6 @@ export const carouselSingle = {
     speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />
+    // nextArrow: < NextArrow / > ,
+    // prevArrow: < PrevArrow / > ,
 };

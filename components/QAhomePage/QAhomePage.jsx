@@ -4,10 +4,14 @@ import ReactSlider from './ReactSlider';
 import SearchHeader from '~/components/shared/headers/modules/SearchHeader';
 import style from './style.module.css';
 import MiniBanners from './MiniBanners';
+// import ShopBanner from '../partials/shop/ShopBanner';
+import ShopCarouselBanner from '../partials/shop/ShopCarouselBanner';
 const QAhomePage = () => {
     return (
         <PageContainer>
-            <div className={style.bgImg}></div>
+            {/* <div className={style.bgImg}></div> */}
+            {/* <ShopBanner /> */}
+            <ShopCarouselBanner />
             <div className="container">
                 <div className="row">
                     <div className="col-12">

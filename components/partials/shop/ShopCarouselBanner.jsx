@@ -8,17 +8,17 @@ const ShopCarouselBanner = () => {
         <div className="ps-shop-banner">
             <Slider {...carouselSingle} className="ps-carousel inside">
                 <div className="item">
-                    <Link href="/shop">
+                    <Link href="/">
                         <img
-                            src="/static/img/slider/shop-default/1.jpg"
+                            src="/static/img/web-banner.jpg"
                             alt="qa-fashion"
                         />
                     </Link>
                 </div>
                 <div className="item">
-                    <Link href="/shop">
+                    <Link href="/">
                         <img
-                            src="/static/img/slider/shop-default/2.jpg"
+                            src="/static/img/web-banner.jpg"
                             alt="qa-fashion"
                         />
                     </Link>
