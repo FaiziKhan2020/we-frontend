@@ -15,9 +15,9 @@ const ProductCard = ({ image, title, price, item }) => {
                         height={180}
                     />
                 </div>
-                <div className="py-4">
-                    <span className="mr-4">{title}</span>{' '}
-                    <span> Rs.{price} </span>
+                <div className={`py-4 ${style.Productext}`}>
+                    <div className="font-weight-bold">{title}</div>{' '}
+                    <div>QR. {price} </div>
                 </div>
                 <button className="btn" onClick={() => addItem(item)}>
                     Add to Card

@@ -1,11 +1,11 @@
-.bgImg {
+/* .bgImg {
     background-image: url('../../public/static/img/web-banner.jpg');
     width: 100%;
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 
 .searchBar {
     width: 420px;
@@ -73,16 +73,15 @@
     justify-content: center;
     align-items: center;
     margin-top: 10px;
-    /* margin-right: 15px; */
     border-radius: 10px;
     box-shadow: 10px 10px 12px -1px rgba(0, 0, 0, 0.74);
     -webkit-box-shadow: 10px 10px 12px -1px rgba(0, 0, 0, 0.74);
     -moz-box-shadow: 10px 10px 12px -1px rgba(0, 0, 0, 0.74);
 }
 
-.productcard p {
-    font-weight: 500;
-    font-size: 17px;
+.Productext {
+    font-weight: bold !important;
+    font-size: 16px;
 }
 
 .productcard button {
@@ -95,6 +94,29 @@
 }
 
 .productcard button:hover {
+    color: white;
+}
+
+.SideBarBtn {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: center;
+}
+
+.SideBarBtn button {
+    background-color: transparent;
+    color: black;
+    padding: 10px 10px 10px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.SideBarBtn button:hover {
+    background-color: purple;
     color: white;
 }
 
