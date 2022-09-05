@@ -136,8 +136,11 @@
 
 /* ?  using media query */
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1024px) {
     .searchBar {
+        display: none;
+    }
+    .searchBarShop {
         display: none;
     }
 }
