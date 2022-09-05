@@ -1,10 +1,13 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import style from './style.module.css';
 const ProductSideBar = ({ image, Name, subName1, subName2, subName3 }) => {
     return (
         <div className={style.SideBarBtn}>
             <div class="btn-group dropright mb-4">
-                <button
+                <motion.button
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.9 }}
                     type="button"
                     class="btn btn-secondary dropdown-toggle"
                     data-toggle="dropdown"
@@ -18,7 +21,7 @@ const ProductSideBar = ({ image, Name, subName1, subName2, subName3 }) => {
                         className="mr-4"
                     />
                     {Name}
-                </button>
+                </motion.button>
                 <div
                     class={`dropdown-menu ${style.drop}`}
                     aria-labelledby="dropdownMenuButton">

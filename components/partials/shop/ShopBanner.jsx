@@ -1,7 +1,7 @@
 import React from 'react';
 import Slider from 'react-slick';
-import NextArrow from '~/components/elements/carousel/NextArrow';
-import PrevArrow from '~/components/elements/carousel/PrevArrow';
+// import NextArrow from '~/components/elements/carousel/NextArrow';
+// import PrevArrow from '~/components/elements/carousel/PrevArrow';
 
 const ShopBanner = () => {
     const carouselSetting = {
@@ -11,8 +11,8 @@ const ShopBanner = () => {
         speed: 1000,
         slidesToShow: 1,
         slidesToScroll: 1,
-        nextArrow: <NextArrow />,
-        prevArrow: <PrevArrow />,
+        // nextArrow: <NextArrow />,
+        // prevArrow: <PrevArrow />,
     };
     return (
         <div className="ps-shop-banner">

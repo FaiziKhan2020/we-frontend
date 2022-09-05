@@ -16,9 +16,11 @@ const HeaderActions = ({ ecomerce, auth }) => {
                         display: 'flex',
                         cursor: 'pointer',
                     }}>
-                    <li className="mr-5">
-                        <a> Shop</a>
-                    </li>
+                    <Link href="/shop">
+                        <li className="mr-5">
+                            <a> Shop</a>
+                        </li>
+                    </Link>
                     <li className="mr-5">
                         <a> Offers</a>
                     </li>

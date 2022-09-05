@@ -7,6 +7,14 @@
     background-size: cover;
 } */
 
+.searchBarShop {
+    margin: auto;
+    width: 500px;
+    border: 2px solid purple;
+    border-radius: 5px;
+    z-index: 999;
+}
+
 .searchBar {
     width: 420px;
     border: 2px solid purple;

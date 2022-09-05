@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import style from './style.module.css';
 import { useCart } from 'react-use-cart';
+import { motion } from 'framer-motion';
 
 const ProductCard = ({ image, title, price, item }) => {
     const { addItem } = useCart();
@@ -26,7 +27,9 @@ const ProductCard = ({ image, title, price, item }) => {
                     <div className="font-weight-bold">{title}</div>{' '}
                     <div>QR. {price} </div>
                 </div>
-                <button
+                <motion.button
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.9 }}
                     type="button"
                     className={`${isAdding ? 'btn btn-primary' : 'btn'}`}
                     onClick={() => {
@@ -34,7 +37,7 @@ const ProductCard = ({ image, title, price, item }) => {
                         total();
                     }}>
                     ADD{isAdding ? 'ED' : ''}
-                </button>
+                </motion.button>
             </div>
         </div>
     );
