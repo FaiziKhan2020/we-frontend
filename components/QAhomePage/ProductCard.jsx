@@ -1,9 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import style from './style.module.css';
 import { useCart } from 'react-use-cart';
 
 const ProductCard = ({ image, title, price, item }) => {
     const { addItem } = useCart();
+    const [isAdding, setIsAdding] = useState(false);
+    const total = () => {
+        setIsAdding(true);
+        setTimeout(() => {
+            setIsAdding(false);
+        }, 1000);
+    };
     return (
         <div className={style.mainCard}>
             <div className={style.productcard}>
@@ -19,8 +26,14 @@ const ProductCard = ({ image, title, price, item }) => {
                     <div className="font-weight-bold">{title}</div>{' '}
                     <div>QR. {price} </div>
                 </div>
-                <button className="btn" onClick={() => addItem(item)}>
-                    Add to Card
+                <button
+                    type="button"
+                    className={`${isAdding ? 'btn btn-primary' : 'btn'}`}
+                    onClick={() => {
+                        addItem(item);
+                        total();
+                    }}>
+                    ADD{isAdding ? 'ED' : ''}
                 </button>
             </div>
         </div>
