@@ -8,6 +8,7 @@ import ProductCard from './ProductCard';
 import ProductSideBar from './ProductSideBar';
 import { CartProvider } from 'react-use-cart';
 import FakeData from './FakeData.json';
+import DropDown from './DropDown.json';
 
 const QAhomePage = () => {
     return (
@@ -28,8 +29,17 @@ const QAhomePage = () => {
                         </div>
                     </div>
                     <div className="row mt-4">
-                        <div className={`col-md-4 ${style.exm}`}>
-                            <ProductSideBar />
+                        <div className="col-md-4">
+                            {DropDown.map((item) => (
+                                <ProductSideBar
+                                    key={item}
+                                    image={item.image}
+                                    Name={item.Name}
+                                    subName1={item.subName1}
+                                    subName2={item.subName2}
+                                    subName3={item.subName3}
+                                />
+                            ))}
                         </div>
                         <div className={`col-md-8 ${style.mainCard}`}>
                             {FakeData.map((item) => (
