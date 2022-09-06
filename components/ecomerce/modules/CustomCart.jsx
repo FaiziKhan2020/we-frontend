@@ -13,16 +13,7 @@ const CustomCart = () => {
     } = useCart();
     console.log(items);
     if (isEmpty) return <h3 className="text-center">Your Cart Is Empty</h3>;
-    // const result = items.map((item, index) => {
-    //     <tr key={index}>
-    //         <td>
-    //             <img src={item.url} alt="product" />
-    //         </td>
-    //         <td>Rs. {item.price} </td>
-    //         <td>Rs. {item.title} </td>
-    //     </tr>;
-    // });
-    // console.log(items.price);
+
     return (
         <>
             <table
@@ -46,12 +37,11 @@ const CustomCart = () => {
                             <td>
                                 <img
                                     height={150}
-                                    src={item.imgUrl || item.url}
+                                    src={item.image || item.url}
                                     alt="product img"
                                     style={{ width: '150px' }}
                                 />
                             </td>
-                            {/* {console.log(item.price, item.title, item.imgUrl)} */}
                             <td data-label="price" className="price">
                                 Rs. {item.price}
                             </td>
@@ -97,18 +87,6 @@ const CustomCart = () => {
                                 </a>
                             </td>
                         </tr>
-                        // <tr key={item.id}>
-                        //     <td>
-                        //         <img
-                        //             src={item.url}
-                        //             alt="asd"
-                        //             style={{ width: '150px' }}
-                        //         />
-                        //     </td>
-                        //     <td data-label="price" className="price ml-4">
-                        //         Rs. {item.price}
-                        //     </td>
-                        // </tr>
                     ))}
                 </tbody>
             </table>

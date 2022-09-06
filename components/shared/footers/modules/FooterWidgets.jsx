@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import { motion } from 'framer-motion';
 
 const FooterWidgets = () => (
     <div className="container ps-footer__widgets">
@@ -14,26 +15,26 @@ const FooterWidgets = () => (
                     <a href="mailto:contact@qa-fashion.co">Support@qatar.com</a>
                 </p>
                 <ul className="ps-list--social">
-                    <li>
+                    <motion.li whileHover={{ scale: 1.2 }}>
                         <a className="facebook" href="#">
                             <i className="fa fa-facebook"></i>
                         </a>
-                    </li>
-                    <li>
+                    </motion.li>
+                    <motion.li whileHover={{ scale: 1.2 }}>
                         <a className="twitter" href="#">
                             <i className="fa fa-twitter"></i>
                         </a>
-                    </li>
-                    <li>
+                    </motion.li>
+                    <motion.li whileHover={{ scale: 1.2 }}>
                         <a className="google-plus" href="#">
                             <i className="fa fa-google-plus"></i>
                         </a>
-                    </li>
-                    <li>
+                    </motion.li>
+                    <motion.li whileHover={{ scale: 1.2 }}>
                         <a className="instagram" href="#">
                             <i className="fa fa-instagram"></i>
                         </a>
-                    </li>
+                    </motion.li>
                 </ul>
             </div>
             <br />
@@ -49,9 +50,9 @@ const FooterWidgets = () => (
                 </li>
 
                 <li>
-                    {/* <Link href="/page/contact-us"> */}
-                    <a>Contact Us</a>
-                    {/* </Link> */}
+                    <Link href="/page/contact-us">
+                        <a>Contact Us</a>
+                    </Link>
                 </li>
             </ul>
         </aside>

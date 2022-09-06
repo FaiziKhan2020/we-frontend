@@ -1,6 +1,6 @@
 import React from 'react';
-import Link from 'next/link';
-import { calculateAmount } from '~/utilities/ecomerce-helpers';
+// import Link from 'next/link';
+// import { calculateAmount } from '~/utilities/ecomerce-helpers';
 import { useCart } from 'react-use-cart';
 const customCartSummary = ({ source }) => {
     const { items, cartTotal } = useCart();

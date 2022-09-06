@@ -1,0 +1,63 @@
+.left {
+    background-color: rgb(247, 247, 247);
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+
+.leftImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 250px;
+}
+
+.leftContact h5 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.right {
+    background-color: rgb(247, 247, 247);
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+
+.rightContact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 10px 0px;
+    font-size: 30px;
+}
+
+.rightFrom input:focus {
+    border-radius: 5px;
+    border: 1px solid purple;
+}
+
+.rightFrom textarea:focus {
+    border-radius: 5px;
+    border: 1px solid purple;
+}
+
+.rightFrom button {
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 5px 20px 5px 20px;
+    font-size: 15px;
+}
+
+.rightFrom button:hover {
+    background-color: purple;
+}
+
+.rightFrom button:active {
+    background-color: purple !important;
+    border: none !important;
+}

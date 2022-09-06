@@ -60,41 +60,18 @@ const ShoppingCartScreen = ({ ecomerce }) => {
                         <div className="col-xl-8 col-lg-4 col-md-12 col-sm-12 col-12 ">
                             <div className="row">
                                 <div className="col-lg-6">
-                                    {/* <figure>
-                                        <figcaption>Coupon Discount</figcaption>
-                                        <div className="form-group">
-                                            <input
-                                                className="form-control"
-                                                type="text"
-                                                placeholder="Enter coupon here..."
-                                            />
-                                        </div>
-                                        <div className="form-group">
-                                            <button className="ps-btn ps-btn--outline">
-                                                Apply
-                                            </button>
-                                        </div>
-                                    </figure> */}
-                                    <div className="form-group ps-section__cart-actions">
+                                    {/* <div className="form-group ps-section__cart-actions">
                                         <button
                                             className="ps-btn"
                                             onClick={(e) => emptyCart(e)}>
                                             Clear Cart
                                         </button>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>
                         <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 ">
-                            {/* <div className="ps-section__cart-actions">
-                                <button
-                                className="ps-btn"
-                                onClick={(e) => emptyCart(e)}>
-                                Clear Your Cart
-                                </button>
-                            </div> */}
                             <CustomCartSummary />
-                            {/* <Link href="/account/checkout"> */}
 
                             <p>
                                 <b>Your Order must be greater than 2000 Rs.</b>
@@ -104,7 +81,6 @@ const ShoppingCartScreen = ({ ecomerce }) => {
                                 className="ps-btn ps-btn--fullwidth">
                                 Proceed to checkout
                             </button>
-                            {/* </Link> */}
                         </div>
                     </div>
                 </div>

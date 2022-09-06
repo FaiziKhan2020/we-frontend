@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-
+import { motion } from 'framer-motion';
 const Logo = ({ type }) => {
     let data;
     if (type === 'autopart') {
@@ -42,7 +42,8 @@ const Logo = ({ type }) => {
     return (
         <a className="ps-logo">
             <Link href={'/'}>
-                <img
+                <motion.img
+                    whileHover={{ scale: 1.3 }}
                     src={data.img}
                     alt="logo"
                     style={{
