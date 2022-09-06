@@ -11,7 +11,8 @@ import {
     AccordionItemPanel,
     AccordionItemHeading,
 } from 'react-accessible-accordion';
-import items from './accordian.json';
+import 'react-accessible-accordion/dist/fancy-example.css';
+import items from './accordians.json';
 const FaqsPage = () => {
     const breadCrumb = [
         {
@@ -29,20 +30,30 @@ const FaqsPage = () => {
                 <BreadCrumb breacrumb={breadCrumb} layout="fullwidth" />
                 <div className="ps-section--custom">
                     <div className="container">
-                        <Accordion allowZeroExpanded>
-                            {items.map((item) => (
-                                <AccordionItem key={item.uuid}>
-                                    <AccordionItemHeading>
-                                        <AccordionItemButton>
-                                            {item.heading}
-                                        </AccordionItemButton>
-                                    </AccordionItemHeading>
-                                    <AccordionItemPanel>
-                                        {item.content}
-                                    </AccordionItemPanel>
-                                </AccordionItem>
-                            ))}
-                        </Accordion>
+                        <div className="row">
+                            <div className="col-12">
+                                <div style={{ width: '70%', margin: 'auto' }}>
+                                    <Accordion allowZeroExpanded>
+                                        {items.map((item) => (
+                                            <AccordionItem key={item.uuid}>
+                                                <AccordionItemHeading>
+                                                    <AccordionItemButton
+                                                        style={{
+                                                            fontSize: '20px',
+                                                            fontWeight: '500',
+                                                        }}>
+                                                        {item.heading}
+                                                    </AccordionItemButton>
+                                                </AccordionItemHeading>
+                                                <AccordionItemPanel>
+                                                    {item.content}
+                                                </AccordionItemPanel>
+                                            </AccordionItem>
+                                        ))}
+                                    </Accordion>
+                                </div>
+                            </div>
+                        </div>
                         {/* <div className="ps-section__header">
                             <h3>Faq's</h3>
                         </div>
