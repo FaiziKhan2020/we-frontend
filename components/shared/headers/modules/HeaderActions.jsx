@@ -18,18 +18,20 @@ const HeaderActions = ({ ecomerce, auth }) => {
                     }}>
                     <Link href="/shop">
                         <li className="mr-5">
-                            <a> Shop</a>
+                            <a>Shop</a>
                         </li>
                     </Link>
                     <li className="mr-5">
-                        <a> Offers</a>
+                        <a>Offers</a>
                     </li>
-                    <li className="mr-5">
-                        <a> FAQ</a>
-                    </li>
+                    <Link href="/page/faqs">
+                        <li className="mr-5">
+                            <a>FAQ</a>
+                        </li>
+                    </Link>
                     <Link href="/page/contact-us">
                         <li className="mr-5">
-                            <a> Contact</a>
+                            <a>Contact</a>
                         </li>
                     </Link>
                 </ul>

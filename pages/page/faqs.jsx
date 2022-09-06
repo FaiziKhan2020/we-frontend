@@ -4,7 +4,14 @@ import BlankContent from '~/components/partials/page/Blank';
 import FooterDefault from '~/components/shared/footers/FooterDefault';
 import Newletters from '~/components/partials/commons/Newletters';
 import PageContainer from '~/components/layouts/PageContainer';
-
+import {
+    Accordion,
+    AccordionItem,
+    AccordionItemButton,
+    AccordionItemPanel,
+    AccordionItemHeading,
+} from 'react-accessible-accordion';
+import items from './accordian.json';
 const FaqsPage = () => {
     const breadCrumb = [
         {
@@ -22,7 +29,21 @@ const FaqsPage = () => {
                 <BreadCrumb breacrumb={breadCrumb} layout="fullwidth" />
                 <div className="ps-section--custom">
                     <div className="container">
-                        <div className="ps-section__header">
+                        <Accordion allowZeroExpanded>
+                            {items.map((item) => (
+                                <AccordionItem key={item.uuid}>
+                                    <AccordionItemHeading>
+                                        <AccordionItemButton>
+                                            {item.heading}
+                                        </AccordionItemButton>
+                                    </AccordionItemHeading>
+                                    <AccordionItemPanel>
+                                        {item.content}
+                                    </AccordionItemPanel>
+                                </AccordionItem>
+                            ))}
+                        </Accordion>
+                        {/* <div className="ps-section__header">
                             <h3>Faq's</h3>
                         </div>
                         <div className="ps-section__content">
@@ -65,7 +86,7 @@ const FaqsPage = () => {
                                 Increase or Decrease quantity in your Wish list
                                 at any time.
                             </p>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
