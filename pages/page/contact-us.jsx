@@ -27,7 +27,7 @@ const ContactUsPage = () => {
                 {/* <div className={style.wahab}>asd</div> */}
                 <div className="container my-4">
                     <div className="row">
-                        <div className="col-md-4">
+                        <div className="col-md-4 mt-4">
                             <div className={`p-4 ${style.left}`}>
                                 <div className={style.leftImg}>
                                     <motion.img
@@ -71,7 +71,7 @@ const ContactUsPage = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-8">
+                        <div className="col-md-8 mt-4">
                             <div className={`p-4 ${style.right}`}>
                                 <div className={style.rightContact}>
                                     Questions, Comments, Or Concerns?
