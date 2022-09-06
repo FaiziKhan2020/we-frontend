@@ -5,12 +5,12 @@ import { carouselSingle } from '~/utilities/carousel-helpers';
 
 const ShopCarouselBanner = () => {
     return (
-        <div className="container-fluid mt-4 ps-shop-banner">
+        <div className=" mt-4 ps-shop-banner">
             <Slider {...carouselSingle} className="ps-carousel inside">
                 <div className="item">
                     <Link href="/">
                         <img
-                            src="/static/img/web-banner.jpg"
+                            src="/static/img/web-banner1.jpg"
                             alt="qa-fashion"
                         />
                     </Link>
@@ -18,7 +18,15 @@ const ShopCarouselBanner = () => {
                 <div className="item">
                     <Link href="/">
                         <img
-                            src="/static/img/web-banner.jpg"
+                            src="/static/img/web-banner2.png"
+                            alt="qa-fashion"
+                        />
+                    </Link>
+                </div>{' '}
+                <div className="item">
+                    <Link href="/">
+                        <img
+                            src="/static/img/web-banner3.png"
                             alt="qa-fashion"
                         />
                     </Link>
