@@ -27,9 +27,11 @@ const HeaderActions = ({ ecomerce, auth }) => {
                     <li className="mr-5">
                         <a> FAQ</a>
                     </li>
-                    <li className="mr-5">
-                        <a> Contact</a>
-                    </li>
+                    <Link href="/page/contact-us">
+                        <li className="mr-5">
+                            <a> Contact</a>
+                        </li>
+                    </Link>
                 </ul>
             </div>
             <Link href="/shopCartItems/shopCart">

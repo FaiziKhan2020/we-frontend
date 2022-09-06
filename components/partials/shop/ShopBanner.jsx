@@ -18,11 +18,15 @@ const ShopBanner = () => {
         <div className="ps-shop-banner">
             <Slider {...carouselSetting} fade={true} className="ps-carousel">
                 <img
-                    src="/static/img/slider/shop-default/1.jpg"
+                    src="/static/img/slider/shop-default/3.png"
                     alt="qa-fashion"
                 />
                 <img
-                    src="/static/img/slider/shop-default/2.jpg"
+                    src="/static/img/slider/shop-default/4.png"
+                    alt="qa-fashion"
+                />{' '}
+                <img
+                    src="/static/img/slider/shop-default/5.png"
                     alt="qa-fashion"
                 />
             </Slider>
