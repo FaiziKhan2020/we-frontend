@@ -8,7 +8,7 @@ import PageContainer from '~/components/layouts/PageContainer';
 import HeaderMobileProduct from '~/components/shared/header-mobile/HeaderMobileProduct';
 import Axios from 'axios';
 import { CartProvider } from 'react-use-cart';
-
+import HeaderDefault from '~/components/shared/headers/HeaderDefault';
 const ProductDefaultPage = () => {
     const router = useRouter();
     const { pid } = router.query;
@@ -55,7 +55,7 @@ const ProductDefaultPage = () => {
             productView = <ProductDetailFullwidth product={product} />;
             headerView = (
                 <>
-                    <HeaderProduct product={product} />
+                    <HeaderDefault product={product} />
                     <HeaderMobileProduct />
                 </>
             );
