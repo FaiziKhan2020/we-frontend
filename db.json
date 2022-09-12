@@ -1,19 +1,50 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "users": [{
+            "id": 1,
+            "price": 100,
+            "imgUrl": "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png",
+            "title": "Blue Jeans",
+            "items": "item"
+        },
+        {
+            "id": 2,
+            "price": 200,
+            "imgUrl": "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png",
+
+            "title": "black Jeans",
+            "items": "item"
+        },
+        {
+            "id": 3,
+            "price": 300,
+            "imgUrl": "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png",
+
+            "title": "Blue Jeans",
+            "items": "item"
+        },
+        {
+            "id": 4,
+            "price": 200,
+            "imgUrl": "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png",
+
+            "title": "Blue Jeans",
+            "items": "item"
+        },
+        {
+            "id": 5,
+            "price": 200,
+            "imgUrl": "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png",
+
+            "title": "Blue Jeans",
+            "items": "item"
+        },
+        {
+            "id": 6,
+            "price": 200,
+            "imgUrl": "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png",
+
+            "title": "Blue Jeans",
+            "items": "item"
+        }
+    ]
 }

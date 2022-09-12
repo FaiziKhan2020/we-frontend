@@ -3,7 +3,7 @@ import style from './style.module.css';
 import { useCart } from 'react-use-cart';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-const ProductCard = ({ image, title, price, item }) => {
+const ProductCard = ({ imgUrl, title, price, item }) => {
     const { addItem } = useCart();
     const [isAdding, setIsAdding] = useState(false);
     const total = () => {
@@ -20,7 +20,7 @@ const ProductCard = ({ image, title, price, item }) => {
                         <motion.img
                             whileHover={{ scale: 1.3 }}
                             referrerPolicy="no-referrer"
-                            src={image}
+                            src={imgUrl}
                             alt="Product_image"
                             height={180}
                             width={200}

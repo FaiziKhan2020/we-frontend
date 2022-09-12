@@ -18,7 +18,8 @@ const ProductDefaultPage = () => {
     async function getProduct(pid) {
         setLoading(true);
         const responseData = await Axios.get(
-            `https://dawoodddocker.herokuapp.com/api/v1/product/${pid}`
+            // `https://dawoodddocker.herokuapp.com/api/v1/product/${pid}`
+            `http://localhost:5000/users/${pid}`
         );
         if (responseData) {
             setProduct({
