@@ -11,13 +11,11 @@
     @include transform(translateX(-100%));
     transition: all 0.5s cubic-bezier(0.7, 0, 0.3, 1) 0s;
     @extend %list-reset;
-
     .ps-panel__header {
         position: relative;
         text-align: center;
         padding: 15px 20px;
         background-color: $color-1st;
-
         h3 {
             margin-bottom: 0;
             font-weight: 600;
@@ -27,11 +25,9 @@
             text-transform: uppercase;
             letter-spacing: 0.05em;
         }
-
         .ps-btn--close {
             @include vertical-align();
             right: 10px;
-
             &:before,
             &:after {
                 background-color: #ffffff;
@@ -39,16 +35,13 @@
             }
         }
     }
-
     .ps-panel__content {
         padding-top: 10px;
         padding-bottom: 70px;
     }
-
     &.active {
         @include transform(translateX(0));
     }
-
     @include media('<xs') {
         width: 100%;
         max-width: 100%;
@@ -64,29 +57,28 @@
     }
 }
 
+.ant-drawer-content-wrapper {
+    width: 100% !important;
+}
+
 .ps-panel--mobile {
     .ant-menu-inline {
         border-right: none !important;
-
         .ant-menu-submenu-title {
             padding: 0 !important;
         }
-
         .ant-menu-item {
             padding: 0 !important;
         }
     }
-
     .ant-drawer-body {
         padding: 0 !important;
     }
-
     .ps-panel__header {
         position: relative;
         text-align: center;
         padding: 15px 20px;
         background-color: $color-1st;
-
         h3 {
             margin-bottom: 0;
             font-weight: 600;
@@ -96,11 +88,9 @@
             text-transform: uppercase;
             letter-spacing: 0.05em;
         }
-
         .ps-btn--close {
             @include vertical-align();
             right: 10px;
-
             &:before,
             &:after {
                 background-color: #ffffff;
@@ -108,11 +98,9 @@
             }
         }
     }
-
     .ps-panel__content {
         padding: 0 20px;
     }
-
     .ps-panel__search-results {
         padding-top: 20px;
         min-height: 70vh;
@@ -125,7 +113,6 @@
             }
         }
     }
-
     .ant-menu {
         .ant-menu-item {
             &.ant-menu-item-selected {
@@ -136,7 +123,7 @@
                 a {
                     padding: 0 10px;
                     color: #fff;
-                    transition: all .25s ease;
+                    transition: all 0.25s ease;
                 }
             }
         }
@@ -150,11 +137,9 @@
         right: 20px;
         font-size: 18px;
     }
-
     .ps-panel__header {
         position: relative;
     }
-
     .ps-panel__content {
         height: calc(100vh - 50px);
     }

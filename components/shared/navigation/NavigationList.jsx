@@ -78,7 +78,9 @@ class NavigationList extends Component {
                             <span
                                 className="ps-panel__close"
                                 onClick={this.handleDrawerClose}>
-                                <i className="icon-cross"></i>
+                                <i
+                                    className="icon-cross"
+                                    style={{ color: 'white' }}></i>
                             </span>
                         </div>
                         <div className="ps-panel__content">
@@ -86,26 +88,7 @@ class NavigationList extends Component {
                         </div>
                     </div>
                 </Drawer>
-                {/* <Drawer
-                    className="ps-panel--mobile"
-                    placement="right"
-                    closable={false}
-                    onClose={this.handleDrawerClose}
-                    visible={this.state.cartDrawer}>
-                    <div className="ps-panel--wrapper">
-                        <div className="ps-panel__header">
-                            <h3>Shopping Cart</h3>
-                            <span
-                                className="ps-panel__close"
-                                onClick={this.handleDrawerClose}>
-                                <i className="icon-cross"></i>
-                            </span>
-                        </div>
-                        <div className="ps-panel__content">
-                            <PanelCartMobile />
-                        </div>
-                    </div>
-                </Drawer> */}
+
                 <Drawer
                     className="ps-panel--mobile"
                     placement="right"
@@ -126,66 +109,25 @@ class NavigationList extends Component {
                         </div>
                     </div>
                 </Drawer>
-                {/* <Drawer
-                    className="ps-panel--mobile"
-                    placement="right"
-                    closable={false}
-                    onClose={this.handleDrawerClose}
-                    visible={this.state.categoriesDrawer}>
-                    <div className="ps-panel--wrapper">
-                        <div className="ps-panel__header">
-                            <h3>Categories</h3>
-                            <span
-                                className="ps-panel__close"
-                                onClick={this.handleDrawerClose}>
-                                <i className="icon-cross"></i>
-                            </span>
-                        </div>
-                        <div className="ps-panel__content">
-                            <PanelCategories />
-                        </div>
-                    </div>
-                </Drawer> */}
-                <div
-                    className="navigation__content"
-                    // style={{
-                    //     display: 'flex',
-                    //     justifyContent: 'center',
-                    //     alignItems: 'center',
-                    // }}
-                >
+
+                <div className="navigation__content">
                     <a
                         className={`navigation__item ${
                             menuDrawer === true ? 'active' : ''
                         }`}
                         onClick={this.handleShowMenuDrawer}>
                         <i className="icon-menu"></i>
-                        <span> Menu</span>
+                        <span>Menu</span>
                     </a>
-                    {/* <a
-                        className={`navigation__item ${
-                            categoriesDrawer === true ? 'active' : ''
-                        }`}
-                        onClick={this.handleShowCategoriesDrawer}>
-                        <i className="icon-list4"></i>
-                        <span> Categories</span>
-                    </a> */}
+
                     <a
                         className={`navigation__item ${
                             searchDrawer === true ? 'active' : ''
                         }`}
                         onClick={this.handleShowSearchDrawer}>
                         <i className="icon-magnifier"></i>
-                        <span> Search</span>
+                        <span>Search</span>
                     </a>
-                    {/* <a
-                        className={`navigation__item ${
-                            cartDrawer === true ? 'active' : ''
-                        }`}
-                        onClick={this.handleShowCartDrawer}>
-                        <i className="icon-bag2"></i>
-                        <span> Cart</span>
-                    </a> */}
                 </div>
             </div>
         );

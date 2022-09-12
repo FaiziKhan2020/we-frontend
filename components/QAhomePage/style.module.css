@@ -87,6 +87,10 @@
     -moz-box-shadow: 10px 10px 12px -1px rgba(0, 0, 0, 0.74);
 }
 
+.productcard img {
+    cursor: pointer;
+}
+
 .Productext {
     font-weight: bold !important;
     font-size: 16px;
