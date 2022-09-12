@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import style from './style.module.css';
 import { useCart } from 'react-use-cart';
 import { motion } from 'framer-motion';
-
+import Link from 'next/link';
 const ProductCard = ({ image, title, price, item }) => {
     const { addItem } = useCart();
     const [isAdding, setIsAdding] = useState(false);
@@ -16,14 +16,16 @@ const ProductCard = ({ image, title, price, item }) => {
         <div className={style.mainCard}>
             <div className={style.productcard}>
                 <div className="py-4">
-                    <motion.img
-                        whileHover={{ scale: 1.3 }}
-                        referrerPolicy="no-referrer"
-                        src={image}
-                        alt="Product_image"
-                        height={180}
-                        width={200}
-                    />
+                    <Link href="/product/[pid]" as={`/product/${item?.id}`}>
+                        <motion.img
+                            whileHover={{ scale: 1.3 }}
+                            referrerPolicy="no-referrer"
+                            src={image}
+                            alt="Product_image"
+                            height={180}
+                            width={200}
+                        />
+                    </Link>
                 </div>
                 <div className={`py-4 ${style.Productext}`}>
                     <div className="font-weight-bold">{title}</div>{' '}
