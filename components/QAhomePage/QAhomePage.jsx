@@ -56,7 +56,7 @@ const QAhomePage = () => {
                                 />
                             ))}
                         </div>
-                        <div className={`col-md-8 ${style.mainCard}`}>
+                        <div className={`col-md-8 my-4 ${style.mainCard}`}>
                             {data.map((item) => (
                                 <ProductCard
                                     key={item}

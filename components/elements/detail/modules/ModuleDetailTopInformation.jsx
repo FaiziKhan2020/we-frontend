@@ -22,10 +22,11 @@ const ModuleDetailTopInformation = ({ product }) => {
             <div className="ps-product__meta">
                 <p>
                     Brand:
-                    <Link href="/shop">
+                    {/* <Link href="/shop">
                         <a className="ml-2 text-capitalize">{product.vendor}</a>
-                    </Link>
+                    </Link> */}
                 </p>
+                {product.title}
                 {/* <div className="ps-product__rating">
                     <Rating />
                     <span>(1 review)</span>

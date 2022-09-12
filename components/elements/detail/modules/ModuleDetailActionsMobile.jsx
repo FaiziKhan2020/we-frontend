@@ -24,7 +24,10 @@ const ModuleDetailActionsMobile = ({ product }) => {
     console.log(addItem);
     return (
         <div>
-            <a className="ps-btn" onClick={(e) => handleBuynow(e)}>
+            <a
+                className="ps-btn"
+                onClick={(e) => handleBuynow(e)}
+                style={{ color: 'white' }}>
                 Buy Now
             </a>
         </div>

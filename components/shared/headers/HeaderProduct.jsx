@@ -35,14 +35,14 @@ const HeaderProduct = ({ product }) => {
                         </div>
                     </div>
                     <div className="header__center">
-                        <SearchHeader />
+                        {/* <SearchHeader /> */}
                     </div>
                     <div className="header__right">
                         <HeaderActions />
                     </div>
                 </div>
             </div>
-            <NavigationDefault />
+            {/* <NavigationDefault /> */}
             <nav className="navigation navigation--product">
                 <div className="container">
                     <ProductOnHeader product={product} />

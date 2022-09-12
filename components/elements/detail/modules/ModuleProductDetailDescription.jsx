@@ -4,9 +4,9 @@ import Link from 'next/link';
 const ModuleProductDetailDescription = ({ product }) => (
     <div>
         <ul className="ps-list--dot">
-            <li> {product.Brand_Name} </li>
             <li> {product.title} </li>
-            <li> {product.Bar_code} </li>
+            <li> {product.title} </li>
+            <li> {product.title} </li>
         </ul>
     </div>
 );

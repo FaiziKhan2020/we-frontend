@@ -3,6 +3,7 @@ import Head from 'next/head';
 import HeaderDefault from '~/components/shared/headers/HeaderDefault';
 import HeaderMobile from '~/components/shared/headers/HeaderMobile';
 import FooterFullwidth from '~/components/shared/footers/FooterFullwidth';
+import Newsletters from '../partials/commons/Newletters';
 const initHeaders = (
     <>
         <HeaderDefault />
@@ -14,10 +15,16 @@ const initFooters = (
         <FooterFullwidth />
     </>
 );
+const initNewsletters = (
+    <>
+        <Newsletters />
+    </>
+);
 
 const PageContainer = ({
     header = initHeaders,
     footer = initFooters,
+    newsletters = initNewsletters,
     children,
     title = 'Page',
 }) => {
@@ -36,6 +43,7 @@ const PageContainer = ({
             </Head>
             {header}
             {children}
+            {newsletters}
             {footer}
             {/* <a
                 className="whatsapp"
