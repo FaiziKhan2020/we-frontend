@@ -94,7 +94,7 @@ const ShoppingCartScreen = ({ ecomerce }) => {
                         </div>
                     </div>
                 </div>
-                <Newletters layout="container" />
+                {/* <Newletters layout="container" /> */}
             </PageContainer>
         </>
     );

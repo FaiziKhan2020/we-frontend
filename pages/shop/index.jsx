@@ -11,6 +11,7 @@ import SearchHeader from '~/components/shared/headers/modules/SearchHeader';
 import DropDown from '~/components/QAhomePage/DropDown.json';
 import style from '~/components/QAhomePage/style.module.css';
 import Axios from 'axios';
+import { CartProvider } from 'react-use-cart';
 
 const ShopDefaultPage = () => {
     const [data, setData] = useState([]);
@@ -37,50 +38,54 @@ const ShopDefaultPage = () => {
     ];
 
     return (
-        <PageContainer title="Shop">
-            <div className="ps-page--shop">
-                <BreadCrumb breacrumb={breadCrumb} layout="fullwidth" />
-                <div className="ps-container">
-                    <ShopBanner />
-                    <ShopBrands />
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-12">
-                                <div className={`my-4 ${style.searchBarShop}`}>
-                                    <SearchHeader />
+        <CartProvider>
+            <PageContainer title="Shop">
+                <div className="ps-page--shop">
+                    <BreadCrumb breacrumb={breadCrumb} layout="fullwidth" />
+                    <div className="ps-container">
+                        <ShopBanner />
+                        <ShopBrands />
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-12">
+                                    <div
+                                        className={`my-4 ${style.searchBarShop}`}>
+                                        <SearchHeader />
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="row mt-4">
-                            <div className="col-md-4">
-                                {DropDown.map((item) => (
-                                    <ProductSideBar
-                                        key={item}
-                                        image={item.image}
-                                        Name={item.Name}
-                                        subName1={item.subName1}
-                                        subName2={item.subName2}
-                                        subName3={item.subName3}
-                                    />
-                                ))}
-                            </div>
-                            <div className={`col-md-8 ${style.mainCard}`}>
-                                {data.map((item) => (
-                                    <ProductCard
-                                        key={item}
-                                        imgUrl={item?.imgUrl}
-                                        title={item.title}
-                                        price={item.price}
-                                        item={item}
-                                    />
-                                ))}
+                            <div className="row mt-4">
+                                <div className="col-md-4">
+                                    {DropDown.map((item) => (
+                                        <ProductSideBar
+                                            key={item}
+                                            image={item.image}
+                                            Name={item.Name}
+                                            subName1={item.subName1}
+                                            subName2={item.subName2}
+                                            subName3={item.subName3}
+                                        />
+                                    ))}
+                                </div>
+                                <div
+                                    className={`col-md-8 my-4 ${style.mainCard}`}>
+                                    {data.map((item) => (
+                                        <ProductCard
+                                            key={item}
+                                            imgUrl={item?.imgUrl}
+                                            title={item.title}
+                                            price={item.price}
+                                            item={item}
+                                        />
+                                    ))}
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <Newletters />
-        </PageContainer>
+                <Newletters />
+            </PageContainer>
+        </CartProvider>
     );
 };
 export default ShopDefaultPage;

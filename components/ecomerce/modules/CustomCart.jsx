@@ -24,7 +24,7 @@ const CustomCart = () => {
                 <thead>
                     <tr>
                         <th>Product</th>
-                        <th>Title</th>
+                        {/* <th>Title</th> */}
                         <th>Price</th>
                         <th>Quantity</th>
                         <th>Total</th>
@@ -50,7 +50,7 @@ const CustomCart = () => {
                                     }}
                                 />
                             </td>
-                            <td>{item.title}</td>
+                            {/* <td>{item.title}</td> */}
                             <td data-label="price" className="price">
                                 Rs. {item.price}
                             </td>
