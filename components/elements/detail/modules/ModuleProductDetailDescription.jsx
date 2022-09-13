@@ -7,7 +7,12 @@ const ModuleProductDetailDescription = ({ product }) => (
             <li> {product.title} </li>
             <li> {product.title} </li>
             <li> {product.title} </li>
-            <li>{console.log(product.sizes)}</li>
+            {/* <li>{console.log(product.sizes)}</li> */}
+        </ul>
+        <ul>
+            {/* {product.sizes.map((item) => (
+                <li> {item} </li>
+            ))} */}
         </ul>
     </div>
 );
