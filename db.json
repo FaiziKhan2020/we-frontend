@@ -1,21 +1,17 @@
 {
     "users": [{
-            "id": 1,
-            "price": 100,
-            "imgUrl": "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png",
-            "title": "Blue Jeans",
-            "items": "item",
-            "sizes": [{
-                    "m": "m"
-                },
-                {
-                    "l": "l"
-                },
-                {
-                    "s": "s"
-                }
-            ]
-        },
+        "id": 1,
+        "price": 100,
+        "imgUrl": "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png",
+        "title": "Blue Jeans",
+        "items": "item",
+        "sizes": [
+            { "value": "7", "label": "7" },
+            { "value": "8", "label": "8" },
+            { "value": "9", "label": "9" },
+            { "value": "10", "label": "10" }
+        ]
+    },
         {
             "id": 2,
             "price": 200,
@@ -23,15 +19,11 @@
 
             "title": "black Jeans",
             "items": "item",
-            "sizes": [{
-                    "m": "m"
-                },
-                {
-                    "l": "l"
-                },
-                {
-                    "s": "s"
-                }
+            "sizes": [
+                { "value": "7", "label": "7" },
+                { "value": "8", "label": "8" },
+                { "value": "9", "label": "9" },
+                { "value": "10", "label": "10" }
             ]
         },
         {
@@ -41,14 +33,11 @@
 
             "title": "Green Jeans",
             "items": "item",
-            "sizes": [{
-                    "m": "m"
-                },
+            "sizes": [
                 {
-                    "l": "l"
-                },
-                {
-                    "s": "s"
+                    "medium": "m",
+                    "large": "l",
+                    "small": "s"
                 }
             ]
         },
@@ -59,15 +48,11 @@
 
             "title": "White Jeans",
             "items": "item",
-            "sizes": [{
-                    "m": "m"
-                },
-                {
-                    "l": "l"
-                },
-                {
-                    "s": "s"
-                }
+            "sizes": [
+                { "value": "7", "label": "7" },
+                { "value": "8", "label": "8" },
+                { "value": "9", "label": "9" },
+                { "value": "10", "label": "10" }
             ]
         },
         {
@@ -77,15 +62,11 @@
 
             "title": "Purple Jeans",
             "items": "item",
-            "sizes": [{
-                    "m": "m"
-                },
-                {
-                    "l": "l"
-                },
-                {
-                    "s": "s"
-                }
+            "sizes": [
+                { "value": "7", "label": "7" },
+                { "value": "8", "label": "8" },
+                { "value": "9", "label": "9" },
+                { "value": "10", "label": "10" }
             ]
         },
         {
@@ -95,15 +76,11 @@
 
             "title": "Red Jeans",
             "items": "item",
-            "sizes": [{
-                    "m": "m"
-                },
-                {
-                    "l": "l"
-                },
-                {
-                    "s": "s"
-                }
+            "sizes": [
+                { "value": "7", "label": "7" },
+                { "value": "8", "label": "8" },
+                { "value": "9", "label": "9" },
+                { "value": "10", "label": "10" }
             ]
         }
     ]
