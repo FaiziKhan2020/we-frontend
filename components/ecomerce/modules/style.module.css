@@ -1,0 +1,59 @@
+.formHeading {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.productImg {
+    width: 300px;
+}
+
+.formCart {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    /* padding: 5px 10px; */
+    border-radius: 5px;
+    width: 120px;
+}
+
+.formCart button {
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+}
+
+.formCart input {
+    text-align: center;
+    border: none;
+    background: transparent;
+    /* color: black !important; */
+    width: 50px;
+}
+
+.formInput::placeholder {
+    color: black !important;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 600px) {
+    .formCart {
+        width: 80px;
+    }
+    .formCart button {
+        font-size: 15px;
+    }
+    .formCart input {
+        width: 30px;
+    }
+    .formInput::placeholder {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .productImg {
+        width: 200px;
+    }
+}
