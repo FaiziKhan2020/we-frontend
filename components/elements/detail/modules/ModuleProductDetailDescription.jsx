@@ -7,6 +7,7 @@ const ModuleProductDetailDescription = ({ product }) => (
             <li> {product.title} </li>
             <li> {product.title} </li>
             <li> {product.title} </li>
+            <li>{console.log(product.sizes)}</li>
         </ul>
     </div>
 );
