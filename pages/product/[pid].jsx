@@ -21,11 +21,12 @@ const ProductDefaultPage = () => {
             // `https://dawoodddocker.herokuapp.com/api/v1/product/${pid}`
             `http://localhost:5000/users/${pid}`
         );
-        console.log(responseData.data);
+        // console.log(responseData.data);
         if (responseData) {
             setProduct({
                 ...responseData.data,
                 images: [responseData.data?.imgUrl],
+                sizes: [responseData.data?.sizes],
             });
             setTimeout(
                 function () {

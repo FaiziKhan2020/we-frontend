@@ -4,7 +4,17 @@
             "price": 100,
             "imgUrl": "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png",
             "title": "Blue Jeans",
-            "items": "item"
+            "items": "item",
+            "sizes": [{
+                    "m": "m"
+                },
+                {
+                    "l": "l"
+                },
+                {
+                    "s": "s"
+                }
+            ]
         },
         {
             "id": 2,
@@ -12,7 +22,17 @@
             "imgUrl": "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png",
 
             "title": "black Jeans",
-            "items": "item"
+            "items": "item",
+            "sizes": [{
+                    "m": "m"
+                },
+                {
+                    "l": "l"
+                },
+                {
+                    "s": "s"
+                }
+            ]
         },
         {
             "id": 3,
@@ -20,7 +40,17 @@
             "imgUrl": "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png",
 
             "title": "Blue Jeans",
-            "items": "item"
+            "items": "item",
+            "sizes": [{
+                    "m": "m"
+                },
+                {
+                    "l": "l"
+                },
+                {
+                    "s": "s"
+                }
+            ]
         },
         {
             "id": 4,
@@ -28,7 +58,17 @@
             "imgUrl": "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png",
 
             "title": "Blue Jeans",
-            "items": "item"
+            "items": "item",
+            "sizes": [{
+                    "m": "m"
+                },
+                {
+                    "l": "l"
+                },
+                {
+                    "s": "s"
+                }
+            ]
         },
         {
             "id": 5,
@@ -36,7 +76,17 @@
             "imgUrl": "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png",
 
             "title": "Blue Jeans",
-            "items": "item"
+            "items": "item",
+            "sizes": [{
+                    "m": "m"
+                },
+                {
+                    "l": "l"
+                },
+                {
+                    "s": "s"
+                }
+            ]
         },
         {
             "id": 6,
@@ -44,7 +94,17 @@
             "imgUrl": "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png",
 
             "title": "Blue Jeans",
-            "items": "item"
+            "items": "item",
+            "sizes": [{
+                    "m": "m"
+                },
+                {
+                    "l": "l"
+                },
+                {
+                    "s": "s"
+                }
+            ]
         }
     ]
 }

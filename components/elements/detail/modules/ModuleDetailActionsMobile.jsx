@@ -15,13 +15,14 @@ const ModuleDetailActionsMobile = ({ product }) => {
             price: product.price,
             title: product.title,
             imgUrl: product.imgUrl,
+            // sizes: product.sizes,
         });
 
         setTimeout(function () {
             Router.push('/shopCartItems/shopCart');
         }, 1000);
     }
-    console.log(addItem);
+    // console.log(addItem);
     return (
         <div>
             <a
