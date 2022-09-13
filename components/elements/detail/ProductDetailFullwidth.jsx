@@ -5,7 +5,11 @@ import ModuleDetailShoppingActions from '~/components/elements/detail/modules/Mo
 import ModuleProductDetailSpecification from '~/components/elements/detail/modules/ModuleProductDetailSpecification';
 import ModuleDetailActionsMobile from '~/components/elements/detail/modules/ModuleDetailActionsMobile';
 import ModuleDetailTopInformation from '~/components/elements/detail/modules/ModuleDetailTopInformation';
+import Select from 'react-select';
+import { useState } from 'react';
 const ProductDetailFullwidth = ({ product }) => {
+  
+    const [Gender,setGender]=useState("");
     return (
         <div className="ps-product--detail ps-product--fullwidth">
             <div className="ps-product__header">
@@ -16,6 +20,15 @@ const ProductDetailFullwidth = ({ product }) => {
                     <ModuleDetailShoppingActions product={product} />
                     <ModuleProductDetailSpecification />
                     <ModuleDetailActionsMobile product={product} />
+
+                    {console.log(product.sizes[0])}
+                    <Select
+                        options={product.sizes[0] }
+                        isClearable
+                        placeholder="Size"
+                        onChange={(e) => setGender(e.value)}
+                    />
+                  
                 </div>
             </div>
             {/* <DefaultDescription /> */}
