@@ -22,10 +22,12 @@ const SearchHeader = () => {
                 setLoading(true);
                 const response = await axios.get(
                     // `http://localhost:8080/api/v1/product?query=${keyword}`
-                    `https://dawoodddocker.herokuapp.com/api/v1/product?query=${keyword}`
+                    // `https://dawoodddocker.herokuapp.com/api/v1/product?query=${keyword}`
+                    `http://localhost:5000/users?query=${keyword}`
                 );
 
-                setResultItems(response.data.data);
+                // setResultItems(response.data.data);
+                setResultItems(response.data);
                 setIsSearch(true);
                 setLoading(false);
             };
