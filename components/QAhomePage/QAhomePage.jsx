@@ -14,7 +14,7 @@ import Axios from 'axios';
 const QAhomePage = () => {
     const [data, setData] = useState([]);
     useEffect(() => {
-        const fetchBags = async () => {
+        const fetchProducts = async () => {
             try {
                 const data = await Axios.get(`http://localhost:5000/users`);
                 setData(data.data);
@@ -23,7 +23,7 @@ const QAhomePage = () => {
                 console.log(error);
             }
         };
-        fetchBags();
+        fetchProducts();
     }, []);
     console.log(data);
     return (

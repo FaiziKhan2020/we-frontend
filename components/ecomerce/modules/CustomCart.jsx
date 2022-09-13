@@ -1,5 +1,7 @@
 import React from 'react';
 import { useCart } from 'react-use-cart';
+import { motion } from 'framer-motion';
+
 const CustomCart = () => {
     const {
         isEmpty,
@@ -22,26 +24,33 @@ const CustomCart = () => {
                 <thead>
                     <tr>
                         <th>Product</th>
+                        <th>Title</th>
                         <th>Price</th>
                         <th>Quantity</th>
                         <th>Total</th>
                         <th>Action</th>
                     </tr>
                 </thead>
-                <tr className="text-center">
+                {/* <tr className="text-center">
                     Cart: ({totalUniqueItems}) Total Items:({totalItems}){' '}
-                </tr>
+                </tr> */}
                 <tbody>
                     {items.map((item) => (
                         <tr key={item.id}>
                             <td>
-                                <img
+                                <motion.img
+                                    whileHover={{ scale: 1.2 }}
+                                    referrerPolicy="no-referrer"
                                     height={150}
                                     src={item.imgUrl || item.url}
                                     alt="product img"
-                                    style={{ width: '150px' }}
+                                    style={{
+                                        width: '150px',
+                                        borderRadius: '5px',
+                                    }}
                                 />
                             </td>
+                            <td>{item.title}</td>
                             <td data-label="price" className="price">
                                 Rs. {item.price}
                             </td>
