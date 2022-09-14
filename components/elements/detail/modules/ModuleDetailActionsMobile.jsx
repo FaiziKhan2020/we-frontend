@@ -4,7 +4,6 @@ import { useCart } from 'react-use-cart';
 import { useRouter } from 'next/router';
 import Select from 'react-select';
 import { motion } from 'framer-motion';
-// import { Form, Input } from 'antd';
 
 import style from '~/components/QAhomePage/style.module.css';
 const ModuleDetailActionsMobile = ({ product }) => {
@@ -17,7 +16,7 @@ const ModuleDetailActionsMobile = ({ product }) => {
         }, 1000);
     };
     const [Gender, setGender] = useState('');
-    const Router = useRouter();
+    // const Router = useRouter();
     function AddToCart() {
         addItem({
             id: product.id,
@@ -43,27 +42,18 @@ const ModuleDetailActionsMobile = ({ product }) => {
     // }
 
     return (
-        // <Form onFinish={AddToCart}>
         <div>
             <div className="my-4">
                 {console.log(Gender)}
-                {/* <Form.Item
-                        name="Size"
-                        rules={[
-                            {
-                                required: true,
-                                message: 'Please enter a Size',
-                            },
-                        ]}> */}
+
                 <Select
                     isClearable
                     isSearchable={false}
                     required
                     options={product.sizes[0]}
-                    placeholder="Size"
+                    placeholder="Please Select Size"
                     onChange={(e) => setGender(e.value)}
                 />
-                {/* </Form.Item> */}
             </div>
             <div className={style.moduleBtn}>
                 <motion.button
@@ -85,7 +75,6 @@ const ModuleDetailActionsMobile = ({ product }) => {
                     Buy Now
                 </a> */}
         </div>
-        // </Form>
     );
 };
 
