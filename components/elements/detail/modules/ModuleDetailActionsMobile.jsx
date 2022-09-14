@@ -15,7 +15,8 @@ const ModuleDetailActionsMobile = ({ product }) => {
             setIsAdding(false);
         }, 1000);
     };
-    const [Gender, setGender] = useState('');
+    const [Size, setSize] = useState('');
+    const [Color, setColor] = useState('');
     // const Router = useRouter();
     function AddToCart() {
         addItem({
@@ -23,7 +24,8 @@ const ModuleDetailActionsMobile = ({ product }) => {
             price: product.price,
             title: product.title,
             imgUrl: product.imgUrl,
-            sizes: Gender,
+            sizes: Size,
+            color: Color,
         });
         total();
     }
@@ -48,9 +50,17 @@ const ModuleDetailActionsMobile = ({ product }) => {
                     isClearable
                     isSearchable={false}
                     required
+                    options={product.color[0]}
+                    placeholder="Please Select Size"
+                    onChange={(e) => setColor(e.value)}
+                />
+                <Select
+                    isClearable
+                    isSearchable={false}
+                    required
                     options={product.sizes[0]}
                     placeholder="Please Select Size"
-                    onChange={(e) => setGender(e.value)}
+                    onChange={(e) => setSize(e.value)}
                 />
             </div>
             <div className={style.moduleBtn}>

@@ -7,6 +7,9 @@ import ModuleDetailActionsMobile from '~/components/elements/detail/modules/Modu
 import ModuleDetailTopInformation from '~/components/elements/detail/modules/ModuleDetailTopInformation';
 
 const ProductDetailFullwidth = ({ product }) => {
+    {
+        console.log(product.color);
+    }
     return (
         <div className="ps-product--detail ps-product--fullwidth">
             <div className="ps-product__header">
