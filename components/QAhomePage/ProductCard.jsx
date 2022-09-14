@@ -31,17 +31,14 @@ const ProductCard = ({ imgUrl, title, price, item }) => {
                     <div className="font-weight-bold">{title}</div>{' '}
                     <div>QR. {price} </div>
                 </div>
-                <Link
-                    href="/product/[pid]"
-                    as={`/product/${item?.id}`}
-                    onClick={() => {
-                        total();
-                    }}>
+                <Link href="/product/[pid]" as={`/product/${item?.id}`}>
                     <motion.button
                         whileHover={{ scale: 1.1 }}
                         whileTap={{ scale: 0.9 }}
                         type="button"
-                        onClick={() => total()}
+                        onClick={() => {
+                            total();
+                        }}
                         className={`${isAdding ? 'btn btn-primary' : 'btn'}`}>
                         Buy {isAdding ? 'Now' : ''}
                     </motion.button>
