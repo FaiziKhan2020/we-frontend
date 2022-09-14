@@ -109,6 +109,19 @@
     color: white;
 }
 
+.moduleBtn button {
+    background-color: purple;
+    color: white;
+    font-size: 15px;
+    padding: 5px 30px 5px 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.moduleBtn button:hover {
+    color: white;
+}
+
 .SideBarBtn {
     width: 100%;
     display: flex;

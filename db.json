@@ -4,7 +4,6 @@
             "price": 100,
             "imgUrl": "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png",
             "title": "Blue Jeans",
-            "items": "item",
             "sizes": [
                 { "value": "small", "label": "small" },
                 { "value": "medium", "label": "medium" },
@@ -16,7 +15,6 @@
             "price": 200,
             "imgUrl": "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png",
             "title": "black Jeans",
-            "items": "item",
             "sizes": [
                 { "value": "small", "label": "small" },
                 { "value": "medium", "label": "medium" },
@@ -28,7 +26,6 @@
             "price": 300,
             "imgUrl": "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png",
             "title": "Green Jeans",
-            "items": "item",
             "sizes": [
                 { "value": "small", "label": "small" },
                 { "value": "medium", "label": "medium" },
@@ -40,7 +37,6 @@
             "price": 400,
             "imgUrl": "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png",
             "title": "White Jeans",
-            "items": "item",
             "sizes": [
                 { "value": "small", "label": "small" },
                 { "value": "medium", "label": "medium" },
@@ -52,7 +48,6 @@
             "price": 500,
             "imgUrl": "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png",
             "title": "Purple Jeans",
-            "items": "item",
             "sizes": [
                 { "value": "small", "label": "small" },
                 { "value": "medium", "label": "medium" },
@@ -64,7 +59,6 @@
             "price": 600,
             "imgUrl": "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png",
             "title": "Red Jeans",
-            "items": "item",
             "sizes": [
                 { "value": "small", "label": "small" },
                 { "value": "medium", "label": "medium" },
