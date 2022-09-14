@@ -24,6 +24,7 @@ const CustomCart = () => {
                             <th className={style.formHeading}>#</th>
                             <th className={style.formHeading}>Product</th>
                             <th className={style.formHeading}>Title</th>
+                            <th className={style.formHeading}>Color</th>
                             <th className={style.formHeading}>Size</th>
                             <th className={style.formHeading}>Quantity</th>
                             <th className={style.formHeading}>Price</th>
@@ -50,6 +51,7 @@ const CustomCart = () => {
                                 </td>{' '}
                                 {/* <td>{item.title}</td> */}{' '}
                                 <td>{item.title}</td>
+                                <td>{item.color}</td>
                                 <td>{item.sizes}</td>
                                 <td>
                                     <div className={style.formCart}>

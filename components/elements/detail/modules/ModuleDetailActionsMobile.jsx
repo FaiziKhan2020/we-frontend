@@ -46,14 +46,16 @@ const ModuleDetailActionsMobile = ({ product }) => {
     return (
         <div>
             <div className="my-4">
-                <Select
-                    isClearable
-                    isSearchable={false}
-                    required
-                    options={product.color[0]}
-                    placeholder="Please Select Size"
-                    onChange={(e) => setColor(e.value)}
-                />
+                <div className="my-4">
+                    <Select
+                        isClearable
+                        isSearchable={false}
+                        required
+                        options={product.color[0]}
+                        placeholder="Please Select Size"
+                        onChange={(e) => setColor(e.value)}
+                    />
+                </div>
                 <Select
                     isClearable
                     isSearchable={false}

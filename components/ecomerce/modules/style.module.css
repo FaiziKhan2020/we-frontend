@@ -4,7 +4,7 @@
 }
 
 .productImg {
-    width: 300px;
+    width: 250px;
 }
 
 .formCart {
@@ -14,7 +14,7 @@
     border: 1px solid black;
     /* padding: 5px 10px; */
     border-radius: 5px;
-    width: 120px;
+    width: 100px;
 }
 
 .formCart button {
