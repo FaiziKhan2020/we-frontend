@@ -44,8 +44,6 @@ const ModuleDetailActionsMobile = ({ product }) => {
     return (
         <div>
             <div className="my-4">
-                {console.log(Gender)}
-
                 <Select
                     isClearable
                     isSearchable={false}
