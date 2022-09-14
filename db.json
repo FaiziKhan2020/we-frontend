@@ -29,11 +29,11 @@
             "imgUrl": "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png",
             "title": "Green Jeans",
             "items": "item",
-            "sizes": [{
-                "medium": "m",
-                "large": "l",
-                "small": "s"
-            }]
+            "sizes": [
+                { "value": "small", "label": "small" },
+                { "value": "medium", "label": "medium" },
+                { "value": "large", "label": "large" }
+            ]
         },
         {
             "id": 4,
