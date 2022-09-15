@@ -1,8 +1,6 @@
 import React from 'react';
 import ThumbnailDefault from '~/components/elements/detail/thumbnail/ThumbnailDefault';
 import ModuleProductDetailDescription from '~/components/elements/detail/modules/ModuleProductDetailDescription';
-// import ModuleDetailShoppingActions from '~/components/elements/detail/modules/ModuleDetailShoppingActions';
-// import ModuleProductDetailSpecification from '~/components/elements/detail/modules/ModuleProductDetailSpecification';
 import ModuleDetailActionsMobile from '~/components/elements/detail/modules/ModuleDetailActionsMobile';
 import ModuleDetailTopInformation from '~/components/elements/detail/modules/ModuleDetailTopInformation';
 
@@ -14,7 +12,7 @@ const ProductDetailFullwidth = ({ product }) => {
                     <div className="col-md-4">
                         <ThumbnailDefault product={product} />
                     </div>
-                    <div className="col-md-8">
+                    <div className="col-md-6 mx-4">
                         <ModuleDetailTopInformation product={product} />
                         <ModuleProductDetailDescription product={product} />
                         <ModuleDetailActionsMobile product={product} />

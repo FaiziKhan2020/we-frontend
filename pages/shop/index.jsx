@@ -72,7 +72,7 @@ const ShopDefaultPage = () => {
                                     {data.map((item) => (
                                         <ProductCard
                                             key={item}
-                                            imgUrl={item?.imgUrl}
+                                            imgUrl={item?.imgUrl[0]}
                                             title={item.title}
                                             price={item.price}
                                             item={item}

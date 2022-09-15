@@ -89,6 +89,7 @@
 
 .productcard img {
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .Productext {
