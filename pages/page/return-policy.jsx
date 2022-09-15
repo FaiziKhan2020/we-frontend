@@ -1,8 +1,6 @@
 import React from 'react';
 import BreadCrumb from '~/components/elements/BreadCrumb';
-import BlankContent from '~/components/partials/page/Blank';
 import FooterDefault from '~/components/shared/footers/FooterDefault';
-import Newletters from '~/components/partials/commons/Newletters';
 import PageContainer from '~/components/layouts/PageContainer';
 
 const returnPolicy = () => {
@@ -32,7 +30,7 @@ const returnPolicy = () => {
                                 the shortest possible time to you. Hence, the
                                 terms and conditions for any return item will
                                 solely be governed by the retail outlet from
-                                where the shipment is picked up. Dawood Online
+                                where the shipment is picked up. QA-FASHION
                                 takes responsibility regarding the quality and
                                 freshness of any item on our part.
                             </p>
@@ -41,13 +39,12 @@ const returnPolicy = () => {
                                 goods in the agreed time, we will not be liable
                                 if we fail to do so in part or in full due to
                                 circumstances beyond our control. We currently
-                                only deliver in Hyderabad, Pakistan.
+                                only deliver in Qatar.
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
-            <Newletters layout="container" />
         </PageContainer>
     );
 };

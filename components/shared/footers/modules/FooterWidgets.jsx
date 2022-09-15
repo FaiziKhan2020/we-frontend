@@ -69,20 +69,20 @@ const FooterWidgets = () => (
                         <a>Return Policy</a>
                     </Link>
                 </li>
-                <li>
-                    {/* <Link href="/page/term-and-condition"> */}
-                    <a>Terms & Condition</a>
-                    {/* </Link> */}
-                </li>
+                {/* <li>
+                    <Link href="/page/term-and-condition">
+                        <a>Terms & Condition</a>
+                    </Link>
+                </li> */}
             </ul>
         </aside>
         <aside className="widget widget_footer">
             <h4 className="widget-title">EXTRAS</h4>
             <ul className="ps-list--link">
                 <li>
-                    {/* <Link href="/page/faqs"> */}
-                    <a>FAQs</a>
-                    {/* </Link> */}
+                    <Link href="/page/faqs">
+                        <a>FAQs</a>
+                    </Link>
                 </li>
             </ul>
         </aside>
