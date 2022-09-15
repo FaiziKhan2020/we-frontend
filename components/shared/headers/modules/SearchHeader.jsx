@@ -2,11 +2,8 @@ import React, { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import Router from 'next/router';
 import { Spin } from 'antd';
-// import ProductRepository from '~/repositories/ProductRepository';
 import ProductSearchResult from '~/components/elements/products/ProductSearchResult';
-// import data from '@/public/static/data/demo.json';
 import axios from 'axios';
-
 const SearchHeader = () => {
     const [data, setData] = useState([]);
     const inputEl = useRef(null);
@@ -14,7 +11,6 @@ const SearchHeader = () => {
     const [keyword, setKeyword] = useState('');
     const [resultItems, setResultItems] = useState(null);
     const [loading, setLoading] = useState(false);
-    // const debouncedSearchTerm = useDebounce(keyword, 300);
 
     useEffect(() => {
         if (keyword) {
@@ -92,9 +88,6 @@ const SearchHeader = () => {
             method="get"
             action="/"
             onSubmit={handleSubmit}>
-            {/* <div className="ps-form__categories">
-                <select className="form-control">{selectOptionView}</select>
-            </div> */}
             <div className="ps-form__input">
                 <input
                     ref={inputEl}

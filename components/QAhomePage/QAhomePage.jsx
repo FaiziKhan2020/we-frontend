@@ -7,14 +7,14 @@ import ShopCarouselBanner from '../partials/shop/ShopCarouselBanner';
 import ProductCard from './ProductCard';
 import ProductSideBar from './ProductSideBar';
 import { CartProvider } from 'react-use-cart';
-import FakeData from './FakeData.json';
+// import FakeData from './FakeData.json';
 import DropDown from './DropDown.json';
 import Axios from 'axios';
 
 const QAhomePage = () => {
     const [data, setData] = useState([]);
     useEffect(() => {
-        const fetchBags = async () => {
+        const fetchProducts = async () => {
             try {
                 const data = await Axios.get(`http://localhost:5000/users`);
                 setData(data.data);
@@ -23,9 +23,9 @@ const QAhomePage = () => {
                 console.log(error);
             }
         };
-        fetchBags();
+        fetchProducts();
     }, []);
-    console.log(data);
+    // console.log(data);
     return (
         <CartProvider>
             <PageContainer>

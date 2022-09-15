@@ -35,11 +35,11 @@ const ShoppingCartScreen = ({ ecomerce }) => {
     const router = useRouter();
 
     const goToCheckout = () => {
-        if (cartTotal >= 2000) {
-            router.push('/account/checkout');
-        } else {
-            alert('Your order is less than 2000');
-        }
+        // if (cartTotal >= 2000) {
+        router.push('/account/checkout');
+        // } else {
+        // alert('Your order is less than 2000');
+        // }
     };
 
     // View
@@ -51,7 +51,7 @@ const ShoppingCartScreen = ({ ecomerce }) => {
                 <div className="ps-section__content">
                     <CustomCart />
                     <div className="ps-section__cart-actions">
-                        <Link href="/">
+                        <Link href="/shop">
                             <a className="ps-btn">Back to Shop</a>
                         </Link>
                     </div>
@@ -60,23 +60,15 @@ const ShoppingCartScreen = ({ ecomerce }) => {
                     <div className="row justify-space-between">
                         <div className="col-xl-8 col-lg-4 col-md-12 col-sm-12 col-12 ">
                             <div className="row">
-                                <div className="col-lg-6">
-                                    {/* <div className="form-group ps-section__cart-actions">
-                                        <button
-                                            className="ps-btn"
-                                            onClick={(e) => emptyCart(e)}>
-                                            Clear Cart
-                                        </button>
-                                    </div> */}
-                                </div>
+                                <div className="col-lg-6"></div>
                             </div>
                         </div>
                         <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 ">
                             <CustomCartSummary />
 
-                            <p>
+                            {/* <p>
                                 <b>Your Order must be greater than 2000 Rs.</b>
-                            </p>
+                            </p> */}
                             <button
                                 onClick={goToCheckout}
                                 className="ps-btn ps-btn--fullwidth">
@@ -103,7 +95,7 @@ const ShoppingCartScreen = ({ ecomerce }) => {
                         </div>
                     </div>
                 </div>
-                <Newletters layout="container" />
+                {/* <Newletters layout="container" /> */}
             </PageContainer>
         </>
     );

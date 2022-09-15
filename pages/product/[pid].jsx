@@ -26,7 +26,8 @@ const ProductDefaultPage = () => {
             setProduct({
                 ...responseData.data,
                 images: [responseData.data?.imgUrl],
-                sizes: [responseData.data?.sizes],
+                sizes: [responseData.data.sizes],
+                color: [responseData.data.color],
             });
             setTimeout(
                 function () {
