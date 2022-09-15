@@ -42,7 +42,7 @@ const CustomCart = () => {
                                     />{' '}
                                 </td>{' '}
                                 {/* <td>{item.title}</td> */}{' '}
-                                <td>{item.title}</td>
+                                <td style={{ width: '150px' }}>{item.title}</td>
                                 <td>{item.color}</td>
                                 <td>{item.sizes}</td>
                                 <td>

@@ -20,12 +20,12 @@ const ModulePaymentOrderSummary = ({ ecomerce, shipping }) => {
     listItemsView = items.map((item) => (
         <Link href="/product/[pid]" as={`/product/${item?.id}`}>
             <a>
-                <strong style={{ fontSize: '14px' }}>
+                <strong style={{ width: '120px', fontSize: '14px' }}>
                     {item.title} <span> x {item.quantity} </span>
                 </strong>
                 <strong className="mr-4"> {item.sizes}</strong>
                 <strong>{item.color}</strong>
-                <small> Rs. {item.quantity * item.price} </small>
+                <small> QR. {item.quantity * item.price} </small>
             </a>
         </Link>
     ));
@@ -43,7 +43,7 @@ const ModulePaymentOrderSummary = ({ ecomerce, shipping }) => {
                 <h3>
                     Total
                     <strong>
-                        Rs. {cartTotal}
+                        QR. {cartTotal}
                         .00
                     </strong>
                 </h3>
@@ -55,7 +55,7 @@ const ModulePaymentOrderSummary = ({ ecomerce, shipping }) => {
                 <h3>
                     Total
                     <strong>
-                        Rs. {cartTotal}
+                        QR. {cartTotal}
                         .00
                     </strong>
                 </h3>
@@ -76,7 +76,7 @@ const ModulePaymentOrderSummary = ({ ecomerce, shipping }) => {
                     <figure>
                         <figcaption>
                             <strong> Subtotal </strong>
-                            <small> Rs. {cartTotal} </small>
+                            <small> QR. {cartTotal} </small>
                         </figcaption>
                     </figure>
                     {shippingView} {totalView}
