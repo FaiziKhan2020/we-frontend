@@ -65,9 +65,9 @@ const FooterWidgets = () => (
                     </Link>
                 </li>
                 <li>
-                    {/* <Link href="/page/return-policy"> */}
-                    <a>Return Policy</a>
-                    {/* </Link> */}
+                    <Link href="/page/return-policy">
+                        <a>Return Policy</a>
+                    </Link>
                 </li>
                 <li>
                     {/* <Link href="/page/term-and-condition"> */}

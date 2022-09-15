@@ -1,8 +1,6 @@
 import React from 'react';
 import BreadCrumb from '~/components/elements/BreadCrumb';
-// import BlankContent from '~/components/partials/page/Blank';
 import FooterDefault from '~/components/shared/footers/FooterDefault';
-import Newletters from '~/components/partials/commons/Newletters';
 import PageContainer from '~/components/layouts/PageContainer';
 
 const shippingPolicy = () => {
@@ -73,7 +71,6 @@ const shippingPolicy = () => {
                     </div>
                 </div>
             </div>
-            <Newletters layout="container" />
         </PageContainer>
     );
 };
