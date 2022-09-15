@@ -14,6 +14,7 @@ import { useCart } from 'react-use-cart';
 const ShoppingCartScreen = ({ ecomerce }) => {
     const { emptyCart, cartTotal } = useCart();
     console.log(cartTotal);
+    
     // const { products, getProducts } = useEcomerce();
 
     // useEffect(() => {
