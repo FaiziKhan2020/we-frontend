@@ -33,8 +33,10 @@ const CustomCart = () => {
                 </tr>
                 <tbody>
                     {items.map((item) => (
+                        
                         <tr key={item.id}>
                             <td>
+                                {console.log(item.sizes)}
                                 <img
                                     height={150}
                                     src={item.imgUrl || item.url}

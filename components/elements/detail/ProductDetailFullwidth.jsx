@@ -10,6 +10,7 @@ import { useState } from 'react';
 const ProductDetailFullwidth = ({ product }) => {
   
     const [Gender,setGender]=useState("");
+    console.log(Gender)
     return (
         <div className="ps-product--detail ps-product--fullwidth">
             <div className="ps-product__header">
