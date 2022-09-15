@@ -60,9 +60,9 @@ const FooterWidgets = () => (
             <h4 className="widget-title">INFORMATION</h4>
             <ul className="ps-list--link">
                 <li>
-                    {/* <Link href="/page/shipping-policy"> */}
-                    <a>Shipping Policy</a>
-                    {/* </Link> */}
+                    <Link href="/page/shipping-policy">
+                        <a>Shipping Policy</a>
+                    </Link>
                 </li>
                 <li>
                     {/* <Link href="/page/return-policy"> */}

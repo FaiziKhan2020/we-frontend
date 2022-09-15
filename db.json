@@ -14,15 +14,13 @@
             ],
             "color": [{
                     "value": "ocean",
-                    "label": "Ocean",
-                    "color": "#00B8D9"
+                    "label": "Ocean"
                 },
                 {
                     "value": "red",
-                    "label": "Red",
-                    "color": "#FF5630"
+                    "label": "Red"
                 },
-                { "value": "orange", "label": "Orange", "color": "#FF8B00" }
+                { "value": "orange", "label": "Orange" }
             ]
         },
         {
@@ -40,15 +38,13 @@
             ],
             "color": [{
                     "value": "ocean",
-                    "label": "Ocean",
-                    "color": "#00B8D9"
+                    "label": "Ocean"
                 },
                 {
                     "value": "red",
-                    "label": "Red",
-                    "color": "#FF5630"
+                    "label": "Red"
                 },
-                { "value": "orange", "label": "Orange", "color": "#FF8B00" }
+                { "value": "orange", "label": "Orange" }
             ]
         },
         {
@@ -66,15 +62,13 @@
             ],
             "color": [{
                     "value": "ocean",
-                    "label": "Ocean",
-                    "color": "#00B8D9"
+                    "label": "Ocean"
                 },
                 {
                     "value": "red",
-                    "label": "Red",
-                    "color": "#FF5630"
+                    "label": "Red"
                 },
-                { "value": "orange", "label": "Orange", "color": "#FF8B00" }
+                { "value": "orange", "label": "Orange" }
             ]
         },
         {
@@ -92,15 +86,13 @@
             ],
             "color": [{
                     "value": "ocean",
-                    "label": "Ocean",
-                    "color": "#00B8D9"
+                    "label": "Ocean"
                 },
                 {
                     "value": "red",
-                    "label": "Red",
-                    "color": "#FF5630"
+                    "label": "Red"
                 },
-                { "value": "orange", "label": "Orange", "color": "#FF8B00" }
+                { "value": "orange", "label": "Orange" }
             ]
         },
         {
@@ -118,15 +110,13 @@
             ],
             "color": [{
                     "value": "ocean",
-                    "label": "Ocean",
-                    "color": "#00B8D9"
+                    "label": "Ocean"
                 },
                 {
                     "value": "red",
-                    "label": "Red",
-                    "color": "#FF5630"
+                    "label": "Red"
                 },
-                { "value": "orange", "label": "Orange", "color": "#FF8B00" }
+                { "value": "orange", "label": "Orange" }
             ]
         },
         {
@@ -144,15 +134,13 @@
             ],
             "color": [{
                     "value": "ocean",
-                    "label": "Ocean",
-                    "color": "#00B8D9"
+                    "label": "Ocean"
                 },
                 {
                     "value": "red",
-                    "label": "Red",
-                    "color": "#FF5630"
+                    "label": "Red"
                 },
-                { "value": "orange", "label": "Orange", "color": "#FF8B00" }
+                { "value": "orange", "label": "Orange" }
             ]
         }
     ]
