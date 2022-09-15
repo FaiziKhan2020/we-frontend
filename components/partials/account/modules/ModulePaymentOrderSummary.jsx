@@ -2,25 +2,11 @@ import React, { useEffect } from 'react';
 import Link from 'next/link';
 import { connect } from 'react-redux';
 import { CartProvider } from 'react-use-cart';
-// import { useRouter } from 'next/router';
-// import { Form, Input } from 'antd';
-
 import { useCart } from 'react-use-cart';
-// import Button from './Button';
 import { useRouter } from 'next/router';
 const ModulePaymentOrderSummary = ({ ecomerce, shipping }) => {
     const { cartTotal, items, quantity } = useCart();
     console.log(items);
-    // const Router = useRouter();
-    // const { products, getProducts } = useEcomerce();
-
-    // useEffect(() => {
-    //     if (ecomerce.cartItems) {
-    //         getProducts(ecomerce.cartItems, 'cart');
-    //     }
-    // }, [ecomerce]);
-
-    // view
 
     const handleLoginSubmit = async (data) => {
         try {
@@ -32,14 +18,16 @@ const ModulePaymentOrderSummary = ({ ecomerce, shipping }) => {
     let listItemsView, shippingView, totalView;
 
     listItemsView = items.map((item) => (
-        // <Link href="/" key={item.id}>
-        <a>
-            <strong>
-                {item.title} <span> x {item.quantity} </span>
-            </strong>
-            <small> Rs. {item.quantity * item.price} </small>
-        </a>
-        // </Link>
+        <Link href="/product/[pid]" as={`/product/${item?.id}`}>
+            <a>
+                <strong style={{ fontSize: '14px' }}>
+                    {item.title} <span> x {item.quantity} </span>
+                </strong>
+                <strong className="mr-4"> {item.sizes}</strong>
+                <strong>{item.color}</strong>
+                <small> Rs. {item.quantity * item.price} </small>
+            </a>
+        </Link>
     ));
 
     if (shipping === true) {
@@ -92,7 +80,6 @@ const ModulePaymentOrderSummary = ({ ecomerce, shipping }) => {
                         </figcaption>
                     </figure>
                     {shippingView} {totalView}
-                    {/* <Button text="Place Order" onclick={handleLoginSubmit} /> */}
                 </div>
             </div>
         </CartProvider>
