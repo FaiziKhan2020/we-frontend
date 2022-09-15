@@ -12,7 +12,7 @@ const AboutUs = () => {
             url: '/',
         },
         {
-            text: 'Blank Page',
+            text: 'About Us',
         },
     ];
 
@@ -27,8 +27,8 @@ const AboutUs = () => {
                         </div>
                         <div className="ps-section__content">
                             <p>
-                                About Us We are the pioneers of On Line Grocery
-                                Shopping in Hyderabad.
+                                About Us We are the pioneers of On Line Cloth
+                                Shopping in Qatar.
                             </p>
                             <p>
                                 With over 4000 products and over a 100 brands in
@@ -44,9 +44,9 @@ const AboutUs = () => {
                             Your order will be delivered right at your doorstep.
                             And to top it all, you can pay cash on delivery. As
                             we choose from among the best and renowned Super
-                            Stores and Retail Outlets of Hyderabad, we can
-                            guarantee our customers on timely delivery, No
-                            hidden cost and the best quality available.
+                            Stores and Retail Outlets of Qatar, we can guarantee
+                            our customers on timely delivery, No hidden cost and
+                            the best quality available.
                         </div>
                     </div>
                 </div>

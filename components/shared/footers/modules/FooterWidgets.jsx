@@ -44,9 +44,9 @@ const FooterWidgets = () => (
             <h4 className="widget-title">CUSTOMER SERVICE</h4>
             <ul className="ps-list--link">
                 <li>
-                    {/* <Link href="/page/about"> */}
-                    <a>About Us</a>
-                    {/* </Link> */}
+                    <Link href="/page/about">
+                        <a>About Us</a>
+                    </Link>
                 </li>
 
                 <li>
