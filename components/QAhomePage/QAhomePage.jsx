@@ -16,9 +16,9 @@ const QAhomePage = () => {
     useEffect(() => {
         const fetchProducts = async () => {
             try {
-                const data = await Axios.get(`http://localhost:5000/users`);
-                setData(data.data);
-                // console.log(data.data);
+                const data = await Axios.get(`http://127.0.0.1:8000/view-product/`);
+                setData(data.data.products);
+                console.log(data.data.products);
             } catch (error) {
                 console.log(error);
             }
@@ -60,9 +60,9 @@ const QAhomePage = () => {
                             {data.map((item) => (
                                 <ProductCard
                                     key={item}
-                                    imgUrl={item?.imgUrl}
-                                    title={item.title}
-                                    price={item.price}
+                                    imgUrl={`http://127.0.0.1:8000/`+item.product_image}
+                                    title={item.product_name}
+                                    price={item.product_price}
                                     item={item}
                                 />
                             ))}
