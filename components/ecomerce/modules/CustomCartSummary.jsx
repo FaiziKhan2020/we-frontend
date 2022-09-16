@@ -1,6 +1,4 @@
 import React from 'react';
-// import Link from 'next/link';
-// import { calculateAmount } from '~/utilities/ecomerce-helpers';
 import { useCart } from 'react-use-cart';
 const customCartSummary = ({ source }) => {
     const { items, cartTotal } = useCart();
@@ -25,13 +23,13 @@ const customCartSummary = ({ source }) => {
             <div className="ps-block--shopping-total">
                 <div className="ps-block__header">
                     <p>
-                        Subtotal <span> Rs. {cartTotal}</span>
+                        Subtotal <span> QR. {cartTotal}</span>
                     </p>
                 </div>
                 <div className="ps-block__content">
                     {/* <ul className="ps-block__product">{productItemsView}</ul> */}
                     <h3>
-                        Total <span>Rs. {cartTotal}</span>
+                        Total <span>QR. {cartTotal}</span>
                     </h3>
                 </div>
             </div>

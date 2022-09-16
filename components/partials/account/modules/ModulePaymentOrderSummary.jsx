@@ -2,24 +2,11 @@ import React, { useEffect } from 'react';
 import Link from 'next/link';
 import { connect } from 'react-redux';
 import { CartProvider } from 'react-use-cart';
-// import { useRouter } from 'next/router';
-// import { Form, Input } from 'antd';
-
 import { useCart } from 'react-use-cart';
-// import Button from './Button';
 import { useRouter } from 'next/router';
 const ModulePaymentOrderSummary = ({ ecomerce, shipping }) => {
     const { cartTotal, items, quantity } = useCart();
-    // const Router = useRouter();
-    // const { products, getProducts } = useEcomerce();
-
-    // useEffect(() => {
-    //     if (ecomerce.cartItems) {
-    //         getProducts(ecomerce.cartItems, 'cart');
-    //     }
-    // }, [ecomerce]);
-
-    // view
+    console.log(items);
 
     const handleLoginSubmit = async (data) => {
         try {
@@ -31,13 +18,14 @@ const ModulePaymentOrderSummary = ({ ecomerce, shipping }) => {
     let listItemsView, shippingView, totalView;
 
     listItemsView = items.map((item) => (
-        <Link href="/" key={item.id}>
+        <Link href="/product/[pid]" as={`/product/${item?.id}`}>
             <a>
-                <strong>
-                    {item.title}
-                    <span>x{item.quantity}</span>
+                <strong style={{ width: '120px', fontSize: '14px' }}>
+                    {item.title} <span> x {item.quantity} </span>
                 </strong>
-                <small>Rs. {item.quantity * item.price}</small>
+                <strong className="mr-4"> {item.sizes}</strong>
+                <strong>{item.color}</strong>
+                <small> QR. {item.quantity * item.price} </small>
             </a>
         </Link>
     ));
@@ -46,8 +34,7 @@ const ModulePaymentOrderSummary = ({ ecomerce, shipping }) => {
         shippingView = (
             <figure>
                 <figcaption>
-                    <strong>Shipping Fee</strong>
-                    <small>$20.00</small>
+                    <strong> Shipping Fee </strong> <small> $20 .00 </small>
                 </figcaption>
             </figure>
         );
@@ -55,7 +42,10 @@ const ModulePaymentOrderSummary = ({ ecomerce, shipping }) => {
             <figure className="ps-block__total">
                 <h3>
                     Total
-                    <strong>Rs. {cartTotal}.00</strong>
+                    <strong>
+                        QR. {cartTotal}
+                        .00
+                    </strong>
                 </h3>
             </figure>
         );
@@ -64,7 +54,10 @@ const ModulePaymentOrderSummary = ({ ecomerce, shipping }) => {
             <figure className="ps-block__total">
                 <h3>
                     Total
-                    <strong>Rs. {cartTotal}.00</strong>
+                    <strong>
+                        QR. {cartTotal}
+                        .00
+                    </strong>
                 </h3>
             </figure>
         );
@@ -75,20 +68,18 @@ const ModulePaymentOrderSummary = ({ ecomerce, shipping }) => {
                 <div className="ps-block__content">
                     <figure>
                         <figcaption>
-                            <strong>Product</strong>
-                            <strong>total</strong>
+                            <strong> Product </strong> <strong> Size </strong>
+                            <strong> Color </strong> <strong> total </strong>
                         </figcaption>
                     </figure>
                     <figure className="ps-block__items">{listItemsView}</figure>
                     <figure>
                         <figcaption>
-                            <strong>Subtotal</strong>
-                            <small>Rs. {cartTotal}</small>
+                            <strong> Subtotal </strong>
+                            <small> QR. {cartTotal} </small>
                         </figcaption>
                     </figure>
-                    {shippingView}
-                    {totalView}
-                    {/* <Button text="Place Order" onclick={handleLoginSubmit} /> */}
+                    {shippingView} {totalView}
                 </div>
             </div>
         </CartProvider>

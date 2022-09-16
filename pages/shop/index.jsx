@@ -3,11 +3,9 @@ import BreadCrumb from '~/components/elements/BreadCrumb';
 import ShopBrands from '~/components/partials/shop/ShopBrands';
 import ShopBanner from '~/components/partials/shop/ShopBanner';
 import PageContainer from '~/components/layouts/PageContainer';
-import Newletters from '~/components/partials/commons/Newletters';
 import ProductCard from '~/components/QAhomePage/ProductCard';
 import ProductSideBar from '~/components/QAhomePage/ProductSideBar';
 import SearchHeader from '~/components/shared/headers/modules/SearchHeader';
-// import FakeData from '~/components/QAhomePage/FakeData.json';
 import DropDown from '~/components/QAhomePage/DropDown.json';
 import style from '~/components/QAhomePage/style.module.css';
 import Axios from 'axios';
@@ -72,7 +70,7 @@ const ShopDefaultPage = () => {
                                     {data.map((item) => (
                                         <ProductCard
                                             key={item}
-                                            imgUrl={item?.imgUrl}
+                                            imgUrl={item?.imgUrl[0]}
                                             title={item.title}
                                             price={item.price}
                                             item={item}
@@ -83,7 +81,6 @@ const ShopDefaultPage = () => {
                         </div>
                     </div>
                 </div>
-                <Newletters />
             </PageContainer>
         </CartProvider>
     );

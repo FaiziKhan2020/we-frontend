@@ -44,9 +44,9 @@ const FooterWidgets = () => (
             <h4 className="widget-title">CUSTOMER SERVICE</h4>
             <ul className="ps-list--link">
                 <li>
-                    {/* <Link href="/page/about"> */}
-                    <a>About Us</a>
-                    {/* </Link> */}
+                    <Link href="/page/about">
+                        <a>About Us</a>
+                    </Link>
                 </li>
 
                 <li>
@@ -60,29 +60,29 @@ const FooterWidgets = () => (
             <h4 className="widget-title">INFORMATION</h4>
             <ul className="ps-list--link">
                 <li>
-                    {/* <Link href="/page/shipping-policy"> */}
-                    <a>Shipping Policy</a>
-                    {/* </Link> */}
+                    <Link href="/page/shipping-policy">
+                        <a>Shipping Policy</a>
+                    </Link>
                 </li>
                 <li>
-                    {/* <Link href="/page/return-policy"> */}
-                    <a>Return Policy</a>
-                    {/* </Link> */}
+                    <Link href="/page/return-policy">
+                        <a>Return Policy</a>
+                    </Link>
                 </li>
-                <li>
-                    {/* <Link href="/page/term-and-condition"> */}
-                    <a>Terms & Condition</a>
-                    {/* </Link> */}
-                </li>
+                {/* <li>
+                    <Link href="/page/term-and-condition">
+                        <a>Terms & Condition</a>
+                    </Link>
+                </li> */}
             </ul>
         </aside>
         <aside className="widget widget_footer">
             <h4 className="widget-title">EXTRAS</h4>
             <ul className="ps-list--link">
                 <li>
-                    {/* <Link href="/page/faqs"> */}
-                    <a>FAQs</a>
-                    {/* </Link> */}
+                    <Link href="/page/faqs">
+                        <a>FAQs</a>
+                    </Link>
                 </li>
             </ul>
         </aside>

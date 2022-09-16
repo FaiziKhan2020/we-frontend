@@ -47,15 +47,18 @@ const HeaderDefault = () => {
                         <div
                             class="dropdown-menu"
                             aria-labelledby="dropdownMenuButton"
-                            style={{ fontSize: '12px' }}>
+                            style={{
+                                fontSize: '18px',
+                                padding: '10px 25px',
+                            }}>
                             <a class="dropdown-item" href="#">
-                                Action
+                                Men
                             </a>
                             <a class="dropdown-item" href="#">
-                                Another action
+                                Women
                             </a>
                             <a class="dropdown-item" href="#">
-                                Something else here
+                                Kids
                             </a>
                         </div>
                     </div>

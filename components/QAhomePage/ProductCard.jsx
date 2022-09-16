@@ -32,8 +32,8 @@ const ProductCard = ({ imgUrl, title, price, item }) => {
                     </Link>
                 </div>
                 <div className={`py-4 ${style.Productext}`}>
-                    <div className="font-weight-bold">{title}</div>{' '}
-                    <div>QR. {price} </div>
+                    <div className="font-weight-bold text-center">{title}</div>
+                    <div className="text-center">QR. {price} </div>
                 </div>
                 {/* <Link href="/product/[pid]" as={`/product/${item?.id}`}> */}
                 <motion.button

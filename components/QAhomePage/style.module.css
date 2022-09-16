@@ -7,6 +7,10 @@
     background-size: cover;
 } */
 
+.dropdown-menu {
+    padding-left: 200px !important;
+}
+
 .searchBarShop {
     margin: auto;
     width: 500px;
@@ -89,6 +93,7 @@
 
 .productcard img {
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .Productext {
@@ -134,7 +139,7 @@
 .SideBarBtn button {
     background-color: transparent;
     color: black;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 30px;
     border: none;
     border-radius: 5px;
     font-size: 15px;

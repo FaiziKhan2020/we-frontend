@@ -1,33 +1,25 @@
 [{
         "id": 1,
         "image": "https://res.cloudinary.com/xcltech/image/upload/v1662032769/100/trousers_za4k76.png",
-        "Name": "Men Pants",
-        "subName1": "Action 1",
-        "subName2": "Action 2",
-        "subName3": "Action 3"
+        "Name": "Men",
+        "subName1": "Shirts",
+        "subName2": "Shoes",
+        "subName3": "Pants"
     },
     {
         "id": 2,
         "image": "https://res.cloudinary.com/xcltech/image/upload/v1662033042/100/sneakers_irc3pw.png",
-        "Name": "Shoes Men",
-        "subName1": "Action 1",
-        "subName2": "Action 2",
-        "subName3": "Action 3"
+        "Name": "Women",
+        "subName1": "Shirts",
+        "subName2": "Shoes",
+        "subName3": "Pants"
     },
     {
         "id": 3,
         "image": "https://res.cloudinary.com/xcltech/image/upload/v1662032769/100/trousers_za4k76.png",
-        "Name": "Men Pants",
-        "subName1": "Action 1",
-        "subName2": "Action 2",
-        "subName3": "Action 3"
-    },
-    {
-        "id": 4,
-        "image": "https://res.cloudinary.com/xcltech/image/upload/v1662033042/100/sneakers_irc3pw.png",
-        "Name": "Shoes Men",
-        "subName1": "Action 1",
-        "subName2": "Action 2",
-        "subName3": "Action 3"
+        "Name": "Kids",
+        "subName1": "Shirts",
+        "subName2": "Shoes",
+        "subName3": "Pants"
     }
 ]
