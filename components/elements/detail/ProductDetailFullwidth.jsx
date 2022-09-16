@@ -7,7 +7,7 @@ import ModuleDetailTopInformation from '~/components/elements/detail/modules/Mod
 const ProductDetailFullwidth = ({ product }) => {
     return (
         <div>
-            <div className="container">
+            <div className="container my-4">
                 <div className="row">
                     <div className="col-md-4">
                         <ThumbnailDefault product={product} />
