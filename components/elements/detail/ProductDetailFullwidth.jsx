@@ -6,6 +6,19 @@ import ModuleDetailTopInformation from '~/components/elements/detail/modules/Mod
 
 const ProductDetailFullwidth = ({ product }) => {
     return (
+<<<<<<< HEAD
+        <div className="ps-product--detail ps-product--fullwidth">
+            <div className="ps-product__header">
+                <ThumbnailDefault product={product} />
+                <div className="ps-product__info">
+                    <ModuleDetailTopInformation product={product} />
+                    <ModuleProductDetailDescription product={product} />
+                   
+                    <ModuleDetailActionsMobile product={product} />
+                </div>
+            </div>
+            
+=======
         <div>
             <div className="container my-4">
                 <div className="row">
@@ -19,6 +32,7 @@ const ProductDetailFullwidth = ({ product }) => {
                     </div>
                 </div>
             </div>
+>>>>>>> 7e74ba93c08121e36a5a784dc9278c1190249066
         </div>
     );
 };

@@ -29,6 +29,17 @@ const ModuleDetailActionsMobile = ({ product }) => {
         });
         total();
     }
+    console.log(product.color);
+
+    const customStyles = {
+        option: (base, { data, isDisabled, isFocused, isSelected }) => {
+            return {
+                ...base,
+                backgroundColor: isFocused ? product.color[0].[1].color : 'pink',
+            };
+        },
+    };
+
     // function handleBuynow(e) {
     //     e.preventDefault();
     //     addItem({
@@ -54,6 +65,7 @@ const ModuleDetailActionsMobile = ({ product }) => {
                         options={product.color[0]}
                         placeholder="Please Select Size"
                         onChange={(e) => setColor(e.value)}
+                        styles={product.color[0]}
                     />
                 </div>
                 <Select
