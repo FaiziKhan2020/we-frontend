@@ -24,5 +24,3 @@ const ProductDetailFullwidth = ({ product }) => {
 };
 
 export default ProductDetailFullwidth;
-
-
