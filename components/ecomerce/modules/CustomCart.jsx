@@ -43,8 +43,24 @@ const CustomCart = () => {
                                 </td>{' '}
                                 {/* <td>{item.title}</td> */}{' '}
                                 <td style={{ width: '150px' }}>{item.title}</td>
-                                <td>{item.color}</td>
-                                <td>{item.sizes}</td>
+                                <td>
+                                    {item.color == [] ? (
+                                        <p className="text-danger">
+                                            Please choos color
+                                        </p>
+                                    ) : (
+                                        item.color
+                                    )}
+                                </td>
+                                <td>
+                                    {item.sizes == [] ? (
+                                        <p className="text-danger">
+                                            Please choos size
+                                        </p>
+                                    ) : (
+                                        item.sizes
+                                    )}
+                                </td>
                                 <td>
                                     <div className={style.formCart}>
                                         <button

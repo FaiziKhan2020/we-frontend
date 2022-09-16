@@ -1,4 +1,4 @@
-    {
+{
     "users": [{
             "id": 1,
             "price": 100,
@@ -7,21 +7,8 @@
                 "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png"
             ],
             "title": "Blue Jeans",
-            "sizes": [
-                { "value": "small", "label": "small" },
-                { "value": "medium", "label": "medium" },
-                { "value": "large", "label": "large" }
-            ],
-            "color": [{
-                    "value": "ocean",
-                    "label": "Ocean"
-                },
-                {
-                    "value": "red",
-                    "label": "Red"
-                },
-                { "value": "orange", "label": "Orange" }
-            ]
+            "sizes": ["Small", "Medium", "Large"],
+            "color": ["Red", "Blue", "Ocean"]
         },
         {
             "id": 2,
@@ -31,21 +18,8 @@
                 "https://res.cloudinary.com/xcltech/image/upload/v1663232550/100/download_icw1pp.jpg"
             ],
             "title": "black Jeans",
-            "sizes": [
-                { "value": "small", "label": "small" },
-                { "value": "medium", "label": "medium" },
-                { "value": "large", "label": "large" }
-            ],
-            "color": [{
-                    "value": "ocean",
-                    "label": "Ocean"
-                },
-                {
-                    "value": "red",
-                    "label": "Red"
-                },
-                { "value": "orange", "label": "Orange" }
-            ]
+            "sizes": ["Small", "Medium", "Large"],
+            "color": ["Red", "Blue", "Ocean"]
         },
         {
             "id": 3,
@@ -55,21 +29,8 @@
                 "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png"
             ],
             "title": "Green Jeans",
-            "sizes": [
-                { "value": "small", "label": "small" },
-                { "value": "medium", "label": "medium" },
-                { "value": "large", "label": "large" }
-            ],
-            "color": [{
-                    "value": "ocean",
-                    "label": "Ocean"
-                },
-                {
-                    "value": "red",
-                    "label": "Red"
-                },
-                { "value": "orange", "label": "Orange" }
-            ]
+            "sizes": ["Small", "Medium", "Large"],
+            "color": ["Red", "Blue", "Ocean"]
         },
         {
             "id": 4,
@@ -79,21 +40,8 @@
                 "https://res.cloudinary.com/xcltech/image/upload/v1663232550/100/download_icw1pp.jpg"
             ],
             "title": "White Jeans",
-            "sizes": [
-                { "value": "small", "label": "small" },
-                { "value": "medium", "label": "medium" },
-                { "value": "large", "label": "large" }
-            ],
-            "color": [{
-                    "value": "ocean",
-                    "label": "Ocean"
-                },
-                {
-                    "value": "red",
-                    "label": "Red"
-                },
-                { "value": "orange", "label": "Orange" }
-            ]
+            "sizes": ["Small", "Medium", "Large"],
+            "color": ["Red", "Blue", "Ocean"]
         },
         {
             "id": 5,
@@ -103,21 +51,8 @@
                 "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png"
             ],
             "title": "Purple Jeans",
-            "sizes": [
-                { "value": "small", "label": "small" },
-                { "value": "medium", "label": "medium" },
-                { "value": "large", "label": "large" }
-            ],
-            "color": [{
-                    "value": "ocean",
-                    "label": "Ocean"
-                },
-                {
-                    "value": "red",
-                    "label": "Red"
-                },
-                { "value": "orange", "label": "Orange" }
-            ]
+            "sizes": ["Small", "Medium", "Large"],
+            "color": ["Red", "Blue", "Ocean"]
         },
         {
             "id": 6,
@@ -126,21 +61,8 @@
                 "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png"
             ],
             "title": "Red Jeans",
-            "sizes": [
-                { "value": "small", "label": "small" },
-                { "value": "medium", "label": "medium" },
-                { "value": "large", "label": "large" }
-            ],
-            "color": [{
-                    "value": "ocean",
-                    "label": "Ocean"
-                },
-                {
-                    "value": "red",
-                    "label": "Red"
-                },
-                { "value": "orange", "label": "Orange" }
-            ]
+            "sizes": ["Small", "Medium", "Large"],
+            "color": ["Red", "Blue", "Ocean", "Purple"]
         }
     ]
 }
