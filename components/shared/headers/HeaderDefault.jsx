@@ -5,6 +5,7 @@ import Logo from '~/components/elements/common/Logo';
 import HeaderActions from '~/components/shared/headers/modules/HeaderActions';
 import { stickyHeader } from '~/utilities/common-helpers';
 import MenuCategoriesDropdown from '~/components/shared/menus/MenuCategoriesDropdown';
+import Link from "next/link"
 
 const HeaderDefault = () => {
     useEffect(() => {
@@ -51,15 +52,16 @@ const HeaderDefault = () => {
                                 fontSize: '18px',
                                 padding: '10px 25px',
                             }}>
-                            <a class="dropdown-item" href="#">
-                                Men
-                            </a>
-                            <a class="dropdown-item" href="#">
-                                Women
-                            </a>
-                            <a class="dropdown-item" href="#">
-                                Kids
-                            </a>
+                            <Link href="/men">
+                                <a class="dropdown-item">Men</a>
+                            </Link>
+                            <Link href="/women">
+                                <a class="dropdown-item">Women</a>
+                            </Link>
+                            <Link href="/kid">
+                                <a class="dropdown-item">Kids</a>
+                            </Link>
+                           
                         </div>
                     </div>
                     <div className="header__center"></div>

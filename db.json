@@ -1,7 +1,9 @@
     {
     "users": [{
             "id": 1,
+            
             "price": 100,
+            "sub_category":"pant",
             "imgUrl": [
                 "https://res.cloudinary.com/xcltech/image/upload/v1663232550/100/download_icw1pp.jpg",
                 "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png"
@@ -26,6 +28,7 @@
         {
             "id": 2,
             "price": 200,
+            "sub_category": "shirt",
             "imgUrl": [
                 "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png",
                 "https://res.cloudinary.com/xcltech/image/upload/v1663232550/100/download_icw1pp.jpg"
@@ -36,7 +39,8 @@
                 { "value": "medium", "label": "medium" },
                 { "value": "large", "label": "large" }
             ],
-            "color": [{
+            "color": [
+                {
                     "value": "ocean",
                     "label": "Ocean"
                 },
@@ -50,6 +54,7 @@
         {
             "id": 3,
             "price": 300,
+            "sub_category": "pant",
             "imgUrl": [
                 "https://res.cloudinary.com/xcltech/image/upload/v1663232550/100/download_icw1pp.jpg",
                 "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png"
@@ -60,7 +65,8 @@
                 { "value": "medium", "label": "medium" },
                 { "value": "large", "label": "large" }
             ],
-            "color": [{
+            "color": [
+                {
                     "value": "ocean",
                     "label": "Ocean"
                 },
@@ -74,6 +80,7 @@
         {
             "id": 4,
             "price": 400,
+            "sub_category": "shirt",
             "imgUrl": [
                 "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png",
                 "https://res.cloudinary.com/xcltech/image/upload/v1663232550/100/download_icw1pp.jpg"
@@ -84,7 +91,8 @@
                 { "value": "medium", "label": "medium" },
                 { "value": "large", "label": "large" }
             ],
-            "color": [{
+            "color": [
+                {
                     "value": "ocean",
                     "label": "Ocean"
                 },
@@ -98,6 +106,7 @@
         {
             "id": 5,
             "price": 500,
+            "sub_category": "shoes",
             "imgUrl": [
                 "https://res.cloudinary.com/xcltech/image/upload/v1663232550/100/download_icw1pp.jpg",
                 "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png"
@@ -108,7 +117,8 @@
                 { "value": "medium", "label": "medium" },
                 { "value": "large", "label": "large" }
             ],
-            "color": [{
+            "color": [
+                {
                     "value": "ocean",
                     "label": "Ocean"
                 },
@@ -122,6 +132,7 @@
         {
             "id": 6,
             "price": 600,
+            "sub_category": "shoes",
             "imgUrl": [
                 "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png"
             ],
@@ -131,7 +142,8 @@
                 { "value": "medium", "label": "medium" },
                 { "value": "large", "label": "large" }
             ],
-            "color": [{
+            "color": [
+                {
                     "value": "ocean",
                     "label": "Ocean"
                 },

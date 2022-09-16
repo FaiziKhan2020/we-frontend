@@ -4,12 +4,17 @@ import ProductCard from '~/components/QAhomePage/ProductCard';
 import SearchHeader from '~/components/shared/headers/modules/SearchHeader';
 import style from '~/components/QAhomePage/style.module.css';
 import Axios from 'axios';
-import Router from 'next/router';
+import Router, { useRouter } from 'next/router';
 
 import { CartProvider } from 'react-use-cart';
-import Link from 'next/link';
 
 const ShopDefaultPage = () => {
+    const router = useRouter();
+    const {
+        query: { e },
+    } = router;
+
+    console.log(e);
     const [data, setData] = useState([]);
     useEffect(() => {
         const fetchProducts = async () => {
@@ -23,14 +28,15 @@ const ShopDefaultPage = () => {
         };
         fetchProducts();
     }, []);
-   const send = (e) => {
-       Router.push({
-           pathname: '/men/filter',
-           query: {
-               e,
-           },
-       });
-   };
+    
+    const send = (e) => {
+        Router.push({
+            pathname: '/men/filter',
+            query: {
+                e,
+            },
+        });
+    };
 
     return (
         <CartProvider>
@@ -48,7 +54,7 @@ const ShopDefaultPage = () => {
                             </div>
                             <div
                                 class="dropdown d-flex justify-content-center"
-                                style={{ margin: '20px 100px 0px 0px',  }}>
+                                style={{ margin: '20px 100px 0px 0px' }}>
                                 <button
                                     class="btn btn-secondary dropdown-toggle"
                                     type="button"
@@ -73,9 +79,27 @@ const ShopDefaultPage = () => {
                                         fontSize: '18px',
                                         padding: '10px 25px',
                                     }}>
-                                        <a class="dropdown-item" onClick={()=>{send("shirt")}}>shirt</a>
-                                        <a class="dropdown-item" onClick={()=>{send("pant")}}>Pants</a>
-                                        <a class="dropdown-item" onClick={()=>{send("shoes")}}>shoes</a>
+                                    <a
+                                        class="dropdown-item"
+                                        onClick={() => {
+                                            send('shirt');
+                                        }}>
+                                        shirt
+                                    </a>
+                                    <a
+                                        class="dropdown-item"
+                                        onClick={() => {
+                                            send('pant');
+                                        }}>
+                                        Pants
+                                    </a>
+                                    <a
+                                        class="dropdown-item"
+                                        onClick={() => {
+                                            send('shoes');
+                                        }}>
+                                        shoes
+                                    </a>
                                 </div>
                             </div>
                             <div className="row mt-4">
@@ -95,15 +119,19 @@ const ShopDefaultPage = () => {
                                 </div> */}
                                 <div
                                     className={`col-md-12 my-4 ${style.mainCard}`}>
-                                    {data.map((item) => (
-                                        <ProductCard
-                                            key={item}
-                                            imgUrl={item?.imgUrl[0]}
-                                            title={item.title}
-                                            price={item.price}
-                                            item={item}
-                                        />
-                                    ))}
+                                    {data
+                                        .filter(
+                                            (index) => index.sub_category == e
+                                        )
+                                        .map((item) => (
+                                            <ProductCard
+                                                key={item}
+                                                imgUrl={item?.imgUrl[0]}
+                                                title={item.title}
+                                                price={item.price}
+                                                item={item}
+                                            />
+                                        ))}
                                 </div>
                             </div>
                         </div>
