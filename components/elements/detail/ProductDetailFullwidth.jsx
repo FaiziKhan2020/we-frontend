@@ -17,12 +17,11 @@ const ProductDetailFullwidth = ({ product }) => {
                 <div className="ps-product__info">
                     <ModuleDetailTopInformation product={product} />
                     <ModuleProductDetailDescription product={product} />
-                    {/* <ModuleDetailShoppingActions product={product} /> */}
-                    {/* <ModuleProductDetailSpecification /> */}
+                   
                     <ModuleDetailActionsMobile product={product} />
                 </div>
             </div>
-            {/* <DefaultDescription /> */}
+            
         </div>
     );
 };
