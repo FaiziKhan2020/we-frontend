@@ -2,6 +2,7 @@ import React from 'react';
 import { useCart } from 'react-use-cart';
 import { motion } from 'framer-motion';
 import style from './style.module.css';
+import Link from 'next/link';
 const CustomCart = () => {
     const { isEmpty, items, updateItemQuantity, removeItem, emptyCart } =
         useCart();
@@ -27,40 +28,66 @@ const CustomCart = () => {
                         {items.map((item, index) => (
                             <tr key={item.id}>
                                 <th scope="row"> {index + 1} </th>
-                                <td className={style.productImg}>
-                                    <motion.img
-                                        whileHover={{ scale: 1.2 }}
-                                        referrerPolicy="no-referrer"
-                                        // height={150}
-                                        src={item.imgUrl[0] || item.url}
-                                        alt="product img"
+                                <Link
+                                    href="/product/[pid]"
+                                    as={`/product/${item?.id}`}>
+                                    <td className={style.productImg}>
+                                        <motion.img
+                                            whileHover={{ scale: 1.2 }}
+                                            referrerPolicy="no-referrer"
+                                            // height={150}
+                                            src={item.imgUrl[0] || item.url}
+                                            alt="product img"
+                                            style={{
+                                                width: '150px',
+                                                height: 'auto',
+                                                borderRadius: '5px',
+                                                cursor: 'pointer',
+                                            }}
+                                        />
+                                    </td>
+                                </Link>
+                                <Link
+                                    href="/product/[pid]"
+                                    as={`/product/${item?.id}`}>
+                                    <td
+                                        className="cursor-pointer"
                                         style={{
                                             width: '150px',
-                                            height: 'auto',
-                                            borderRadius: '5px',
-                                        }}
-                                    />{' '}
-                                </td>{' '}
-                                {/* <td>{item.title}</td> */}{' '}
-                                <td style={{ width: '150px' }}>{item.title}</td>
-                                <td>
-                                    {item.color == [] ? (
-                                        <p className="text-danger">
-                                            Please choos color
-                                        </p>
-                                    ) : (
-                                        item.color
-                                    )}
-                                </td>
-                                <td>
-                                    {item.sizes == [] ? (
-                                        <p className="text-danger">
-                                            Please choos size
-                                        </p>
-                                    ) : (
-                                        item.sizes
-                                    )}
-                                </td>
+                                            cursor: 'pointer',
+                                        }}>
+                                        {item.title}
+                                    </td>
+                                </Link>
+                                <Link
+                                    href="/product/[pid]"
+                                    as={`/product/${item?.id}`}>
+                                    <td
+                                        style={{
+                                            cursor: 'pointer',
+                                        }}>
+                                        {item.color == [] ? (
+                                            <p className="text-danger">
+                                                Please choose color
+                                            </p>
+                                        ) : (
+                                            item.color
+                                        )}
+                                    </td>
+                                </Link>
+                                <Link
+                                    href="/product/[pid]"
+                                    as={`/product/${item?.id}`}>
+                                    <td style={{ cursor: 'pointer' }}>
+                                        {item.sizes == [] ? (
+                                            <p className="text-danger">
+                                                Please choose size
+                                            </p>
+                                        ) : (
+                                            item.sizes
+                                        )}
+                                    </td>
+                                </Link>
                                 <td>
                                     <div className={style.formCart}>
                                         <button
