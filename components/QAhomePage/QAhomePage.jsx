@@ -50,9 +50,7 @@ const QAhomePage = () => {
                                     key={item}
                                     image={item.image}
                                     Name={item.Name}
-                                    subName1={item.subName1}
-                                    subName2={item.subName2}
-                                    subName3={item.subName3}
+                                    jana={item.jana}
                                 />
                             ))}
                         </div>
