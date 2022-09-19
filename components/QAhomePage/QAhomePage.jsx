@@ -16,9 +16,9 @@ const QAhomePage = () => {
     useEffect(() => {
         const fetchProducts = async () => {
             try {
-                const data = await Axios.get(`http://127.0.0.1:8000/view-product/`);
-                setData(data.data.products);
-                console.log(data.data.products);
+                const data = await Axios.get(`http://localhost:5000/users`);
+                setData(data.data);
+                console.log(data.data);
             } catch (error) {
                 console.log(error);
             }

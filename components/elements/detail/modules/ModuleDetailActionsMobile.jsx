@@ -1,16 +1,12 @@
-import React, { useState,useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { connect, useDispatch } from 'react-redux';
 import { useCart } from 'react-use-cart';
-import { useRouter } from 'next/router';
-import Select from 'react-select';
 import { motion } from 'framer-motion';
-import Axios from "axios";
 import router from 'next/router';
-
 import style from '~/components/QAhomePage/style.module.css';
-import data from '~/public/static/data/bags';
-const ModuleDetailActionsMobile = ({product}) => {
-    const { addItem } = useCart();
+const ModuleDetailActionsMobile = ({ product }) => {
+    // const { addItem } = useCart();
+    const { addItem, items } = useCart();
     const [isAdding, setIsAdding] = useState(false);
     const total = () => {
         setIsAdding(true);
@@ -20,10 +16,7 @@ const ModuleDetailActionsMobile = ({product}) => {
     };
     const [Size, setSize] = useState('');
     const [Color, setColor] = useState('');
-    const [value, setValue] = useState("");
-    const [data,setData]=useState("");
-    const pid=router.query
-    // const Router = useRouter();
+
     function AddToCart() {
         addItem({
             id: product.id,
@@ -36,57 +29,32 @@ const ModuleDetailActionsMobile = ({product}) => {
         total();
     }
 
-    const handleChange = (e) => {
-        setValue(e.target.value);
-      };
-
-      useEffect(() => {
-        const fetchProducts = async () => {
-            try {
-                const data = await Axios.get(`http://127.0.0.1:8000/view-product/`);
-                setData(data.data.products);
-                // console.log(data.data.products);
-            } catch (error) {
-                console.log(error);
-            }
-        };
-        fetchProducts();
-    }, []);
-
-console.log(data[0])
+    console.log(items);
     return (
         <div>
             <div className="my-4">
-                <div className="my-4">
-                    {/* <Select
-                        isClearable
-                        isSearchable={false}
-                        required
-                        options={product.color[0]}
-                        placeholder="Please Select Size"
-                        onChange={(e) => setColor(e.value)}
-                    /> */}
-                </div>
-                <div>
-
-      <select value={value} onChange={handleChange}>
-        {/* {data.map((item,index)=>{
-            <option value="Orange">Orange</option>
-        })} */}
-        
-        <option value="Radish">Radish</option>
-        <option value="Cherry">Cherry</option>
-      </select>
-      <p>{`You selected ${value}`}</p>
-    </div>
-                {/* <Select
-                    isClearable
-                    isSearchable={false}
-                    required
-                    options={product.sizes[0]}
-                    placeholder="Please Select Size"
-                    onChange={(e) => setSize(e.value)}
-                /> */}
+                <select
+                    className={`mr-4 mb-4 ${style.selectpro}`}
+                    onChange={(e) => setColor(e.target.value)}
+                    value={Color}>
+                    <option>Choose Color</option>
+                    {product.color[0].map((item) => (
+                        <>
+                            <option> {item} </option>
+                        </>
+                    ))}
+                </select>
+                <select
+                    className={style.selectpro}
+                    onChange={(e) => setSize(e.target.value)}
+                    value={Size}>
+                    <option> Choose Size</option>
+                    {product.sizes[0].map((item) => (
+                        <>
+                            <option> {item} </option>
+                        </>
+                    ))}
+                </select>
             </div>
             <div className={style.moduleBtn}>
                 <motion.button
