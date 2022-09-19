@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { connect, useDispatch } from 'react-redux';
 import { useCart } from 'react-use-cart';
 import { motion } from 'framer-motion';
-import router from 'next/router';
 import style from '~/components/QAhomePage/style.module.css';
 const ModuleDetailActionsMobile = ({ product }) => {
     // const { addItem } = useCart();
