@@ -1,10 +1,12 @@
-[{
+[
+    {
         "id": 1,
         "image": "https://res.cloudinary.com/xcltech/image/upload/v1662032769/100/trousers_za4k76.png",
         "Name": "Men",
         "subName1": "Shirts",
         "subName2": "Shoes",
-        "subName3": "Pants"
+        "subName3": "Pants",
+        "jana": "/men"
     },
     {
         "id": 2,
@@ -12,7 +14,8 @@
         "Name": "Women",
         "subName1": "Shirts",
         "subName2": "Shoes",
-        "subName3": "Pants"
+        "subName3": "Pants",
+        "jana": "/women"
     },
     {
         "id": 3,
@@ -20,6 +23,7 @@
         "Name": "Kids",
         "subName1": "Shirts",
         "subName2": "Shoes",
-        "subName3": "Pants"
+        "subName3": "Pants",
+        "jana": "/kid"
     }
 ]

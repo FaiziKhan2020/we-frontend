@@ -1,8 +1,9 @@
 {
-    "users": [{
+    "users": [
+        {
             "id": 1,
             "price": 100,
-            "sub_category": "pant",
+            "sub_category":"pant",
             "imgUrl": [
                 "https://res.cloudinary.com/xcltech/image/upload/v1663232550/100/download_icw1pp.jpg",
                 "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png"

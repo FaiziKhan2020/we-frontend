@@ -131,7 +131,7 @@ const ShopDefaultPage = () => {
                                                 price={item.price}
                                                 item={item}
                                             />
-                                        ))}
+                                        ))||"product Not found"}
                                 </div>
                             </div>
                         </div>
