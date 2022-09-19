@@ -36,6 +36,7 @@ const ModuleDetailActionsMobile = ({ product }) => {
                 <select
                     className={`mr-4 mb-4 ${style.selectpro}`}
                     onChange={(e) => setColor(e.target.value)}
+                    required
                     value={Color}>
                     <option>Choose Color</option>
                     {product.color[0].map((item) => (
@@ -47,6 +48,7 @@ const ModuleDetailActionsMobile = ({ product }) => {
                 <select
                     className={style.selectpro}
                     onChange={(e) => setSize(e.target.value)}
+                    required
                     value={Size}>
                     <option> Choose Size</option>
                     {product.sizes[0].map((item) => (
