@@ -2,10 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Drawer } from 'antd';
 import PanelMenu from '../panel/PanelMenu';
-// import PanelCartMobile from '../panel/PanelCartMobile';
 import PanelSearch from '../panel/PanelSearch';
-// import PanelCategories from '../panel/PanelCategories';
-
 class NavigationList extends Component {
     constructor(props) {
         super(props);

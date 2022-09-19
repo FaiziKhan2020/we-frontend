@@ -1,6 +1,21 @@
 {
     "menuPrimary": {
         "menu_1": [{
+                "text": "Shop",
+                "url": "/",
+                "current": "shop",
+                "extraClass": "menu-item-has-children has-mega-menu",
+                "subClass": "sub-menu",
+                "mega": "true",
+                "megaContent": [{
+                    "heading": "All",
+                    "megaItems": [{
+                        "text": "Products",
+                        "url": "/"
+                    }]
+                }]
+            },
+            {
                 "text": "Mens",
                 "url": "/",
                 "current": "shop",
@@ -11,11 +26,11 @@
                     "heading": "Men Items",
                     "megaItems": [{
                             "text": "Men Pants",
-                            "url": "/grocery/beverages"
+                            "url": "/"
                         },
                         {
                             "text": "Men Shoes",
-                            "url": "/grocery/confectionery"
+                            "url": "/"
                         }
                     ]
                 }]
@@ -31,11 +46,11 @@
                     "heading": "Ladies Items",
                     "megaItems": [{
                             "text": "Ladies Pants",
-                            "url": "/ladies/perfume/bags"
+                            "url": "/"
                         },
                         {
                             "text": "Ladies Shoes ",
-                            "url": "/ladies/perfume/clutch"
+                            "url": "/"
                         }
                     ]
                 }]
@@ -52,11 +67,11 @@
                     "heading": "Kids Items",
                     "megaItems": [{
                             "text": "Kids Pants",
-                            "url": "/Gents/shirts/T-Shirt"
+                            "url": "/"
                         },
                         {
                             "text": "Kids Shoes",
-                            "url": "/Gents/shirts/Sweatshirts"
+                            "url": "/"
                         }
                     ]
                 }]

@@ -1,8 +1,6 @@
 import React from 'react';
 import BreadCrumb from '~/components/elements/BreadCrumb';
-import BlankContent from '~/components/partials/page/Blank';
 import FooterDefault from '~/components/shared/footers/FooterDefault';
-import Newletters from '~/components/partials/commons/Newletters';
 import PageContainer from '~/components/layouts/PageContainer';
 import {
     Accordion,
@@ -13,6 +11,7 @@ import {
 } from 'react-accessible-accordion';
 import 'react-accessible-accordion/dist/fancy-example.css';
 import items from './accordians.json';
+import { CartProvider } from 'react-use-cart';
 const FaqsPage = () => {
     const breadCrumb = [
         {
@@ -20,41 +19,48 @@ const FaqsPage = () => {
             url: '/',
         },
         {
-            text: "faq's",
+            text: "Faq's",
         },
     ];
 
     return (
-        <PageContainer footer={<FooterDefault />} title="Blank page">
-            <div className="ps-page--single">
-                <BreadCrumb breacrumb={breadCrumb} layout="fullwidth" />
-                <div className="ps-section--custom">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-12">
-                                <div style={{ width: '70%', margin: 'auto' }}>
-                                    <Accordion allowZeroExpanded>
-                                        {items.map((item) => (
-                                            <AccordionItem key={item.uuid}>
-                                                <AccordionItemHeading>
-                                                    <AccordionItemButton
-                                                        style={{
-                                                            fontSize: '20px',
-                                                            fontWeight: '500',
-                                                        }}>
-                                                        {item.heading}
-                                                    </AccordionItemButton>
-                                                </AccordionItemHeading>
-                                                <AccordionItemPanel>
-                                                    {item.content}
-                                                </AccordionItemPanel>
-                                            </AccordionItem>
-                                        ))}
-                                    </Accordion>
+        <CartProvider>
+            <PageContainer footer={<FooterDefault />} title="Blank page">
+                <div className="ps-page--single">
+                    <BreadCrumb breacrumb={breadCrumb} layout="fullwidth" />
+                    <div className="ps-section--custom">
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-12">
+                                    <div
+                                        style={{
+                                            width: '70%',
+                                            margin: 'auto',
+                                        }}>
+                                        <Accordion allowZeroExpanded>
+                                            {items.map((item) => (
+                                                <AccordionItem key={item.uuid}>
+                                                    <AccordionItemHeading>
+                                                        <AccordionItemButton
+                                                            style={{
+                                                                fontSize:
+                                                                    '20px',
+                                                                fontWeight:
+                                                                    '500',
+                                                            }}>
+                                                            {item.heading}
+                                                        </AccordionItemButton>
+                                                    </AccordionItemHeading>
+                                                    <AccordionItemPanel>
+                                                        {item.content}
+                                                    </AccordionItemPanel>
+                                                </AccordionItem>
+                                            ))}
+                                        </Accordion>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        {/* <div className="ps-section__header">
+                            {/* <div className="ps-section__header">
                             <h3>Faq's</h3>
                         </div>
                         <div className="ps-section__content">
@@ -98,11 +104,11 @@ const FaqsPage = () => {
                                 at any time.
                             </p>
                         </div> */}
+                        </div>
                     </div>
                 </div>
-            </div>
-            <Newletters layout="container" />
-        </PageContainer>
+            </PageContainer>
+        </CartProvider>
     );
 };
 

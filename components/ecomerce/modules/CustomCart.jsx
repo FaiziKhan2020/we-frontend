@@ -2,17 +2,10 @@ import React from 'react';
 import { useCart } from 'react-use-cart';
 import { motion } from 'framer-motion';
 import style from './style.module.css';
+import Link from 'next/link';
 const CustomCart = () => {
-    const {
-        isEmpty,
-        totalUniqueItems,
-        items,
-        totalItems,
-        cartTotal,
-        updateItemQuantity,
-        removeItem,
-        emptyCart,
-    } = useCart();
+    const { isEmpty, items, updateItemQuantity, removeItem, emptyCart } =
+        useCart();
     console.log(items);
     if (isEmpty) return <h3 className="text-center">Your Cart Is Empty</h3>;
     return (
@@ -35,24 +28,66 @@ const CustomCart = () => {
                         {items.map((item, index) => (
                             <tr key={item.id}>
                                 <th scope="row"> {index + 1} </th>
-                                <td className={style.productImg}>
-                                    <motion.img
-                                        whileHover={{ scale: 1.2 }}
-                                        referrerPolicy="no-referrer"
-                                        // height={150}
-                                        src={item.imgUrl || item.url}
-                                        alt="product img"
+                                <Link
+                                    href="/product/[pid]"
+                                    as={`/product/${item?.id}`}>
+                                    <td className={style.productImg}>
+                                        <motion.img
+                                            whileHover={{ scale: 1.2 }}
+                                            referrerPolicy="no-referrer"
+                                            // height={150}
+                                            src={item.imgUrl[0] || item.url}
+                                            alt="product img"
+                                            style={{
+                                                width: '150px',
+                                                height: 'auto',
+                                                borderRadius: '5px',
+                                                cursor: 'pointer',
+                                            }}
+                                        />
+                                    </td>
+                                </Link>
+                                <Link
+                                    href="/product/[pid]"
+                                    as={`/product/${item?.id}`}>
+                                    <td
+                                        className="cursor-pointer"
                                         style={{
                                             width: '150px',
-                                            height: 'auto',
-                                            borderRadius: '5px',
-                                        }}
-                                    />{' '}
-                                </td>{' '}
-                                {/* <td>{item.title}</td> */}{' '}
-                                <td>{item.title}</td>
-                                <td>{item.color}</td>
-                                <td>{item.sizes}</td>
+                                            cursor: 'pointer',
+                                        }}>
+                                        {item.title}
+                                    </td>
+                                </Link>
+                                <Link
+                                    href="/product/[pid]"
+                                    as={`/product/${item?.id}`}>
+                                    <td
+                                        style={{
+                                            cursor: 'pointer',
+                                        }}>
+                                        {item.color == [] ? (
+                                            <p className="text-danger">
+                                                Please choose color
+                                            </p>
+                                        ) : (
+                                            item.color
+                                        )}
+                                    </td>
+                                </Link>
+                                <Link
+                                    href="/product/[pid]"
+                                    as={`/product/${item?.id}`}>
+                                    <td style={{ cursor: 'pointer' }}>
+                                        {item.sizes == [] ? (
+                                            <p className="text-danger">
+                                                Please choose size
+                                            </p>
+                                        ) : (
+                                            item.sizes
+                                        )}
+                                    </td>
+                                </Link>
                                 <td>
                                     <div className={style.formCart}>
                                         <button
@@ -106,110 +141,3 @@ const CustomCart = () => {
 };
 
 export default CustomCart;
-
-// import React from 'react';
-// import { useCart } from 'react-use-cart';
-// import { motion } from 'framer-motion';
-
-// const CustomCart = () => {
-//     const {
-//         isEmpty,
-//         totalUniqueItems,
-//         items,
-//         totalItems,
-//         cartTotal,
-//         updateItemQuantity,
-//         removeItem,
-//         emptyCart,
-//     } = useCart();
-//     console.log(items);
-//     if (isEmpty) return <h3 className="text-center">Your Cart Is Empty</h3>;
-
-//     return (
-//         <>
-//             <table
-//                 className="table  ps-table--shopping-cart ps-table--responsive"
-//                 style={{ marginTop: '-50px' }}>
-//                 <thead>
-//                     <tr>
-//                         <th>Product</th>
-//                         {/* <th>Title</th> */}
-//                         <th>Price</th>
-//                         <th>Quantity</th>
-//                         <th>Total</th>
-//                         <th>Action</th>
-//                     </tr>
-//                 </thead>
-//                 {/* <tr className="text-center">
-//                     Cart: ({totalUniqueItems}) Total Items:({totalItems}){' '}
-//                 </tr> */}
-//                 <tbody>
-//                     {items.map((item) => (
-//                         <tr key={item.id}>
-//                             <td>
-//                                 <motion.img
-//                                     whileHover={{ scale: 1.2 }}
-//                                     referrerPolicy="no-referrer"
-//                                     height={150}
-//                                     src={item.imgUrl || item.url}
-//                                     alt="product img"
-//                                     style={{
-//                                         width: '150px',
-//                                         borderRadius: '5px',
-//                                     }}
-//                                 />
-//                             </td>
-//                             {/* <td>{item.title}</td> */}
-//                             <td data-label="price" className="price">
-//                                 Rs. {item.price}
-//                             </td>
-//                             <td data-label="quantity">
-//                                 <div className="form-group--number">
-//                                     <button
-//                                         className="up"
-//                                         onClick={(e) =>
-//                                             updateItemQuantity(
-//                                                 item.id,
-//                                                 item.quantity + 1
-//                                             )
-//                                         }>
-//                                         +
-//                                     </button>
-//                                     <button
-//                                         className="down"
-//                                         onClick={(e) =>
-//                                             updateItemQuantity(
-//                                                 item.id,
-//                                                 item.quantity - 1
-//                                             )
-//                                         }>
-//                                         -
-//                                     </button>
-//                                     <input
-//                                         className="form-control"
-//                                         type="text"
-//                                         placeholder={item.quantity}
-//                                         disabled={true}
-//                                     />
-//                                 </div>
-//                             </td>
-//                             <td data-label="total">
-//                                 <strong>
-//                                     Rs.{' '}
-//                                     {(item.price * item.quantity).toFixed(2)}
-//                                 </strong>
-//                             </td>
-//                             <td>
-//                                 <a onClick={(e) => removeItem(item.id)}>
-//                                     <i className="icon-cross"></i>
-//                                 </a>
-//                             </td>
-//                         </tr>
-//                     ))}
-//                 </tbody>
-//             </table>
-//         </>
-//     );
-// };
-
-// export default CustomCart

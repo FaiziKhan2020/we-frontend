@@ -2,7 +2,6 @@ import React from 'react';
 import Link from 'next/link';
 import MenuDropdown from '~/components/elements/menu/MenuDropdown';
 import MegaMenu from '~/components/elements/menu/MegaMenu';
-
 const Menu = ({ source, className }) => {
     // Views
     let menuView;
@@ -16,10 +15,7 @@ const Menu = ({ source, className }) => {
                 return (
                     <li key={item.text}>
                         <Link href={item.url}>
-                            <a>
-                                {/* {item.icon && <i className={item.icon}></i>} */}
-                                {item.text}
-                            </a>
+                            <a>{item.text}</a>
                         </Link>
                     </li>
                 );

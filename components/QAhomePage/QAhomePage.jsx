@@ -60,9 +60,9 @@ const QAhomePage = () => {
                             {data.map((item) => (
                                 <ProductCard
                                     key={item}
-                                    imgUrl={`http://127.0.0.1:8000/`+item.product_image}
-                                    title={item.product_name}
-                                    price={item.product_price}
+                                    imgUrl={item?.imgUrl[0]}
+                                    title={item.title}
+                                    price={item.price}
                                     item={item}
                                 />
                             ))}

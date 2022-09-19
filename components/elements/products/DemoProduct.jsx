@@ -43,7 +43,7 @@ const DemoProduct = ({ image, title, price, item }) => {
                         style={{ width: '160px' }}>
                         {title}
                     </a>
-                    <div className="ps-product__content">Rs. {price}</div>
+                    <div className="ps-product__content">QR. {price}</div>
                 </div>
             </div>
         </div>

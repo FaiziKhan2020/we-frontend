@@ -31,7 +31,7 @@ const ModuleEcomerceCartItems = ({ ecomerce, cartItems }) => {
                     <ProductCart product={item} />
                 </td>
                 <td data-label="price" className="price">
-                    Rs. {item.price}
+                    QR. {item.price}
                 </td>
                 <td data-label="quantity">
                     <div className="form-group--number">
@@ -55,7 +55,7 @@ const ModuleEcomerceCartItems = ({ ecomerce, cartItems }) => {
                 </td>
                 <td data-label="total">
                     <strong>
-                        Rs. {(item.price * item.quantity).toFixed(2)}
+                        QR. {(item.price * item.quantity).toFixed(2)}
                     </strong>
                 </td>
                 <td>

@@ -1,15 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import BreadCrumb from '~/components/elements/BreadCrumb';
-import ShopBrands from '~/components/partials/shop/ShopBrands';
-import ShopBanner from '~/components/partials/shop/ShopBanner';
 import PageContainer from '~/components/layouts/PageContainer';
 import ProductCard from '~/components/QAhomePage/ProductCard';
-import ProductSideBar from '~/components/QAhomePage/ProductSideBar';
 import SearchHeader from '~/components/shared/headers/modules/SearchHeader';
-import DropDown from '~/components/QAhomePage/DropDown.json';
 import style from '~/components/QAhomePage/style.module.css';
 import Axios from 'axios';
+import Router from 'next/router';
+
 import { CartProvider } from 'react-use-cart';
+import Link from 'next/link';
 
 const ShopDefaultPage = () => {
     const [data, setData] = useState([]);
@@ -25,24 +23,20 @@ const ShopDefaultPage = () => {
         };
         fetchProducts();
     }, []);
-    const breadCrumb = [
-        {
-            text: 'Home',
-            url: '/',
-        },
-        {
-            text: 'Shop Default',
-        },
-    ];
+   const send = (e) => {
+       Router.push({
+           pathname: '/men/filter',
+           query: {
+               e,
+           },
+       });
+   };
 
     return (
         <CartProvider>
             <PageContainer title="Shop">
                 <div className="ps-page--shop">
-                    <BreadCrumb breacrumb={breadCrumb} layout="fullwidth" />
                     <div className="ps-container">
-                        <ShopBanner />
-                        <ShopBrands />
                         <div className="container">
                             <div className="row">
                                 <div className="col-12">
@@ -52,8 +46,42 @@ const ShopDefaultPage = () => {
                                     </div>
                                 </div>
                             </div>
+                            <div
+                                class="dropdown d-flex justify-content-center"
+                                style={{ margin: '20px 100px 0px 0px',  }}>
+                                <button
+                                    class="btn btn-secondary dropdown-toggle"
+                                    type="button"
+                                    id="dropdownMenuButton"
+                                    data-toggle="dropdown"
+                                    aria-haspopup="true"
+                                    aria-expanded="false"
+                                    style={{
+                                        backgroundColor: '#5b0833',
+                                        color: 'white',
+                                        fontSize: '20px',
+                                        borderRadius: '5px',
+                                        border: 'none',
+                                    }}>
+                                    <span class="fa-solid fa-shirt mr-4"></span>
+                                    Filters
+                                </button>
+                                <div
+                                    class="dropdown-menu"
+                                    aria-labelledby="dropdownMenuButton"
+                                    style={{
+                                        fontSize: '18px',
+                                        padding: '10px 25px',
+                                    }}>
+                                        <a class="dropdown-item" onClick={()=>{send("shirt")}}>shirt</a>
+                                        <a class="dropdown-item" onClick={()=>{send("pant")}}>Pants</a>
+                                        <a class="dropdown-item" onClick={()=>{send("shoes")}}>shoes</a>
+                                </div>
+                            </div>
                             <div className="row mt-4">
-                                <div className="col-md-4">
+                                {/* <div className="col-md-4">
+
+                                    
                                     {DropDown.map((item) => (
                                         <ProductSideBar
                                             key={item}
@@ -64,9 +92,9 @@ const ShopDefaultPage = () => {
                                             subName3={item.subName3}
                                         />
                                     ))}
-                                </div>
+                                </div> */}
                                 <div
-                                    className={`col-md-8 my-4 ${style.mainCard}`}>
+                                    className={`col-md-12 my-4 ${style.mainCard}`}>
                                     {data.map((item) => (
                                         <ProductCard
                                             key={item}
