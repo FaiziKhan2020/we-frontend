@@ -36,7 +36,7 @@ const CustomCart = () => {
                                             whileHover={{ scale: 1.2 }}
                                             referrerPolicy="no-referrer"
                                             // height={150}
-                                            src={item.imgUrl[0] || item.url}
+                                            src={item.imgUrl}
                                             alt="product img"
                                             style={{
                                                 width: '150px',

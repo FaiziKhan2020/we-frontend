@@ -21,7 +21,7 @@ const ModuleDetailActionsMobile = ({ product }) => {
             id: product.id,
             price: product.price,
             title: product.title,
-            imgUrl: product.imgUrl,
+            imgUrl: product.imgUrl[0],
             sizes: Size,
             color: Color,
         });
