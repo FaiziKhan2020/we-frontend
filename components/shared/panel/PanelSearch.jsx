@@ -92,17 +92,14 @@ const SearchHeader = () => {
             method="get"
             action="/"
             onSubmit={handleSubmit}>
-            {/* <div className="ps-form__categories">
-                <select className="form-control">{selectOptionView}</select>
-            </div> */}
             <div className="ps-form__input">
                 <input
-                    ref={inputEl}
+                    // ref={inputEl}
                     className="form-control"
                     type="text"
-                    value={keyword}
+                    // value={keyword}
                     placeholder="I'm shopping for..."
-                    onChange={(e) => setKeyword(e.target.value)}
+                    // onChange={(e) => setKeyword(e.target.value)}
                 />
                 {clearTextView}
                 {loadingView}
