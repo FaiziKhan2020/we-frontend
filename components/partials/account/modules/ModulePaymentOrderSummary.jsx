@@ -23,8 +23,20 @@ const ModulePaymentOrderSummary = ({ ecomerce, shipping }) => {
                 <strong style={{ width: '120px', fontSize: '14px' }}>
                     {item.title} <span> x {item.quantity} </span>
                 </strong>
-                <strong className="mr-4"> {item.sizes}</strong>
-                <strong>{item.color}</strong>
+                <strong className="mr-4">
+                    {item.sizes == [] ? (
+                        <p className="text-danger">Choose size</p>
+                    ) : (
+                        item.sizes
+                    )}
+                </strong>
+                <strong>
+                    {item.color == [] ? (
+                        <p className="text-danger">Choose color</p>
+                    ) : (
+                        item.color
+                    )}
+                </strong>
                 <small> QR. {item.quantity * item.price} </small>
             </a>
         </Link>
