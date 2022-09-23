@@ -13,8 +13,8 @@ const MainHead = () => (
         <meta name="format-detection" content="telephone=no" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="author" content="nouthemes" />
-        <meta name="keywords" content="Q-FASHION" />
-        <meta name="description" content="Q-FASHION" />
+        <meta name="keywords" content="Q-FASHION-TRENDS" />
+        <meta name="description" content="Q-FASHION-TRENDS" />
         <script
             src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
             integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
