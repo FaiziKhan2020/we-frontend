@@ -1,21 +1,26 @@
 [{
         "uuid": 1,
-        "heading": "How to Order ?",
-        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit fugiat dolorum aliquid ullam repellat magni odit quidem beatae iste accusantium."
+        "heading": "1. What options are there for paying?",
+        "content": "On the website, we currently accept cards as well as cash on delivery."
     },
     {
         "uuid": 2,
-        "heading": "Payment Methods ?",
-        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit fugiat dolorum aliquid ullam repellat magni odit quidem beatae iste accusantium."
+        "heading": "2. How do i find out if my order has been accepted?",
+        "content": "Order confirmation will be issued through email or text message."
     },
     {
         "uuid": 3,
-        "heading": "Delivery Charges ?",
-        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit fugiat dolorum aliquid ullam repellat magni odit quidem beatae iste accusantium."
+        "heading": "3. How can i get my order's invoice?",
+        "content": "The purchase invoice will be delivered by email or text message."
     },
     {
         "uuid": 4,
-        "heading": "How to Order ?",
-        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit fugiat dolorum aliquid ullam repellat magni odit quidem beatae iste accusantium."
+        "heading": "4. In how many days will the order be delivered at home?",
+        "content": "Typically, your order will be delivered in 4-5 working days."
+    },
+    {
+        "uuid": 4,
+        "heading": "5. How do i reach customer service?",
+        "content": "Please contact us via WhatsApp at +974 5070 4018 with any questions, comments, or complaints."
     }
 ]

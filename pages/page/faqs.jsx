@@ -51,7 +51,10 @@ const FaqsPage = () => {
                                                             {item.heading}
                                                         </AccordionItemButton>
                                                     </AccordionItemHeading>
-                                                    <AccordionItemPanel>
+                                                    <AccordionItemPanel
+                                                        style={{
+                                                            fontSize: '18px',
+                                                        }}>
                                                         {item.content}
                                                     </AccordionItemPanel>
                                                 </AccordionItem>
