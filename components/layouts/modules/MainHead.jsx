@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 const MainHead = () => (
     <Head>
-        <title>QA-FASHION</title>
+        <title>Q-FASHION</title>
         <link rel="shortcut icon" href="/static/img/favi.png" />
         <link rel="icon" href="/static/img/favi.png" sizes="32x32" />
         <link rel="icon" href="/static/img/favi.png" sizes="192x192" />
@@ -13,8 +13,8 @@ const MainHead = () => (
         <meta name="format-detection" content="telephone=no" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="author" content="nouthemes" />
-        <meta name="keywords" content="QA-FASHION" />
-        <meta name="description" content="QA-FASHION" />
+        <meta name="keywords" content="Q-FASHION" />
+        <meta name="description" content="Q-FASHION" />
         <script
             src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
             integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

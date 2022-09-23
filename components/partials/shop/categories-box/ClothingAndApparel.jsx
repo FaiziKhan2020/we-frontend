@@ -26,10 +26,7 @@ const ClothingAndApparel = ({ data }) => (
                             <div
                                 className="ps-block__banner"
                                 key={category.text}>
-                                <img
-                                    src={category.imagePath}
-                                    alt="qa-fashion"
-                                />
+                                <img src={category.imagePath} alt="Q-FASHION" />
                             </div>
                         );
                     } else {
@@ -38,10 +35,7 @@ const ClothingAndApparel = ({ data }) => (
                                 <Link href="/shop">
                                     <a className="ps-block__overlay"></a>
                                 </Link>
-                                <img
-                                    src={category.imagePath}
-                                    alt="qa-fashion"
-                                />
+                                <img src={category.imagePath} alt="Q-FASHION" />
                                 <p>{category.text} </p>
                                 <span>{category.item} Items</span>
                             </div>

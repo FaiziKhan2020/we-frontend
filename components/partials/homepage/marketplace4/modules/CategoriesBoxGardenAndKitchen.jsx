@@ -22,14 +22,14 @@ const CategoriesBoxClothings = () => (
             <div className="ps-block__banner">
                 <img
                     src="/static/img/categories/kitchen/large.jpg"
-                    alt="qa-fashion"
+                    alt="Q-FASHION"
                 />
             </div>
             <div className="ps-block__item">
                 <a className="ps-block__overlay"></a>
                 <img
                     src="/static/img/categories/kitchen/1.jpg"
-                    alt="qa-fashion"
+                    alt="Q-FASHION"
                 />
                 <p>Furniture</p>
                 <span>2 Items</span>
@@ -38,7 +38,7 @@ const CategoriesBoxClothings = () => (
                 <a className="ps-block__overlay"></a>
                 <img
                     src="/static/img/categories/kitchen/2.jpg"
-                    alt="qa-fashion"
+                    alt="Q-FASHION"
                 />
                 <p>Decoration</p>
                 <span>2 Items</span>
@@ -47,7 +47,7 @@ const CategoriesBoxClothings = () => (
                 <a className="ps-block__overlay"></a>
                 <img
                     src="/static/img/categories/kitchen/3.jpg"
-                    alt="qa-fashion"
+                    alt="Q-FASHION"
                 />
                 <p>Utensil &amp; Gadget</p>
                 <span>4 Items</span>
@@ -56,7 +56,7 @@ const CategoriesBoxClothings = () => (
                 <a className="ps-block__overlay"></a>
                 <img
                     src="/static/img/categories/kitchen/4.jpg"
-                    alt="qa-fashion"
+                    alt="Q-FASHION"
                 />
                 <p>Cookware</p>
                 <span>5 Items</span>
@@ -65,7 +65,7 @@ const CategoriesBoxClothings = () => (
                 <a className="ps-block__overlay"></a>
                 <img
                     src="/static/img/categories/kitchen/5.jpg"
-                    alt="qa-fashion"
+                    alt="Q-FASHION"
                 />
                 <p>Powers And Hand Tools</p>
                 <span>10 Items</span>
@@ -74,7 +74,7 @@ const CategoriesBoxClothings = () => (
                 <a className="ps-block__overlay"></a>
                 <img
                     src="/static/img/categories/kitchen/6.jpg"
-                    alt="qa-fashion"
+                    alt="Q-FASHION"
                 />
                 <p>Garden Tools</p>
                 <span>2 Items</span>
@@ -83,7 +83,7 @@ const CategoriesBoxClothings = () => (
                 <a className="ps-block__overlay"></a>
                 <img
                     src="/static/img/categories/kitchen/7.jpg"
-                    alt="qa-fashion"
+                    alt="Q-FASHION"
                 />
                 <p>Home Improvement</p>
                 <span>3 Items</span>

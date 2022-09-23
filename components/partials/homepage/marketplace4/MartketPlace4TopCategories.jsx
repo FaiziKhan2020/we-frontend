@@ -19,7 +19,7 @@ class MartketPlace4TopCategories extends Component {
                                 </Link>
                                 <img
                                     src="/static/img/categories/1.jpg"
-                                    alt="qa-fashion"
+                                    alt="Q-FASHION"
                                 />
 
                                 <p>Electronics</p>
@@ -32,7 +32,7 @@ class MartketPlace4TopCategories extends Component {
                                 </Link>
                                 <img
                                     src="/static/img/categories/2.jpg"
-                                    alt="qa-fashion"
+                                    alt="Q-FASHION"
                                 />
                                 <p>Clothings</p>
                             </div>
@@ -44,7 +44,7 @@ class MartketPlace4TopCategories extends Component {
                                 </Link>
                                 <img
                                     src="/static/img/categories/3.jpg"
-                                    alt="qa-fashion"
+                                    alt="Q-FASHION"
                                 />
                                 <p>Computers</p>
                             </div>
@@ -56,7 +56,7 @@ class MartketPlace4TopCategories extends Component {
                                 </Link>
                                 <img
                                     src="/static/img/categories/4.jpg"
-                                    alt="qa-fashion"
+                                    alt="Q-FASHION"
                                 />
                                 <p>Home & Kitchen</p>
                             </div>
@@ -68,7 +68,7 @@ class MartketPlace4TopCategories extends Component {
                                 </Link>
                                 <img
                                     src="/static/img/categories/5.jpg"
-                                    alt="qa-fashion"
+                                    alt="Q-FASHION"
                                 />
                                 <p>Health & Beauty</p>
                             </div>
@@ -80,7 +80,7 @@ class MartketPlace4TopCategories extends Component {
                                 </Link>
                                 <img
                                     src="/static/img/categories/6.jpg"
-                                    alt="qa-fashion"
+                                    alt="Q-FASHION"
                                 />
                                 <p>Health & Beauty</p>
                             </div>

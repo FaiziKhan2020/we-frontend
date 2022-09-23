@@ -131,7 +131,7 @@ class MyAccount extends Component {
                                     Sign up today and you will be able to:
                                 </figcaption>
                                 <p>
-                                    qa-fashion Buyer Protection has you covered
+                                    Q-FASHION Buyer Protection has you covered
                                     from click to delivery. Sign up or sign in
                                     and you will be able to:
                                 </p>
@@ -161,9 +161,9 @@ class MyAccount extends Component {
                                         A small gift for your first purchase
                                     </h5>
                                     <p>
-                                        qa-fashion give $25 as a small gift for
+                                        Q-FASHION give $25 as a small gift for
                                         your first purchase. Welcome to
-                                        qa-fashion!
+                                        Q-FASHION!
                                     </p>
                                 </aside>
                             </div>

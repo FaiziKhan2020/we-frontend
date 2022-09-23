@@ -86,19 +86,19 @@ const MarketHeathyAndBeauty = ({ categorySlug }) => {
                     <a>
                         <img
                             src="/static/img/slider/home-3/healthy-1.jpg"
-                            alt="qa-fashion"
+                            alt="Q-FASHION"
                         />
                     </a>
                     <a>
                         <img
                             src="/static/img/slider/home-3/healthy-2.jpg"
-                            alt="qa-fashion"
+                            alt="Q-FASHION"
                         />
                     </a>
                     <a>
                         <img
                             src="/static/img/slider/home-3/healthy-3.jpg"
-                            alt="qa-fashion"
+                            alt="Q-FASHION"
                         />
                     </a>
                 </Slider>

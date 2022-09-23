@@ -79,7 +79,7 @@ class ProductDetailImageSwatches extends Component {
                                                                     src={
                                                                         item.image
                                                                     }
-                                                                    alt="qa-fashion"
+                                                                    alt="Q-FASHION"
                                                                 />
                                                             </a>
                                                         </div>
@@ -109,7 +109,7 @@ class ProductDetailImageSwatches extends Component {
                                             <div className="item" key={item.id}>
                                                 <img
                                                     src={item.image}
-                                                    alt="qa-fashion"
+                                                    alt="Q-FASHION"
                                                 />
                                             </div>
                                         ))}
@@ -172,7 +172,7 @@ class ProductDetailImageSwatches extends Component {
                                             </span>
                                             <img
                                                 src={variant.image}
-                                                alt="qa-fashion"
+                                                alt="Q-FASHION"
                                             />
                                         </div>
                                     );

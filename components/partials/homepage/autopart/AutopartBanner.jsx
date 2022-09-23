@@ -23,7 +23,7 @@ const AutopartBanner = () => {
                         }}>
                         <img
                             src="/static/img/slider/autopart/1.jpg"
-                            alt="qa-fashion"
+                            alt="Q-FASHION"
                         />
                         <div className="ps-banner__content">
                             <h4>Version 2018</h4>
@@ -50,7 +50,7 @@ const AutopartBanner = () => {
                         }}>
                         <img
                             src="/static/img/slider/autopart/2.jpg"
-                            alt="qa-fashion"
+                            alt="Q-FASHION"
                         />
                         <div className="ps-banner__content">
                             <h4>Version 2018</h4>

@@ -14,7 +14,7 @@ const TechnologyBestSaleBrands = () => (
                             <a>
                                 <img
                                     src="/static/img/brand/2-1.jpg"
-                                    alt="qa-fashion"
+                                    alt="Q-FASHION"
                                 />
                             </a>
                         </Link>
@@ -24,7 +24,7 @@ const TechnologyBestSaleBrands = () => (
                             <a>
                                 <img
                                     src="/static/img/brand/2-2.jpg"
-                                    alt="qa-fashion"
+                                    alt="Q-FASHION"
                                 />
                             </a>
                         </Link>
@@ -34,7 +34,7 @@ const TechnologyBestSaleBrands = () => (
                             <a>
                                 <img
                                     src="/static/img/brand/2-3.jpg"
-                                    alt="qa-fashion"
+                                    alt="Q-FASHION"
                                 />
                             </a>
                         </Link>
@@ -44,7 +44,7 @@ const TechnologyBestSaleBrands = () => (
                             <a>
                                 <img
                                     src="/static/img/brand/2-4.jpg"
-                                    alt="qa-fashion"
+                                    alt="Q-FASHION"
                                 />
                             </a>
                         </Link>
@@ -54,7 +54,7 @@ const TechnologyBestSaleBrands = () => (
                             <a>
                                 <img
                                     src="/static/img/brand/2-5.jpg"
-                                    alt="qa-fashion"
+                                    alt="Q-FASHION"
                                 />
                             </a>
                         </Link>
@@ -64,7 +64,7 @@ const TechnologyBestSaleBrands = () => (
                             <a>
                                 <img
                                     src="/static/img/brand/2-6.jpg"
-                                    alt="qa-fashion"
+                                    alt="Q-FASHION"
                                 />
                             </a>
                         </Link>
@@ -74,7 +74,7 @@ const TechnologyBestSaleBrands = () => (
                             <a>
                                 <img
                                     src="/static/img/brand/2-7.jpg"
-                                    alt="qa-fashion"
+                                    alt="Q-FASHION"
                                 />
                             </a>
                         </Link>
@@ -84,7 +84,7 @@ const TechnologyBestSaleBrands = () => (
                             <a>
                                 <img
                                     src="/static/img/brand/2-8.jpg"
-                                    alt="qa-fashion"
+                                    alt="Q-FASHION"
                                 />
                             </a>
                         </Link>
@@ -94,7 +94,7 @@ const TechnologyBestSaleBrands = () => (
                             <a>
                                 <img
                                     src="/static/img/brand/2-9.jpg"
-                                    alt="qa-fashion"
+                                    alt="Q-FASHION"
                                 />
                             </a>
                         </Link>
@@ -104,7 +104,7 @@ const TechnologyBestSaleBrands = () => (
                             <a>
                                 <img
                                     src="/static/img/brand/2-10.jpg"
-                                    alt="qa-fashion"
+                                    alt="Q-FASHION"
                                 />
                             </a>
                         </Link>

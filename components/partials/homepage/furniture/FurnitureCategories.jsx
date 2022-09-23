@@ -17,7 +17,7 @@ const FurnitureCategories = () => {
                                 </Link>
                                 <img
                                     src="/static/img/categories/furniture/1.png"
-                                    alt="qa-fashion"
+                                    alt="Q-FASHION"
                                 />
                                 <p>Sofas</p>
                             </div>
@@ -29,7 +29,7 @@ const FurnitureCategories = () => {
                                 </Link>
                                 <img
                                     src="/static/img/categories/furniture/2.png"
-                                    alt="qa-fashion"
+                                    alt="Q-FASHION"
                                 />
                                 <p>Chairs</p>
                             </div>
@@ -41,7 +41,7 @@ const FurnitureCategories = () => {
                                 </Link>
                                 <img
                                     src="/static/img/categories/furniture/3.png"
-                                    alt="qa-fashion"
+                                    alt="Q-FASHION"
                                 />
                                 <p>Tables</p>
                             </div>
@@ -53,7 +53,7 @@ const FurnitureCategories = () => {
                                 </Link>
                                 <img
                                     src="/static/img/categories/furniture/4.png"
-                                    alt="qa-fashion"
+                                    alt="Q-FASHION"
                                 />
                                 <p>TV Boards</p>
                             </div>
@@ -65,7 +65,7 @@ const FurnitureCategories = () => {
                                 </Link>
                                 <img
                                     src="/static/img/categories/furniture/5.png"
-                                    alt="qa-fashion"
+                                    alt="Q-FASHION"
                                 />
                                 <p>Storages</p>
                             </div>
@@ -77,7 +77,7 @@ const FurnitureCategories = () => {
                                 </Link>
                                 <img
                                     src="/static/img/categories/furniture/6.png"
-                                    alt="qa-fashion"
+                                    alt="Q-FASHION"
                                 />
                                 <p>Rugs</p>
                             </div>
@@ -89,7 +89,7 @@ const FurnitureCategories = () => {
                                 </Link>
                                 <img
                                     src="/static/img/categories/furniture/7.png"
-                                    alt="qa-fashion"
+                                    alt="Q-FASHION"
                                 />
                                 <p>Lamp &amp; Lighting</p>
                             </div>
@@ -101,7 +101,7 @@ const FurnitureCategories = () => {
                                 </Link>
                                 <img
                                     src="/static/img/categories/furniture/8.png"
-                                    alt="qa-fashion"
+                                    alt="Q-FASHION"
                                 />
                                 <p>Furnishings</p>
                             </div>
@@ -113,7 +113,7 @@ const FurnitureCategories = () => {
                                 </Link>
                                 <img
                                     src="/static/img/categories/furniture/9.png"
-                                    alt="qa-fashion"
+                                    alt="Q-FASHION"
                                 />
                                 <p>Ottomans</p>
                             </div>
@@ -125,7 +125,7 @@ const FurnitureCategories = () => {
                                 </Link>
                                 <img
                                     src="/static/img/categories/furniture/10.png"
-                                    alt="qa-fashion"
+                                    alt="Q-FASHION"
                                 />
                                 <p>Shelfs</p>
                             </div>
@@ -137,7 +137,7 @@ const FurnitureCategories = () => {
                                 </Link>
                                 <img
                                     src="/static/img/categories/furniture/11.png"
-                                    alt="qa-fashion"
+                                    alt="Q-FASHION"
                                 />
                                 <p>Kid Furnitures</p>
                             </div>
@@ -149,7 +149,7 @@ const FurnitureCategories = () => {
                                 </Link>
                                 <img
                                     src="/static/img/categories/furniture/12.png"
-                                    alt="qa-fashion"
+                                    alt="Q-FASHION"
                                 />
                                 <p>Kitchen</p>
                             </div>

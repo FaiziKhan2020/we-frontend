@@ -5,7 +5,7 @@ const WidgetSaleOnSite = () => {
     return (
         <aside className="widget widget_sell-on-site">
             <p>
-                <i className="icon-store"></i> Sell on qa-fashion?
+                <i className="icon-store"></i> Sell on Q-FASHION?
                 <Link href="/account/register">
                     <a> Register Now !</a>
                 </Link>

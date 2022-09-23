@@ -23,7 +23,7 @@ const HomeDefaultTopCategories = () => {
                             </Link>
                             <img
                                 src="/static/img/categories/1.jpg"
-                                alt="qa-fashion"
+                                alt="Q-FASHION"
                             />
                             <p>Electronics</p>
                         </div>
@@ -35,7 +35,7 @@ const HomeDefaultTopCategories = () => {
                             {/* </Link> */}
                             <img
                                 src="/static/img/categories/2.jpg"
-                                alt="qa-fashion"
+                                alt="Q-FASHION"
                             />
                             <p>Clothings</p>
                         </div>
@@ -47,7 +47,7 @@ const HomeDefaultTopCategories = () => {
                             {/* </Link> */}
                             <img
                                 src="/static/img/categories/3.jpg"
-                                alt="qa-fashion"
+                                alt="Q-FASHION"
                             />
                             <p>Computers</p>
                         </div>
@@ -59,7 +59,7 @@ const HomeDefaultTopCategories = () => {
                             </Link>
                             <img
                                 src="/static/img/categories/4.jpg"
-                                alt="qa-fashion"
+                                alt="Q-FASHION"
                             />
                             <p>Home & Kitchen</p>
                         </div>
@@ -71,7 +71,7 @@ const HomeDefaultTopCategories = () => {
                             </Link>
                             <img
                                 src="/static/img/categories/5.jpg"
-                                alt="qa-fashion"
+                                alt="Q-FASHION"
                             />
                             <p>Health & Beauty</p>
                         </div>
@@ -85,7 +85,7 @@ const HomeDefaultTopCategories = () => {
                             <img
                                 // src="/static/img/categories/7.jpg"
                                 src="/static/img/categories/6.jpg"
-                                alt="qa-fashion"
+                                alt="Q-FASHION"
                             />
                             <p>Jewelry & Watch</p>
                         </div>
@@ -97,7 +97,7 @@ const HomeDefaultTopCategories = () => {
                             </Link>
                             <img
                                 src="https://res.cloudinary.com/xcltech/image/upload/v1656517642/IMG_4242_qpwl9h.jpg"
-                                alt="qa-fashion"
+                                alt="Q-FASHION"
                             />
                             <p>Shoes & Sandals</p>
                         </div>

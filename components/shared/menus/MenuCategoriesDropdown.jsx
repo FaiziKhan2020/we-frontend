@@ -12,7 +12,7 @@ const MenuCategoriesDropdown = () => {
                         fontWeight: 'bold',
                         marginTop: '15px',
                     }}>
-                    QA - FASHION
+                    Q - FASHION
                 </span>
             </div>
         </div>

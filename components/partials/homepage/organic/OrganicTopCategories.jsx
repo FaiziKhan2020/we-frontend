@@ -10,7 +10,7 @@ const OrganicTopCategories = () => (
                         <div className="ps-block__thumbnail">
                             <img
                                 src="/static/img/categories/organic/1.jpg"
-                                alt="qa-fashion"
+                                alt="Q-FASHION"
                             />
                         </div>
                         <div className="ps-block__content">
@@ -23,7 +23,7 @@ const OrganicTopCategories = () => (
                         <div className="ps-block__thumbnail">
                             <img
                                 src="/static/img/categories/organic/2.jpg"
-                                alt="qa-fashion"
+                                alt="Q-FASHION"
                             />
                         </div>
                         <div className="ps-block__content">
@@ -36,7 +36,7 @@ const OrganicTopCategories = () => (
                         <div className="ps-block__thumbnail">
                             <img
                                 src="/static/img/categories/organic/3.jpg"
-                                alt="qa-fashion"
+                                alt="Q-FASHION"
                             />
                         </div>
                         <div className="ps-block__content">
@@ -49,7 +49,7 @@ const OrganicTopCategories = () => (
                         <div className="ps-block__thumbnail">
                             <img
                                 src="/static/img/categories/organic/4.jpg"
-                                alt="qa-fashion"
+                                alt="Q-FASHION"
                             />
                         </div>
                         <div className="ps-block__content">
@@ -62,7 +62,7 @@ const OrganicTopCategories = () => (
                         <div className="ps-block__thumbnail">
                             <img
                                 src="/static/img/categories/organic/5.jpg"
-                                alt="qa-fashion"
+                                alt="Q-FASHION"
                             />
                         </div>
                         <div className="ps-block__content">
@@ -75,7 +75,7 @@ const OrganicTopCategories = () => (
                         <div className="ps-block__thumbnail">
                             <img
                                 src="/static/img/categories/organic/6.jpg"
-                                alt="qa-fashion"
+                                alt="Q-FASHION"
                             />
                         </div>
                         <div className="ps-block__content">

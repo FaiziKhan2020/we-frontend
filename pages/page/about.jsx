@@ -30,7 +30,7 @@ const AboutUs = () => {
                                 our deliveries for free.
                             </p>
                             <p>
-                                We at Qfashiontrends are committed to making it
+                                We at qfashiontrends are committed to making it
                                 possible for customers to find a variety of
                                 products at affordable costs. Our platform
                                 provides user-friendly services that guarantee

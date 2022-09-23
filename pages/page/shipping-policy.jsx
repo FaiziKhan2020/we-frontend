@@ -54,8 +54,7 @@ const shippingPolicy = () => {
                                         Within 48 hours of placing the order if
                                         the customer doesn't respond to confirm
                                         the order or address then the order will
-                                        be immediately cancelled.ext working
-                                        day.
+                                        be immediately cancelled.
                                     </li>
                                 </ol>
                             </div>

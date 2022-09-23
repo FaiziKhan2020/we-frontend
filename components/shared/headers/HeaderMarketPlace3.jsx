@@ -37,7 +37,7 @@ const HeaderMarketPlace3 = () => {
                                 q
                                 <img
                                     src="/static/img/logo_light.png"
-                                    alt="qa-fashion"
+                                    alt="Q-FASHION"
                                 />
                             </a>
                         </Link>
@@ -87,7 +87,7 @@ const HeaderMarketPlace3 = () => {
                         <ul className="navigation__extra">
                             <li>
                                 <Link href="/vendor/become-a-vendor">
-                                    <a>Sell on qa-fashion</a>
+                                    <a>Sell on Q-FASHION</a>
                                 </Link>
                             </li>
                             <li>

@@ -1,4 +1,4 @@
-## qa-fashion TEMPLATE - REACT VERSION v2.2.0 (Using Strapi CMS)
+## Q-FASHION TEMPLATE - REACT VERSION v2.2.0 (Using Strapi CMS)
 
 ### Version 2.2.0
 

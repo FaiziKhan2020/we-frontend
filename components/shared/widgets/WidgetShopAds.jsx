@@ -8,7 +8,7 @@ const WidgetShopAds = () => {
                 <a>
                     <img
                         src="/static/img/ads/product-ads.png"
-                        alt="qa-fashion"
+                        alt="Q-FASHION"
                     />
                 </a>
             </Link>

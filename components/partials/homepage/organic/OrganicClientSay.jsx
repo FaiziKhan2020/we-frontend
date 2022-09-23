@@ -96,7 +96,7 @@ class OrganicClientSay extends Component {
                                 <div className="ps-block__header">
                                     <img
                                         src="/static/img/users/1.jpg"
-                                        alt="qa-fashion"
+                                        alt="Q-FASHION"
                                     />
                                 </div>
                                 <div className="ps-block__content">
@@ -117,7 +117,7 @@ class OrganicClientSay extends Component {
                                 <div className="ps-block__header">
                                     <img
                                         src="/static/img/users/2.png"
-                                        alt="qa-fashion"
+                                        alt="Q-FASHION"
                                     />
                                 </div>
                                 <div className="ps-block__content">
@@ -138,7 +138,7 @@ class OrganicClientSay extends Component {
                                 <div className="ps-block__header">
                                     <img
                                         src="/static/img/users/3.jpg"
-                                        alt="qa-fashion"
+                                        alt="Q-FASHION"
                                     />
                                 </div>
                                 <div className="ps-block__content">

@@ -6,7 +6,7 @@ const VendorMileStone = () => (
             <div className="ps-section__header">
                 <p>How it works</p>
                 <h4>
-                    Easy to start selling online on qa-fashion just 4 simple
+                    Easy to start selling online on Q-FASHION just 4 simple
                     steps
                 </h4>
             </div>
@@ -21,7 +21,7 @@ const VendorMileStone = () => (
                                 run your online business
                             </li>
                             <li>
-                                Our qa-fashion Advisors will help you at every
+                                Our Q-FASHION Advisors will help you at every
                                 step and fully assist you in taking your
                                 business online
                             </li>
@@ -30,7 +30,7 @@ const VendorMileStone = () => (
                     <div className="ps-block__right">
                         <img
                             src="/static/img/vendor/milestone-1.png"
-                            alt="qa-fashion"
+                            alt="Q-FASHION"
                         />
                     </div>
                     <div className="ps-block__number">
@@ -47,7 +47,7 @@ const VendorMileStone = () => (
                                 run your online business
                             </li>
                             <li>
-                                Our qa-fashion Advisors will help you at every
+                                Our Q-FASHION Advisors will help you at every
                                 step and fully assist you in taking your
                                 business online
                             </li>
@@ -56,7 +56,7 @@ const VendorMileStone = () => (
                     <div className="ps-block__right">
                         <img
                             src="/static/img/vendor/milestone-2.png"
-                            alt="qa-fashion"
+                            alt="Q-FASHION"
                         />
                     </div>
                     <div className="ps-block__number">
@@ -73,7 +73,7 @@ const VendorMileStone = () => (
                                 run your online business
                             </li>
                             <li>
-                                Our qa-fashion Advisors will help you at every
+                                Our Q-FASHION Advisors will help you at every
                                 step and fully assist you in taking your
                                 business online
                             </li>
@@ -82,7 +82,7 @@ const VendorMileStone = () => (
                     <div className="ps-block__right">
                         <img
                             src="/static/img/vendor/milestone-3.png"
-                            alt="qa-fashion"
+                            alt="Q-FASHION"
                         />
                     </div>
                     <div className="ps-block__number">
@@ -99,7 +99,7 @@ const VendorMileStone = () => (
                                 run your online business
                             </li>
                             <li>
-                                Our qa-fashion Advisors will help you at every
+                                Our Q-FASHION Advisors will help you at every
                                 step and fully assist you in taking your
                                 business online
                             </li>
@@ -108,7 +108,7 @@ const VendorMileStone = () => (
                     <div className="ps-block__right">
                         <img
                             src="/static/img/vendor/milestone-4.png"
-                            alt="qa-fashion"
+                            alt="Q-FASHION"
                         />
                     </div>
                     <div className="ps-block__number">

@@ -22,7 +22,7 @@ const MartketPlace4Banner = () => {
                     }}>
                     <img
                         src="/static/img/slider/home-6/1.jpg"
-                        alt="qa-fashion"
+                        alt="Q-FASHION"
                     />
                     <div className="ps-banner__content">
                         <h4>Limit Edition</h4>
@@ -42,7 +42,7 @@ const MartketPlace4Banner = () => {
                     }}>
                     <img
                         src="/static/img/slider/home-6/2.jpg"
-                        alt="qa-fashion"
+                        alt="Q-FASHION"
                     />
                     <div className="ps-banner__content">
                         <h4>Version 2018</h4>

@@ -11,7 +11,7 @@ const ShopCarouselBanner = () => {
                     <Link href="/">
                         <img
                             src="/static/img/web-banner1.jpg"
-                            alt="qa-fashion"
+                            alt="Q-FASHION"
                         />
                     </Link>
                 </div>
@@ -19,7 +19,7 @@ const ShopCarouselBanner = () => {
                     <Link href="/">
                         <img
                             src="/static/img/web-banner2.png"
-                            alt="qa-fashion"
+                            alt="Q-FASHION"
                         />
                     </Link>
                 </div>{' '}
@@ -27,7 +27,7 @@ const ShopCarouselBanner = () => {
                     <Link href="/">
                         <img
                             src="/static/img/web-banner3.png"
-                            alt="qa-fashion"
+                            alt="Q-FASHION"
                         />
                     </Link>
                 </div>

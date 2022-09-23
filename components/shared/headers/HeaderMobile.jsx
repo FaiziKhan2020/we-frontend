@@ -99,7 +99,7 @@ const HeaderMobile = () => {
                         <a className="ps-logo">
                             <img
                                 src="/static/img/white-logo.png"
-                                alt="qa-fashion"
+                                alt="Q-FASHION"
                                 width={50}
                             />
                         </a>

@@ -54,7 +54,7 @@ const PaymentSuccessPage = () => {
                                                         about your purchase,
                                                         email us at{' '}
                                                         <a
-                                                            href="mailto@contact@qa-fashion.com"
+                                                            href="mailto@contact@Q-FASHION.com"
                                                             className="ps-highlight">
                                                             <strong>
                                                                 contact@Dawood

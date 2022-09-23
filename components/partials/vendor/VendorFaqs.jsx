@@ -15,10 +15,10 @@ const VendorFaqs = () => (
                     <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 ">
                         <figure>
                             <figcaption>
-                                How do fees work on qa-fashion?
+                                How do fees work on Q-FASHION?
                             </figcaption>
                             <p>
-                                Joining and starting a shop on qa-fashion is
+                                Joining and starting a shop on Q-FASHION is
                                 free. There are three basic selling fees: a
                                 listing fee, a transaction fee, and a payment
                                 processing fee.
@@ -44,13 +44,13 @@ const VendorFaqs = () => (
                                 What do I need to do to create a shop?
                             </figcaption>
                             <p>
-                                It’s easy to set up a shop on qa-fashion. Create
-                                an qa-fashion account (if you don’t already have
+                                It’s easy to set up a shop on Q-FASHION. Create
+                                an Q-FASHION account (if you don’t already have
                                 one), set your shop location and currency,
                                 choose a shop name, create a listing, set a
                                 payment method (how you want to be paid), and
                                 finally set a billing method (how you want to
-                                pay your qa-fashionfees).
+                                pay your Q-FASHIONfees).
                             </p>
                         </figure>
                     </div>
@@ -59,13 +59,13 @@ const VendorFaqs = () => (
                             <figcaption>How do I get paid?</figcaption>
                             <p>
                                 If you accept payments with PayPal, funds from
-                                PayPal sales on qa-fashion will be deposited
-                                into your PayPal account. We encourage sellers
-                                to use a PayPal Business account and not a
-                                Personal account, as personal accounts are
-                                subject to monthly receiving limits and cannot
-                                accept payments from buyers that are funded by a
-                                credit card.
+                                PayPal sales on Q-FASHION will be deposited into
+                                your PayPal account. We encourage sellers to use
+                                a PayPal Business account and not a Personal
+                                account, as personal accounts are subject to
+                                monthly receiving limits and cannot accept
+                                payments from buyers that are funded by a credit
+                                card.
                             </p>
                             <p>
                                 It costs USD 0.20 to publish a listing to the
@@ -99,11 +99,11 @@ const VendorFaqs = () => (
                         </figure>
                         <figure>
                             <figcaption>
-                                What can I sell on qa-fashion?
+                                What can I sell on Q-FASHION?
                             </figcaption>
                         </figure>
                         <p>
-                            qa-fashion provides a marketplace for crafters,
+                            Q-FASHION provides a marketplace for crafters,
                             artists and collectors to sell their handmade
                             creations, vintage goods (at least 20 years old),
                             and both handmade and non-handmade crafting

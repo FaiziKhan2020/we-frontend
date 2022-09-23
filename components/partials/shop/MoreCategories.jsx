@@ -27,10 +27,7 @@ const MoreCategories = ({ data }) => (
                             className="ps-block--category-vertical"
                             key={category.id}>
                             <div className="ps-block__thumbnail">
-                                <img
-                                    src={category.thumbnail}
-                                    alt="qa-fashion"
-                                />
+                                <img src={category.thumbnail} alt="Q-FASHION" />
                             </div>
                             <div className="ps-block__content">
                                 <h4>{category.title}</h4>

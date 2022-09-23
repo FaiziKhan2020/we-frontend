@@ -11,7 +11,7 @@ const ThumbnailDefault = ({ product, vertical = true }) => {
                 className="ps-carousel inside">
                 {product.images[0].map((item) => (
                     <div className="item">
-                        <img src={item} alt="qa-fashion" />
+                        <img src={item} alt="Q-FASHION" />
                     </div>
                 ))}
             </Slider>
