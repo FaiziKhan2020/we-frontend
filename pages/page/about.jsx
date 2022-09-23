@@ -27,26 +27,42 @@ const AboutUs = () => {
                         </div>
                         <div className="ps-section__content">
                             <p>
-                                About Us We are the pioneers of On Line Cloth
-                                Shopping in Qatar.
+                                The best online shoping store in Qatar is
+                                qfashiontrends.com. Anywhere in Doha can receive
+                                our deliveries for free.
                             </p>
                             <p>
-                                With over 4000 products and over a 100 brands in
-                                our catalogue you will find everything you are
-                                looking for, from Rice and Pulses, Spices and
-                                Seasonings to Packaged products, Beverages,
-                                Personal care products â€“ we have it all in our
-                                online delivery store.
+                                We at Qfashiontrends are committed to making it
+                                possible for customers to find a variety of
+                                products at affordable costs. Our platform
+                                provides user-friendly services that guarantee
+                                quick answers to any questions that our
+                                consumers could have.
                             </p>
-                            Choose from a wide range of options in every
-                            category, exclusively handpicked to help you find
-                            the best quality available at the lowest prices.
-                            Your order will be delivered right at your doorstep.
-                            And to top it all, you can pay cash on delivery. As
-                            we choose from among the best and renowned Super
-                            Stores and Retail Outlets of Qatar, we can guarantee
-                            our customers on timely delivery, No hidden cost and
-                            the best quality available.
+                            <p>
+                                <b
+                                    className="pr-4"
+                                    style={{
+                                        fontSize: '18px',
+                                        color: 'black',
+                                    }}>
+                                    Vision:
+                                </b>
+                                To be the QATAR's top customer-centric business
+                                where clients can find whatever they would want
+                                to buy online and choose from a huge variety of
+                                products at affordable costs.
+                            </p>
+                            <b
+                                className="pr-4"
+                                style={{
+                                    fontSize: '18px',
+                                    color: 'black',
+                                }}>
+                                Mission:
+                            </b>
+                            To offer customers the greatest online shopping
+                            portal possible.
                         </div>
                     </div>
                 </div>
