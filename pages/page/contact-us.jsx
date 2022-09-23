@@ -41,7 +41,12 @@ const ContactUsPage = () => {
                                     <div
                                         className={`py-2 ${style.leftContact}`}>
                                         <h5>Phone</h5>
-                                        <p>00000000</p>
+                                        <p>00974-50704018</p>
+                                    </div>
+                                    <div
+                                        className={`py-2 ${style.leftContact}`}>
+                                        <h5>Email</h5>
+                                        <p>khtgulf@gmail.com</p>
                                     </div>
                                     <div
                                         className={`py-2 ${style.leftContact}`}>

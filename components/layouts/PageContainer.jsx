@@ -45,9 +45,9 @@ const PageContainer = ({
             {children}
             {newsletters}
             {footer}
-            {/* <a
+            <a
                 className="whatsapp"
-                // href="https://wa.me/+923188409160"
+                href="https://wa.me/+97450704018"
                 target={'_blank'}>
                 <img
                     src="https://cdn-icons-png.flaticon.com/512/220/220236.png"
@@ -62,7 +62,7 @@ const PageContainer = ({
                         cursor: 'pointer',
                     }}
                 />
-            </a> */}
+            </a>
         </>
     );
 };

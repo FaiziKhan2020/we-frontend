@@ -8,11 +8,9 @@ const FooterWidgets = () => (
             <h4 className="widget-title">CONTACT US</h4>
             <div className="widget_content">
                 <p>Free support line</p>
-                <h3>00000000</h3>
+                <h3>00974-50704018</h3>
                 <p>
-                    QATAR
-                    <br />
-                    <a href="mailto:contact@qa-fashion.co">Support@qatar.com</a>
+                    <a href="mailto:khtgulf@gmail.com">khtgulf@gmail.com</a>
                 </p>
                 <ul className="ps-list--social">
                     <motion.li whileHover={{ scale: 1.2 }}>
