@@ -31,7 +31,7 @@ const PageContainer = ({
     let titleView;
 
     if (title !== '') {
-        titleView = process.env.title + ' - ' + title;
+        titleView = process.env.title;
     } else {
         titleView = process.env.title + ' | ' + process.env.titleDescription;
     }

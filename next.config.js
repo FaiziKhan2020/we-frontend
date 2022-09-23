@@ -14,7 +14,7 @@ const nextSettings = {
     },
     // Change your site title here
     env: {
-        title: 'QA - FASHION',
+        title: 'Q-FASHION',
         // titleDescription: 'Online',
     },
 };
