@@ -14,9 +14,17 @@
     width: 250px;
 }
 
+.leftContact {
+    cursor: pointer;
+}
+
 .leftContact h5 {
     font-size: 20px;
     font-weight: 500;
+}
+
+.leftContact p {
+    font-size: 20px;
 }
 
 .right {
