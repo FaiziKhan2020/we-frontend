@@ -17,13 +17,16 @@ const HeaderActions = ({ ecomerce, auth }) => {
                         cursor: 'pointer',
                     }}>
                     <li className="mr-5">
+                        <Link href={'/'}>
+                            <a>Home</a>
+                        </Link>
+                    </li>
+                    <li className="mr-5">
                         <Link href="/shop">
                             <a>Shop</a>
                         </Link>
                     </li>
-                    <li className="mr-5">
-                        <a>Home</a>
-                    </li>
+
                     <li className="mr-5">
                         <Link href="/page/faqs">
                             <a>FAQ</a>
