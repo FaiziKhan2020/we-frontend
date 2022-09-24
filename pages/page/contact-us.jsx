@@ -5,6 +5,7 @@ import PageContainer from '~/components/layouts/PageContainer';
 import style from './contactUs.module.css';
 import { motion } from 'framer-motion';
 import { CartProvider } from 'react-use-cart';
+import Link from 'next/link';
 const ContactUsPage = () => {
     const breadCrumb = [
         {
@@ -41,6 +42,7 @@ const ContactUsPage = () => {
                                     <div
                                         className={`py-2 ${style.leftContact}`}>
                                         <h5>Phone</h5>
+                                        <Link href="tel:+97450704018"></Link>
                                         <p>00974-50704018</p>
                                     </div>
                                     <div
