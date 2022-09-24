@@ -160,6 +160,11 @@
     border-radius: 5px;
 }
 
+.MainSelect {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 
 /* ?  using media query */
 
