@@ -22,7 +22,7 @@ const HeaderActions = ({ ecomerce, auth }) => {
                         </Link>
                     </li>
                     <li className="mr-5">
-                        <a>Offers</a>
+                        <a>Home</a>
                     </li>
                     <li className="mr-5">
                         <Link href="/page/faqs">
