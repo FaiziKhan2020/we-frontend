@@ -3,6 +3,7 @@ import { connect, useDispatch } from 'react-redux';
 import { useCart } from 'react-use-cart';
 import { motion } from 'framer-motion';
 import style from '~/components/QAhomePage/style.module.css';
+import { Form } from 'antd';
 const ModuleDetailActionsMobile = ({ product }) => {
     // const { addItem } = useCart();
     const { addItem, items } = useCart();
@@ -30,8 +31,15 @@ const ModuleDetailActionsMobile = ({ product }) => {
 
     console.log(items);
     return (
-        <div>
-            <div className="my-4">
+        <Form onFinish={AddToCart}>
+            <Form.Item
+                name="firstName"
+                rules={[
+                    {
+                        required: true,
+                        message: 'Enter your first name!',
+                    },
+                ]}>
                 <select
                     className={`mr-4 mb-4 ${style.selectpro}`}
                     onChange={(e) => setColor(e.target.value)}
@@ -44,6 +52,15 @@ const ModuleDetailActionsMobile = ({ product }) => {
                         </>
                     ))}
                 </select>
+            </Form.Item>
+            <Form.Item
+                name="firstName"
+                rules={[
+                    {
+                        required: true,
+                        message: 'Enter your first name!',
+                    },
+                ]}>
                 <select
                     className={style.selectpro}
                     onChange={(e) => setSize(e.target.value)}
@@ -56,28 +73,45 @@ const ModuleDetailActionsMobile = ({ product }) => {
                         </>
                     ))}
                 </select>
-            </div>
+            </Form.Item>
             <div className={style.moduleBtn}>
                 <motion.button
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.9 }}
-                    type="button"
-                    className={`${isAdding ? 'btn btn-primary' : 'btn'}`}
-                    onClick={() => {
-                        AddToCart();
-                        total();
-                    }}>
-                    ADD{isAdding ? 'ED' : ''}
+                    type="submit"
+                    className="btn btn-primary">
+                    ADD
                 </motion.button>
             </div>
-            {/* <a
-                    className="ps-btn my-4"
-                    onClick={(e) => handleBuynow(e)}
-                    style={{ color: 'white' }}>
-                    Buy Now
-                </a> */}
-        </div>
+        </Form>
+        // <div>
+        //     <div className="my-4">
+        //
+        //
+        //     </div>
+        //     <div className={style.moduleBtn}>
+        //         <motion.button
+        //             whileHover={{ scale: 1.1 }}
+        //             whileTap={{ scale: 0.9 }}
+        //             type="button"
+        //             className={`${isAdding ? 'btn btn-primary' : 'btn'}`}
+        //             onClick={() => {
+        //                 AddToCart();
+        //                 total();
+        //             }}>
+        //             ADD{isAdding ? 'ED' : ''}
+        //         </motion.button>
+        //     </div>
+        // </div>
     );
 };
+{
+    /* <a
+        className="ps-btn my-4"
+        onClick={(e) => handleBuynow(e)}
+        style={{ color: 'white' }}>
+        Buy Now
+    </a> */
+}
 
 export default connect((state) => state)(ModuleDetailActionsMobile);
