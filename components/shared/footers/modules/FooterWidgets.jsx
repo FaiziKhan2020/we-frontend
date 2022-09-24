@@ -8,7 +8,9 @@ const FooterWidgets = () => (
             <h4 className="widget-title">CONTACT US</h4>
             <div className="widget_content">
                 <p>Free support line</p>
-                <h3>00974-50704018</h3>
+                <Link href="tel:+97450704018">
+                    <h3 style={{ cursor: 'pointer' }}>+974-50704018</h3>
+                </Link>
                 <p>
                     <a href="mailto:khtgulf@gmail.com">khtgulf@gmail.com</a>
                 </p>
