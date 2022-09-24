@@ -12,7 +12,7 @@ const Newsletters = (layout) => {
             const res = await axios.post(
                 // 'https://dawoodbackend.herokuapp.com/api/v1/order/',
                 // 'http://localhost:8080/api/v1/Email/',
-                `https://dawoodddocker.herokuapp.com/api/v1/Email`,
+                // `https://dawoodddocker.herokuapp.com/api/v1/Email`,
                 body
             );
             console.log('CBM', { res });

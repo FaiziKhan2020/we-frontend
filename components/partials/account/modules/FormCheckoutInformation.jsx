@@ -5,10 +5,7 @@ import { Form, Input } from 'antd';
 import { useCart } from 'react-use-cart';
 import axios from 'axios';
 import Select from 'react-select';
-// import Spinner from '~/components/spinner/index';
 const FormCheckoutInformation = () => {
-    // const [loading, setLoading] = useState(false);
-
     const options = [
         { value: 'City (Rs.100)', label: 'City (Rs.100)' },
         { value: 'Hirabad (Rs.100)', label: 'Hirabad (Rs.100)' },
@@ -17,12 +14,6 @@ const FormCheckoutInformation = () => {
         { value: 'Jamshoro (Rs.200)', label: 'Jamshoro (Rs.200)' },
         { value: 'Kohsar (Rs.200)', label: 'Kohsar (Rs.200)' },
         { value: 'Isra (Rs.200)', label: 'Isra (Rs.200)' },
-        // { value: 100, label: 'Latifabad' },
-        // { value: 'City', label: 'City' },
-        // { value: 'Qasimabad', label: 'Qasimabad' },
-        // { value: 'Hirabad', label: 'Hirabad' },
-        // { value: 'Jamshoro', label: 'Jamshoro' },
-        // { value: 'Kohsar', label: 'Kohsar' },
     ];
     const [result, ddlValue] = useState(options.value);
     const ddlHandler = (e) => {
@@ -57,12 +48,9 @@ const FormCheckoutInformation = () => {
             const res = await axios.post(
                 // 'https://dawoodbackend.herokuapp.com/api/v1/order/',
                 // `http://localhost:8080/api/v1/order/`,
-                `https://dawoodddocker.herokuapp.com/api/v1/order/post/`,
+                // `https://dawoodddocker.herokuapp.com/api/v1/order/post/`,
                 body
             );
-
-            // console.log(res);
-            // setLoading(true);
 
             if (res.data.success) {
                 Router.push({
