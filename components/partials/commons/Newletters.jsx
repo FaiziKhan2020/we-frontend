@@ -22,7 +22,7 @@ const Newsletters = (layout) => {
         }
     };
     return (
-        <section className="ps-newsletter">
+        <section className="container ps-newsletter">
             <Form
                 className={
                     layout && layout === 'container'
@@ -49,20 +49,21 @@ const Newsletters = (layout) => {
                                     rules={[
                                         {
                                             required: true,
-                                            message: 'Enter an address!',
+                                            message: 'Enter an email address!',
                                         },
                                     ]}>
                                     <Input
                                         className="form-control"
-                                        type="text"
-                                        placeholder="Address"
+                                        type="email"
+                                        placeholder="Email Address"
                                     />
                                 </Form.Item>
                                 <button
                                     className="ps-btn py-4"
-                                    onClick={() =>
-                                        alert('Thanks for subscribing')
-                                    }>
+                                    // onClick={() =>
+                                    //     alert('Thanks for subscribing')
+                                    // }
+                                >
                                     Subscribe
                                 </button>
                             </div>

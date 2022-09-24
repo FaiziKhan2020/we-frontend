@@ -28,6 +28,10 @@
     font-weight: 500;
 }
 
+.leftContact p:hover {
+    color: purple;
+}
+
 .right {
     background-color: rgb(247, 247, 247);
     width: 100%;

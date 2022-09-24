@@ -42,8 +42,9 @@ const ContactUsPage = () => {
                                     <div
                                         className={`py-2 ${style.leftContact}`}>
                                         <h5>Phone</h5>
-                                        <Link href="tel:+97450704018"></Link>
-                                        <p>00974-50704018</p>
+                                        <Link href="tel:+97450704018">
+                                            <p>+974-50704018</p>
+                                        </Link>
                                     </div>
                                     <div
                                         className={`py-2 ${style.leftContact}`}>
