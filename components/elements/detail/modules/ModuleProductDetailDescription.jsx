@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'next/link';
 
 const ModuleProductDetailDescription = ({ product }) => (
     <div>
@@ -7,13 +6,8 @@ const ModuleProductDetailDescription = ({ product }) => (
             <li> {product.title} </li>
             <li> {product.title} </li>
             <li> {product.title} </li>
-            {/* <li>{console.log(product.sizes)}</li> */}
         </ul>
-        <ul>
-            {/* {product.sizes.map((item) => (
-                <li> {item} </li>
-            ))} */}
-        </ul>
+        <ul></ul>
     </div>
 );
 
