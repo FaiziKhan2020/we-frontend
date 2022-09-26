@@ -37,7 +37,10 @@ const ContactUsPage = () => {
                                     <div
                                         className={`py-2 ${style.leftContact}`}>
                                         <h5>Address</h5>
-                                        <p>Qatar</p>
+                                        <p>
+                                            Flat # 1, 6th Floor, building # 11,
+                                            Street 320, Najma - Doha, Qatar
+                                        </p>
                                     </div>
                                     <div
                                         className={`py-2 ${style.leftContact}`}>
