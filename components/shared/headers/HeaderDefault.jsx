@@ -1,11 +1,9 @@
 import React, { useEffect } from 'react';
 import Logo from '~/components/elements/common/Logo';
-// import SearchHeader from '~/components/shared/headers/modules/SearchHeader';
-// import NavigationDefault from '~/components/shared/navigation/NavigationDefault';
 import HeaderActions from '~/components/shared/headers/modules/HeaderActions';
 import { stickyHeader } from '~/utilities/common-helpers';
 import MenuCategoriesDropdown from '~/components/shared/menus/MenuCategoriesDropdown';
-import Link from "next/link"
+import Link from 'next/link';
 
 const HeaderDefault = () => {
     useEffect(() => {
@@ -61,7 +59,6 @@ const HeaderDefault = () => {
                             <Link href="/kid">
                                 <a class="dropdown-item">Kids</a>
                             </Link>
-                           
                         </div>
                     </div>
                     <div className="header__center"></div>

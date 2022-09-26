@@ -4,7 +4,6 @@ const MenuCategoriesDropdown = () => {
     return (
         <div className="menu--product-categories">
             <div className="menu__toggle">
-                {/* <i className="icon-menu"> </i>{' '} */}
                 <span
                     style={{
                         color: '#5b0833',
