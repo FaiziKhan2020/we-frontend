@@ -13,22 +13,18 @@ const ProductSideBar = ({
     console.log(jana);
     return (
         <div className={style.SideBarBtn}>
-            <div>
+            <div className="my-2">
                 <Link href={jana}>
                     <motion.button
                         whileHover={{ scale: 1.1 }}
                         whileTap={{ scale: 0.9 }}
-                        type="button"
-                        // data-toggle="dropdown"
-                        // aria-haspopup="true"
-                        // aria-expanded="false"
-                    >
+                        type="button">
                         <img
                             src={image}
-                            alt="trousers"
-                            height={30}
-                            width={50}
-                            className="mr-4"
+                            alt="ProductSideBar img"
+                            height={40}
+                            width={40}
+                            className="mx-4"
                         />
                         {Name}
                     </motion.button>

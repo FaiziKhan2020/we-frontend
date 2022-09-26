@@ -43,7 +43,7 @@ const QAhomePage = () => {
                             <MiniBanners />
                         </div>
                     </div>
-                    <div className="row mt-4">
+                    <div className="row mt-4 mx-auto">
                         <div className="col-md-4">
                             {DropDown.map((item) => (
                                 <ProductSideBar

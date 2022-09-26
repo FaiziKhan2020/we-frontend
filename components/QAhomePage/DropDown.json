@@ -1,29 +1,19 @@
-[
-    {
+[{
         "id": 1,
-        "image": "https://res.cloudinary.com/xcltech/image/upload/v1662032769/100/trousers_za4k76.png",
+        "image": "https://res.cloudinary.com/xcltech/image/upload/v1664195607/100/man_ryuvcq.png",
         "Name": "Men",
-        "subName1": "Shirts",
-        "subName2": "Shoes",
-        "subName3": "Pants",
         "jana": "/men"
     },
     {
         "id": 2,
-        "image": "https://res.cloudinary.com/xcltech/image/upload/v1662033042/100/sneakers_irc3pw.png",
+        "image": "https://res.cloudinary.com/xcltech/image/upload/v1664195607/100/girl_xtsefh.png",
         "Name": "Women",
-        "subName1": "Shirts",
-        "subName2": "Shoes",
-        "subName3": "Pants",
         "jana": "/women"
     },
     {
         "id": 3,
-        "image": "https://res.cloudinary.com/xcltech/image/upload/v1662032769/100/trousers_za4k76.png",
+        "image": "https://res.cloudinary.com/xcltech/image/upload/v1664195607/100/children_uk1yih.png",
         "Name": "Kids",
-        "subName1": "Shirts",
-        "subName2": "Shoes",
-        "subName3": "Pants",
         "jana": "/kid"
     }
 ]

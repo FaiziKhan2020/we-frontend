@@ -32,12 +32,15 @@ const HeaderMobileProduct = () => {
             data-sticky="true">
             <div className="navigation--mobile">
                 <div className="navigation__left">
-                    <Link href="/">
-                        <a href="/" className="header__back">
-                            <i className="icon-chevron-left"></i>
-                            <strong style={{ color: 'white' }}>
-                                Back to previous
-                            </strong>
+                    <Link href="/shop">
+                        <a
+                            href="#"
+                            className="header__back"
+                            style={{ color: 'white' }}>
+                            <i
+                                className="icon-chevron-left"
+                                style={{ color: 'white' }}></i>
+                            <strong>Back to previous</strong>
                         </a>
                     </Link>
                 </div>
