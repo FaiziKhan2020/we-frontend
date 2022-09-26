@@ -24,10 +24,10 @@ const HeaderDefault = () => {
                         <MenuCategoriesDropdown />
                     </div>
                     <div
-                        class="dropdown"
+                        className="dropdown"
                         style={{ margin: '20px 100px 0px 0px' }}>
                         <button
-                            class="btn btn-secondary dropdown-toggle"
+                            className="btn btn-secondary dropdown-toggle"
                             type="button"
                             id="dropdownMenuButton"
                             data-toggle="dropdown"
@@ -40,24 +40,24 @@ const HeaderDefault = () => {
                                 borderRadius: '5px',
                                 border: 'none',
                             }}>
-                            <span class="fa-solid fa-shirt mr-4"></span>
+                            <span className="fa-solid fa-shirt mr-4"></span>
                             Clothing
                         </button>
                         <div
-                            class="dropdown-menu"
+                            className="dropdown-menu"
                             aria-labelledby="dropdownMenuButton"
                             style={{
                                 fontSize: '18px',
                                 padding: '10px 25px',
                             }}>
                             <Link href="/men">
-                                <a class="dropdown-item">Men</a>
+                                <a className="dropdown-item">Men</a>
                             </Link>
                             <Link href="/women">
-                                <a class="dropdown-item">Women</a>
+                                <a className="dropdown-item">Women</a>
                             </Link>
                             <Link href="/kid">
-                                <a class="dropdown-item">Kids</a>
+                                <a className="dropdown-item">Kids</a>
                             </Link>
                         </div>
                     </div>

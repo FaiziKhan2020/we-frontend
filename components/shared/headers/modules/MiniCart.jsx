@@ -1,12 +1,12 @@
 import Link from 'next/link';
 import { useCart } from 'react-use-cart';
-const MiniCart = ({ ecomerce }) => {
+const MiniCart = () => {
     const { totalUniqueItems } = useCart();
 
     return (
         <div className="ps-cart--mini">
             <Link href="/shopCartItems/shopCart">
-                <a className="header__extra" href="">
+                <a className="header__extra" href="#">
                     <i className="icon-bag2" style={{ height: '20px' }}></i>
                     <span>{totalUniqueItems}</span>
                 </a>
