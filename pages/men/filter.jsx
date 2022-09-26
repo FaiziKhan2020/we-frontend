@@ -28,7 +28,7 @@ const ShopDefaultPage = () => {
         };
         fetchProducts();
     }, []);
-    
+
     const send = (e) => {
         Router.push({
             pathname: '/men/filter',
@@ -53,8 +53,8 @@ const ShopDefaultPage = () => {
                                 </div>
                             </div>
                             <div
-                                class="dropdown d-flex justify-content-center"
-                                style={{ margin: '20px 100px 0px 0px' }}>
+                                class="mt-4 dropdown d-flex justify-content-center"
+                                style={{ margin: 'auto' }}>
                                 <button
                                     class="btn btn-secondary dropdown-toggle"
                                     type="button"

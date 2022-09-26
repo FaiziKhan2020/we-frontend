@@ -108,36 +108,36 @@ const ContactUsPage = () => {
                                                         placeholder="Full Name"
                                                     />
                                                 </div>
-                                                <div class="form-group col-md-6">
+                                                <div className="form-group col-md-6">
                                                     <label for="inputPassword4">
                                                         Email
                                                     </label>
                                                     <input
                                                         type="email"
-                                                        class="form-control"
+                                                        className="form-control"
                                                         id="inputPassword4"
                                                         placeholder="Email"
                                                     />
                                                 </div>
                                             </div>
-                                            <div class="form-group">
+                                            <div className="form-group">
                                                 <label for="inputAddress">
                                                     Subject
                                                 </label>
                                                 <input
                                                     type="text"
-                                                    class="form-control"
+                                                    className="form-control"
                                                     id="inputAddress"
                                                     placeholder="Problem"
                                                 />
                                             </div>{' '}
-                                            <div class="form-group">
+                                            <div className="form-group">
                                                 <label for="inputAddress">
                                                     Message
                                                 </label>
                                                 <textarea
                                                     type="text"
-                                                    class="form-control"
+                                                    className="form-control"
                                                     id="inputAddress"
                                                     placeholder="Any Query"></textarea>
                                             </div>
@@ -145,7 +145,7 @@ const ContactUsPage = () => {
                                                 whileHover={{ scale: 1.1 }}
                                                 whileTap={{ scale: 0.9 }}
                                                 type="submit"
-                                                class="btn btn-primary">
+                                                className="btn btn-primary">
                                                 Submit
                                             </motion.button>
                                         </form>

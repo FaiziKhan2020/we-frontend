@@ -23,14 +23,14 @@ const ShopDefaultPage = () => {
         };
         fetchProducts();
     }, []);
-   const send = (e) => {
-       Router.push({
-           pathname: '/men/filter',
-           query: {
-               e,
-           },
-       });
-   };
+    const send = (e) => {
+        Router.push({
+            pathname: '/men/filter',
+            query: {
+                e,
+            },
+        });
+    };
 
     return (
         <CartProvider>
@@ -47,8 +47,8 @@ const ShopDefaultPage = () => {
                                 </div>
                             </div>
                             <div
-                                class="dropdown d-flex justify-content-center"
-                                style={{ margin: '20px 100px 0px 0px',  }}>
+                                class="mt-4 dropdown d-flex justify-content-center"
+                                style={{ margin: 'auto' }}>
                                 <button
                                     class="btn btn-secondary dropdown-toggle"
                                     type="button"
@@ -73,9 +73,27 @@ const ShopDefaultPage = () => {
                                         fontSize: '18px',
                                         padding: '10px 25px',
                                     }}>
-                                        <a class="dropdown-item" onClick={()=>{send("shirt")}}>shirt</a>
-                                        <a class="dropdown-item" onClick={()=>{send("pant")}}>Pants</a>
-                                        <a class="dropdown-item" onClick={()=>{send("shoes")}}>shoes</a>
+                                    <a
+                                        class="dropdown-item"
+                                        onClick={() => {
+                                            send('shirt');
+                                        }}>
+                                        shirt
+                                    </a>
+                                    <a
+                                        class="dropdown-item"
+                                        onClick={() => {
+                                            send('pant');
+                                        }}>
+                                        Pants
+                                    </a>
+                                    <a
+                                        class="dropdown-item"
+                                        onClick={() => {
+                                            send('shoes');
+                                        }}>
+                                        shoes
+                                    </a>
                                 </div>
                             </div>
                             <div className="row mt-4">

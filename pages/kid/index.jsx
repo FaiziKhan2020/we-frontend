@@ -46,11 +46,9 @@ const ShopDefaultPage = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div
-                                class="dropdown d-flex justify-content-center"
-                                style={{ margin: '20px 100px 0px 0px' }}>
+                            <div className=" mt-4 dropdown d-flex justify-content-center">
                                 <button
-                                    class="btn btn-secondary dropdown-toggle"
+                                    className="btn btn-secondary dropdown-toggle"
                                     type="button"
                                     id="dropdownMenuButton"
                                     data-toggle="dropdown"

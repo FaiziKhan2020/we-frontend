@@ -52,9 +52,7 @@ const ShopDefaultPage = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div
-                                class="dropdown d-flex justify-content-center"
-                                style={{ margin: '20px 100px 0px 0px' }}>
+                            <div class="mt-4 dropdown d-flex justify-content-center">
                                 <button
                                     class="btn btn-secondary dropdown-toggle"
                                     type="button"
@@ -131,7 +129,7 @@ const ShopDefaultPage = () => {
                                                 price={item.price}
                                                 item={item}
                                             />
-                                        ))||"product Not found"}
+                                        )) || 'product Not found'}
                                 </div>
                             </div>
                         </div>
