@@ -101,3 +101,12 @@
 // };
 
 // export default connect((state) => state)(ModuleDetailShoppingActionsSidebar);
+import React from 'react'
+
+const ModuleDetailShoppingActionsSidebar = () => {
+  return (
+    <div>ModuleDetailShoppingActionsSidebar</div>
+  )
+}
+
+export default ModuleDetailShoppingActionsSidebar

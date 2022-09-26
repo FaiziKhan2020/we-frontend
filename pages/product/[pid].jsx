@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import SkeletonProductDetail from '~/components/elements/skeletons/SkeletonProductDetail';
 import BreadCrumb from '~/components/elements/BreadCrumb';
 import ProductDetailFullwidth from '~/components/elements/detail/ProductDetailFullwidth';
-import HeaderProduct from '~/components/shared/headers/HeaderProduct';
+// import HeaderProduct from '~/components/shared/headers/HeaderProduct';
 import PageContainer from '~/components/layouts/PageContainer';
 import HeaderMobileProduct from '~/components/shared/header-mobile/HeaderMobileProduct';
 import Axios from 'axios';

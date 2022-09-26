@@ -1,3 +1,14 @@
+import React from 'react'
+
+const ModuleDetailProductGroup = () => {
+  return (
+    <div>ModuleDetailProductGroup</div>
+  )
+}
+
+export default ModuleDetailProductGroup
+
+
 // import React from 'react';
 
 // const ModuleDetailProductGroup = () => {

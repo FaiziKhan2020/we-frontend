@@ -18,7 +18,7 @@ const QAhomePage = () => {
             try {
                 const data = await Axios.get(`http://localhost:5000/users`);
                 setData(data.data);
-                console.log(data.data);
+                // console.log(data.data);
             } catch (error) {
                 console.log(error);
             }
@@ -47,7 +47,7 @@ const QAhomePage = () => {
                         <div className="col-md-4">
                             {DropDown.map((item) => (
                                 <ProductSideBar
-                                    key={item}
+                                    key={item.id}
                                     image={item.image}
                                     Name={item.Name}
                                     jana={item.jana}
@@ -57,7 +57,7 @@ const QAhomePage = () => {
                         <div className={`col-md-8 my-4 ${style.mainCard}`}>
                             {data.map((item) => (
                                 <ProductCard
-                                    key={item}
+                                    key={item.id}
                                     imgUrl={item?.imgUrl[0]}
                                     title={item.title}
                                     price={item.price}

@@ -221,7 +221,7 @@ const FormCheckoutInformation = () => {
                     </a>
                 </Link>
 
-                <div className="ps-block__footer">
+                <div className="my-4 ps-block__footer text-center">
                     <button className="ps-btn">Place Order</button>
                 </div>
             </div>

@@ -1,3 +1,13 @@
+import React from 'react'
+
+const ModuleDetailShoppingActions = () => {
+  return (
+    <div>ModuleDetailShoppingActions</div>
+  )
+}
+
+export default ModuleDetailShoppingActions
+
 // import React, { useState } from 'react';
 // import { connect, useDispatch } from 'react-redux';
 // import { useRouter } from 'next/router';

@@ -7,7 +7,7 @@ import {
     setCompareItems,
     setWishlistTtems,
 } from '~/store/ecomerce/action';
-import PageLoader from '~/components/elements/common/PageLoader';
+// import PageLoader from '~/components/elements/common/PageLoader';
 import NavigationList from '~/components/shared/navigation/NavigationList';
 import MainHead from '~/components/layouts/modules/MainHead';
 

@@ -12,6 +12,7 @@ import {
 import 'react-accessible-accordion/dist/fancy-example.css';
 import items from './accordians.json';
 import { CartProvider } from 'react-use-cart';
+import style from '~/components/QAhomePage/style.module.css';
 const FaqsPage = () => {
     const breadCrumb = [
         {
@@ -44,7 +45,7 @@ const FaqsPage = () => {
                                                         <AccordionItemButton
                                                             style={{
                                                                 fontSize:
-                                                                    '20px',
+                                                                    '18px',
                                                                 fontWeight:
                                                                     '500',
                                                             }}>
@@ -53,7 +54,7 @@ const FaqsPage = () => {
                                                     </AccordionItemHeading>
                                                     <AccordionItemPanel
                                                         style={{
-                                                            fontSize: '18px',
+                                                            fontSize: '15px',
                                                         }}>
                                                         {item.content}
                                                     </AccordionItemPanel>
@@ -63,50 +64,6 @@ const FaqsPage = () => {
                                     </div>
                                 </div>
                             </div>
-                            {/* <div className="ps-section__header">
-                            <h3>Faq's</h3>
-                        </div>
-                        <div className="ps-section__content">
-                            <h4>
-                                {' '}
-                                How Do I get registered on dawoodonline.pk
-                                website?
-                            </h4>
-                            <p>
-                                A- We have kept the registration process very
-                                simple. Just go to the website and click
-                                (Register) Fill in your Name, complete Address
-                                and other particulars and click (Submit). You
-                                will receive a Thank You e-mail on your e-mail
-                                ID. Your registration was successful.
-                            </p>
-                            <h4>Q- How do I place my order?</h4>
-
-                            <p>
-                                {' '}
-                                A- Just Log into your account, browse through
-                                our listed product categories, Select the items
-                                you like and place them directly in the cart by
-                                clicking the (Cart) option or create a Wish List
-                                by clicking the (Heart) icon at the bottom of
-                                every product. Go to your cart (If you have
-                                completed your shopping list) and click
-                                (Checkout). (You have successfully placed your
-                                order)
-                            </p>
-                            <h4> Q- What is a Wish list?</h4>
-                            <p>
-                                A- Wish list is a standby list of items that you
-                                might use on a regular monthly basis. Just place
-                                your items in the wish list by clicking the
-                                (heart) icon at the bottom of each product of
-                                interest. This item will become part of the wish
-                                list and will be available to you for any
-                                subsequent or future Order. You can Add, Delete,
-                                Increase or Decrease quantity in your Wish list
-                                at any time.
-                            </p>
-                        </div> */}
                         </div>
                     </div>
                 </div>
