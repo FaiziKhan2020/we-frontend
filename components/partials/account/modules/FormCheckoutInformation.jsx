@@ -214,7 +214,7 @@ const FormCheckoutInformation = () => {
             </div>
 
             <div className="ps-form__submit">
-                <Link href="/shop">
+                <Link href="/shopCartItems/shopCart">
                     <a>
                         <i className="icon-arrow-left mr-2"></i>
                         Return to shopping cart
