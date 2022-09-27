@@ -137,9 +137,9 @@
 }
 
 .SideBarBtn button {
-    background-color: transparent;
-    color: black;
-    padding: 10px 30px;
+    background-color: purple;
+    color: white;
+    padding: 10px 40px;
     border: none;
     border-radius: 5px;
     font-size: 17px;
@@ -152,7 +152,14 @@
 
 .SideBarBtn button:focus {
     background-color: purple !important;
-    color: white;
+    outline: none !important;
+    border: none !important;
+}
+
+.SideBarBtn button:active {
+    background-color: purple !important;
+    outline: none !important;
+    border: none !important;
 }
 
 .selectpro {

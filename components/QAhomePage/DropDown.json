@@ -1,13 +1,13 @@
 [{
         "id": 1,
         "image": "https://res.cloudinary.com/xcltech/image/upload/v1664195607/100/man_ryuvcq.png",
-        "Name": "Men",
+        "Name": "Boys",
         "jana": "/men"
     },
     {
         "id": 2,
         "image": "https://res.cloudinary.com/xcltech/image/upload/v1664195607/100/girl_xtsefh.png",
-        "Name": "Women",
+        "Name": "Girls",
         "jana": "/women"
     },
     {
