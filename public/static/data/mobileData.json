@@ -11,7 +11,7 @@
                     "heading": "All",
                     "megaItems": [{
                         "text": "Products",
-                        "url": "/"
+                        "url": "/shop"
                     }]
                 }]
             },
@@ -25,14 +25,9 @@
                 "megaContent": [{
                     "heading": "Men Items",
                     "megaItems": [{
-                            "text": "Men Pants",
-                            "url": "/men"
-                        },
-                        {
-                            "text": "Men Shoes",
-                            "url": "/"
-                        }
-                    ]
+                        "text": "All Men & Boys Products",
+                        "url": "/men"
+                    }]
                 }]
             },
             {
@@ -45,14 +40,9 @@
                 "megaContent": [{
                     "heading": "Ladies Items",
                     "megaItems": [{
-                            "text": "Ladies Pants",
-                            "url": "/"
-                        },
-                        {
-                            "text": "Ladies Shoes ",
-                            "url": "/"
-                        }
-                    ]
+                        "text": "All Girls and Women Products",
+                        "url": "/women"
+                    }]
                 }]
             },
 
@@ -66,14 +56,9 @@
                 "megaContent": [{
                     "heading": "Kids Items",
                     "megaItems": [{
-                            "text": "Kids Pants",
-                            "url": "/"
-                        },
-                        {
-                            "text": "Kids Shoes",
-                            "url": "/"
-                        }
-                    ]
+                        "text": "Kids Products",
+                        "url": "/kid"
+                    }]
                 }]
             }
         ]
