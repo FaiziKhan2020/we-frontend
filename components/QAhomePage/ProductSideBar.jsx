@@ -2,14 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import style from './style.module.css';
 import Link from 'next/link';
-const ProductSideBar = ({
-    image,
-    Name,
-    subName1,
-    subName2,
-    subName3,
-    jana,
-}) => {
+const ProductSideBar = ({ image, Name, jana }) => {
     console.log(jana);
     return (
         <div className={style.SideBarBtn}>
