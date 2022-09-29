@@ -7,25 +7,34 @@ import ShopCarouselBanner from '../partials/shop/ShopCarouselBanner';
 import ProductCard from './ProductCard';
 import ProductSideBar from './ProductSideBar';
 import { CartProvider } from 'react-use-cart';
-// import FakeData from './FakeData.json';
 import DropDown from './DropDown.json';
 import Axios from 'axios';
 
 const QAhomePage = () => {
     const [data, setData] = useState([]);
+
+    // * Pgination
+    const [loading, setLoading] = useState(false);
+    const [currentPage, setCurrentPage] = useState(1);
+    const [productPerPage, setProductPerPage] = useState(4);
     useEffect(() => {
         const fetchProducts = async () => {
+            setLoading(true);
             try {
                 const data = await Axios.get(`http://localhost:5000/users`);
                 setData(data.data);
-                // console.log(data.data);
+                setLoading(false);
             } catch (error) {
                 console.log(error);
             }
         };
         fetchProducts();
     }, []);
-    // console.log(data);
+    // * Get current Product Page
+    const indexOfLastPage = currentPage * productPerPage;
+    const indexOfFirstPage = indexOfLastPage - productPerPage;
+    const currentPosts = data.slice(indexOfFirstPage, indexOfLastPage);
+
     return (
         <CartProvider>
             <PageContainer>
@@ -55,13 +64,14 @@ const QAhomePage = () => {
                             ))}
                         </div>
                         <div className={`col-md-8 my-4 ${style.mainCard}`}>
-                            {data.map((item) => (
+                            {currentPosts.map((item) => (
                                 <ProductCard
                                     key={item.id}
                                     imgUrl={item?.imgUrl[0]}
                                     title={item.title}
                                     price={item.price}
                                     item={item}
+                                    loading={loading}
                                 />
                             ))}
                         </div>

@@ -5,7 +5,10 @@ import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
-const ProductCard = ({ imgUrl, title, price, item }) => {
+const ProductCard = ({ imgUrl, title, price, item, loading }) => {
+    if (loading) {
+        return <h4>Loading ...</h4>;
+    }
     // const { addItem } = useCart();
     const Router = useRouter();
     const [isAdding, setIsAdding] = useState(false);
