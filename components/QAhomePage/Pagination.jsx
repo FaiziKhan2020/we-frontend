@@ -7,7 +7,7 @@ const Pagination = ({ productPerPage, totalProduct, paginate }) => {
     }
     return (
         <nav className={style.customPagination}>
-            <ul className="pagination">
+            <ul className="pagination mr-4">
                 {pageNumbers.map((number) => (
                     <li key={number} className="page-item">
                         <a
