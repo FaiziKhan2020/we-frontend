@@ -5,6 +5,7 @@ import style from './style.module.css';
 import MiniBanners from './MiniBanners';
 import ShopCarouselBanner from '../partials/shop/ShopCarouselBanner';
 import ProductCard from './ProductCard';
+import Pagination from './Pagination';
 import ProductSideBar from './ProductSideBar';
 import { CartProvider } from 'react-use-cart';
 import DropDown from './DropDown.json';
@@ -34,6 +35,9 @@ const QAhomePage = () => {
     const indexOfLastPage = currentPage * productPerPage;
     const indexOfFirstPage = indexOfLastPage - productPerPage;
     const currentPosts = data.slice(indexOfFirstPage, indexOfLastPage);
+
+    // * Change current Product Page
+    const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
     return (
         <CartProvider>
@@ -74,6 +78,13 @@ const QAhomePage = () => {
                                     loading={loading}
                                 />
                             ))}
+                        </div>
+                        <div className="ml-auto my-4">
+                            <Pagination
+                                productPerPage={productPerPage}
+                                totalProduct={data.length}
+                                paginate={paginate}
+                            />
                         </div>
                     </div>
                 </div>
