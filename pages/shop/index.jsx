@@ -10,21 +10,35 @@ import DropDown from '~/components/QAhomePage/DropDown.json';
 import style from '~/components/QAhomePage/style.module.css';
 import Axios from 'axios';
 import { CartProvider } from 'react-use-cart';
-
+import Pagination from '~/components/QAhomePage/Pagination';
 const ShopDefaultPage = () => {
     const [data, setData] = useState([]);
+
+    // * Pgination
+    const [loading, setLoading] = useState(false);
+    const [currentPage, setCurrentPage] = useState(1);
+    const [productPerPage, setProductPerPage] = useState(10);
     useEffect(() => {
+        setLoading(true);
         const fetchProducts = async () => {
             try {
                 const data = await Axios.get(`http://localhost:5000/users`);
                 setData(data.data);
-                // console.log(data.data);
+                setLoading(false);
             } catch (error) {
                 console.log(error);
             }
         };
         fetchProducts();
     }, []);
+    // * Get current Product Page
+    const indexOfLastPage = currentPage * productPerPage;
+    const indexOfFirstPage = indexOfLastPage - productPerPage;
+    const currentPosts = data.slice(indexOfFirstPage, indexOfLastPage);
+
+    // * Change current Product Page
+    const paginate = (pageNumber) => setCurrentPage(pageNumber);
+
     const breadCrumb = [
         {
             text: 'Home',
@@ -65,15 +79,23 @@ const ShopDefaultPage = () => {
                                 </div>
                                 <div
                                     className={`col-md-8 my-4 ${style.mainCard}`}>
-                                    {data.map((item) => (
+                                    {currentPosts.map((item) => (
                                         <ProductCard
-                                            key={item}
+                                            key={item.id}
                                             imgUrl={item?.imgUrl[0]}
                                             title={item.title}
                                             price={item.price}
                                             item={item}
+                                            loading={loading}
                                         />
                                     ))}
+                                </div>
+                                <div className="ml-auto my-4 mr-4">
+                                    <Pagination
+                                        productPerPage={productPerPage}
+                                        totalProduct={data.length}
+                                        paginate={paginate}
+                                    />
                                 </div>
                             </div>
                         </div>
