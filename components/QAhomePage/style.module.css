@@ -164,6 +164,12 @@
     flex-wrap: wrap;
 }
 
+.customPagination li a {
+    background-color: rgb(128, 0, 85) !important;
+    color: white !important;
+    cursor: pointer !important;
+}
+
 
 /* ?  using media query */
 

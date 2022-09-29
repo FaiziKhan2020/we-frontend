@@ -1,12 +1,12 @@
 import React from 'react';
-import Link from 'next/link';
+import style from './style.module.css';
 const Pagination = ({ productPerPage, totalProduct, paginate }) => {
     const pageNumbers = [];
     for (let i = 1; i <= Math.ceil(totalProduct / productPerPage); i++) {
         pageNumbers.push(i);
     }
     return (
-        <nav>
+        <nav className={style.customPagination}>
             <ul className="pagination">
                 {pageNumbers.map((number) => (
                     <li key={number} className="page-item">

@@ -79,7 +79,7 @@ const QAhomePage = () => {
                                 />
                             ))}
                         </div>
-                        <div className="ml-auto my-4">
+                        <div className="ml-auto my-4 mr-4">
                             <Pagination
                                 productPerPage={productPerPage}
                                 totalProduct={data.length}
