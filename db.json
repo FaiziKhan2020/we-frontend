@@ -1,9 +1,8 @@
 {
-    "users": [
-        {
+    "users": [{
             "id": 1,
             "price": 100,
-            "sub_category":"pant",
+            "sub_category": "pant",
             "imgUrl": [
                 "https://res.cloudinary.com/xcltech/image/upload/v1663232550/100/download_icw1pp.jpg",
                 "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png"
@@ -70,6 +69,197 @@
             "title": "Red Jeans",
             "sizes": ["Small", "Medium", "Large"],
             "color": ["Red", "Blue", "Ocean", "Purple"]
+        },
+        {
+            "id": 7,
+            "price": 100,
+            "sub_category": "pant",
+            "imgUrl": [
+                "https://res.cloudinary.com/xcltech/image/upload/v1663232550/100/download_icw1pp.jpg",
+                "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png"
+            ],
+            "title": "Blue Jeans",
+            "sizes": ["Small", "Medium", "Large"],
+            "color": ["Red", "Blue", "Ocean"]
+        },
+        {
+            "id": 8,
+            "price": 200,
+            "sub_category": "shirt",
+            "imgUrl": [
+                "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png",
+                "https://res.cloudinary.com/xcltech/image/upload/v1663232550/100/download_icw1pp.jpg"
+            ],
+            "title": "black Jeans",
+            "sizes": ["Small", "Medium", "Large"],
+            "color": ["Red", "Blue", "Ocean"]
+        },
+        {
+            "id": 9,
+            "price": 300,
+            "sub_category": "shirt",
+            "imgUrl": [
+                "https://res.cloudinary.com/xcltech/image/upload/v1663232550/100/download_icw1pp.jpg",
+                "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png"
+            ],
+            "title": "Green Jeans",
+            "sizes": ["Small", "Medium", "Large"],
+            "color": ["Red", "Blue", "Ocean"]
+        },
+        {
+            "id": 10,
+            "price": 400,
+            "sub_category": "shoes",
+            "imgUrl": [
+                "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png",
+                "https://res.cloudinary.com/xcltech/image/upload/v1663232550/100/download_icw1pp.jpg"
+            ],
+            "title": "White Jeans",
+            "sizes": ["Small", "Medium", "Large"],
+            "color": ["Red", "Blue", "Ocean"]
+        },
+        {
+            "id": 11,
+            "price": 500,
+            "sub_category": "shoes",
+            "imgUrl": [
+                "https://res.cloudinary.com/xcltech/image/upload/v1663232550/100/download_icw1pp.jpg",
+                "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png"
+            ],
+            "title": "Purple Jeans",
+            "sizes": ["Small", "Medium", "Large"],
+            "color": ["Red", "Blue", "Ocean"]
+        },
+        {
+            "id": 12,
+            "price": 100,
+            "sub_category": "pant",
+            "imgUrl": [
+                "https://res.cloudinary.com/xcltech/image/upload/v1663232550/100/download_icw1pp.jpg",
+                "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png"
+            ],
+            "title": "Blue Jeans",
+            "sizes": ["Small", "Medium", "Large"],
+            "color": ["Red", "Blue", "Ocean"]
+        },
+        {
+            "id": 13,
+            "price": 200,
+            "sub_category": "shirt",
+            "imgUrl": [
+                "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png",
+                "https://res.cloudinary.com/xcltech/image/upload/v1663232550/100/download_icw1pp.jpg"
+            ],
+            "title": "black Jeans",
+            "sizes": ["Small", "Medium", "Large"],
+            "color": ["Red", "Blue", "Ocean"]
+        },
+        {
+            "id": 14,
+            "price": 300,
+            "sub_category": "shirt",
+            "imgUrl": [
+                "https://res.cloudinary.com/xcltech/image/upload/v1663232550/100/download_icw1pp.jpg",
+                "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png"
+            ],
+            "title": "Green Jeans",
+            "sizes": ["Small", "Medium", "Large"],
+            "color": ["Red", "Blue", "Ocean"]
+        },
+        {
+            "id": 15,
+            "price": 400,
+            "sub_category": "shoes",
+            "imgUrl": [
+                "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png",
+                "https://res.cloudinary.com/xcltech/image/upload/v1663232550/100/download_icw1pp.jpg"
+            ],
+            "title": "White Jeans",
+            "sizes": ["Small", "Medium", "Large"],
+            "color": ["Red", "Blue", "Ocean"]
+        },
+        {
+            "id": 16,
+            "price": 500,
+            "sub_category": "shoes",
+            "imgUrl": [
+                "https://res.cloudinary.com/xcltech/image/upload/v1663232550/100/download_icw1pp.jpg",
+                "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png"
+            ],
+            "title": "Purple Jeans",
+            "sizes": ["Small", "Medium", "Large"],
+            "color": ["Red", "Blue", "Ocean"]
+        },
+        {
+            "id": 17,
+            "price": 600,
+            "sub_category": "pant",
+            "imgUrl": [
+                "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png"
+            ],
+            "title": "Red Jeans",
+            "sizes": ["Small", "Medium", "Large"],
+            "color": ["Red", "Blue", "Ocean", "Purple"]
+        },
+        {
+            "id": 18,
+            "price": 100,
+            "sub_category": "pant",
+            "imgUrl": [
+                "https://res.cloudinary.com/xcltech/image/upload/v1663232550/100/download_icw1pp.jpg",
+                "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png"
+            ],
+            "title": "Blue Jeans",
+            "sizes": ["Small", "Medium", "Large"],
+            "color": ["Red", "Blue", "Ocean"]
+        },
+        {
+            "id": 19,
+            "price": 200,
+            "sub_category": "shirt",
+            "imgUrl": [
+                "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png",
+                "https://res.cloudinary.com/xcltech/image/upload/v1663232550/100/download_icw1pp.jpg"
+            ],
+            "title": "black Jeans",
+            "sizes": ["Small", "Medium", "Large"],
+            "color": ["Red", "Blue", "Ocean"]
+        },
+        {
+            "id": 20,
+            "price": 300,
+            "sub_category": "shirt",
+            "imgUrl": [
+                "https://res.cloudinary.com/xcltech/image/upload/v1663232550/100/download_icw1pp.jpg",
+                "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png"
+            ],
+            "title": "Green Jeans",
+            "sizes": ["Small", "Medium", "Large"],
+            "color": ["Red", "Blue", "Ocean"]
+        },
+        {
+            "id": 21,
+            "price": 400,
+            "sub_category": "shoes",
+            "imgUrl": [
+                "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png",
+                "https://res.cloudinary.com/xcltech/image/upload/v1663232550/100/download_icw1pp.jpg"
+            ],
+            "title": "White Jeans",
+            "sizes": ["Small", "Medium", "Large"],
+            "color": ["Red", "Blue", "Ocean"]
+        },
+        {
+            "id": 22,
+            "price": 500,
+            "sub_category": "shoes",
+            "imgUrl": [
+                "https://res.cloudinary.com/xcltech/image/upload/v1663232550/100/download_icw1pp.jpg",
+                "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png"
+            ],
+            "title": "Purple Jeans",
+            "sizes": ["Small", "Medium", "Large"],
+            "color": ["Red", "Blue", "Ocean"]
         }
     ]
 }

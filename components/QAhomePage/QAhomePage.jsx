@@ -17,7 +17,7 @@ const QAhomePage = () => {
     // * Pgination
     const [loading, setLoading] = useState(false);
     const [currentPage, setCurrentPage] = useState(1);
-    const [productPerPage, setProductPerPage] = useState(4);
+    const [productPerPage, setProductPerPage] = useState(6);
     useEffect(() => {
         const fetchProducts = async () => {
             setLoading(true);
