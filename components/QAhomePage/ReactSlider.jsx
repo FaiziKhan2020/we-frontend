@@ -17,3 +17,4 @@ export default function SimpleSlider() {
         </Slider>
     );
 }
+// https://reactjs.org/docs/hooks-effect.html
