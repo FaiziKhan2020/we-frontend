@@ -17,9 +17,3 @@ export default function SimpleSlider() {
         </Slider>
     );
 }
-// https://reactjs.org/docs/hooks-effect.html
-// https://reactjs.org/docs/hooks-effect.html
-// create context
-// create context
-// create context
-// create context
