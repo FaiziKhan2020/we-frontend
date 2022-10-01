@@ -1,5 +1,5 @@
 import React from 'react';
-import PageContainer from '~/components/layouts/PageContainer';
+// import PageContainer from '~/components/layouts/PageContainer';
 import QAhomePage from '~/components/QAhomePage/QAhomePage';
 const HomepageDefaultPage = () => {
     // const [loading, setLoading] = useState(false);
