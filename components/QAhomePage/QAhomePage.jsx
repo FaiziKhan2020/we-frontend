@@ -18,6 +18,8 @@ const QAhomePage = () => {
     const [loading, setLoading] = useState(false);
     const [currentPage, setCurrentPage] = useState(1);
     const [productPerPage, setProductPerPage] = useState(6);
+
+    // * fetching data
     useEffect(() => {
         const fetchProducts = async () => {
             setLoading(true);
@@ -68,6 +70,7 @@ const QAhomePage = () => {
                             ))}
                         </div>
                         <div className={`col-md-8 my-4 ${style.mainCard}`}>
+                            // ? showing fecth data
                             {currentPosts.map((item) => (
                                 <ProductCard
                                     key={item.id}
