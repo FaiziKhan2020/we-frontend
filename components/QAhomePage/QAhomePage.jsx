@@ -81,7 +81,6 @@ const QAhomePage = () => {
                                 />
                             ))}
                         </div>
-                        // ? pagination
                         <div className="ml-auto my-4 mr-4">
                             <Pagination
                                 productPerPage={productPerPage}
