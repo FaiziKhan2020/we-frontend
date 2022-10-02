@@ -70,7 +70,6 @@ const QAhomePage = () => {
                             ))}
                         </div>
                         <div className={`col-md-8 my-4 ${style.mainCard}`}>
-                            // ? showing fecth data
                             {currentPosts.map((item) => (
                                 <ProductCard
                                     key={item.id}
