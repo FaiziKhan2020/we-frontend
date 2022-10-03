@@ -2,6 +2,7 @@ import React from 'react';
 import style from './style.module.css';
 const MiniBanners = () => {
     return (
+        // ? 3 boxes after banner
         <div className={style.mainBox}>
             <div className={style.box1}>
                 <div>
