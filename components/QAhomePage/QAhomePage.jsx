@@ -12,6 +12,8 @@ import DropDown from './DropDown.json';
 import Axios from 'axios';
 
 const QAhomePage = () => {
+    // ? Home page
+
     const [data, setData] = useState([]);
 
     // * Pgination
