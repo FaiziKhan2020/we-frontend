@@ -6,6 +6,7 @@ const Pagination = ({ productPerPage, totalProduct, paginate }) => {
         pageNumbers.push(i);
     }
     return (
+        // ? Pagination component
         <nav className={style.customPagination}>
             <ul className="pagination mr-4">
                 {pageNumbers.map((number) => (
