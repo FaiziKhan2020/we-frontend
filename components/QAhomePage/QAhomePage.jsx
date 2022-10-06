@@ -65,14 +65,13 @@ const QAhomePage = () => {
                             {DropDown.map((item) => (
                                 <ProductSideBar
                                     key={item.id}
-                                    image={item.image}
+                                    image={item?.image}
                                     Name={item.Name}
                                     jana={item.jana}
                                 />
                             ))}
                         </div>
                         <div className={`col-md-8 my-4 ${style.mainCard}`}>
-                            // ? showing fecth data
                             {currentPosts.map((item) => (
                                 <ProductCard
                                     key={item.id}
@@ -84,13 +83,12 @@ const QAhomePage = () => {
                                 />
                             ))}
                         </div>
-                        // ? pagination
                         <div className="ml-auto my-4 mr-4">
                             <Pagination
                                 productPerPage={productPerPage}
                                 totalProduct={data.length}
                                 paginate={paginate}
-                            />
+                            />{' '}
                         </div>
                     </div>
                 </div>
