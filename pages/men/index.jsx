@@ -14,8 +14,10 @@ const ShopDefaultPage = () => {
     useEffect(() => {
         const fetchProducts = async () => {
             try {
-                const data = await Axios.get(`http://localhost:5000/users`);
-                setData(data.data);
+                const data = await Axios.get(
+                    `http://localhost:8080/api/v1/product/id/3`
+                );
+                setData(data.data.data);
                 // console.log(data.data);
             } catch (error) {
                 console.log(error);
@@ -116,7 +118,7 @@ const ShopDefaultPage = () => {
                                     {data.map((item) => (
                                         <ProductCard
                                             key={item}
-                                            imgUrl={item?.imgUrl[0]}
+                                            imgUrl={item?.imgUrl}
                                             title={item.title}
                                             price={item.price}
                                             item={item}

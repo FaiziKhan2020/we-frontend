@@ -26,8 +26,11 @@ const QAhomePage = () => {
         const fetchProducts = async () => {
             setLoading(true);
             try {
-                const data = await Axios.get(`http://localhost:5000/users`);
-                setData(data.data);
+                const data = await Axios.get(
+                    `http://localhost:8080/api/v1/product`
+                );
+                // console.log(data.data.data);
+                setData(data.data.data);
                 setLoading(false);
             } catch (error) {
                 console.log(error);
@@ -35,6 +38,7 @@ const QAhomePage = () => {
         };
         fetchProducts();
     }, []);
+    console.log(data)
     // * Get current Product Page
     const indexOfLastPage = currentPage * productPerPage;
     const indexOfFirstPage = indexOfLastPage - productPerPage;
@@ -75,7 +79,7 @@ const QAhomePage = () => {
                             {currentPosts.map((item) => (
                                 <ProductCard
                                     key={item.id}
-                                    imgUrl={item?.imgUrl[0]}
+                                    imgUrl={item?.imgUrl}
                                     title={item.title}
                                     price={item.price}
                                     item={item}

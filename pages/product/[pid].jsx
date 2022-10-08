@@ -19,16 +19,14 @@ const ProductDefaultPage = () => {
         setLoading(true);
         const responseData = await Axios.get(
             // `https://dawoodddocker.herokuapp.com/api/v1/product/${pid}`
-            `http://localhost:5000/users/${pid}`
-            // `http://127.0.0.1:8000/view-product/${pid}`
+            `http://localhost:8080/api/v1/product/${pid}`
         );
-        // console.log(responseData.data);
+        console.log(responseData.data.data);
         if (responseData) {
             setProduct({
-                ...responseData.data,
-                images: [responseData.data?.imgUrl],
-                sizes: [responseData.data.sizes],
-                color: [responseData.data.color],
+                ...responseData.data.data,
+                images: [responseData.data.data?.imgUrl],
+                
             });
             setTimeout(
                 function () {

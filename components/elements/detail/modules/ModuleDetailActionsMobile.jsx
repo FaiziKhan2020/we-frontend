@@ -41,7 +41,7 @@ const ModuleDetailActionsMobile = ({ product }) => {
                             message: 'Choose Color',
                         },
                     ]}>
-                    <select
+                    {/* <select
                         className={`mr-4 ${style.selectpro}`}
                         onChange={(e) => setColor(e.target.value)}
                         required
@@ -52,7 +52,7 @@ const ModuleDetailActionsMobile = ({ product }) => {
                                 <option> {item} </option>
                             </>
                         ))}
-                    </select>
+                    </select> */}
                 </Form.Item>
                 <Form.Item
                     name="Size"

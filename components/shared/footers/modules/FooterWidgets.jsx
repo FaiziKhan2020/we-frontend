@@ -38,7 +38,7 @@ const FooterWidgets = () => (
                 </ul>
             </div>
             <br />
-            <p>Powered by Xcl Technologies</p>
+            <p>Design By Muhammad Usman</p>
         </aside>
         <aside className="widget widget_footer">
             <h4 className="widget-title">CUSTOMER SERVICE</h4>
