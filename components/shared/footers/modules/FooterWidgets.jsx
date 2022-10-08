@@ -9,10 +9,12 @@ const FooterWidgets = () => (
             <div className="widget_content">
                 <p>Free support line</p>
                 <Link href="tel:+97450704018">
-                    <h3 style={{ cursor: 'pointer' }}>+974-50704018</h3>
+                    <h3 style={{ cursor: 'pointer' }}>+090078601</h3>
                 </Link>
                 <p>
-                    <a href="mailto:khtgulf@gmail.com">khtgulf@gmail.com</a>
+                    <a href="mailto:Kusman2560@gmail.com">
+                        Kusman2560@gmail.com
+                    </a>
                 </p>
                 <ul className="ps-list--social">
                     <motion.li whileHover={{ scale: 1.2 }}>
