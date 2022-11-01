@@ -26,7 +26,9 @@ const CustomCart = () => {
                     </thead>
                     <tbody>
                         {items.map((item, index) => (
+                            
                             <tr key={item.id}>
+                                {console.log(item.imgUrl)}
                                 <th scope="row"> {index + 1} </th>
                                 <Link
                                     href="/product/[pid]"
@@ -79,13 +81,7 @@ const CustomCart = () => {
                                     href="/product/[pid]"
                                     as={`/product/${item?.id}`}>
                                     <td style={{ cursor: 'pointer' }}>
-                                        {item.sizes == [] ? (
-                                            <p className="text-danger">
-                                                Please choose size
-                                            </p>
-                                        ) : (
-                                            item.sizes
-                                        )}
+                                        {item.size}
                                     </td>
                                 </Link>
                                 <td>

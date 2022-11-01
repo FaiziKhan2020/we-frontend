@@ -19,7 +19,7 @@ const QAhomePage = () => {
     // * Pgination
     const [loading, setLoading] = useState(false);
     const [currentPage, setCurrentPage] = useState(1);
-    const [productPerPage, setProductPerPage] = useState(6);
+    const [productPerPage, setProductPerPage] = useState(8);
 
     // * fetching data
     useEffect(() => {
@@ -27,7 +27,7 @@ const QAhomePage = () => {
             setLoading(true);
             try {
                 const data = await Axios.get(
-                    `http://localhost:8080/api/v1/product`
+                    `http://localhost:8080/api/v1/product/`
                 );
                 // console.log(data.data.data);
                 setData(data.data.data);
@@ -65,7 +65,7 @@ const QAhomePage = () => {
                         </div>
                     </div>
                     <div className="row mt-4 mx-auto">
-                        <div className="col-md-4 mt-4">
+                        <div className="col-md-2 mt-4">
                             {DropDown.map((item) => (
                                 <ProductSideBar
                                     key={item.id}
@@ -75,7 +75,7 @@ const QAhomePage = () => {
                                 />
                             ))}
                         </div>
-                        <div className={`col-md-8 my-4 ${style.mainCard}`}>
+                        <div className={`col-md-10 my-4 ${style.mainCard}`}>
                             {currentPosts.map((item) => (
                                 <ProductCard
                                     key={item.id}

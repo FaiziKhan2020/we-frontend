@@ -15,7 +15,7 @@ const ShopDefaultPage = () => {
         const fetchProducts = async () => {
             try {
                 const data = await Axios.get(
-                    `http://localhost:8080/api/v1/product/id/3`
+                    `http://localhost:8080/api/v1/product/id/2`
                 );
                 setData(data.data.data);
                 // console.log(data.data);
@@ -27,7 +27,7 @@ const ShopDefaultPage = () => {
     }, []);
     const send = (e) => {
         Router.push({
-            pathname: '/men/filter',
+            pathname: '/women/filter',
             query: {
                 e,
             },
@@ -76,21 +76,21 @@ const ShopDefaultPage = () => {
                                     <a
                                         class="dropdown-item"
                                         onClick={() => {
-                                            send('shirt');
+                                            send('Shirt');
                                         }}>
                                         shirt
                                     </a>
                                     <a
                                         class="dropdown-item"
                                         onClick={() => {
-                                            send('pant');
+                                            send('Pants');
                                         }}>
                                         Pants
                                     </a>
                                     <a
                                         class="dropdown-item"
                                         onClick={() => {
-                                            send('shoes');
+                                            send('Shoes');
                                         }}>
                                         shoes
                                     </a>

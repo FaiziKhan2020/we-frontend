@@ -11,9 +11,9 @@ export default function SimpleSlider() {
     };
     return (
         <Slider {...settings}>
-            <div className={style.bgImg}></div>
-            <div className={style.bgImg}></div>
-            <div className={style.bgImg}></div>
+            <div className={style.bgImg}>1</div>
+            <div className={style.bgImg}>2</div>
+            <div className={style.bgImg}>3</div>
         </Slider>
     );
 }

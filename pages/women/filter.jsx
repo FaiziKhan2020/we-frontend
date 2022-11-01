@@ -19,8 +19,10 @@ const ShopDefaultPage = () => {
     useEffect(() => {
         const fetchProducts = async () => {
             try {
-                const data = await Axios.get(`http://localhost:5000/users`);
-                setData(data.data);
+                const data = await Axios.get(
+                    `http://localhost:8080/api/v1/product/id/2`
+                );
+                setData(data.data.data);
                 // console.log(data.data);
             } catch (error) {
                 console.log(error);
@@ -31,7 +33,7 @@ const ShopDefaultPage = () => {
 
     const send = (e) => {
         Router.push({
-            pathname: '/men/filter',
+            pathname: '/women/filter',
             query: {
                 e,
             },
@@ -80,21 +82,21 @@ const ShopDefaultPage = () => {
                                     <a
                                         class="dropdown-item"
                                         onClick={() => {
-                                            send('shirt');
+                                            send('Shirt');
                                         }}>
                                         shirt
                                     </a>
                                     <a
                                         class="dropdown-item"
                                         onClick={() => {
-                                            send('pant');
+                                            send('Pants');
                                         }}>
                                         Pants
                                     </a>
                                     <a
                                         class="dropdown-item"
                                         onClick={() => {
-                                            send('shoes');
+                                            send('Shoes');
                                         }}>
                                         shoes
                                     </a>
@@ -118,13 +120,11 @@ const ShopDefaultPage = () => {
                                 <div
                                     className={`col-md-12 my-4 ${style.mainCard}`}>
                                     {data
-                                        .filter(
-                                            (index) => index.sub_category == e
-                                        )
+                                        .filter((index) => index.Sub_Cat == e)
                                         .map((item) => (
                                             <ProductCard
                                                 key={item}
-                                                imgUrl={item?.imgUrl[0]}
+                                                imgUrl={item?.imgUrl}
                                                 title={item.title}
                                                 price={item.price}
                                                 item={item}

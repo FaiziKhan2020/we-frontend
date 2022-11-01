@@ -27,7 +27,7 @@ const FormCheckoutInformation = () => {
     const handleLoginSubmit = async (data) => {
         const body = {
             total: cartTotal,
-            subTotal: cartTotal + result,
+            subTotal: cartTotal,
             contactInfo: data.contactInfo,
             shippingAddress: {
                 firstName: data.firstName,
@@ -46,21 +46,18 @@ const FormCheckoutInformation = () => {
 
         try {
             const res = await axios.post(
-                // 'https://dawoodbackend.herokuapp.com/api/v1/order/',
-                // `http://localhost:8080/api/v1/order/`,
-                // `https://dawoodddocker.herokuapp.com/api/v1/order/post/`,
+               `http://localhost:8080/api/v1/order/post`,
                 body
             );
 
             if (res.data.success) {
                 Router.push({
-                    pathname: '/account/payment',
+                    pathname: '/account/payment/',
                     query: { orderId: res.data.data.dataValues.orderId },
                 });
                 emptyCart();
             }
             console.log('CBM', { res });
-            // console.log(items);
         } catch (error) {
             console.log('CBM', { error });
         }

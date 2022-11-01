@@ -22,8 +22,10 @@ const ShopDefaultPage = () => {
         setLoading(true);
         const fetchProducts = async () => {
             try {
-                const data = await Axios.get(`http://localhost:5000/users`);
-                setData(data.data);
+                const data = await Axios.get(
+                    `http://localhost:8080/api/v1/product/`
+                );
+                setData(data.data.data);
                 setLoading(false);
             } catch (error) {
                 console.log(error);
@@ -82,7 +84,7 @@ const ShopDefaultPage = () => {
                                     {currentPosts.map((item) => (
                                         <ProductCard
                                             key={item.id}
-                                            imgUrl={item?.imgUrl[0]}
+                                            imgUrl={item?.imgUrl}
                                             title={item.title}
                                             price={item.price}
                                             item={item}

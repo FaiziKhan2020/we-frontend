@@ -4,16 +4,13 @@ import Slider from 'react-slick';
 import { carouselSingle } from '~/utilities/carousel-helpers';
 
 const ThumbnailDefault = ({ product, vertical = true }) => {
+    console.log(product.imgurl)
     return (
         <div className=" mt-4 ps-shop-banner">
             <Slider
                 // {...carouselSingle}
                 className="ps-carousel inside">
-                {product.images[0].map((item) => (
-                    <div className="item">
-                        <img src={item} alt="Q-FASHION" />
-                    </div>
-                ))}
+                <img src={product.imgUrl} alt="" />
             </Slider>
         </div>
     );

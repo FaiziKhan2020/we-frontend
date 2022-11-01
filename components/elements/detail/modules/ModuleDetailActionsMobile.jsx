@@ -22,9 +22,9 @@ const ModuleDetailActionsMobile = ({ product }) => {
             id: product.id,
             price: product.price,
             title: product.title,
-            imgUrl: product.imgUrl[0],
-            sizes: Size,
-            color: Color,
+            imgUrl: product.imgUrl,
+            size:product.size,
+            color: product.color,
         });
         total();
     }
@@ -33,48 +33,8 @@ const ModuleDetailActionsMobile = ({ product }) => {
     return (
         <Form onFinish={AddToCart}>
             <div className={style.MainSelect}>
-                <Form.Item
-                    name="Color"
-                    rules={[
-                        {
-                            required: true,
-                            message: 'Choose Color',
-                        },
-                    ]}>
-                    {/* <select
-                        className={`mr-4 ${style.selectpro}`}
-                        onChange={(e) => setColor(e.target.value)}
-                        required
-                        value={Color}>
-                        <option>Choose Color</option>
-                        {product.color[0].map((item) => (
-                            <>
-                                <option> {item} </option>
-                            </>
-                        ))}
-                    </select> */}
-                </Form.Item>
-                <Form.Item
-                    name="Size"
-                    rules={[
-                        {
-                            required: true,
-                            message: 'Choose Size',
-                        },
-                    ]}>
-                    <select
-                        className={style.selectpro}
-                        onChange={(e) => setSize(e.target.value)}
-                        required
-                        value={Size}>
-                        <option> Choose Size</option>
-                        {product.sizes[0].map((item) => (
-                            <>
-                                <option> {item} </option>
-                            </>
-                        ))}
-                    </select>
-                </Form.Item>
+                
+              
             </div>
 
             <div className={style.moduleBtn}>

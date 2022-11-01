@@ -27,7 +27,7 @@ const ShopDefaultPage = () => {
     }, []);
     const send = (e) => {
         Router.push({
-            pathname: '/men/filter',
+            pathname: '/kid/filter',
             query: {
                 e,
             },
@@ -48,9 +48,9 @@ const ShopDefaultPage = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className=" mt-4 dropdown d-flex justify-content-center">
+                            <div class="mt-4 dropdown d-flex justify-content-center">
                                 <button
-                                    className="btn btn-secondary dropdown-toggle"
+                                    class="btn btn-secondary dropdown-toggle"
                                     type="button"
                                     id="dropdownMenuButton"
                                     data-toggle="dropdown"
@@ -76,21 +76,21 @@ const ShopDefaultPage = () => {
                                     <a
                                         class="dropdown-item"
                                         onClick={() => {
-                                            send('shirt');
+                                            send('Shirt');
                                         }}>
                                         shirt
                                     </a>
                                     <a
                                         class="dropdown-item"
                                         onClick={() => {
-                                            send('pant');
+                                            send('Pants');
                                         }}>
                                         Pants
                                     </a>
                                     <a
                                         class="dropdown-item"
                                         onClick={() => {
-                                            send('shoes');
+                                            send('Shoes');
                                         }}>
                                         shoes
                                     </a>
