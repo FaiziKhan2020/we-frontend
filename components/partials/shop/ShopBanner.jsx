@@ -18,7 +18,7 @@ const ShopBanner = () => {
         <div className="ps-shop-banner">
             <Slider {...carouselSetting} fade={true} className="ps-carousel">
                 <img
-                    src="/static/img/slider/shop-default/3.png"
+                    src="/static/img/slider/shop-default/5.png"
                     alt="Q-FASHION"
                 />
                 <img
@@ -26,7 +26,7 @@ const ShopBanner = () => {
                     alt="Q-FASHION"
                 />{' '}
                 <img
-                    src="/static/img/slider/shop-default/5.png"
+                    src="/static/img/slider/shop-default/3.png"
                     alt="Q-FASHION"
                 />
             </Slider>

@@ -69,7 +69,7 @@ const ShopDefaultPage = () => {
                                 </div>
                             </div>
                             <div className="row mt-4">
-                                <div className="col-md-4">
+                                <div className="col-md-2">
                                     {DropDown.map((item) => (
                                         <ProductSideBar
                                             key={item}
@@ -80,7 +80,7 @@ const ShopDefaultPage = () => {
                                     ))}
                                 </div>
                                 <div
-                                    className={`col-md-8 my-4 ${style.mainCard}`}>
+                                    className={`col-md-10 my-4 ${style.mainCard}`}>
                                     {currentPosts.map((item) => (
                                         <ProductCard
                                             key={item.id}

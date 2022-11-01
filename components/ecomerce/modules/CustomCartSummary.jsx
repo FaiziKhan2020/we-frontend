@@ -23,13 +23,13 @@ const customCartSummary = ({ source }) => {
             <div className="ps-block--shopping-total">
                 <div className="ps-block__header">
                     <p>
-                        Subtotal <span> QR. {cartTotal}</span>
+                        Subtotal <span> RS. {cartTotal}</span>
                     </p>
                 </div>
                 <div className="ps-block__content">
                     {/* <ul className="ps-block__product">{productItemsView}</ul> */}
                     <h3>
-                        Total <span>QR. {cartTotal}</span>
+                        Total <span>RS. {cartTotal}</span>
                     </h3>
                 </div>
             </div>

@@ -20,7 +20,7 @@ const ShopDefaultPage = () => {
         const fetchProducts = async () => {
             try {
                 const data = await Axios.get(
-                    `http://localhost:8080/api/v1/product/id/1`
+                    `http://localhost:8080/api/v1/product/id/2`
                 );
                 setData(data.data.data);
                 // console.log(data.data);
@@ -84,21 +84,21 @@ const ShopDefaultPage = () => {
                                     <a
                                         class="dropdown-item"
                                         onClick={() => {
-                                            send('Shirt');
+                                            send('shirt');
                                         }}>
                                         shirt
                                     </a>
                                     <a
                                         class="dropdown-item"
                                         onClick={() => {
-                                            send('Pants');
+                                            send('Pant');
                                         }}>
                                         Pants
                                     </a>
                                     <a
                                         class="dropdown-item"
                                         onClick={() => {
-                                            send('Shoes');
+                                            send('shoes');
                                         }}>
                                         shoes
                                     </a>

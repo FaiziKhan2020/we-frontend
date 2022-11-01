@@ -188,28 +188,7 @@ const FormCheckoutInformation = () => {
                     </div>
                 </div>
             </div>
-            <div className="row">
-                <div className="col-12 py-4">
-                    <div className="form-group">
-                        <Form.Item
-                            name="location"
-                            rules={[
-                                {
-                                    required: true,
-                                    message: 'Please enter a location',
-                                },
-                            ]}>
-                            <Select
-                                options={options}
-                                isClearable
-                                placeholder="Choose a delivery location"
-                                onChange={ddlHandler}
-                            />
-                        </Form.Item>
-                    </div>
-                </div>
-            </div>
-
+          
             <div className="ps-form__submit">
                 <Link href="/shopCartItems/shopCart">
                     <a>

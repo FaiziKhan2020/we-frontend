@@ -37,7 +37,7 @@ const ModulePaymentOrderSummary = ({ ecomerce, shipping }) => {
                         item.color
                     )}
                 </strong>
-                <small> QR. {item.quantity * item.price} </small>
+                <small> RS. {item.quantity * item.price} </small>
             </a>
         </Link>
     ));
@@ -55,7 +55,7 @@ const ModulePaymentOrderSummary = ({ ecomerce, shipping }) => {
                 <h3>
                     Total
                     <strong>
-                        QR. {cartTotal}
+                        RS. {cartTotal}
                         .00
                     </strong>
                 </h3>
@@ -67,7 +67,7 @@ const ModulePaymentOrderSummary = ({ ecomerce, shipping }) => {
                 <h3>
                     Total
                     <strong>
-                        QR. {cartTotal}
+                        RS. {cartTotal}
                         .00
                     </strong>
                 </h3>
@@ -88,7 +88,7 @@ const ModulePaymentOrderSummary = ({ ecomerce, shipping }) => {
                     <figure>
                         <figcaption>
                             <strong> Subtotal </strong>
-                            <small> QR. {cartTotal} </small>
+                            <small> RS. {cartTotal} </small>
                         </figcaption>
                     </figure>
                     {shippingView} {totalView}
