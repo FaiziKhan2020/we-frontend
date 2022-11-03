@@ -55,7 +55,7 @@ const ShopDefaultPage = () => {
         <CartProvider>
             <PageContainer title="Shop">
                 <div className="ps-page--shop">
-                    <BreadCrumb breacrumb={breadCrumb} layout="fullwidth" />
+                    {/* <BreadCrumb breacrumb={breadCrumb} layout="fullwidth" /> */}
                     <div className="ps-container">
                         <ShopBanner />
                         <ShopBrands />

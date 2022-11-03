@@ -78,7 +78,7 @@ const ProductDefaultPage = () => {
             <PageContainer
                 header={headerView}
                 title={product ? product.title : 'Loading...'}>
-                <BreadCrumb breacrumb={breadCrumb} layout="fullwidth" />
+                {/* <BreadCrumb breacrumb={breadCrumb} layout="fullwidth" /> */}
                 <div className="ps-page--product">
                     <div className="ps-container">
                         <div className="ps-page__container">

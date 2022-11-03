@@ -4,6 +4,7 @@ import { useCart } from 'react-use-cart';
 import { motion } from 'framer-motion';
 import style from '~/components/QAhomePage/style.module.css';
 import { Form } from 'antd';
+import Link from "next/link"
 const ModuleDetailActionsMobile = ({ product }) => {
     // const { addItem } = useCart();
     const { addItem, items } = useCart();
@@ -32,12 +33,34 @@ const ModuleDetailActionsMobile = ({ product }) => {
     console.log(items);
     return (
         <Form onFinish={AddToCart}>
-            <div className={style.MainSelect}>
-                
-              
+            <div className={style.MainSelect}></div>
+            <div className="d-flex  ">
+                <div className={style.moduleBtn}>
+                    <motion.button
+                        whileHover={{ scale: 1.1 }}
+                        whileTap={{ scale: 0.9 }}
+                        type="submit"
+                        className={`mt-4 ${
+                            isAdding ? 'btn btn-primary' : 'btn'
+                        }`}>
+                        ADD{isAdding ? 'ED' : ''}
+                    </motion.button>
+                </div>
+
+                <Link href="/account/checkout">
+                    <div className={`ml-4 ${style.moduleBtn}`}>
+                        <motion.button
+                            whileHover={{ scale: 1.1 }}
+                            whileTap={{ scale: 0.9 }}
+                            type="submit"
+                            className="mt-4">
+                            Checkout
+                        </motion.button>
+                    </div>
+                </Link>
             </div>
 
-            <div className={style.moduleBtn}>
+            {/* <div className={style.moduleBtn}>
                 <motion.button
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.9 }}
@@ -45,7 +68,7 @@ const ModuleDetailActionsMobile = ({ product }) => {
                     className={`mt-4 ${isAdding ? 'btn btn-primary' : 'btn'}`}>
                     ADD{isAdding ? 'ED' : ''}
                 </motion.button>
-            </div>
+            </div> */}
         </Form>
         // <div>
         //     <div className="my-4">
