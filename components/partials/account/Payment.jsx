@@ -3,8 +3,6 @@ import { connect } from 'react-redux';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
-
-
 const Payment = () => {
     const Router = useRouter();
     console.log(Router);
@@ -15,7 +13,7 @@ const Payment = () => {
                     <p style={{ fontSize: '25px' }}>
                         Your Order ID is: <b>QFASION{Router.query.orderId}</b>
                     </p>
-                    <h1>Your order was successfully submited!</h1>
+                    <h1>Your order has successfully submitted!</h1>
                     <h2>
                         Thanks for choosing us{' '}
                         <span style={{ color: 'red' }}> ❤</span>

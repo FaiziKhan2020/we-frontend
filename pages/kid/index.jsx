@@ -76,21 +76,21 @@ const ShopDefaultPage = () => {
                                     <a
                                         class="dropdown-item"
                                         onClick={() => {
-                                            send('Shirt');
+                                            send('shirt');
                                         }}>
                                         shirt
                                     </a>
                                     <a
                                         class="dropdown-item"
                                         onClick={() => {
-                                            send('Pants');
+                                            send('pant');
                                         }}>
                                         Pants
                                     </a>
                                     <a
                                         class="dropdown-item"
                                         onClick={() => {
-                                            send('Shoes');
+                                            send('shoes');
                                         }}>
                                         shoes
                                     </a>

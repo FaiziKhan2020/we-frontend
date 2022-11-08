@@ -30,7 +30,7 @@ const PaymentPage = () => {
             <CartProvider>
                 <PageContainer footer={<FooterDefault />} title="Payment">
                     <div className="ps-page--simple">
-                        <BreadCrumb breacrumb={breadCrumb} />
+                        {/* <BreadCrumb breacrumb={breadCrumb} /> */}
                         <Payment />
                     </div>
                     <Newletters layout="container" />

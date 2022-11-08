@@ -91,7 +91,7 @@ const ShopDefaultPage = () => {
                                     <a
                                         class="dropdown-item"
                                         onClick={() => {
-                                            send('Pant');
+                                            send('pant');
                                         }}>
                                         Pants
                                     </a>
