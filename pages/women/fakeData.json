@@ -1,0 +1,114 @@
+[
+    {
+        "id": 1,
+        "price": 200,
+        "image": "https://assets.ajio.com/medias/sys_master/root/20211207/Q6CG/61af9382f997ddf8f140a038/-288Wx360H-461391397-black-MODEL.jpg",
+        "title": "Women Shirt",
+        "items": "item"
+    },
+    {
+        "id": 1,
+        "price": 200,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0ePmMaZgfefYTHMQGCbV9fHfPNfsaZ1riDNWdG1Q&s",
+        "title": "Women Shirt",
+        "items": "item"
+    },
+    {
+        "id": 1,
+        "price": 200,
+        "image": "https://assets.ajio.com/medias/sys_master/root/20211207/Q6CG/61af9382f997ddf8f140a038/-288Wx360H-461391397-black-MODEL.jpg",
+        "title": "Women Shirt",
+        "items": "item"
+    },
+    {
+        "id": 2,
+        "price": 200,
+        "image": "https://cdn.shopify.com/s/files/1/0553/3774/6621/products/LO3049-WHT_3_800x1000_crop_center.jpg?v=1685432864",
+        "title": "Blue Jeans",
+        "items": "item"
+    },
+    {
+        "id": 3,
+        "price": 200,
+        "image": "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png",
+        "title": "Blue Jeans",
+        "items": "item"
+    },
+    {
+        "id": 4,
+        "price": 200,
+        "image": "https://cdn.shopify.com/s/files/1/1231/6442/products/L-PANTS-16738-20382-DENIMBLUE_4.jpg?v=1674626068",
+        "title": "Blue Jeans",
+        "items": "item"
+    },
+    {
+        "id": 5,
+        "price": 200,
+        "image": "https://cdn.shopify.com/s/files/1/0083/4607/5217/products/tulip-pantalon-989001_540x.jpg?v=1684317218",
+        "title": "Blue Jeans",
+        "items": "item"
+    },
+    {
+        "id": 6,
+        "price": 200,
+        "image": "https://cdn-skin.sanaullastore.com/media/catalog/product/cache/1/small_image/542x756/9df78eab33525d08d6e5fb8d27136e95/l/a/la-rosaa-scarves-_-trousers-collection-03-striped-culotte-_1__1.jpg",
+        "title": "Blue Jeans",
+        "items": "item"
+    },
+    {
+        "id": 1,
+        "price": 200,
+        "image": "https://assets.ajio.com/medias/sys_master/root/20211207/Q6CG/61af9382f997ddf8f140a038/-288Wx360H-461391397-black-MODEL.jpg",
+        "title": "Women Shirt",
+        "items": "item"
+    },
+    {
+        "id": 1,
+        "price": 200,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0ePmMaZgfefYTHMQGCbV9fHfPNfsaZ1riDNWdG1Q&s",
+        "title": "Women Shirt",
+        "items": "item"
+    },
+    {
+        "id": 1,
+        "price": 200,
+        "image": "https://assets.ajio.com/medias/sys_master/root/20211207/Q6CG/61af9382f997ddf8f140a038/-288Wx360H-461391397-black-MODEL.jpg",
+        "title": "Women Shirt",
+        "items": "item"
+    },
+    {
+        "id": 2,
+        "price": 200,
+        "image": "https://cdn.shopify.com/s/files/1/0553/3774/6621/products/LO3049-WHT_3_800x1000_crop_center.jpg?v=1685432864",
+        "title": "Blue Jeans",
+        "items": "item"
+    },
+    {
+        "id": 3,
+        "price": 200,
+        "image": "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png",
+        "title": "Blue Jeans",
+        "items": "item"
+    },
+    {
+        "id": 4,
+        "price": 200,
+        "image": "https://cdn.shopify.com/s/files/1/1231/6442/products/L-PANTS-16738-20382-DENIMBLUE_4.jpg?v=1674626068",
+        "title": "Blue Jeans",
+        "items": "item"
+    },
+    {
+        "id": 5,
+        "price": 200,
+        "image": "https://cdn.shopify.com/s/files/1/0083/4607/5217/products/tulip-pantalon-989001_540x.jpg?v=1684317218",
+        "title": "Blue Jeans",
+        "items": "item"
+    },
+    {
+        "id": 6,
+        "price": 200,
+        "image": "https://cdn-skin.sanaullastore.com/media/catalog/product/cache/1/small_image/542x756/9df78eab33525d08d6e5fb8d27136e95/l/a/la-rosaa-scarves-_-trousers-collection-03-striped-culotte-_1__1.jpg",
+        "title": "Blue Jeans",
+        "items": "item"
+    }
+]

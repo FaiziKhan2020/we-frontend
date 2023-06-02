@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "price": 200,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDO3xBKmQjhgo8PCnPx39Fg8JlWmVMsmjnC71ULf8&s",
+        "title": "Blue Jeans",
+        "items": "item"
+    },
+    {
+        "id": 2,
+        "price": 200,
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nordstrom.com%2Fbrowse%2Fkids%2Fall%3FfilterByProductType%3Dclothing_pants&psig=AOvVaw3kHgZS6k9J-58c_gAtMS0V&ust=1685792534457000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCKCR99vApP8CFQAAAAAdAAAAABAJ",
+        "title": "Blue Jeans",
+        "items": "item"
+    },
+    {
+        "id": 3,
+        "price": 200,
+        "image": "https://www.rlmedia.io/is/image/PoloGSI/s7-1399543_alternate10?$plpDeskRFAlt$",
+        "title": "Blue Jeans",
+        "items": "item"
+    },
+    {
+        "id": 4,
+        "price": 200,
+        "image": "https://www.rlmedia.io/is/image/PoloGSI/s7-1399543_alternate10?$plpDeskRFAlt$",
+        "title": "Blue Jeans",
+        "items": "item"
+    },
+    {
+        "id": 5,
+        "price": 200,
+        "image": "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png",
+        "title": "Blue Jeans",
+        "items": "item"
+    },
+    {
+        "id": 6,
+        "price": 200,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBibqCBSkoTWXbFrRfDG_WKmyzxDtkanGRxseDyBw&s",
+        "title": "Blue Jeans",
+        "items": "item"
+    }
+]

@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 
 const ProductCard = ({ imgUrl, title, price, item, loading }) => {
+    console.log(imgUrl);
     if (loading) {
         return <h4>Loading ...</h4>;
     }

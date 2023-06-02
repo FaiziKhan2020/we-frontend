@@ -8,7 +8,9 @@ import ProductCard from './ProductCard';
 import Pagination from './Pagination';
 import ProductSideBar from './ProductSideBar';
 import { CartProvider } from 'react-use-cart';
+
 import DropDown from './DropDown.json';
+import FakeData from './FakeData.json';
 import Axios from 'axios';
 
 const QAhomePage = () => {
@@ -38,7 +40,7 @@ const QAhomePage = () => {
         };
         fetchProducts();
     }, []);
-    console.log(data)
+    console.log(data);
     // * Get current Product Page
     const indexOfLastPage = currentPage * productPerPage;
     const indexOfFirstPage = indexOfLastPage - productPerPage;
@@ -75,15 +77,15 @@ const QAhomePage = () => {
                                 />
                             ))}
                         </div>
+
                         <div className={`col-md-10 my-4 ${style.mainCard}`}>
-                            {currentPosts.map((item) => (
+                            {FakeData.map((item) => (
                                 <ProductCard
                                     key={item.id}
-                                    imgUrl={item?.imgUrl}
+                                    imgUrl={item.image}
                                     title={item.title}
                                     price={item.price}
                                     item={item}
-                                    loading={loading}
                                 />
                             ))}
                         </div>

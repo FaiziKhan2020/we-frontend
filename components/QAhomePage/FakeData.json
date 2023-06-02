@@ -1,4 +1,5 @@
-[{
+[
+    {
         "id": 1,
         "price": 200,
         "image": "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png",
@@ -12,17 +13,63 @@
         "title": "Blue Jeans",
         "items": "item"
     },
+
+
+
     {
-        "id": 3,
+        "id": 1,
         "price": 200,
-        "image": "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png",
+        "image": "https://assets.ajio.com/medias/sys_master/root/20211207/Q6CG/61af9382f997ddf8f140a038/-288Wx360H-461391397-black-MODEL.jpg",
+        "title": "Women Shirt",
+        "items": "item"
+    },
+    {
+        "id": 1,
+        "price": 200,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0ePmMaZgfefYTHMQGCbV9fHfPNfsaZ1riDNWdG1Q&s",
+        "title": "Women Shirt",
+        "items": "item"
+    },
+    {
+        "id": 1,
+        "price": 200,
+        "image": "https://assets.ajio.com/medias/sys_master/root/20211207/Q6CG/61af9382f997ddf8f140a038/-288Wx360H-461391397-black-MODEL.jpg",
+        "title": "Women Shirt",
+        "items": "item"
+    },
+
+    {
+        "id": 6,
+        "price": 200,
+        "image": "https://cdn-skin.sanaullastore.com/media/catalog/product/cache/1/small_image/542x756/9df78eab33525d08d6e5fb8d27136e95/l/a/la-rosaa-scarves-_-trousers-collection-03-striped-culotte-_1__1.jpg",
         "title": "Blue Jeans",
         "items": "item"
     },
     {
         "id": 4,
         "price": 200,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDO3xBKmQjhgo8PCnPx39Fg8JlWmVMsmjnC71ULf8&s",
+        "title": "Jeans",
+        "items": "item"
+    },
+    {
+        "id": 5,
+        "price": 200,
         "image": "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png",
+        "title": "Jeans",
+        "items": "item"
+    },
+    {
+        "id": 6,
+        "price": 200,
+        "image": "https://cdn.shopify.com/s/files/1/0978/2406/products/Louis-Vicaci-Super-Stretchy-Slim-Fit-Long-Sleeve-Viscose-Cotton-Lycra-Casual-Shirt-For-Men-Black-BE17893-BR523-In-House-Lycra-1682313102_1600x.jpg?v=1682313103",
+        "title": "Jeans",
+        "items": "item"
+    },
+    {
+        "id": 4,
+        "price": 200,
+        "image": "https://www.rlmedia.io/is/image/PoloGSI/s7-1399543_alternate10?$plpDeskRFAlt$",
         "title": "Blue Jeans",
         "items": "item"
     },
@@ -36,7 +83,7 @@
     {
         "id": 6,
         "price": 200,
-        "image": "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBibqCBSkoTWXbFrRfDG_WKmyzxDtkanGRxseDyBw&s",
         "title": "Blue Jeans",
         "items": "item"
     }

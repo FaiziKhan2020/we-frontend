@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "price": 200,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWkx1C8yPEAsMwJCUoecgxET8ujNwJBVXm0qqGJrFa&s",
+        "title": "Jeans",
+        "items": "item"
+    },
+    {
+        "id": 2,
+        "price": 200,
+        "image": "https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/7719550/2018/12/11/24edbba9-73c3-42c6-8ae8-41b09f871a201544530684914-DENNISON-Men-Trousers-5831544530683640-1.jpg",
+        "title": "Jeans",
+        "items": "item"
+    },
+    {
+        "id": 3,
+        "price": 200,
+        "image": "https://jcpenney.scene7.com/is/image/jcpenneyimages/div-02-dress-fa821ae0-a169-453b-ab16-de6db7a01c6f?scl=1&qlt=75",
+        "title": "Jeans",
+        "items": "item"
+    },
+    {
+        "id": 4,
+        "price": 200,
+        "image": "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png",
+        "title": "Jeans",
+        "items": "item"
+    },
+    {
+        "id": 5,
+        "price": 200,
+        "image": "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png",
+        "title": "Jeans",
+        "items": "item"
+    },
+    {
+        "id": 6,
+        "price": 200,
+        "image": "https://u7q2x7c9.stackpathcdn.com/photos/23/6/352103_7570_XL.jpg",
+        "title": "Jeans",
+        "items": "item"
+    },
+    {
+        "id": 1,
+        "price": 200,
+        "image": "https://cdn.shopify.com/s/files/1/0978/2406/files/Louis-Vicaci-Super-Stretchy-Slim-Fit-Long-Sleeve-Lycra-Casual-Shirt-For-Men-White-with-Dotted-BE17992-In-House-Lycra-1685116129_1600x.jpg?v=1685116131",
+        "title": "shirt",
+        "items": "item"
+    },
+    {
+        "id": 2,
+        "price": 200,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREQQNIUnvkhSscOwOgnMy5CxzU-BdO2fWNkvkX7ZQ&s",
+        "title": "Jeans",
+        "items": "item"
+    },
+    {
+        "id": 3,
+        "price": 200,
+        "image": "https://jcpenney.scene7.com/is/image/jcpenneyimages/div-02-dress-fa821ae0-a169-453b-ab16-de6db7a01c6f?scl=1&qlt=75",
+        "title": "Jeans",
+        "items": "item"
+    },
+    {
+        "id": 4,
+        "price": 200,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDO3xBKmQjhgo8PCnPx39Fg8JlWmVMsmjnC71ULf8&s",
+        "title": "Jeans",
+        "items": "item"
+    },
+    {
+        "id": 5,
+        "price": 200,
+        "image": "https://res.cloudinary.com/xcltech/image/upload/v1662024605/100/png-clipart-men-s-jeans-product-kind-png-material_z8xblt.png",
+        "title": "Jeans",
+        "items": "item"
+    },
+    {
+        "id": 6,
+        "price": 200,
+        "image": "https://cdn.shopify.com/s/files/1/0978/2406/products/Louis-Vicaci-Super-Stretchy-Slim-Fit-Long-Sleeve-Viscose-Cotton-Lycra-Casual-Shirt-For-Men-Black-BE17893-BR523-In-House-Lycra-1682313102_1600x.jpg?v=1682313103",
+        "title": "Jeans",
+        "items": "item"
+    }
+]

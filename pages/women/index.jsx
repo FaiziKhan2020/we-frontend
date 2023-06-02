@@ -5,6 +5,7 @@ import SearchHeader from '~/components/shared/headers/modules/SearchHeader';
 import style from '~/components/QAhomePage/style.module.css';
 import Axios from 'axios';
 import Router from 'next/router';
+import FakeData from './fakeData.json';
 
 import { CartProvider } from 'react-use-cart';
 import Link from 'next/link';
@@ -48,54 +49,7 @@ const ShopDefaultPage = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div class="mt-4 dropdown d-flex justify-content-center">
-                                <button
-                                    class="btn btn-secondary dropdown-toggle"
-                                    type="button"
-                                    id="dropdownMenuButton"
-                                    data-toggle="dropdown"
-                                    aria-haspopup="true"
-                                    aria-expanded="false"
-                                    style={{
-                                        backgroundColor: '#5b0833',
-                                        color: 'white',
-                                        fontSize: '20px',
-                                        borderRadius: '5px',
-                                        border: 'none',
-                                    }}>
-                                    <span class="fa-solid fa-shirt mr-4"></span>
-                                    Filters
-                                </button>
-                                <div
-                                    class="dropdown-menu"
-                                    aria-labelledby="dropdownMenuButton"
-                                    style={{
-                                        fontSize: '18px',
-                                        padding: '10px 25px',
-                                    }}>
-                                    <a
-                                        class="dropdown-item"
-                                        onClick={() => {
-                                            send('shirt');
-                                        }}>
-                                        shirt
-                                    </a>
-                                    <a
-                                        class="dropdown-item"
-                                        onClick={() => {
-                                            send('pant');
-                                        }}>
-                                        Pants
-                                    </a>
-                                    <a
-                                        class="dropdown-item"
-                                        onClick={() => {
-                                            send('shoes');
-                                        }}>
-                                        shoes
-                                    </a>
-                                </div>
-                            </div>
+
                             <div className="row mt-4">
                                 {/* <div className="col-md-4">
 
@@ -113,10 +67,10 @@ const ShopDefaultPage = () => {
                                 </div> */}
                                 <div
                                     className={`col-md-12 my-4 ${style.mainCard}`}>
-                                    {data.map((item) => (
+                                    {FakeData.map((item) => (
                                         <ProductCard
                                             key={item}
-                                            imgUrl={item?.imgUrl}
+                                            imgUrl={item?.image}
                                             title={item.title}
                                             price={item.price}
                                             item={item}
