@@ -49,7 +49,7 @@ const ShopDefaultPage = () => {
                                     </div>
                                 </div>
                             </div>
-                          
+
                             <div className="row mt-4">
                                 {/* <div className="col-md-4">
 
@@ -67,10 +67,10 @@ const ShopDefaultPage = () => {
                                 </div> */}
                                 <div
                                     className={`col-md-12 my-4 ${style.mainCard}`}>
-                                    {FakeData.map((item) => (
+                                    {data.map((item) => (
                                         <ProductCard
                                             key={item}
-                                            imgUrl={item?.image}
+                                            imgUrl={item?.imgUrl}
                                             title={item.title}
                                             price={item.price}
                                             item={item}

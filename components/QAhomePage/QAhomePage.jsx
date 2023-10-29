@@ -79,10 +79,10 @@ const QAhomePage = () => {
                         </div>
 
                         <div className={`col-md-10 my-4 ${style.mainCard}`}>
-                            {FakeData.map((item) => (
+                            {data.map((item) => (
                                 <ProductCard
                                     key={item.id}
-                                    imgUrl={item.image}
+                                    imgUrl={item.imgUrl}
                                     title={item.title}
                                     price={item.price}
                                     item={item}

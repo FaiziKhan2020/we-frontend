@@ -16,7 +16,7 @@ const ShopDefaultPage = () => {
         const fetchProducts = async () => {
             try {
                 const data = await Axios.get(
-                    `http://localhost:8080/api/v1/product/id/1`
+                    `http://localhost:8080/api/v1/product/id/2`
                 );
                 setData(data.data.data);
                 // console.log(data.data);
@@ -67,10 +67,10 @@ const ShopDefaultPage = () => {
                                 </div> */}
                                 <div
                                     className={`col-md-12 my-4 ${style.mainCard}`}>
-                                    {FakeData.map((item) => (
+                                    {data.map((item) => (
                                         <ProductCard
                                             key={item}
-                                            imgUrl={item?.image}
+                                            imgUrl={item?.imgUrl}
                                             title={item.title}
                                             price={item.price}
                                             item={item}
